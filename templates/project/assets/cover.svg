@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Project preview placeholder</title>
+  <desc id="description">Template placeholder only. Replace with a real project screenshot after verification.</desc>
+  <rect width="1200" height="630" fill="#f1f5f9"/>
+  <rect x="80" y="80" width="1040" height="470" rx="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="130" y="135" width="64" height="8" rx="4" fill="#2563eb"/>
+  <text x="130" y="230" font-family="Arial, sans-serif" font-size="24" letter-spacing="4" fill="#475569">GITHUB PROJECT RESEARCH</text>
+  <text x="130" y="320" font-family="Arial, sans-serif" font-size="56" font-weight="700" fill="#0f172a">Project preview</text>
+  <text x="130" y="385" font-family="Arial, sans-serif" font-size="24" fill="#64748b">Replace with a real screenshot after verification.</text>
+  <text x="130" y="485" font-family="Arial, sans-serif" font-size="18" fill="#64748b">TEMPLATE PLACEHOLDER / NOT A LIVE DEMO</text>
+</svg>
