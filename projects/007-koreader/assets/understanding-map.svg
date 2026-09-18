@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="2200" viewBox="0 0 3000 2200">
+<title>KOReader：能力、阅读效果与对我的意义</title>
+<desc>原创信息图。六组能力、三组阅读效果示意、底层分工、运行平台与用户价值。文档研究，未实测。</desc>
+<rect width="3000" height="2200" fill="#F6F4EE"/>
+<rect x="0" y="0" width="3000" height="13" rx="0" fill="#176C68" stroke="none" stroke-width="2"/>
+<text x="90" y="78.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="700" fill="#176C68">007  /  开源项目研究</text>
+<text x="90" y="185.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="96" font-weight="700" fill="#172F32">KOReader</text>
+<text x="645" y="176.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="57" font-weight="700" fill="#172F32">能力、阅读效果与对我的意义</text>
+<text x="95" y="260.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="400" fill="#566767">让电子书、论文和扫描文档，更适合小屏与墨水屏阅读</text>
+<rect x="2453" y="57" width="455" height="61" rx="30" fill="#E7F0EA" stroke="none" stroke-width="2"/>
+<text x="2480" y="96.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#176C68">文档与源码分析 · 未实测</text>
+<line x1="90" y1="303" x2="2910" y2="303" stroke="#D3DBD4" stroke-width="2" stroke-linecap="round"/>
+<rect x="90" y="343" width="49" height="44" rx="10" fill="#176C68" stroke="none" stroke-width="2"/>
+<text x="99" y="370.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#FFFFFF">01</text>
+<text x="156" y="375.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#172F32">能做什么</text>
+<rect x="90" y="417" width="765" height="230" rx="17" fill="#FFFFFF" stroke="#D3DBD4" stroke-width="1"/>
+<rect x="112" y="441" width="82" height="93" rx="14" fill="#E7F0EA" stroke="none" stroke-width="2"/>
+<rect x="136" y="454" width="40" height="50" rx="4" fill="#FFFFFF" stroke="#176C68" stroke-width="2"/>
+<rect x="126" y="465" width="40" height="50" rx="4" fill="#FFFFFF" stroke="#176C68" stroke-width="2"/>
+<line x1="135" y1="481" x2="155" y2="481" stroke="#176C68" stroke-width="3" stroke-linecap="round"/>
+<line x1="135" y1="491" x2="153" y2="491" stroke="#176C68" stroke-width="3" stroke-linecap="round"/>
+<text x="216" y="473.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="36" font-weight="700" fill="#172F32">多格式阅读</text>
+<text x="216" y="517.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#566767">EPUB · FB2 · MOBI · TXT · HTML</text>
+<text x="216" y="552.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#566767">DOC · RTF · CHM · PDF · DjVu</text>
+<text x="216" y="586.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#566767">CBZ / CBT 漫画</text>
+<line x1="115" y1="597" x2="830" y2="597" stroke="#D3DBD4" stroke-width="1" stroke-linecap="round"/>
+<text x="116" y="631.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#176C68">不同类型的本地资料集中阅读</text>
+<rect x="880" y="417" width="765" height="230" rx="17" fill="#FFFFFF" stroke="#D3DBD4" stroke-width="1"/>
+<rect x="902" y="441" width="82" height="93" rx="14" fill="#E7F0EA" stroke="none" stroke-width="2"/>
+<text x="915" y="492.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#176C68">Aa</text>
+<line x1="916" y1="514" x2="971" y2="514" stroke="#176C68" stroke-width="3" stroke-linecap="round"/>
+<text x="1006" y="472.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="36" font-weight="700" fill="#172F32">自由排版</text>
+<text x="1006" y="520.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#566767">字体 / 字号 / 行距 / 页边距</text>
+<text x="1006" y="554.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#566767">CSS 样式覆盖 / 多语言断词</text>
+<line x1="905" y1="597" x2="1620" y2="597" stroke="#D3DBD4" stroke-width="1" stroke-linecap="round"/>
+<text x="906" y="631.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#176C68">文字重新换行、分页，适应屏幕</text>
+<rect x="90" y="672" width="765" height="230" rx="17" fill="#FFFFFF" stroke="#D3DBD4" stroke-width="1"/>
+<rect x="112" y="696" width="82" height="93" rx="14" fill="#E7F0EA" stroke="none" stroke-width="2"/>
+<rect x="127" y="706" width="48" height="62" rx="4" fill="#FFFFFF" stroke="#176C68" stroke-width="2"/>
+<line x1="136" y1="724" x2="146" y2="724" stroke="#176C68" stroke-width="2" stroke-linecap="round"/>
+<line x1="136" y1="734" x2="146" y2="734" stroke="#176C68" stroke-width="2" stroke-linecap="round"/>
+<line x1="136" y1="744" x2="146" y2="744" stroke="#176C68" stroke-width="2" stroke-linecap="round"/>
+<line x1="136" y1="754" x2="146" y2="754" stroke="#176C68" stroke-width="2" stroke-linecap="round"/>
+<line x1="157" y1="724" x2="167" y2="724" stroke="#176C68" stroke-width="2" stroke-linecap="round"/>
+<line x1="157" y1="734" x2="167" y2="734" stroke="#176C68" stroke-width="2" stroke-linecap="round"/>
+<line x1="157" y1="744" x2="167" y2="744" stroke="#176C68" stroke-width="2" stroke-linecap="round"/>
+<line x1="157" y1="754" x2="167" y2="754" stroke="#176C68" stroke-width="2" stroke-linecap="round"/>
+<text x="216" y="727.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="36" font-weight="700" fill="#172F32">PDF 与扫描件</text>
+<text x="216" y="775.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#566767">裁白边 / 缩放 / 分栏 / 重排</text>
+<text x="216" y="809.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#566767">倾斜校正 / OCR 辅助识字</text>
+<line x1="115" y1="852" x2="830" y2="852" stroke="#D3DBD4" stroke-width="1" stroke-linecap="round"/>
+<text x="116" y="886.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#176C68">复杂版面需检查，OCR 可能出错</text>
+<rect x="880" y="672" width="765" height="230" rx="17" fill="#FFFFFF" stroke="#D3DBD4" stroke-width="1"/>
+<rect x="902" y="696" width="82" height="93" rx="14" fill="#E7F0EA" stroke="none" stroke-width="2"/>
+<rect x="915" y="710" width="53" height="49" rx="5" fill="#FFFFFF" stroke="#176C68" stroke-width="2"/>
+<line x1="924" y1="727" x2="957" y2="727" stroke="#176C68" stroke-width="3" stroke-linecap="round"/>
+<line x1="924" y1="738" x2="948" y2="738" stroke="#D58F30" stroke-width="5" stroke-linecap="round"/>
+<line x1="956" y1="755" x2="938" y2="774" stroke="#176C68" stroke-width="5" stroke-linecap="round"/>
+<text x="1006" y="728.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="36" font-weight="700" fill="#172F32">阅读与学习</text>
+<text x="1006" y="774.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#566767">目录 / 搜索 / 书签 / 高亮 / 笔记</text>
+<text x="1006" y="808.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#566767">词典 / 维基百科 / 翻译 / 生词学习</text>
+<line x1="905" y1="852" x2="1620" y2="852" stroke="#D3DBD4" stroke-width="1" stroke-linecap="round"/>
+<text x="906" y="886.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#176C68">查询、标记、导出，积累阅读资料</text>
+<rect x="90" y="927" width="765" height="230" rx="17" fill="#FFFFFF" stroke="#D3DBD4" stroke-width="1"/>
+<rect x="112" y="951" width="82" height="93" rx="14" fill="#E7F0EA" stroke="none" stroke-width="2"/>
+<rect x="127" y="969" width="11" height="48" rx="3" fill="#FFFFFF" stroke="#176C68" stroke-width="2"/>
+<rect x="145" y="966" width="11" height="51" rx="3" fill="#FFFFFF" stroke="#176C68" stroke-width="2"/>
+<rect x="163" y="963" width="11" height="54" rx="3" fill="#FFFFFF" stroke="#176C68" stroke-width="2"/>
+<line x1="130" y1="1033" x2="175" y2="1033" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="162" y1="1023" x2="175" y2="1033" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="162" y1="1043" x2="175" y2="1033" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<text x="216" y="983.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="36" font-weight="700" fill="#172F32">书库与同步</text>
+<text x="216" y="1028.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#566767">Calibre / OPDS / Wallabag / RSS</text>
+<text x="216" y="1063.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#566767">跨设备阅读进度同步 / 阅读统计</text>
+<line x1="115" y1="1107" x2="830" y2="1107" stroke="#D3DBD4" stroke-width="1" stroke-linecap="round"/>
+<text x="116" y="1142.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#176C68">同步进度不等于自动同步整本书</text>
+<rect x="880" y="927" width="765" height="230" rx="17" fill="#FFFFFF" stroke="#D3DBD4" stroke-width="1"/>
+<rect x="902" y="951" width="82" height="93" rx="14" fill="#E7F0EA" stroke="none" stroke-width="2"/>
+<rect x="917" y="960" width="47" height="67" rx="7" fill="#172F32" stroke="none" stroke-width="2"/>
+<rect x="923" y="967" width="35" height="45" rx="2" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<line x1="931" y1="980" x2="950" y2="980" stroke="#176C68" stroke-width="3" stroke-linecap="round"/>
+<line x1="931" y1="990" x2="947" y2="990" stroke="#176C68" stroke-width="3" stroke-linecap="round"/>
+<circle cx="940" cy="1019" r="3" fill="#FFFFFF" stroke="none" stroke-width="2"/>
+<text x="1006" y="983.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="36" font-weight="700" fill="#172F32">墨水屏与扩展</text>
+<text x="1006" y="1030.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#566767">刷新策略 / 对比度 / 按键 / 手势</text>
+<text x="1006" y="1063.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#566767">Lua 插件 / 自定义配置 / 在线更新</text>
+<line x1="905" y1="1107" x2="1620" y2="1107" stroke="#D3DBD4" stroke-width="1" stroke-linecap="round"/>
+<text x="906" y="1142.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#176C68">设备能力不同；联网功能需服务</text>
+<rect x="1715" y="343" width="49" height="44" rx="10" fill="#176C68" stroke="none" stroke-width="2"/>
+<text x="1724" y="370.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#FFFFFF">02</text>
+<text x="1781" y="375.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#172F32">会有什么效果</text>
+<rect x="1715" y="417" width="1195" height="230" rx="17" fill="#E7F0EA" stroke="none" stroke-width="2"/>
+<rect x="1715" y="672" width="1195" height="230" rx="17" fill="#E7F0EA" stroke="none" stroke-width="2"/>
+<rect x="1715" y="927" width="1195" height="230" rx="17" fill="#E7F0EA" stroke="none" stroke-width="2"/>
+<rect x="1745" y="456" width="103" height="149" rx="7" fill="#FFFFFF" stroke="#D3DBD4" stroke-width="2"/>
+<line x1="1759" y1="474" x2="1834" y2="474" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="1759.0" y1="491" x2="1790.5" y2="491" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="501" x2="1786.5" y2="501" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="511" x2="1782.5" y2="511" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="521" x2="1790.5" y2="521" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="531" x2="1786.5" y2="531" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="541" x2="1782.5" y2="541" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="551" x2="1790.5" y2="551" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="561" x2="1786.5" y2="561" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="571" x2="1782.5" y2="571" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="581" x2="1790.5" y2="581" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1802.5" y1="491" x2="1834.0" y2="491" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1802.5" y1="501" x2="1830.0" y2="501" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1802.5" y1="511" x2="1826.0" y2="511" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1802.5" y1="521" x2="1834.0" y2="521" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1802.5" y1="531" x2="1830.0" y2="531" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1802.5" y1="541" x2="1826.0" y2="541" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1802.5" y1="551" x2="1834.0" y2="551" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1802.5" y1="561" x2="1830.0" y2="561" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1802.5" y1="571" x2="1826.0" y2="571" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1802.5" y1="581" x2="1834.0" y2="581" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1868" y1="530" x2="1927" y2="530" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="1914" y1="520" x2="1927" y2="530" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="1914" y1="540" x2="1927" y2="530" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<rect x="1950" y="453" width="103" height="154" rx="13" fill="#172F32" stroke="none" stroke-width="2"/>
+<rect x="1957" y="462" width="89" height="127" rx="4" fill="#FAFBF7" stroke="none" stroke-width="2"/>
+<line x1="1967" y1="481" x2="2035" y2="481" stroke="#7D918B" stroke-width="3" stroke-linecap="round"/>
+<line x1="1967" y1="494" x2="2029" y2="494" stroke="#7D918B" stroke-width="3" stroke-linecap="round"/>
+<line x1="1967" y1="507" x2="2035" y2="507" stroke="#7D918B" stroke-width="3" stroke-linecap="round"/>
+<line x1="1967" y1="520" x2="2029" y2="520" stroke="#7D918B" stroke-width="3" stroke-linecap="round"/>
+<line x1="1967" y1="533" x2="2035" y2="533" stroke="#7D918B" stroke-width="3" stroke-linecap="round"/>
+<line x1="1967" y1="546" x2="2029" y2="546" stroke="#7D918B" stroke-width="3" stroke-linecap="round"/>
+<line x1="1967" y1="559" x2="2035" y2="559" stroke="#7D918B" stroke-width="3" stroke-linecap="round"/>
+<line x1="1967" y1="572" x2="2029" y2="572" stroke="#7D918B" stroke-width="3" stroke-linecap="round"/>
+<circle cx="2001.5" cy="597" r="3" fill="#B4C1BA" stroke="none" stroke-width="2"/>
+<text x="2101" y="478.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="36" font-weight="700" fill="#172F32">大页论文 → 窄屏阅读</text>
+<text x="2101" y="530.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#566767">裁边、分栏或重排，减少缩放拖动</text>
+<text x="2101" y="574.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#566767">公式、表格与跨栏图需逐份检查</text>
+<text x="1752" y="631.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#566767">A4 双栏</text>
+<text x="1955" y="632.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#566767">窄屏阅读</text>
+<rect x="1745" y="711" width="103" height="149" rx="7" fill="#FFFFFF" stroke="#D3DBD4" stroke-width="2"/>
+<line x1="1759" y1="729" x2="1834" y2="729" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="1759.0" y1="746" x2="1834.0" y2="746" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="756" x2="1830.0" y2="756" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="766" x2="1826.0" y2="766" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="776" x2="1834.0" y2="776" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="786" x2="1830.0" y2="786" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="796" x2="1826.0" y2="796" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="806" x2="1834.0" y2="806" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="816" x2="1830.0" y2="816" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="826" x2="1826.0" y2="826" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="836" x2="1834.0" y2="836" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1759.0" y1="846" x2="1830.0" y2="846" stroke="#A6B0AB" stroke-width="2" stroke-linecap="round"/>
+<line x1="1868" y1="785" x2="1927" y2="785" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="1914" y1="775" x2="1927" y2="785" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="1914" y1="795" x2="1927" y2="785" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<rect x="1950" y="708" width="103" height="154" rx="13" fill="#172F32" stroke="none" stroke-width="2"/>
+<rect x="1957" y="717" width="89" height="127" rx="4" fill="#FAFBF7" stroke="none" stroke-width="2"/>
+<line x1="1967" y1="736" x2="2035" y2="736" stroke="#7D918B" stroke-width="3" stroke-linecap="round"/>
+<line x1="1967" y1="749" x2="2029" y2="749" stroke="#7D918B" stroke-width="3" stroke-linecap="round"/>
+<line x1="1967" y1="762" x2="2035" y2="762" stroke="#7D918B" stroke-width="3" stroke-linecap="round"/>
+<line x1="1967" y1="775" x2="2029" y2="775" stroke="#7D918B" stroke-width="3" stroke-linecap="round"/>
+<line x1="1967" y1="788" x2="2035" y2="788" stroke="#7D918B" stroke-width="3" stroke-linecap="round"/>
+<line x1="1967" y1="801" x2="2029" y2="801" stroke="#7D918B" stroke-width="3" stroke-linecap="round"/>
+<circle cx="2001.5" cy="852" r="3" fill="#B4C1BA" stroke="none" stroke-width="2"/>
+<text x="2101" y="732.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="36" font-weight="700" fill="#172F32">原有版式 → 自定义排版</text>
+<text x="2101" y="786.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#566767">字号变大，文字重新换行与分页</text>
+<text x="2101" y="828.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#566767">流式文档按自己的习惯阅读</text>
+<text x="1751" y="887.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#566767">紧密小字</text>
+<text x="1955" y="886.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#566767">舒适行距</text>
+<rect x="1745" y="966" width="103" height="149" rx="7" fill="#FFFFFF" stroke="#D3DBD4" stroke-width="2"/>
+<line x1="1759" y1="984" x2="1834" y2="984" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="1759.0" y1="1001" x2="1834.0" y2="1001" stroke="#A6B0AB" stroke-width="3" stroke-linecap="round"/>
+<line x1="1759.0" y1="1014" x2="1830.0" y2="1014" stroke="#A6B0AB" stroke-width="3" stroke-linecap="round"/>
+<rect x="1757.0" y="1023" width="77.0" height="10" rx="2" fill="#FBEDD6" stroke="none" stroke-width="2"/>
+<line x1="1759.0" y1="1027" x2="1826.0" y2="1027" stroke="#A6B0AB" stroke-width="3" stroke-linecap="round"/>
+<line x1="1759.0" y1="1040" x2="1834.0" y2="1040" stroke="#A6B0AB" stroke-width="3" stroke-linecap="round"/>
+<line x1="1759.0" y1="1053" x2="1830.0" y2="1053" stroke="#A6B0AB" stroke-width="3" stroke-linecap="round"/>
+<line x1="1759.0" y1="1066" x2="1826.0" y2="1066" stroke="#A6B0AB" stroke-width="3" stroke-linecap="round"/>
+<line x1="1759.0" y1="1079" x2="1834.0" y2="1079" stroke="#A6B0AB" stroke-width="3" stroke-linecap="round"/>
+<line x1="1759.0" y1="1092" x2="1830.0" y2="1092" stroke="#A6B0AB" stroke-width="3" stroke-linecap="round"/>
+<line x1="1759.0" y1="1105" x2="1826.0" y2="1105" stroke="#A6B0AB" stroke-width="3" stroke-linecap="round"/>
+<line x1="1868" y1="1040" x2="1927" y2="1040" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="1914" y1="1030" x2="1927" y2="1040" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="1914" y1="1050" x2="1927" y2="1040" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<rect x="1949" y="975" width="110" height="114" rx="8" fill="#FFFFFF" stroke="#D3DBD4" stroke-width="2"/>
+<text x="1964" y="1014.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#176C68">查词</text>
+<line x1="1965" y1="1032" x2="2042" y2="1032" stroke="#D3DBD4" stroke-width="3" stroke-linecap="round"/>
+<line x1="1965" y1="1046" x2="2030" y2="1046" stroke="#D3DBD4" stroke-width="3" stroke-linecap="round"/>
+<rect x="1971" y="1069" width="107" height="52" rx="7" fill="#FBEDD6" stroke="none" stroke-width="2"/>
+<text x="1983" y="1103.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="700" fill="#172F32">摘录</text>
+<text x="2101" y="988.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="36" font-weight="700" fill="#172F32">阅读内容 → 查询与摘录</text>
+<text x="2101" y="1039.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#566767">阅读中查词、标记，再导出笔记</text>
+<text x="2101" y="1084.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#566767">本地词典需文件；在线查询需网络</text>
+<text x="1751" y="1142.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#566767">选中文字</text>
+<text x="1973" y="1142.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" fill="#566767">查询 / 笔记</text>
+<text x="1730" y="1197.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#566767">效果示意 · 非真实运行截图 · 无性能或质量实测</text>
+<rect x="90" y="1245" width="49" height="44" rx="10" fill="#176C68" stroke="none" stroke-width="2"/>
+<text x="99" y="1272.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#FFFFFF">03</text>
+<text x="156" y="1277.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#172F32">底层怎样实现</text>
+<rect x="90" y="1320" width="626" height="170" rx="16" fill="#FFFFFF" stroke="#D3DBD4" stroke-width="1"/>
+<text x="122" y="1373.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="37" font-weight="700" fill="#176C68">Lua / LuaJIT</text>
+<text x="122" y="1427.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#566767">界面、阅读逻辑、插件</text>
+<line x1="738" y1="1399" x2="814" y2="1399" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="801" y1="1389" x2="814" y2="1399" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="801" y1="1409" x2="814" y2="1399" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<rect x="840" y="1320" width="1098" height="170" rx="16" fill="#FFFFFF" stroke="#D3DBD4" stroke-width="1"/>
+<text x="872" y="1373.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="35" font-weight="700" fill="#176C68">原生文档引擎</text>
+<text x="872" y="1420.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#566767">CREngine：流式排版</text>
+<text x="872" y="1459.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#566767">MuPDF / DjVuLibre：固定页面</text>
+<rect x="1450" y="1373" width="456" height="91" rx="12" fill="#FBEDD6" stroke="none" stroke-width="2"/>
+<text x="1471" y="1410.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#172F32">K2pdfopt：可选版面重排</text>
+<text x="1471" y="1446.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#566767">扫描页也可按图像区域重排</text>
+<line x1="1959" y1="1399" x2="2035" y2="1399" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="2022" y1="1389" x2="2035" y2="1399" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<line x1="2022" y1="1409" x2="2035" y2="1399" stroke="#176C68" stroke-width="4" stroke-linecap="round"/>
+<rect x="2060" y="1320" width="850" height="170" rx="16" fill="#FFFFFF" stroke="#D3DBD4" stroke-width="1"/>
+<text x="2092" y="1375.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="35" font-weight="700" fill="#176C68">设备适配与显示</text>
+<text x="2092" y="1428.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#566767">输入 / 绘制 / 刷新策略</text>
+<text x="2092" y="1465.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#566767">平衡速度、显示质量与残影</text>
+<text x="94" y="1538.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#566767">机制要点：流式文档重新排版；固定页面保留原版或做版面重排。重排不等于 OCR。</text>
+<rect x="90" y="1580" width="2820" height="133" rx="16" fill="#E7F0EA" stroke="none" stroke-width="2"/>
+<text x="117" y="1630.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="33" font-weight="700" fill="#176C68">04  在哪里使用</text>
+<text x="470" y="1629.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="700" fill="#172F32">Android · Linux · Kindle · Kobo · PocketBook · reMarkable · Cervantes</text>
+<text x="470" y="1683.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#566767">具体机型需适配；v2026.07.1 官方无 Windows 原生安装包。Ubuntu 只是 Linux 的一种。</text>
+<rect x="90" y="1752" width="49" height="44" rx="10" fill="#176C68" stroke="none" stroke-width="2"/>
+<text x="99" y="1779.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#FFFFFF">05</text>
+<text x="156" y="1784.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#172F32">对我的意义</text>
+<rect x="90" y="1823" width="920" height="171" rx="16" fill="#FBEDD6" stroke="none" stroke-width="2"/>
+<text x="119" y="1868.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" fill="#176C68">当前 Windows 使用</text>
+<text x="119" y="1923.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="39" font-weight="700" fill="#172F32">直接使用价值有限</text>
+<text x="119" y="1975.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#566767">暂不为体验而增加 Linux 运行依赖</text>
+<rect x="1040" y="1823" width="920" height="171" rx="16" fill="#E7F0EA" stroke="none" stroke-width="2"/>
+<text x="1069" y="1869.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" fill="#176C68">有阅读设备时</text>
+<text x="1069" y="1923.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="39" font-weight="700" fill="#172F32">适合长文、论文与扫描书</text>
+<text x="1069" y="1975.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#566767">重视排版自由、本地阅读时再评估</text>
+<rect x="1990" y="1823" width="920" height="171" rx="16" fill="#E7F0EA" stroke="none" stroke-width="2"/>
+<text x="2019" y="1868.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" fill="#176C68">开源项目研究</text>
+<text x="2019" y="1922.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="39" font-weight="700" fill="#172F32">值得参考的工程设计</text>
+<text x="2019" y="1974.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#566767">多引擎整合、插件体系、设备优化</text>
+<rect x="90" y="2021" width="2820" height="78" rx="14" fill="#176C68" stroke="none" stroke-width="2"/>
+<text x="131" y="2072.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="39" font-weight="700" fill="#FFFFFF">当前选择：保留研究资料与能力图，暂不安装</text>
+<text x="95" y="2153.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#566767">007 · 原创能力与效果示意  |  文档研究，未实测  |  v2026.07.1  |  2026-09-18</text>
+<text x="1930" y="2150.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#566767">github.com/koreader/koreader</text>
+<text x="1930" y="2186.00" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#566767">koreader.rocks/user_guide</text>
+</svg>

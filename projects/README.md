@@ -11,6 +11,7 @@ projects/
 ├── 004-asu-skills/
 ├── 005-chat-on-steroids/
 ├── 006-anbeime-skill/
+├── 007-koreader/
 └── ...
 ```
 

@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/koreader/koreader",
+  "tag": "v2026.07.1",
+  "commit": "9192014d8bd82a91dc1012473be0f238dedfdb54",
+  "published_at": "2026-08-01T11:10:30Z",
+  "asset": "koreader-linux-x86_64-v2026.07.1.tar.xz",
+  "download_url": "https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-linux-x86_64-v2026.07.1.tar.xz",
+  "sha256": "sha256:299aadb28147a25e9432ced1214ea444a4184393b5ae97cf42402c8a61b1a1b0",
+  "license": "AGPL-3.0",
+  "verified_on": "2026-09-18"
+}

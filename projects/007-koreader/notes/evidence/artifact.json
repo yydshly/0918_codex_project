@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-18",
+  "method": "Original programmatic diagram, not ImageGen output",
+  "imagegen_attempts": 2,
+  "imagegen_result": "Both failed with network error; no images returned",
+  "png_dimensions": [
+    3000,
+    2200
+  ],
+  "png_sha256": "6b20545142cfdde06c6058459b1008d64d05364d4a3130482731c06b5580df73",
+  "svg_sha256": "b1c4f13d47041b1b989c45770c11ef0ecc56adf9efe36ee510621ba7fdd061d9",
+  "visual_review": "PNG inspected: Chinese text, layout, illustrative effects, scope and version labels checked",
+  "local_link_errors": [],
+  "runtime_absent": true,
+  "upstream_runtime_verified": false
+}

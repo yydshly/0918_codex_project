@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-18",
+  "runtime_directory": "projects/007-koreader/.runtime",
+  "runtime_cleanup": "Moved to Windows Recycle Bin; directory no longer exists in workspace",
+  "new_packages_installed": false,
+  "apt_history": "No new installation transaction; target packages not installed",
+  "processes": "No apt-get, dpkg, luajit, Xvfb or x11vnc processes found",
+  "apt_partial_cleanup": "25 temporary package-index files created during interrupted apt update (ctime 2026-09-18 19:10–19:12) removed from /var/lib/apt/lists/partial",
+  "scope": "Existing WSL distribution and installed software retained; no KOReader launch or services created",
+  "policy_note": "Permanent recursive removal was blocked by policy. Reversible Windows Recycle Bin cleanup succeeded."
+}
