@@ -10,20 +10,20 @@
 | 收录日期 | 2026-09-18 |
 | 技术栈 | 原生 HTML / CSS / JavaScript；Python 标准库生成静态正文 |
 | 内容范围 | 原书目录 46 个正文、附章和附录入口，不计封面、README、TOC |
-| 研究进度 | 已验证（内容研究、网页交互与编号入口；上游 Notebook 未运行） |
-| 在线演示 | 未部署 |
+| 研究进度 | 已验证（内容研究、网页交互与公网访问；上游 Notebook 未运行） |
+| 在线演示 | [能力与学习指南](https://yydshly.github.io/0918_codex_project/011-selfteaching/) · [一图理解](https://yydshly.github.io/0918_codex_project/011-selfteaching/overview.html) |
 
 ## 一图理解
 
-[![《自学是门手艺》能力、方法、范围与研究意义总览](assets/understanding-map.png)](demo/overview.html)
+[![《自学是门手艺》能力、方法、范围与研究意义总览](assets/understanding-map.png)](https://yydshly.github.io/0918_codex_project/011-selfteaching/overview.html)
 
 核心是两条相互配合的主线：**教人如何学习新知识，用 Python 入门作为实践**。借助“学、练、用、造”积累独立完成任务的能力。对我们主要是学习与研究方法参考；已有编程基础时，Python 部分可以按需复习。
 
-图为原创矢量排版的独立归纳图，非原书插图。“对我们的意义”是本项目建议。[放大与下载](demo/overview.html) · [完整文字说明](notes/understanding.md) · [矢量 SVG](assets/understanding-map.svg) · [制作记录](assets/understanding-map.prompt.md)。
+图为原创矢量排版的独立归纳图，非原书插图。“对我们的意义”是本项目建议。[放大与下载](https://yydshly.github.io/0918_codex_project/011-selfteaching/overview.html) · [完整文字说明](notes/understanding.md) · [矢量 SVG](assets/understanding-map.svg) · [制作记录](assets/understanding-map.prompt.md)。
 
 ## 使用指南
 
-[打开能力与学习指南](demo/index.html)，建议依次浏览“能力地图 → 学习路线 → 章节导览 → 实践任务 → 成果自查”。
+[打开在线能力与学习指南](https://yydshly.github.io/0918_codex_project/011-selfteaching/)，建议依次浏览“能力地图 → 学习路线 → 章节导览 → 实践任务 → 成果自查”。
 
 - **三类能力与九个细分方向**：自学方法、Python 实践、资料与协作；每项含可观察的结果和原文依据。
 - **四条路线**：零基础学编程、建立学习方法、从代码到工具、系统阅读全书；每一步列出阅读入口与达成标志。
@@ -58,3 +58,9 @@ python -m http.server 8770 --bind 127.0.0.1
 [研究记录](notes/research.md) · [来源与文件校验](notes/evidence/upstream.json) · [网页检查](notes/evidence/browser.json) · [编号入口检查](notes/evidence/integration.json) · [运行与维护](demo/README.md)。
 
 [返回总索引](../../README.md#项目索引)
+
+## 发布与验证
+
+首次功能发布版本 `6abb6e6343cf5922a300cb6ff908fbc855f669f0`，通过[现有 Pages 工作流](https://github.com/yydshly/0918_codex_project/actions/runs/35362960262)部署，保留此前九个展厅。已验证十个项目入口、24 项 HTTP 资源、总站及项目摘要、PNG/SVG 图像，以及线上路线、筛选、进度保存、笔记导出、缩放下载和手机布局。
+
+[公网部署记录](notes/evidence/deployment.json) · [线上学习交互](notes/evidence/remote-browser.json) · [线上图像交互](notes/evidence/remote-map.json)。网页发布不代表上游 Notebook 已运行或学习成效已验证。

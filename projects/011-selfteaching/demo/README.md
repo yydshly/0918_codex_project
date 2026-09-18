@@ -1,6 +1,6 @@
 # 中文学习指南网页
 
-状态：本地研究网页，未部署公网。原生 HTML / CSS / JavaScript，无前端依赖，无 CDN、外部字体或运行时请求。所有原书链接固定到研究提交。
+状态：已上线。[能力与学习指南](https://yydshly.github.io/0918_codex_project/011-selfteaching/) · [一图理解](https://yydshly.github.io/0918_codex_project/011-selfteaching/overview.html)。原生 HTML / CSS / JavaScript，无前端依赖，无 CDN、外部字体或运行时请求。所有原书链接固定到研究提交。
 
 ## 预览
 
@@ -62,7 +62,7 @@ node projects/011-selfteaching/code/verify_map.mjs http://127.0.0.1:8770/project
 node projects/011-selfteaching/code/verify_map.mjs http://127.0.0.1:8770/_site/011-selfteaching/ map-integration.json
 ```
 
-检查图像加载与字节一致性、缩放、键盘、下载以及手机适应。图是独立归纳，非原书插图或上游运行截图；未部署。
+检查图像加载与字节一致性、缩放、键盘、下载以及手机适应。图是独立归纳，非原书插图或上游运行截图；已完成公网访问验证。
 
 图像为原创矢量排版，源图 `assets/understanding-map.svg`，可复现生成：
 
@@ -72,3 +72,17 @@ node projects/011-selfteaching/code/render_map.mjs
 ```
 
 渲染依赖与检查相同（`PLAYWRIGHT_MODULE`、Edge）。两次内置图像生成请求均因网络错误失败，制作记录已如实注明；未使用原书图片。
+
+## 公网发布记录
+
+首次功能版本 `6abb6e6343cf5922a300cb6ff908fbc855f669f0`，沿用总仓库 Pages 工作流，产物在 `011-selfteaching/`。已核验十项目入口、24 项资源、摘要及图像，见 [部署记录](../notes/evidence/deployment.json)、[线上网页交互](../notes/evidence/remote-browser.json)、[线上图像交互](../notes/evidence/remote-map.json)。
+
+公网检查命令（设置 `PLAYWRIGHT_MODULE` 后执行，可用 `EXPECTED_COMMIT` 核对发布源）：
+
+```powershell
+node projects/011-selfteaching/code/verify_deployment.mjs https://yydshly.github.io/0918_codex_project/
+node projects/011-selfteaching/code/verify_guide.mjs https://yydshly.github.io/0918_codex_project/011-selfteaching/ remote-browser.json
+node projects/011-selfteaching/code/verify_map.mjs https://yydshly.github.io/0918_codex_project/011-selfteaching/ remote-map.json
+```
+
+PNG 对照本地原图，公网 SVG 对照部署源提交中的字节，以适应 Git 对文本换行的规范化。

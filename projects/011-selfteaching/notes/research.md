@@ -40,6 +40,6 @@ AI 协作段落是本项目面向当前学习环境的补充；原书并非生�
 
 ## 验证与限制
 
-网页交互检查见 [browser.json](evidence/browser.json)，总站编号入口见 [integration.json](evidence/integration.json)。仅验证本项目网页；未执行上游 Notebook，未验证原书案例的当前运行兼容性或学习成效，未逐项请求原书外链。未部署公网。
+网页交互检查见 [browser.json](evidence/browser.json)，总站编号入口见 [integration.json](evidence/integration.json)。仅验证本项目网页；未执行上游 Notebook，未验证原书案例的当前运行兼容性或学习成效，未逐项请求原书外链。已部署并核验公网访问，见 [部署记录](evidence/deployment.json)、[线上交互](evidence/remote-browser.json) 和 [图像验证](evidence/remote-map.json)。
 
 原书全文、图片、下载压缩包与依赖不进入项目。页面、CSS 学习循环图和引导内容为本次独立编写；截图是本地网页的真实浏览器截图。

@@ -1,6 +1,6 @@
 # Web 演示部署约定
 
-已启用 GitHub Pages 与 GitHub Actions 自动部署。001—006 与 008—010 的九个静态研究展厅已上线，2026-09-18 完成各项目的公网验证。运行方式见各项目的 `demo/README.md`。
+已启用 GitHub Pages 与 GitHub Actions 自动部署。001—006 与 008—011 的十个静态研究展厅已上线，2026-09-18 完成各项目的公网验证。运行方式见各项目的 `demo/README.md`。
 
 | 入口 | 已验证地址 |
 | --- | --- |
@@ -36,7 +36,9 @@ https://yydshly.github.io/0918_codex_project/
 ├── 005-chat-on-steroids/
 ├── 006-anbeime-skill/
 ├── 008-baoyu-design/
-└── 009-awesome-ceo/
+├── 009-awesome-ceo/
+├── 010-ai-infra-book/
+└── 011-selfteaching/
 ```
 
 站点首页作为演示导航，各子路径沿用研究项目编号。另有独立托管平台或自定义域名时，直接在索引填写实际地址。
@@ -112,10 +114,12 @@ https://yydshly.github.io/0918_codex_project/
 
 [公网记录](../projects/010-ai-infra-book/notes/evidence/deployment.json) · [线上交互](../projects/010-ai-infra-book/notes/evidence/remote-browser.json) · [运行说明](../projects/010-ai-infra-book/demo/README.md)。研究站点发布不代表上游模型、计算器或 GPU 实验已实测。
 
-## 011 本地集成状态
+## 011 发布状态
 
-011 · 自学是门手艺已制作完整的中文能力与学习指南：三类九项能力、46 个正文与附录入口、四条路线、三个实践任务、七种学习卡点和八项成果自查。支持搜索与组合筛选、本地阅读进度、笔记保存与 Markdown 导出。登记到 `site-projects.json`，沿用 `011-selfteaching/` 编号子路径及既有构建器，保留此前九个展厅。
+011 · 自学是门手艺已上线：[能力与学习指南](https://yydshly.github.io/0918_codex_project/011-selfteaching/) · [一图理解](https://yydshly.github.io/0918_codex_project/011-selfteaching/overview.html) · [能力与使用价值](https://yydshly.github.io/0918_codex_project/011-selfteaching/#use-summary)。沿用既有构建器和 Pages 工作流，保留此前九个展厅。
 
-状态：本地网页和编号入口验证完成，未部署公网。见 [011 运行说明](../projects/011-selfteaching/demo/README.md)、[网页检查](../projects/011-selfteaching/notes/evidence/browser.json) 与 [集成检查](../projects/011-selfteaching/notes/evidence/integration.json)。原书 Notebook 未运行，网页可用不代表学习成效已验证。
+摘要说明它是以 Python 为实践载体的自学书，涵盖学习方法、Python 基础与进阶、文档检索和沟通协作；提供重读整理、刻意练习、以用带练、任务拆解、测试反馈与注意力管理等技巧，以及 Markdown 正文、Notebook、示例、工具附录和延伸阅读。对我们主要是研究陌生项目、学习新工具与复核 AI 结果的方法参考，Python 内容按需复习。
 
-011 已补充原创能力与学习总览图及 `overview.html` 放大、适应窗口和下载入口；图区分学习方法与 Python 实践两条主线，并说明内容范围及研究价值。根图览、总站封面和项目网页同步引用。状态仍为本地完成、未部署。
+首次功能发布版本 `6abb6e6343cf5922a300cb6ff908fbc855f669f0`，[发布流程](https://github.com/yydshly/0918_codex_project/actions/runs/35362960262)已成功完成。已核验十个项目入口、24 项 HTTP 资源、总站与项目摘要、PNG/SVG 原图，以及四条路线、联合筛选、深链与历史、进度保存、笔记导出、图像缩放下载和手机布局。
+
+[部署记录](../projects/011-selfteaching/notes/evidence/deployment.json) · [线上网页交互](../projects/011-selfteaching/notes/evidence/remote-browser.json) · [线上图像交互](../projects/011-selfteaching/notes/evidence/remote-map.json) · [运行说明](../projects/011-selfteaching/demo/README.md)。原书 Notebook 未运行，网页可用不代表学习成效已验证。

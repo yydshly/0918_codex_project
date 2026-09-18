@@ -1,0 +1,122 @@
+{
+  "verifiedAt": "2026-09-18T15:34:17.725Z",
+  "base": "https://yydshly.github.io/0918_codex_project/",
+  "commit": "6abb6e6343cf5922a300cb6ff908fbc855f669f0",
+  "projects": [
+    "001-understand-anything",
+    "002-claude-code-best-practice",
+    "003-frontend-design-toolkit",
+    "004-asu-skills",
+    "005-chat-on-steroids",
+    "006-anbeime-skill",
+    "008-baoyu-design",
+    "009-awesome-ceo",
+    "010-ai-infra-book",
+    "011-selfteaching"
+  ],
+  "summary": "以 Python 为实践载体的自学书，训练独立阅读、问题拆解、代码实践与持续学习。覆盖学习方法、Python 基础与进阶、文档检索和沟通协作；技巧包括重读整理、刻意练习、以用带练、任务拆解、测试反馈与注意力管理。提供 Markdown 正文、Jupyter Notebook、代码示例、工具附录及延伸阅读。对我们主要是研究陌生项目、学习新工具和复核 AI 结果的方法参考；已有编程基础可按需查漏，不必当作完整职业课程从头学习。",
+  "checks": [
+    {
+      "path": "build.json?check=1789745637576",
+      "status": 200
+    },
+    {
+      "path": "",
+      "status": 200
+    },
+    {
+      "path": "001-understand-anything/",
+      "status": 200
+    },
+    {
+      "path": "002-claude-code-best-practice/",
+      "status": 200
+    },
+    {
+      "path": "003-frontend-design-toolkit/",
+      "status": 200
+    },
+    {
+      "path": "004-asu-skills/",
+      "status": 200
+    },
+    {
+      "path": "005-chat-on-steroids/",
+      "status": 200
+    },
+    {
+      "path": "006-anbeime-skill/",
+      "status": 200
+    },
+    {
+      "path": "008-baoyu-design/",
+      "status": 200
+    },
+    {
+      "path": "009-awesome-ceo/",
+      "status": 200
+    },
+    {
+      "path": "010-ai-infra-book/",
+      "status": 200
+    },
+    {
+      "path": "011-selfteaching/",
+      "status": 200
+    },
+    {
+      "path": "011-selfteaching/overview.html",
+      "status": 200
+    },
+    {
+      "path": "011-selfteaching/styles.css",
+      "status": 200
+    },
+    {
+      "path": "011-selfteaching/app.js",
+      "status": 200
+    },
+    {
+      "path": "011-selfteaching/overview.js",
+      "status": 200
+    },
+    {
+      "path": "011-selfteaching/README.md",
+      "status": 200
+    },
+    {
+      "path": "011-selfteaching/demo/README.md",
+      "status": 200
+    },
+    {
+      "path": "011-selfteaching/notes/understanding.md",
+      "status": 200
+    },
+    {
+      "path": "011-selfteaching/notes/research.md",
+      "status": 200
+    },
+    {
+      "path": "011-selfteaching/notes/evidence/upstream.json",
+      "status": 200
+    },
+    {
+      "path": "011-selfteaching/index.html",
+      "status": 200
+    },
+    {
+      "path": "011-selfteaching/assets/understanding-map.png",
+      "status": 200
+    },
+    {
+      "path": "011-selfteaching/assets/understanding-map.svg",
+      "status": 200
+    }
+  ],
+  "imageSha256": "7adf4402df1080766ff5fa52e88391d89d5c42598691b59e26379d1068483407",
+  "scope": "核验总站摘要、所有编号入口、011 文档与静态资源、PNG/SVG 总览图字节一致性；交互另见 remote-browser.json 和 remote-map.json。未运行上游 Notebook。",
+  "releaseType": "首次功能发布验证；后续文档提交补充已验证的上线状态",
+  "workflowURL": "https://github.com/yydshly/0918_codex_project/actions/runs/35362960262",
+  "workflowConclusion": "success",
+  "svgComparison": "与部署源提交中的 SVG 字节比较，避免 Windows 工作区换行转换造成误报"
+}

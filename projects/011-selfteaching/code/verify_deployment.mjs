@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
 import {pathToFileURL,fileURLToPath} from 'node:url';
 import path from 'node:path';
 const project=fileURLToPath(new URL('../',import.meta.url));
@@ -27,7 +28,12 @@ try{
  const local=await readFile(path.join(project,'assets/understanding-map.png'));
  assert.deepEqual(image,local);
  const vector=await (await get(prefix+'assets/understanding-map.svg')).body();
- assert.deepEqual(vector,await readFile(path.join(project,'assets/understanding-map.svg')));
+ assert.match(build.commit,/^[a-f0-9]{40}$/);
+ // Git normalizes text line endings; production uses the committed SVG bytes.
+ const vectorReference=base.startsWith('https://')
+  ? execFileSync('git',['show',build.commit+':projects/011-selfteaching/assets/understanding-map.svg'],{cwd:repo})
+  : await readFile(path.join(project,'assets/understanding-map.svg'));
+ assert.equal(createHash('sha256').update(vector).digest('hex'),createHash('sha256').update(vectorReference).digest('hex'));
  const result={verifiedAt:new Date().toISOString(),base,commit:build.commit,projects:build.projects,summary:entry.summary,checks,imageSha256:createHash('sha256').update(image).digest('hex'),scope:'核验总站摘要、所有编号入口、011 文档与静态资源、PNG/SVG 总览图字节一致性；交互另见 remote-browser.json 和 remote-map.json。未运行上游 Notebook。'};
  if(record)await writeFile(record,JSON.stringify(result,null,2)+'\n');
  console.log(JSON.stringify({passed:true,commit:build.commit,projects:build.projects.length,httpChecks:checks.length,imageSha256:result.imageSha256}));
