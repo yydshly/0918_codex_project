@@ -11,7 +11,7 @@
 | 编号 | 源库 | 研究说明 | 能力、场景与使用价值 | 进度 | 在线演示 |
 | --- | --- | --- | --- | --- | --- |
 | 001 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | [完整研究](projects/001-understand-anything/) | 程序提取结构，模型补充含义，将代码、Wiki、Figma 组织为交互图谱；在 AI 工具中运行分析技能后浏览、查询与导览。适合陌生项目入门、依赖排查和知识交接，为个人研究保留关系与源码线索，并辅助后续图文表达。 | 已验证 | [在线展厅](https://yydshly.github.io/0918_codex_project/001-understand-anything/) |
-| 002 | [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) | [完整研究](projects/002-claude-code-best-practice/) | Claude Code 使用指南＋配置示例集。对我们当前的直接参考价值不大，核心是指导理解 AI 工作流程与动作，认识各组件分工，更好使用 AI；以引导图、配置示例和教学流程辅助理解。 | 已验证（Hooks 与本地展厅；模型流程未验证） | 未部署 |
+| 002 | [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) | [完整研究](projects/002-claude-code-best-practice/) | Claude Code 使用指南＋配置示例集。对我们当前的直接参考价值不大，核心是指导理解 AI 工作流程与动作，认识各组件分工，更好使用 AI；以引导图、配置示例和教学流程辅助理解。 | 已验证（Hooks 与本地展厅；模型流程未验证） | [在线展厅](https://yydshly.github.io/0918_codex_project/002-claude-code-best-practice/) |
 
 ## 项目图览
 
@@ -25,9 +25,9 @@
 
 ### 002 · Claude Code Best Practice
 
-[![Claude Code 使用指南＋配置示例集：组成、场景、对我们的意义与边界](projects/002-claude-code-best-practice/assets/understanding-map.png)](projects/002-claude-code-best-practice/README.md#一张图理解定位与价值)
+[![Claude Code 使用指南＋配置示例集：组成、场景、对我们的意义与边界](projects/002-claude-code-best-practice/assets/understanding-map.png)](https://yydshly.github.io/0918_codex_project/002-claude-code-best-practice/)
 
-核心理解：这是“Claude Code 使用指南＋配置示例集”，主要供学习用法、参考写法和按需复用脚本。对我们当前的直接参考价值不大；核心是帮助理解 AI 工作流程与动作，更好使用 AI。我们已有项目规则与 AI 开发能力，将它作为学习参考库即可，无需整库集成。图为原创概念总览，非产品截图；天气流程为固定样本模拟，原版代理端到端运行未验证。[高清总览](projects/002-claude-code-best-practice/assets/understanding-map.png) · [Web 展厅](projects/002-claude-code-best-practice/demo/index.html) · [实现分析](projects/002-claude-code-best-practice/notes/research.md) · [项目适配指南](projects/002-claude-code-best-practice/notes/adaptation.md)。
+核心理解：这是“Claude Code 使用指南＋配置示例集”，主要供学习用法、参考写法和按需复用脚本。对我们当前的直接参考价值不大；核心是帮助理解 AI 工作流程与动作，更好使用 AI。我们已有项目规则与 AI 开发能力，将它作为学习参考库即可，无需整库集成。图为原创概念总览，非产品截图；天气流程为固定样本模拟，原版代理端到端运行未验证。[高清总览](projects/002-claude-code-best-practice/assets/understanding-map.png) · [在线引导展厅](https://yydshly.github.io/0918_codex_project/002-claude-code-best-practice/) · [实现分析](projects/002-claude-code-best-practice/notes/research.md) · [项目适配指南](projects/002-claude-code-best-practice/notes/adaptation.md)。
 
 ## 仓库导航
 
@@ -45,7 +45,7 @@
 3. 添加实际截图和研究记录，再更新本页索引与图览。
 4. 有可运行的演示后，在子项目中记录启动方法和实际部署地址。
 
-详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 2 个研究项目，1 个 Web 演示已上线，002 提供本地展厅并已接入发布清单；[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
+详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 2 个研究项目，2 个 Web 演示均已上线；[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
 
 ## 来源与许可
 

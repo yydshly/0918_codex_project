@@ -52,19 +52,19 @@ node code/verify-demo.mjs http://127.0.0.1:8766/_site/002-claude-code-best-pract
 
 | 字段 | 当前值 |
 | --- | --- |
-| 状态 | 未部署 |
-| 公网地址 | 未部署 |
-| 发布路径 | `002-claude-code-best-practice/`，用于未来发布，不代表已经上线 |
+| 状态 | 已上线 |
+| 公网地址 | [引导展厅](https://yydshly.github.io/0918_codex_project/002-claude-code-best-practice/) |
+| 发布路径 | `002-claude-code-best-practice/`，已验证的编号子路径 |
 | 源码 | 本目录的 index.html / styles.css / data.js / app.js |
 | 总站构建 | 在仓库根目录执行 `python scripts/build_site.py` |
 | 总站输出 | `_site/002-claude-code-best-practice/`，同时保留 demo 子目录 |
 | 环境变量 | 展厅运行无需；QA 可选变量见上文 |
 | 最近本地验证 | 2026-09-18；具体环境见 browser-qa.json |
 
-已登记到 `site-projects.json`。现有 GitHub Pages 工作流在相关内容推送到 main 后运行；本次正在通过现有 Pages 工作流发布，线上状态将在公网验证后更新。现有构建默认只复制 Git 已跟踪文件，新文件提交后才进入正式构建。本地检查使用临时 Git 索引纳入新文件，不改动真实暂存区。
+已登记到 `site-projects.json`。现有 GitHub Pages 工作流在相关内容推送到 main 后运行；本次已通过现有 Pages 工作流发布，并完成公网资源、关键交互与手机布局验证。现有构建默认只复制 Git 已跟踪文件，新文件提交后才进入正式构建。本地检查使用临时 Git 索引纳入新文件，不改动真实暂存区。
 
-在本子项目运行 `python code/verify-integration.py` 可复现该集成检查；它会重建仓库内的 `_site/`，检查两项目导航、相对路径和本地文档链接，将结果写入 [integration.json](../notes/evidence/integration.json)。浏览器记录中的 URL 为本地编号根路径，用于验证未来发布时的资源组织；它不是公网地址。
+在本子项目运行 `python code/verify-integration.py` 可复现该集成检查；它会重建仓库内的 `_site/`，检查两项目导航、相对路径和本地文档链接，将结果写入 [integration.json](../notes/evidence/integration.json)。browser-qa.json 记录本地完整交互检查；[deployment.json](../notes/evidence/deployment.json) 记录实际公网验证与对应版本。
 
-Sites 发布接口在当前环境不可调用，因此没有创建 Sites 地址。遵循本仓库 [部署约定](../../../docs/DEPLOYMENT.md)，沿用既有的 GitHub Pages 编号路径。
+部署遵循本仓库 [部署约定](../../../docs/DEPLOYMENT.md)，使用既有 GitHub Pages 编号路径。正式验证命令在仓库根目录执行：`node scripts/verify_pages.mjs https://yydshly.github.io/0918_codex_project/`。
 
 [返回项目说明](../README.md)

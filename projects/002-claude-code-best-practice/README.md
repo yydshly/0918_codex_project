@@ -24,11 +24,11 @@
 | 研究进度 | 已验证：限定为来源文件校验、Hooks 隔离实验和本地网页；Claude Code 端到端流程未验证 |
 | 本地技术栈 | 原生 HTML / CSS / JavaScript；实验使用 Python，网页 QA 使用 Playwright / Edge |
 | 收录 / 验证日期 | 2026-09-18 |
-| 在线状态 | 未部署；已接入仓库静态站点清单 |
+| 在线状态 | 已上线：[打开引导展厅](https://yydshly.github.io/0918_codex_project/002-claude-code-best-practice/) |
 
 ## 展厅与阅读入口
 
-- [Web 交互展厅](demo/index.html)：以可缩放引导图为入口，按问题进入配置示例、任务流程、实现原理与验证边界。
+- [在线引导展厅](https://yydshly.github.io/0918_codex_project/002-claude-code-best-practice/)：以可缩放引导图为入口，按问题进入配置示例、任务流程、实现原理与验证边界。
 - [研究笔记](notes/research.md)：关键文件、调用关系、运行原理与发现的问题。
 - [项目适配指南](notes/adaptation.md)：将参考模式用于功能开发、缺陷修复和开源研究。
 - [运行与部署说明](demo/README.md)：离线使用、本地服务、网页检查和编号路径。
@@ -79,6 +79,10 @@ Hook 事件反馈 + 实际检查 + 人工复核
 | 总站集成 | 两项目构建、原有导航保留、编号根路径重写和文档链接通过；真实暂存区未变 | [integration.json](notes/evidence/integration.json) |
 
 未运行 Claude Code 的完整命令、子代理或记忆流程；未安装或连接 MCP 服务；未验证真实音频播放；未测量开发效率提升。
+
+## 在线访问
+
+[打开正式展厅](https://yydshly.github.io/0918_codex_project/002-claude-code-best-practice/)。默认先看引导图，可缩放、下载，并按问题进入配置示例与流程分析。2026-09-18 已验证公网资源、关键交互与手机布局，001 展厅保持可用。详见 [部署记录](notes/evidence/deployment.json)。
 
 ## 快速开始
 

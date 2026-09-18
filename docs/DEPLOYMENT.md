@@ -1,6 +1,6 @@
 # Web 演示部署约定
 
-已启用 GitHub Pages 与 GitHub Actions 自动部署。001 · Understand-Anything 的静态交互展厅已上线，2026-09-18 完成公网浏览器验证。运行方式见[项目演示说明](../projects/001-understand-anything/demo/README.md)。
+已启用 GitHub Pages 与 GitHub Actions 自动部署。001 · Understand-Anything 与 002 · Claude Code Best Practice 的静态交互展厅已上线，2026-09-18 完成公网浏览器验证。运行方式见[项目演示说明](../projects/001-understand-anything/demo/README.md)。
 
 | 入口 | 已验证地址 |
 | --- | --- |
@@ -9,11 +9,13 @@
 | 引导图 | [可缩放能力总览](https://yydshly.github.io/0918_codex_project/001-understand-anything/overview.html) |
 | 同类工具 | [五工具与七场景对比](https://yydshly.github.io/0918_codex_project/001-understand-anything/#compare) |
 
+002 引导展厅：[一图理解](https://yydshly.github.io/0918_codex_project/002-claude-code-best-practice/)。核心摘要为“Claude Code 使用指南＋配置示例集；对我们直接参考价值不大，主要帮助理解 AI 工作流程与动作，更好使用 AI”。[公网验证记录](../projects/002-claude-code-best-practice/notes/evidence/deployment.json)。
+
 根索引、子项目 README 和仓库 About 的 Website 均关联线上入口。
 
 ## 多个演示如何组织
 
-002 · Claude Code Best Practice 已完成本地展厅，并登记到 `site-projects.json`，当前尚未部署。运行方法见 [002 演示说明](../projects/002-claude-code-best-practice/demo/README.md)。其发布目录使用 `002-claude-code-best-practice/`，该规划不表示已上线。
+002 · Claude Code Best Practice 已登记到 `site-projects.json`，并完成线上部署。运行与验证方法见 [002 演示说明](../projects/002-claude-code-best-practice/demo/README.md)。
 
 GitHub Pages 每个仓库支持一个项目站点，可在这个站点下用不同子路径承载多个静态演示。它提供静态文件托管，不能直接运行常驻服务端程序。依据：[GitHub Pages 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)。
 
@@ -21,7 +23,8 @@ GitHub Pages 每个仓库支持一个项目站点，可在这个站点下用不�
 
 ```text
 https://yydshly.github.io/0918_codex_project/
-└── 001-understand-anything/
+├── 001-understand-anything/
+└── 002-claude-code-best-practice/
 ```
 
 站点首页作为演示导航，各子路径沿用研究项目编号。另有独立托管平台或自定义域名时，直接在索引填写实际地址。
