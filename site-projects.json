@@ -5,5 +5,16 @@
     "upstream": "https://github.com/Egonex-AI/Understand-Anything",
     "summary": "从代码、Wiki 与 Figma 提取结构，结合模型解释，形成可探索的知识图谱。包含能力总览、四类图谱效果、使用指南与五工具对比。",
     "cover": "assets/capability-map.png"
+  },
+  {
+    "slug": "002-claude-code-best-practice",
+    "name": "Claude Code Best Practice",
+    "upstream": "https://github.com/shanraisshan/claude-code-best-practice",
+    "summary": "Claude Code 使用指南＋配置示例集。对我们当前的直接参考价值不大；核心是帮助理解 AI 工作流程与动作，认识规则、技能、代理、命令与 Hooks 的分工，更好使用 AI。",
+    "cover": "assets/understanding-map.png",
+    "links": [
+      { "label": "流程演示", "href": "#workflow" },
+      { "label": "一图理解", "href": "#overview" }
+    ]
   }
 ]

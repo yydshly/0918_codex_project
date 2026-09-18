@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-18",
+  "localLinksChecked": 62,
+  "projects": [
+    "001-understand-anything",
+    "002-claude-code-best-practice"
+  ],
+  "realStagingAreaUnchanged": true,
+  "source": "working tree with temporary Git index",
+  "baseCommit": "4caddf31b8b2db2b61712126f2836f7bbd19730b",
+  "published": false,
+  "checks": [
+    "两项目完整构建",
+    "保留 001 默认导航",
+    "002 定制导航正确",
+    "编号根路径资源与文档重写",
+    "研究文档本地链接存在",
+    "真实暂存区未变"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-18",
+  "upstreamCommit": "73087da5e272fc197d7f9f29492d153fe1aaaefe",
+  "environment": {
+    "os": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.11"
+  },
+  "checks": [
+    {
+      "name": "固定版本的 17 个文件 SHA-256 与来源记录一致",
+      "passed": true
+    },
+    {
+      "name": "普通 Stop 事件映射到 stop 提示音",
+      "passed": true
+    },
+    {
+      "name": "git commit 命令选择专用提示音",
+      "passed": true
+    },
+    {
+      "name": "普通命令回退到通用工具提示",
+      "passed": true
+    },
+    {
+      "name": "代理事件选择 agent 专用映射",
+      "passed": true
+    },
+    {
+      "name": "未知事件不选择声音",
+      "passed": true
+    },
+    {
+      "name": "共享配置可以禁用指定事件",
+      "passed": true
+    },
+    {
+      "name": "本地事件开关覆盖共享设置",
+      "passed": true
+    },
+    {
+      "name": "本地缺少日志开关时回退共享设置",
+      "passed": true
+    },
+    {
+      "name": "禁用日志时不创建日志文件",
+      "passed": true
+    },
+    {
+      "name": "日志去除两个路径字段并记录代理来源",
+      "passed": true
+    },
+    {
+      "name": "主处理路径分发声音且成功退出（播放器已替换）",
+      "passed": true
+    },
+    {
+      "name": "无效 JSON 也成功退出，不作为阻断门禁",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "未启动 Claude Code 或子代理",
+    "未连接 MCP 或天气服务",
+    "未验证真实音频播放；主处理路径替换了播放函数",
+    "未验证工具权限字段的运行时行为"
+  ]
+}

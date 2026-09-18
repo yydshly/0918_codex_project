@@ -13,6 +13,8 @@
 
 ## 多个演示如何组织
 
+002 · Claude Code Best Practice 已完成本地展厅，并登记到 `site-projects.json`，当前尚未部署。运行方法见 [002 演示说明](../projects/002-claude-code-best-practice/demo/README.md)。其发布目录使用 `002-claude-code-best-practice/`，该规划不表示已上线。
+
 GitHub Pages 每个仓库支持一个项目站点，可在这个站点下用不同子路径承载多个静态演示。它提供静态文件托管，不能直接运行常驻服务端程序。依据：[GitHub Pages 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)。
 
 当前站点路径如下；后续项目继续沿用编号子路径：
@@ -36,6 +38,10 @@ https://yydshly.github.io/0918_codex_project/
 当前构建器适用于原生静态 demo：保留项目目录结构，并复制网页到编号子路径根部，改写资源相对路径。新增同类项目时加入清单并提交文件；有独立构建系统的项目需先扩展构建步骤。所有已收录演示在同一次发布中保留。
 
 ## 新演示发布步骤
+
+项目清单支持可选 `links` 字段，为不同展厅设置导航；省略时保留 001 的“一图总览 / 工具对比”。002 使用“流程演示 / 一图理解”，不创建不存在的 overview.html。
+
+新增 002 的本地构建检查使用临时 Git 索引，真实暂存区不变；正式构建需要先将新文件纳入 Git。构建脚本会清理固定的仓库内 `_site/` 目录后重建，构建通过不等于已推送或已部署。
 
 1. 在子项目 `demo/README.md` 记录依赖安装、启动、构建命令和产物目录。
 2. 为每个应用设置正确的资源基础路径，例如 `/0918_codex_project/001-project-name/`。

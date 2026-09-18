@@ -17,7 +17,7 @@ try{
  const build=await buildResponse.json();
  if(process.env.EXPECTED_COMMIT)assert.equal(build.commit,process.env.EXPECTED_COMMIT);
  checks.push('站点首页、项目导航与发布版本');
- await page.getByRole('link',{name:'进入研究展厅 ↗',exact:true}).click();
+ await page.getByRole('link',{name:'进入研究展厅 ↗',exact:true}).first().click();
  await page.locator('#gallery-page').waitFor({state:'visible'});
  assert.equal(await page.locator('[data-gallery-entry]').count(),12);
  assert.equal(new URL(page.url()).pathname,new URL(root+'001-understand-anything/').pathname);
@@ -52,8 +52,35 @@ try{
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),view);
  }
  checks.push('九个视图的手机布局');
+ if(build.projects.includes('002-claude-code-best-practice')){
+  await page.setViewportSize({width:1440,height:1000});
+  await page.goto(root+'002-claude-code-best-practice/');
+  await page.locator('#map-image').evaluate(i=>i.decode());
+  assert.match(await page.locator('h1').textContent(),/Claude Code 使用指南＋配置示例集/);
+  assert.match(await page.locator('.callout').first().textContent(),/对我们的直接参考价值不大/);
+  const width=await page.locator('#map-image').evaluate(i=>i.clientWidth);
+  await page.locator('#map-plus').click();
+  assert.ok(await page.locator('#map-image').evaluate(i=>i.clientWidth)>width);
+  await page.locator('#map-fit').click();
+  for(const suffix of ['assets/understanding-map.svg','assets/understanding-map.png','README.md','notes/research.md','notes/evidence/experiments.json','licenses/upstream.LICENSE']){
+   assert.equal((await page.request.get(root+'002-claude-code-best-practice/'+suffix)).status(),200,suffix);
+  }
+  await page.locator('[data-page=workflow]').click();
+  for(let i=0;i<5;i++)await page.locator('#next-step').click();
+  assert.match(await page.locator('.weather-preview').textContent(),/26°C/);
+  await page.locator('#outcome').selectOption('failure');
+  for(let i=0;i<3;i++)await page.locator('#next-step').click();
+  assert.equal(await page.locator('#next-step').isDisabled(),true);
+  assert.equal(await page.locator('#download-svg').count(),0);
+  await page.locator('[data-page=evidence]').click();await page.reload();
+  assert.equal(await page.locator('tbody tr').count(),5);
+  await page.setViewportSize({width:390,height:844});
+  await page.locator('[data-page=overview]').click();
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+  checks.push('002 引导图与定位摘要、缩放、文档和高清资源、成功失败流程、刷新与手机布局');
+ }
  assert.deepEqual(errors,[]);
- const result={verifiedAt:new Date().toISOString(),site:root,project:root+'001-understand-anything/',sourceCommit:build.commit,checks,browserErrors:errors,scope:'静态网页部署与资源、交互验证；不包含模型分析或第三方 API'};
+ const result={verifiedAt:new Date().toISOString(),site:root,projects:build.projects,sourceCommit:build.commit,checks,browserErrors:errors,scope:'静态网页部署与资源、交互验证；不包含模型分析或第三方 API'};
  if(record)await writeFile(record,JSON.stringify(result,null,2)+'\n');
  console.log(JSON.stringify(result,null,2));
 }finally{await browser.close();}

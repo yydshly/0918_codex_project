@@ -5,11 +5,11 @@
 ```text
 projects/
 ├── README.md
-├── 001-project-name/    # 第一个实际项目，尚未创建
-├── 002-project-name/    # 第二个实际项目，尚未创建
+├── 001-understand-anything/
+├── 002-claude-code-best-practice/
 └── ...
 ```
 
-以上编号目录仅用于说明命名方式。项目列表统一维护在[根目录索引](../README.md#项目索引)，避免维护多份重复列表。
+项目列表与进度统一维护在[根目录索引](../README.md#项目索引)。新增项目继续使用历史最大编号加一，既有编号不变且不复用。
 
 使用[子项目模板](../templates/project/)开始，遵循[收录与编号约定](../docs/CONVENTIONS.md)。

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2380" viewBox="0 0 1800 2380" role="img" aria-labelledby="title desc"><title id="title">Claude Code Best Practice：使用指南与配置示例集</title><desc id="desc">九类内容、实际工作关系、适用场景、对我们的意义及能力边界。原创研究概念图，非产品截图。</desc><style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC","Segoe UI",sans-serif}</style>
+<rect x="0" y="0" width="1800" height="2380" rx="0" fill="#f5f7fc" stroke="#f5f7fc"/>
+<rect x="0" y="0" width="1800" height="245" rx="0" fill="#132640" stroke="#132640"/>
+<text id="text-1" x="70" y="57" font-size="22" fill="#b9c9e7" font-weight="600" text-anchor="start">开源研究 / 002</text>
+<text id="text-2" x="1730" y="57" font-size="22" fill="#b9c9e7" font-weight="400" text-anchor="end">shanraisshan / claude-code-best-practice</text>
+<text id="text-3" x="70" y="137" font-size="53" fill="#fff" font-weight="700" text-anchor="start">Claude Code 使用指南 ＋ 配置示例集</text>
+<text id="text-4" x="70" y="195" font-size="28" fill="#d4e1f6" font-weight="400" text-anchor="start">核心作用：教你怎么用，提供可以参考、挑选和改造的例子。</text>
+<rect x="70" y="273" width="1660" height="102" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-5" x="99" y="313" font-size="26" fill="#315bea" font-weight="700" text-anchor="start">学方法</text>
+<text id="text-6" x="99" y="350" font-size="22" fill="#50627a" font-weight="400" text-anchor="start">从入门概念到进阶使用经验</text>
+<text id="text-7" x="652" y="313" font-size="26" fill="#315bea" font-weight="700" text-anchor="start">借样板</text>
+<text id="text-8" x="652" y="350" font-size="22" fill="#50627a" font-weight="400" text-anchor="start">参考规则、技能、代理与流程写法</text>
+<text id="text-9" x="1205" y="313" font-size="26" fill="#315bea" font-weight="700" text-anchor="start">挑工具</text>
+<text id="text-10" x="1205" y="350" font-size="22" fill="#50627a" font-weight="400" text-anchor="start">按需要复用少量脚本与工具配置</text>
+<rect x="70" y="400" width="42" height="36" rx="7" fill="#315bea" stroke="#315bea"/>
+<text id="text-11" x="91" y="426" font-size="20" fill="white" font-weight="650" text-anchor="middle">01</text>
+<text id="text-12" x="128" y="429" font-size="30" fill="#14243b" font-weight="700" text-anchor="start">内部主要包含什么</text>
+<text id="text-13" x="1730" y="429" font-size="20" fill="#50627a" font-weight="400" text-anchor="end">教程、配置与脚本：按需参考，无需整套复制</text>
+<rect x="70" y="465" width="540" height="188" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-14" x="94" y="507" font-size="27" fill="#14243b" font-weight="700" text-anchor="start" data-bound="90,477,590,641">使用指南与经验</text>
+<text id="text-15" x="94" y="535" font-size="18" fill="#315bea" font-weight="600" text-anchor="start" data-bound="90,477,590,641">教程 / 资料</text>
+<text id="text-16" x="94" y="570" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="90,477,590,641">任务描述、规划、上下文与会话管理</text>
+<text id="text-17" x="94" y="602" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="90,477,590,641">理解常见用法，参考测试和审查经验</text>
+<text id="text-18" x="94" y="633" font-size="17" fill="#50627a" font-weight="400" text-anchor="start" data-bound="90,477,590,641">README · best-practice · tips · reports</text>
+<rect x="630" y="465" width="540" height="188" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-19" x="654" y="507" font-size="27" fill="#14243b" font-weight="700" text-anchor="start" data-bound="650,477,1150,641">项目规则</text>
+<text id="text-20" x="654" y="535" font-size="18" fill="#315bea" font-weight="600" text-anchor="start" data-bound="650,477,1150,641">配置示例</text>
+<text id="text-21" x="654" y="570" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="650,477,1150,641">说明项目背景、代码约定与目录职责</text>
+<text id="text-22" x="654" y="602" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="650,477,1150,641">减少每次重新交代同一套项目要求</text>
+<text id="text-23" x="654" y="633" font-size="17" fill="#50627a" font-weight="400" text-anchor="start" data-bound="650,477,1150,641">CLAUDE.md · .claude/rules/</text>
+<rect x="1190" y="465" width="540" height="188" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-24" x="1214" y="507" font-size="27" fill="#14243b" font-weight="700" text-anchor="start" data-bound="1210,477,1710,641">Skills · 技能</text>
+<text id="text-25" x="1214" y="535" font-size="18" fill="#315bea" font-weight="600" text-anchor="start" data-bound="1210,477,1710,641">配置示例</text>
+<text id="text-26" x="1214" y="570" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="1210,477,1710,641">封装某类任务的方法、模板和参考资料</text>
+<text id="text-27" x="1214" y="602" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="1210,477,1710,641">例如怎样取天气数据、怎样生成卡片</text>
+<text id="text-28" x="1214" y="633" font-size="17" fill="#50627a" font-weight="400" text-anchor="start" data-bound="1210,477,1710,641">.claude/skills/*/SKILL.md</text>
+<rect x="70" y="673" width="540" height="188" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-29" x="94" y="715" font-size="27" fill="#14243b" font-weight="700" text-anchor="start" data-bound="90,685,590,849">Agents · 子代理</text>
+<text id="text-30" x="94" y="743" font-size="18" fill="#315bea" font-weight="600" text-anchor="start" data-bound="90,685,590,849">配置示例</text>
+<text id="text-31" x="94" y="778" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="90,685,590,849">定义专门角色、任务边界和返回内容</text>
+<text id="text-32" x="94" y="810" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="90,685,590,849">用独立上下文处理适合委派的工作</text>
+<text id="text-33" x="94" y="841" font-size="17" fill="#50627a" font-weight="400" text-anchor="start" data-bound="90,685,590,849">.claude/agents/*.md</text>
+<rect x="630" y="673" width="540" height="188" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-34" x="654" y="715" font-size="27" fill="#14243b" font-weight="700" text-anchor="start" data-bound="650,685,1150,849">Commands · 命令</text>
+<text id="text-35" x="654" y="743" font-size="18" fill="#315bea" font-weight="600" text-anchor="start" data-bound="650,685,1150,849">配置示例</text>
+<text id="text-36" x="654" y="778" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="650,685,1150,849">为经常重复的任务提供一个固定入口</text>
+<text id="text-37" x="654" y="810" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="650,685,1150,849">例如用 /weather-orchestrator 启动流程</text>
+<text id="text-38" x="654" y="841" font-size="17" fill="#50627a" font-weight="400" text-anchor="start" data-bound="650,685,1150,849">.claude/commands/*.md</text>
+<rect x="1190" y="673" width="540" height="188" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-39" x="1214" y="715" font-size="27" fill="#14243b" font-weight="700" text-anchor="start" data-bound="1210,685,1710,849">工作流与任务编排</text>
+<text id="text-40" x="1214" y="743" font-size="18" fill="#315bea" font-weight="600" text-anchor="start" data-bound="1210,685,1710,849">流程示例 / 资料</text>
+<text id="text-41" x="1214" y="778" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="1210,685,1710,849">安排步骤、交接信息、串联代理与技能</text>
+<text id="text-42" x="1214" y="810" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="1210,685,1710,849">这里展示编排写法；不是独立调度引擎</text>
+<text id="text-43" x="1214" y="841" font-size="17" fill="#50627a" font-weight="400" text-anchor="start" data-bound="1210,685,1710,849">orchestration-workflow · workflows</text>
+<rect x="70" y="881" width="540" height="188" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-44" x="94" y="923" font-size="27" fill="#14243b" font-weight="700" text-anchor="start" data-bound="90,893,590,1057">Hooks · 事件钩子</text>
+<text id="text-45" x="94" y="951" font-size="18" fill="#315bea" font-weight="600" text-anchor="start" data-bound="90,893,590,1057">辅助脚本</text>
+<text id="text-46" x="94" y="986" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="90,893,590,1057">在工具调用、任务结束等事件发生时响应</text>
+<text id="text-47" x="94" y="1018" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="90,893,590,1057">本例主要播放提示音和记录日志</text>
+<text id="text-48" x="94" y="1049" font-size="17" fill="#50627a" font-weight="400" text-anchor="start" data-bound="90,893,590,1057">hooks.py · hooks-config.json</text>
+<rect x="630" y="881" width="540" height="188" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-49" x="654" y="923" font-size="27" fill="#14243b" font-weight="700" text-anchor="start" data-bound="650,893,1150,1057">MCP · 外部工具接入</text>
+<text id="text-50" x="654" y="951" font-size="18" fill="#315bea" font-weight="600" text-anchor="start" data-bound="650,893,1150,1057">连接配置</text>
+<text id="text-51" x="654" y="986" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="650,893,1150,1057">声明怎样启动和连接外部工具服务</text>
+<text id="text-52" x="654" y="1018" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="650,893,1150,1057">示例：Playwright / Context7 / DeepWiki</text>
+<text id="text-53" x="654" y="1049" font-size="17" fill="#50627a" font-weight="400" text-anchor="start" data-bound="650,893,1150,1057">.mcp.json</text>
+<rect x="1190" y="881" width="540" height="188" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-54" x="1214" y="923" font-size="27" fill="#14243b" font-weight="700" text-anchor="start" data-bound="1210,893,1710,1057">设置、记忆与生态资料</text>
+<text id="text-55" x="1214" y="951" font-size="18" fill="#315bea" font-weight="600" text-anchor="start" data-bound="1210,893,1710,1057">配置示例 / 索引</text>
+<text id="text-56" x="1214" y="986" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="1210,893,1710,1057">涵盖权限、模型、状态栏、记忆等配置</text>
+<text id="text-57" x="1214" y="1018" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="1210,893,1710,1057">汇集其他工作流、技能库与相关教程</text>
+<text id="text-58" x="1214" y="1049" font-size="17" fill="#50627a" font-weight="400" text-anchor="start" data-bound="1210,893,1710,1057">settings.json · agent-memory · 链接索引</text>
+<text id="text-59" x="70" y="1105" font-size="25" fill="#315bea" font-weight="600" text-anchor="start">多数机制由 Claude Code 本身提供；这个仓库主要提供用法、配置示例和少量辅助脚本。</text>
+<rect x="70" y="1142" width="42" height="36" rx="7" fill="#315bea" stroke="#315bea"/>
+<text id="text-60" x="91" y="1168" font-size="20" fill="white" font-weight="650" text-anchor="middle">02</text>
+<text id="text-61" x="128" y="1171" font-size="30" fill="#14243b" font-weight="700" text-anchor="start">它与模型、项目是什么关系</text>
+<rect x="70" y="1208" width="385" height="147" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-62" x="92" y="1248" font-size="27" fill="#14243b" font-weight="700" text-anchor="start">参考这个仓库</text>
+<text id="text-63" x="92" y="1291" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="88,1220,437,1345">看教程、挑配置样板</text>
+<text id="text-64" x="92" y="1323" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="88,1220,437,1345">知道有哪些方法可以用</text>
+<path d="M462 1279h28m-9-8 9 8-9 8" fill="none" stroke="#879aba" stroke-width="2.5"/>
+<rect x="495" y="1208" width="385" height="147" rx="14" fill="#eef3ff" stroke="#bccdff"/>
+<text id="text-65" x="517" y="1248" font-size="27" fill="#315bea" font-weight="700" text-anchor="start">适配自己的项目</text>
+<text id="text-66" x="517" y="1291" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="513,1220,862,1345">补充真实业务规则与验收要求</text>
+<text id="text-67" x="517" y="1323" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="513,1220,862,1345">把反复交代的内容保存下来</text>
+<path d="M887 1279h28m-9-8 9 8-9 8" fill="none" stroke="#879aba" stroke-width="2.5"/>
+<rect x="920" y="1208" width="385" height="147" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-68" x="942" y="1248" font-size="27" fill="#14243b" font-weight="700" text-anchor="start">Claude Code 执行</text>
+<text id="text-69" x="942" y="1291" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="938,1220,1287,1345">模型理解需求，运行环境调工具</text>
+<text id="text-70" x="942" y="1323" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="938,1220,1287,1345">程序与外部服务完成具体操作</text>
+<path d="M1312 1279h28m-9-8 9 8-9 8" fill="none" stroke="#879aba" stroke-width="2.5"/>
+<rect x="1345" y="1208" width="385" height="147" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-71" x="1367" y="1248" font-size="27" fill="#14243b" font-weight="700" text-anchor="start">检查实际结果</text>
+<text id="text-72" x="1367" y="1291" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="1363,1220,1712,1345">运行测试、构建与人工复核</text>
+<text id="text-73" x="1367" y="1323" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="1363,1220,1712,1345">用证据判断是否完成</text>
+<text id="text-74" x="70" y="1399" font-size="24" fill="#50627a" font-weight="400" text-anchor="start">天气教学例子：询问单位 → 委派代理 → 技能指导取数 → 返回温度 → 按模板输出 SVG。</text>
+<text id="text-75" x="70" y="1436" font-size="21" fill="#50627a" font-weight="400" text-anchor="start">拆分用于说明机制，不代表复杂编排比直接指令更好；本研究没有验证原版完整代理流程。</text>
+<rect x="70" y="1472" width="42" height="36" rx="7" fill="#315bea" stroke="#315bea"/>
+<text id="text-76" x="91" y="1498" font-size="20" fill="white" font-weight="650" text-anchor="middle">03</text>
+<text id="text-77" x="128" y="1501" font-size="30" fill="#14243b" font-weight="700" text-anchor="start">什么时候值得参考</text>
+<text id="text-78" x="1730" y="1501" font-size="20" fill="#50627a" font-weight="400" text-anchor="end">一次性小任务：通常直接提出要求即可</text>
+<rect x="70" y="1538" width="540" height="145" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-79" x="94" y="1582" font-size="25" fill="#14243b" font-weight="700" text-anchor="start">刚开始使用 Claude Code</text>
+<text id="text-80" x="94" y="1623" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="90,1550,590,1673">需要了解有哪些功能、各自怎样配置。</text>
+<text id="text-81" x="94" y="1656" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="90,1550,590,1673">价值：节省查找与试写配置的时间。</text>
+<rect x="630" y="1538" width="540" height="145" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-82" x="654" y="1582" font-size="25" fill="#14243b" font-weight="700" text-anchor="start">多人协作或重复任务较多</text>
+<text id="text-83" x="654" y="1623" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="650,1550,1150,1673">希望统一要求、固定产物格式和检查步骤。</text>
+<text id="text-84" x="654" y="1656" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="650,1550,1150,1673">价值：减少重复解释，方便复用与交接。</text>
+<rect x="1190" y="1538" width="540" height="145" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-85" x="1214" y="1582" font-size="25" fill="#14243b" font-weight="700" text-anchor="start">有明确的工具或通知需求</text>
+<text id="text-86" x="1214" y="1623" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="1210,1550,1710,1673">想添加提示音、外部工具或专项流程。</text>
+<text id="text-87" x="1214" y="1656" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="1210,1550,1710,1673">价值：挑一个相关例子，改造成自己的配置。</text>
+<rect x="70" y="1718" width="42" height="36" rx="7" fill="#315bea" stroke="#315bea"/>
+<text id="text-88" x="91" y="1744" font-size="20" fill="white" font-weight="650" text-anchor="middle">04</text>
+<text id="text-89" x="128" y="1747" font-size="30" fill="#14243b" font-weight="700" text-anchor="start">模型已经很强，对我们还有什么意义？</text>
+<rect x="70" y="1783" width="810" height="236" rx="14" fill="#eaf1ff" stroke="#c8d7fb"/>
+<text id="text-90" x="99" y="1826" font-size="29" fill="#315bea" font-weight="700" text-anchor="start">核心意义：理解 AI 的流程与动作</text>
+<text id="text-91" x="99" y="1870" font-size="21" fill="#14243b" font-weight="400" text-anchor="start" data-bound="94,1800,858,2010">知道谁在做什么：命令组织步骤，代理分工，技能提供方法。</text>
+<text id="text-92" x="99" y="1909" font-size="21" fill="#14243b" font-weight="400" text-anchor="start" data-bound="94,1800,858,2010">知道任务怎样交接：输入需求、传递结果、调用工具、生成产物。</text>
+<text id="text-93" x="99" y="1948" font-size="21" fill="#14243b" font-weight="400" text-anchor="start" data-bound="94,1800,858,2010">知道哪些需要检查：文本约定、程序行为和真实结果分别验证。</text>
+<text id="text-94" x="99" y="1987" font-size="21" fill="#14243b" font-weight="400" text-anchor="start" data-bound="94,1800,858,2010">目标是更好使用 AI；具体配置只在确有需要时参考。</text>
+<rect x="900" y="1783" width="830" height="236" rx="14" fill="#fff" stroke="#d8e1ef"/>
+<text id="text-95" x="929" y="1826" font-size="29" fill="#14243b" font-weight="700" text-anchor="start">对我们的直接参考价值不大</text>
+<text id="text-96" x="929" y="1870" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="923,1800,1706,2010">我们已有 AGENTS.md，也能直接让 AI 开发、分析和验证。</text>
+<text id="text-97" x="929" y="1909" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="923,1800,1706,2010">它的新增价值主要是查用法、看写法、找少量可复用脚本。</text>
+<text id="text-98" x="929" y="1948" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="923,1800,1706,2010">不必专门集成；也可以让模型直接帮我们编写所需配置。</text>
+<text id="text-99" x="929" y="1987" font-size="21" fill="#50627a" font-weight="400" text-anchor="start" data-bound="923,1800,1706,2010">把它归类为「学习参考库」，而不是必需的开发基础设施。</text>
+<rect x="70" y="2053" width="1660" height="187" rx="14" fill="#132640" stroke="#132640"/>
+<text id="text-100" x="99" y="2096" font-size="28" fill="#fff" font-weight="700" text-anchor="start">读这张图时，需要保留的边界</text>
+<text id="text-101" x="99" y="2140" font-size="23" fill="#d3e0f3" font-weight="400" text-anchor="start">不会增加模型的底层编程能力；复制配置不保证效果更好，也不保证模型严格遵循所有指令。</text>
+<text id="text-102" x="99" y="2176" font-size="23" fill="#d3e0f3" font-weight="400" text-anchor="start">它不提供通用的全自动项目开发系统；README 中引用的第三方能力，不等于本仓库已经实现。</text>
+<text id="text-103" x="99" y="2212" font-size="23" fill="#d3e0f3" font-weight="400" text-anchor="start">自然语言流程需要模型遵循；测试、权限与脚本控制需要结合实际环境单独验证。</text>
+<text id="text-104" x="70" y="2290" font-size="25" fill="#14243b" font-weight="600" text-anchor="start">阅读方式：先明确要解决的问题 → 查对应章节 → 选取示例 → 项目化修改 → 验证实际收益。</text>
+<a href="https://github.com/shanraisshan/claude-code-best-practice/tree/73087da5e272fc197d7f9f29492d153fe1aaaefe">
+<text id="text-105" x="70" y="2340" font-size="19" fill="#50627a" font-weight="400" text-anchor="start">来源：shanraisshan/claude-code-best-practice · 固定版本 73087da · 上游 MIT</text>
+</a>
+<text id="text-106" x="1730" y="2340" font-size="19" fill="#50627a" font-weight="400" text-anchor="end">原创理解总览 · 非产品截图 · 2026-09-18</text>
+</svg>

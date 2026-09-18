@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-18",
+  "type": "original explanatory diagram, not product screenshot",
+  "upstreamCommit": "73087da5e272fc197d7f9f29492d153fe1aaaefe",
+  "svgDimensions": [
+    1800,
+    2380
+  ],
+  "pngDimensions": [
+    3600,
+    4760
+  ],
+  "textElements": 106,
+  "textBoundsPassed": true,
+  "renderer": "Edge 153.0.4234.32",
+  "sections": [
+    "定位",
+    "九类内容",
+    "执行关系",
+    "使用场景",
+    "对我们的意义",
+    "能力边界"
+  ]
+}

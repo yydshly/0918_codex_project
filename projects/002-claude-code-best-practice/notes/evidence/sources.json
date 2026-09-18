@@ -1,0 +1,93 @@
+{
+  "repository": "https://github.com/shanraisshan/claude-code-best-practice",
+  "commit": "73087da5e272fc197d7f9f29492d153fe1aaaefe",
+  "commitDate": "2026-09-18T03:42:33Z",
+  "researchDate": "2026-09-18",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "c8400ac85f79850fd3904de615ebba4d5b689429cb73f748cb7d01c734c13958",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/README.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "9f9a7f3e400baf77b21d150effbda92cae1b3bbfdb2f9110e5906164ddc75f40",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/CLAUDE.md"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ff213c37152ebef37261ce48b413e9f2d62a156a7d105ba297cd5a0cfe18cbac",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/LICENSE"
+    },
+    {
+      "path": ".claude/commands/weather-orchestrator.md",
+      "sha256": "7607d1f05d759651c4e31b5b3cc905c3b4a95a6d4a5850251f4a34cd9274dfcd",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/.claude/commands/weather-orchestrator.md"
+    },
+    {
+      "path": ".claude/agents/weather-agent.md",
+      "sha256": "3fa40ad12d5041ab613d09b789be05f6c3055f948bb4d337487ed35ed723f27e",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/.claude/agents/weather-agent.md"
+    },
+    {
+      "path": ".claude/skills/weather-fetcher/SKILL.md",
+      "sha256": "4350c64fd975416da3a1ed34c6f1add622b28413edc377994f4a320263cf661e",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/.claude/skills/weather-fetcher/SKILL.md"
+    },
+    {
+      "path": ".claude/skills/weather-svg-creator/SKILL.md",
+      "sha256": "b157e73e8da5c5705dc0c56c83a47483b0db349ef66e8d0016cd0bbe972ebefa",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/.claude/skills/weather-svg-creator/SKILL.md"
+    },
+    {
+      "path": ".claude/skills/weather-svg-creator/reference.md",
+      "sha256": "1ff5ca7768d1d1e6127789a6d2bcc3a13285646b0add5727bbe448a5bdff1bf3",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/.claude/skills/weather-svg-creator/reference.md"
+    },
+    {
+      "path": ".claude/hooks/scripts/hooks.py",
+      "sha256": "ff09777bea9d55465bf3e4e5c15a774e6cc59dd17d8116e939d12bdce22c95ab",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/.claude/hooks/scripts/hooks.py"
+    },
+    {
+      "path": ".claude/hooks/config/hooks-config.json",
+      "sha256": "323ca71ba57988a981bf12d912f368963ddff65edd8fe49a12c883a5850831ef",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/.claude/hooks/config/hooks-config.json"
+    },
+    {
+      "path": ".claude/settings.json",
+      "sha256": "3d4ede9a1774997328056e704bd75f8a78eac850c6c2acbfc3ec3075939d7c72",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/.claude/settings.json"
+    },
+    {
+      "path": ".mcp.json",
+      "sha256": "877a9f09ebca7f7b193bffef9204b79b9db3069eb3573f7d117d2aec2f3efe72",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/.mcp.json"
+    },
+    {
+      "path": ".claude/rules/markdown-docs.md",
+      "sha256": "8a29bb4c5e2f6d029dc89ceb0976865007a5ec681847a50f34b0b9ec1c9c4580",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/.claude/rules/markdown-docs.md"
+    },
+    {
+      "path": "orchestration-workflow/orchestration-workflow.md",
+      "sha256": "1e0a4c01b646a3ccee4680705ca8dc465a2fed366652473ed434680ef05576f7",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/orchestration-workflow/orchestration-workflow.md"
+    },
+    {
+      "path": ".claude/skills/time-skill/SKILL.md",
+      "sha256": "57ce908855a6c6ecfe22420e966bf863d1cf6b0684e951cb6c4c8bfaf68b2466",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/.claude/skills/time-skill/SKILL.md"
+    },
+    {
+      "path": ".claude/commands/time-command.md",
+      "sha256": "803df4e451d79a56827376f6161387206c92f9fdb924d0926c9adb7c3050cfb7",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/.claude/commands/time-command.md"
+    },
+    {
+      "path": ".claude/agents/time-agent.md",
+      "sha256": "2403e94c7b94051bbea9fe61a7eb707637e66827a1e2d4e60739deb490d46e9f",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/73087da5e272fc197d7f9f29492d153fe1aaaefe/.claude/agents/time-agent.md"
+    }
+  ]
+}
