@@ -27,10 +27,13 @@ GitHub Pages 每个仓库支持一个项目站点，可在这个站点下用不�
 https://yydshly.github.io/0918_codex_project/
 ├── 001-understand-anything/
 ├── 002-claude-code-best-practice/
-└── 003-frontend-design-toolkit/
+├── 003-frontend-design-toolkit/
+└── 004-asu-skills/
 ```
 
 站点首页作为演示导航，各子路径沿用研究项目编号。另有独立托管平台或自定义域名时，直接在索引填写实际地址。
+
+004 · ASu-skills 已迁入总仓库并上线：[研究手册](https://yydshly.github.io/0918_codex_project/004-asu-skills/) · [全景引导图](https://yydshly.github.io/0918_codex_project/004-asu-skills/#guide)。文档、九项能力、原理与应用价值、PNG/SVG 均在同一子项目中维护；沿用现有站点构建器和工作流，未建立独立仓库。2026-09-18 已验证四个项目入口、004 文档与图片可访问；[公网记录](../projects/004-asu-skills/notes/evidence/deployment.json)对应首次迁移版本 `99eda015a9152e380ec29bd5318653e584d99504`。误建的独立仓库仅保留迁移历史，不作为维护入口。
 
 ## 当前构建与发布
 

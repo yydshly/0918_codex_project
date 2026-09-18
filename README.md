@@ -13,7 +13,7 @@
 | 001 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | [完整研究](projects/001-understand-anything/) | 程序提取结构，模型补充含义，将代码、Wiki、Figma 组织为交互图谱；在 AI 工具中运行分析技能后浏览、查询与导览。适合陌生项目入门、依赖排查和知识交接，为个人研究保留关系与源码线索，并辅助后续图文表达。 | 已验证 | [在线展厅](https://yydshly.github.io/0918_codex_project/001-understand-anything/) |
 | 002 | [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) | [完整研究](projects/002-claude-code-best-practice/) | Claude Code 使用指南＋配置示例集。对我们当前的直接参考价值不大，核心是指导理解 AI 工作流程与动作，认识各组件分工，更好使用 AI；以引导图、配置示例和教学流程辅助理解。 | 已验证（Hooks 与本地展厅；模型流程未验证） | [在线展厅](https://yydshly.github.io/0918_codex_project/002-claude-code-best-practice/) |
 | 003 | [Frontend Design Toolkit](https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit) | [完整研究](projects/003-frontend-design-toolkit/) | 围绕前端需求，从视觉风格、主题一致性、动效交互、用户体验与可访问性、设计稿衔接、框架与文档、浏览器验证及预览交付等角度，组织约束、方法和工具，指导 Agent 设计、实现与检查页面，以获得更符合需求的效果。 主要指导 Agent 工作，通用能力已有时增益有限。 | 已验证（文档、展厅与公网访问；第三方组合未实测） | [在线展厅](https://yydshly.github.io/0918_codex_project/003-frontend-design-toolkit/) |
-| 004 | [ASu-skills](https://github.com/Hisn00w/ASu-skills) | [完整研究](projects/004-asu-skills/) | 九个求职 Skill 定义流程，宿主 AI 理解并调用工具执行；配套证据账本、简历编辑与 PDF、网页申请填写。价值在经验结构化、事实边界与可复用研究方法。 | 已验证（原独立展厅；上游插件未实测） | 迁移部署中 |
+| 004 | [ASu-skills](https://github.com/Hisn00w/ASu-skills) | [完整研究](projects/004-asu-skills/) | 九个求职 Skill 定义流程，宿主 AI 理解并调用工具执行；配套证据账本、简历编辑与 PDF、网页申请填写。价值在经验结构化、事实边界与可复用研究方法。 | 已验证（文档、迁移展厅与公网资源；上游插件未实测） | [在线研究手册](https://yydshly.github.io/0918_codex_project/004-asu-skills/) |
 
 ## 项目图览
 
@@ -39,7 +39,7 @@
 
 ### 004 · ASu-skills
 
-[![九个求职 Skill 的功能、产出与作用：底层技术链路、使用流程、价值和边界](projects/004-asu-skills/assets/understanding-map.png)](projects/004-asu-skills/assets/understanding-map.png)
+[![九个求职 Skill 的功能、产出与作用：底层技术链路、使用流程、价值和边界](projects/004-asu-skills/assets/understanding-map.png)](https://yydshly.github.io/0918_codex_project/004-asu-skills/#guide)
 
 核心理解：Skill 主要指导 AI 执行工作流。宿主模型理解材料并作出决策，工具与模板完成具体交付；九个入口不等于九个独立智能体。对我们的价值是固化研究方法、区分个人决策与 AI 产出，并按实际需求使用求职能力。图为原创信息总览，非上游产品截图；没有安装运行上游插件或实测招聘网站。[完整文档](projects/004-asu-skills/notes/research.md) · [理解与应用](projects/004-asu-skills/notes/understanding.md) · [高清 PNG](projects/004-asu-skills/assets/understanding-map.png) · [矢量 SVG](projects/004-asu-skills/assets/understanding-map.svg)。
 
@@ -59,7 +59,7 @@
 3. 添加实际截图和研究记录，再更新本页索引与图览。
 4. 有可运行的演示后，在子项目中记录启动方法和实际部署地址。
 
-详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 4 个研究项目，3 个 Web 演示已上线，004 正在迁移部署，均沿用编号子路径；[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
+详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 4 个研究项目，4 个 Web 演示已上线，均沿用编号子路径；[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
 
 ## 来源与许可
 

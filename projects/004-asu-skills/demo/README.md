@@ -2,7 +2,7 @@
 
 ## 部署
 
-迁移部署中。此项目接入总仓库的 `site-projects.json` 与现有 GitHub Pages 工作流，占用 `004-asu-skills/` 编号子路径，不创建独立站点。
+已上线：[004 · ASu-skills](https://yydshly.github.io/0918_codex_project/004-asu-skills/)。2026-09-18 核对四项目入口、文档与图片均可访问，PNG 与原图逐字节一致；见[公网验证记录](../notes/evidence/deployment.json)。此项目接入总仓库的 `site-projects.json` 与现有 GitHub Pages 工作流，占用 `004-asu-skills/` 编号子路径，不创建独立站点。
 
 ## 构建与阅读
 

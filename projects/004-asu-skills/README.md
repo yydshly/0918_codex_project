@@ -11,9 +11,11 @@
 | 研究版本 | 原始研究读取 main，未锁定提交；迁移时核对 HEAD 为 `fe32740249895af71fb1d6d92596ddd2220acfbd`，不据此追认此前所有读取版本 |
 | 上游许可证 | MIT；通过 GitHub license API 核对，见 [LICENSE](https://github.com/Hisn00w/ASu-skills/blob/main/LICENSE) |
 | 收录日期 | 2026-09-18 |
-| 研究进度 | 已验证（原独立文档、网页与图像；上游插件和招聘网站未实测） |
+| 研究进度 | 已验证（迁移网页、文档下载、图像完整性与四项目公网入口；上游插件和招聘网站未实测） |
 | 展示技术 | 原生 HTML / CSS / JavaScript；Node.js 生成文档与网页 |
-| 在线演示 | 迁移部署中 |
+| 在线演示 | [已上线 · 研究手册](https://yydshly.github.io/0918_codex_project/004-asu-skills/) |
+
+最近验证：2026-09-18。首次迁移发布版本为 `99eda015a9152e380ec29bd5318653e584d99504`，见[公网验证记录](notes/evidence/deployment.json)。
 
 ## 阅读入口
 

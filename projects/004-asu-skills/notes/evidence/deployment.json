@@ -1,0 +1,24 @@
+{
+  "verifiedAt": "2026-09-18T07:18:15.041173+00:00",
+  "site": "https://yydshly.github.io/0918_codex_project/004-asu-skills/",
+  "sourceCommit": "99eda015a9152e380ec29bd5318653e584d99504",
+  "projects": [
+    "001-understand-anything",
+    "002-claude-code-best-practice",
+    "003-frontend-design-toolkit",
+    "004-asu-skills"
+  ],
+  "checks": [
+    "001-understand-anything homepage: 200",
+    "002-claude-code-best-practice homepage: 200",
+    "003-frontend-design-toolkit homepage: 200",
+    "004-asu-skills homepage: 200",
+    "notes/research.md: 200",
+    "notes/understanding.md: 200",
+    "assets/understanding-map.svg: 200",
+    "README.md: 200",
+    "PNG matches migrated original byte-for-byte"
+  ],
+  "imageSha256": "ed15a57b98c8c1ef5b4bb80bfe62901602ce5d1b8a1582c212fc19f66ffe654b",
+  "scope": "Public HTTP availability and asset integrity; upstream skills not run."
+}
