@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-09-18",
+  "upstream": "https://github.com/Hisn00w/ASu-skills",
+  "originalResearch": "Read main branch without pinning a commit; no runtime verification of upstream plugin.",
+  "migrationReference": {
+    "commit": "fe32740249895af71fb1d6d92596ddd2220acfbd",
+    "committedAt": "2026-09-17T13:04:10Z",
+    "scope": "Commit observed during migration; not a claim that all original reads were from a pinned commit."
+  },
+  "license": {
+    "spdx": "MIT",
+    "url": "https://github.com/Hisn00w/ASu-skills/blob/main/LICENSE",
+    "verifiedWith": "GitHub license API"
+  },
+  "sources": [
+    {
+      "path": "README.md",
+      "use": "项目定位、九项能力、模板说明、支持平台与整体流程"
+    },
+    {
+      "path": "skills.registry.json",
+      "use": "入口注册、清单生成与 WorkBuddy 的能力排除项"
+    },
+    {
+      "path": "package.json",
+      "use": "Node.js 要求、构建/验证/测试命令与插件声明"
+    },
+    {
+      "path": "lib/index.js",
+      "use": "DeepSeek Harness 文件系统技能提供器的挂载"
+    },
+    {
+      "path": "skills/job-match/SKILL.md",
+      "use": "JD 拆解、五种匹配状态与解释性结论"
+    },
+    {
+      "path": "skills/interview/SKILL.md",
+      "use": "四种面试模式、主张分类与追问停止条件"
+    },
+    {
+      "path": "skills/job-apply/SKILL.md",
+      "use": "页面快照、字段映射、操作核对与确认规则"
+    },
+    {
+      "path": "skills/make-resume/SKILL.md",
+      "use": "模板壳、共享资源合并和打印检查流程"
+    },
+    {
+      "path": "skills/offer/SKILL.md",
+      "use": "状态更新依据、进度表与邮箱处理要求"
+    },
+    {
+      "path": "assets/career-claim-ledger-template.json",
+      "use": "原始事实、来源、个人范围与确认状态的数据结构"
+    },
+    {
+      "path": "assets/frame/editor.js",
+      "use": "可编辑文字、字体、照片替换、HTML 保存和打印"
+    },
+    {
+      "path": "scripts/export-resume-pdf.mjs",
+      "use": "系统 Chrome/Edge、WebSocket/CDP 与 Page.printToPDF"
+    },
+    {
+      "path": "scripts/kimi-webbridge.mjs",
+      "use": "回环地址约束、状态查询及 JSON 命令转发"
+    }
+  ],
+  "originalResearchRepository": "https://github.com/yydshly/asu-skills-guide",
+  "originalResearchCommit": "ce5bfb867908467f745de107e3ad505dea86fdf7"
+}

@@ -1,0 +1,323 @@
+{
+  "title": "ASu-skills 能力与技术原理",
+  "date": "2026-09-18",
+  "repo": "https://github.com/Hisn00w/ASu-skills",
+  "scope": "基于本次读取的 main 分支 README、技能定义与关键脚本整理；未固定提交版本，未安装插件、运行上游测试或实测招聘网站。本文是独立研究整理，不是项目官方文档。",
+  "summary": "ASu-skills 将中文求职经验组织成九个 AI 技能入口，结合证据账本、网页简历模板和浏览器桥接脚本，覆盖经历梳理、简历制作、岗位判断、申请填写、面试训练与进度管理。",
+  "judgment": "核心价值在任务拆解、事实约束与工具整合。阅读规则、理解经历、判断匹配和追问回答主要由宿主大模型完成；模板编辑、资源合并、PDF 导出和浏览器命令传输有具体代码支撑。",
+  "capabilities": [
+    {
+      "id": "contributor",
+      "name": "开源贡献",
+      "stage": "积累与理解",
+      "input": "目标岗位、技术栈、可投入时间；可提供指定仓库或问题。",
+      "action": "核查项目维护情况、贡献规则与 issue/PR 重复风险，在独立分支准备范围清晰的修改及验证。",
+      "output": "候选问题、修改 diff、验证结果、PR 状态和贡献证据。",
+      "dependency": "宿主的联网、代码读写、Git/GitHub 工具及相应账号权限。",
+      "boundary": "贡献被提交与被合并是不同状态；不能把文档贡献描述成核心架构贡献。外部提交遵循该技能的确认流程。",
+      "example": "根据前端岗位方向，找出三个范围清晰的开源贡献机会，给出依据和验证方案。",
+      "source": "skills/contributor/SKILL.md",
+      "kind": "流程指导＋宿主工具"
+    },
+    {
+      "id": "evidence-recap",
+      "name": "证据复盘",
+      "stage": "积累与理解",
+      "input": "AI 编程对话、项目交付记录、代码或其他落地证据。",
+      "action": "按问题背景、方案决策、个人动作、交付状态、落地范围、效果证据、个人边界、待补证据、面试追问九部分还原经历。",
+      "output": "可核验的项目证据链、事实缺口与贡献边界。",
+      "dependency": "宿主的材料读取与分析能力，用户提供的可核验记录。",
+      "boundary": "对话中说完成不等于已经上线；AI 产出不能直接作为个人已掌握的能力。",
+      "example": "复盘这段开发对话，区分我的决策、AI 的工作、实际交付和待验证效果。",
+      "source": "skills/evidence-recap/SKILL.md",
+      "kind": "流程指导"
+    },
+    {
+      "id": "project-guide",
+      "name": "项目导学",
+      "stage": "积累与理解",
+      "input": "项目仓库或材料、个人职责、学习或求职方向。",
+      "action": "先设计源码学习大纲，再按需展开课程与练习；求职场景下整理源码阅读路线、技术亮点、取舍与口播。",
+      "output": "tutorial.md、practice.md，或项目导学、面经和交接摘要。",
+      "dependency": "宿主读取项目文件、理解代码和生成文档的能力。",
+      "boundary": "学习材料不能自动证明用户参与过该项目，也不能替代亲自阅读和验证。",
+      "example": "先设计当前仓库的源码课程大纲，再展开第一课和理解题。",
+      "source": "skills/project-guide/SKILL.md",
+      "kind": "流程指导＋宿主工具"
+    },
+    {
+      "id": "great-resume",
+      "name": "简历提升",
+      "stage": "表达与匹配",
+      "input": "真实经历、目标岗位/JD、职责分工、成果数据与证据。",
+      "action": "重组岗位定位、项目要点与成果表达，准备 HR 开场白，并标记尚未确认的事实。",
+      "output": "定位建议、经历改写、项目要点、HR 话术及证据补强清单。",
+      "dependency": "大模型的语义分析与写作能力；原始事实质量。",
+      "boundary": "不新增虚构公司、职位、技术栈或指标；更有说服力的措辞仍需证据支撑。",
+      "example": "把我的真实项目经历改写为适合 AI 应用工程师的简历要点，标明需要补充的证据。",
+      "source": "skills/great-resume/SKILL.md",
+      "kind": "流程指导"
+    },
+    {
+      "id": "make-resume",
+      "name": "简历制作",
+      "stage": "表达与匹配",
+      "input": "已确认的简历内容、模板或参考截图、页数和照片需求。",
+      "action": "使用默认 ASu 模板或指定模板，合并共享样式、工具栏与编辑脚本，检查 A4 排版并导出。",
+      "output": "可编辑 HTML 简历及打印/PDF 交付；仓库说明提供 18 个中文 HTML 模板。",
+      "dependency": "完整 assets 资源、Node.js 构建脚本，以及 Chrome/Edge 等浏览器。",
+      "boundary": "只复制并修改用户副本；参考截图用于还原布局，正式结果保留可编辑文字。最终材料只采用适用且已确认的主张。",
+      "example": "用已确认的经历生成 A4 单页技术简历，交付可编辑 HTML 和 PDF。",
+      "source": "skills/make-resume/SKILL.md",
+      "kind": "流程指导＋前端与脚本"
+    },
+    {
+      "id": "job-match",
+      "name": "岗位匹配",
+      "stage": "表达与匹配",
+      "input": "具体 JD、简历或主张—证据账本；可选地点、薪资与岗位偏好。",
+      "action": "把要求拆为硬性条件、核心能力和加分项，逐项查找证据，并区分已匹配、表达缺口、证据不足、真实缺口和待确认。",
+      "output": "要求—证据矩阵、硬性门槛、最多五个补强项，以及可解释的投递建议。",
+      "dependency": "大模型判断与可追溯材料；外部 JD 还依赖网页读取。",
+      "boundary": "没有固定、经过校准的匹配百分比；分析岗位不等于授权改简历、填表或投递。",
+      "example": "对照这份 JD 判断哪些要求已有证据、哪些只是没写清、哪些确实不满足。",
+      "source": "skills/job-match/SKILL.md",
+      "kind": "流程指导"
+    },
+    {
+      "id": "job-apply",
+      "name": "申请填写",
+      "stage": "投递与跟进",
+      "input": "一个明确职位、已确认的资料版本、可用浏览器连接及附件。",
+      "action": "读取可见页面结构，建立字段映射，执行文本填写、选项选择和附件上传，并重新读取核对。",
+      "output": "已填写与未完成字段、资料版本、提交前摘要；如获明确授权并成功提交，报告页面显示的结果。",
+      "dependency": "Kimi WebBridge 的本机服务与扩展，或宿主已有的浏览器控制能力。",
+      "boundary": "默认停在最终提交前；单次处理具体职位。登录、验证码与 CAPTCHA 等需用户接管。复杂页面的成功率未在本次研究中实测。",
+      "example": "用我确认的资料填写这个岗位的申请表，完成核对后停在提交前。",
+      "source": "skills/job-apply/SKILL.md",
+      "kind": "流程指导＋外部桥接"
+    },
+    {
+      "id": "interview",
+      "name": "面试训练",
+      "stage": "面试与复盘",
+      "input": "简历、目标 JD、项目证据，以及轮次、时间和反馈偏好。",
+      "action": "提取职责、指标、技术、架构和结果主张；约定问题与评分依据，一次一问，动态追问并记录证据。",
+      "output": "Predict 预测题、Grill 模拟面试、Review 证据复盘、Retry 弱项复练。",
+      "dependency": "宿主大模型及当前会话记录；跨会话延续需要提供先前记录。",
+      "boundary": "评分契约是评价规则，不是经过统计校准的招聘预测。不会凭空假设上一轮表现。",
+      "example": "围绕我最容易被追问的项目开始模拟面试，一次问一题，最后复盘证据缺口。",
+      "source": "skills/interview/SKILL.md",
+      "kind": "流程指导＋会话记录"
+    },
+    {
+      "id": "offer",
+      "name": "求职进度",
+      "stage": "投递与跟进",
+      "input": "招聘邮件、网站信息、截图和聊天记录。",
+      "action": "提取公司、岗位、日期、状态和下一步，合并重复投递，只在有证据时更新状态。",
+      "output": "application-tracker.html 进度表、状态变化摘要、下一步行动；支持搜索筛选与 CSV/JSON 备份。",
+      "dependency": "HTML 进度表资源；读取邮箱需要浏览器或宿主权限，定期执行需要宿主调度能力。",
+      "boundary": "安装技能不会自动产生持续后台监控；普通自动回执不能被当作面试或 Offer。",
+      "example": "把这些招聘邮件整理为进度表，合并重复项，并列出下一步需要做的事。",
+      "source": "skills/offer/SKILL.md",
+      "kind": "流程指导＋网页模板"
+    }
+  ],
+  "architecture": [
+    {
+      "title": "入口与分发",
+      "subtitle": "让宿主找到正确的技能",
+      "text": "skills.registry.json 维护入口清单，配套同步脚本生成和核对平台清单。不同平台共用 skills、assets、references。仓库还包含 DeepSeek Harness 的接入代码：通过文件系统技能提供器挂载 skills 目录。",
+      "mechanism": "注册表 → 平台插件清单 → 选择技能入口",
+      "source": "skills.registry.json"
+    },
+    {
+      "title": "指令与上下文",
+      "subtitle": "把经验写成可执行流程",
+      "text": "SKILL.md 用元数据描述名称与触发条件，正文规定输入、步骤、输出和边界；更细的规则拆到 references 中，按任务需要读取。执行次序和语义判断主要由宿主大模型解释完成。",
+      "mechanism": "用户任务 → SKILL.md → 必要参考材料 → 模型决策",
+      "source": "skills/job-match/SKILL.md"
+    },
+    {
+      "title": "事实与状态",
+      "subtitle": "跨环节复用同一份证据",
+      "text": "JSON 主张—证据账本保存原始事实、候选表述、来源、责任范围、确认状态、适用场景和边界。面试另用会话账本记录回答证据与待复练项目。它们是可检查的记录结构，可信度取决于材料和核验过程。",
+      "mechanism": "原始记录 → 主张与来源 → 确认状态 → 简历/匹配/面试",
+      "source": "assets/career-claim-ledger-template.json"
+    },
+    {
+      "title": "本地制品",
+      "subtitle": "把分析变成可继续编辑的文件",
+      "text": "简历用 HTML/CSS 排版，原生 JavaScript 和 contenteditable 支持编辑；公共样式、工具栏与编辑器由脚本内联。PDF 脚本通过 Node.js 原生 fetch/WebSocket 连接系统浏览器的 CDP，等待字体后调用 Page.printToPDF。",
+      "mechanism": "确认后的内容 → HTML 模板 → 编辑与排版检查 → PDF",
+      "source": "scripts/export-resume-pdf.mjs"
+    },
+    {
+      "title": "外部执行",
+      "subtitle": "将模型选择的动作送入浏览器",
+      "text": "kimi-webbridge.mjs 是本机 HTTP 客户端：检查 /status，向 /command 发送包含 action、args、session 的 JSON。扩展与本机服务负责连接浏览器；模型根据页面快照选择操作，再通过读取结果验证。客户端限制连接到回环地址，但它本身不负责核验用户是否确认提交。",
+      "mechanism": "AI → 桥接脚本 → 本机服务/扩展 → CDP → 页面 → 再核对",
+      "source": "scripts/kimi-webbridge.mjs"
+    }
+  ],
+  "workflows": [
+    {
+      "title": "有项目，开始准备求职",
+      "steps": [
+        "project-guide",
+        "evidence-recap",
+        "great-resume",
+        "make-resume",
+        "job-match"
+      ],
+      "text": "先理解源码并还原个人贡献，再形成岗位相关的表达与简历文件，最后对照具体 JD 决定是否申请。材料已充分时，可跳过前两步。"
+    },
+    {
+      "title": "已有简历，填写具体申请",
+      "steps": [
+        "job-match",
+        "job-apply",
+        "offer"
+      ],
+      "text": "先检查岗位要求和缺失资料，再填写并核对一个明确职位。实际提交状态确认后，将结果交给进度管理。步骤之间不自动继承外部操作授权。"
+    },
+    {
+      "title": "即将面试，验证掌握程度",
+      "steps": [
+        "interview",
+        "great-resume",
+        "interview"
+      ],
+      "text": "先模拟追问暴露问题，再补证据或调整过强表述，最后用变体题复练。流程中的每一步都围绕可解释的事实。"
+    },
+    {
+      "title": "缺少可验证的协作经历",
+      "steps": [
+        "contributor",
+        "evidence-recap",
+        "great-resume",
+        "make-resume"
+      ],
+      "text": "完成范围清晰的真实贡献，记录提交、评审与合并状态，再将个人贡献转成求职材料。不能提前把计划或未合并 PR 写成已采用成果。"
+    }
+  ],
+  "boundaries": [
+    {
+      "title": "流程规则 ≠ 程序硬限制",
+      "text": "不编造经历、填写前确认、提交前确认等主要体现在技能指令中。已读桥接代码有回环地址限制与参数校验，但没有独立的“用户已批准”凭证检查。实际约束还取决于宿主权限与模型遵循情况。",
+      "source": "scripts/kimi-webbridge.mjs"
+    },
+    {
+      "title": "安装入口 ≠ 自动获得所有工具",
+      "text": "纯文本分析依赖模型；代码贡献依赖仓库与 GitHub 工具；网页填写依赖浏览器连接。注册表明确排除了 WorkBuddy 桥接中的 job-apply，因为纯技能目录桥接不提供它所需的完整执行环境。",
+      "source": "skills.registry.json"
+    },
+    {
+      "title": "本机桥接 ≠ 全流程离线",
+      "text": "WebBridge 客户端仅访问本机服务，浏览器登录会话保留在本机；但供模型理解的页面或简历内容是否发送给云端，取决于宿主模型及工具的数据处理方式。不能据此推断整个求职流程都离线。",
+      "source": "skills/job-apply/SKILL.md"
+    },
+    {
+      "title": "证据整理 ≠ 事实自动认证",
+      "text": "账本能保留来源和冲突，无法自行保证原始材料真实。岗位匹配建议与面试反馈是基于可见材料的模型判断，不能据此推断录用概率或保证面试结果。",
+      "source": "assets/career-claim-ledger-template.json"
+    },
+    {
+      "title": "源码分析 ≠ 运行效果验证",
+      "text": "本项目核对了说明和关键实现，没有安装上游插件、运行上游测试、导出真实简历或实测招聘网站；浏览器稳定性、排版兼容性和各宿主行为仍需在具体环境验证。",
+      "source": "README.md"
+    }
+  ],
+  "sources": [
+    {
+      "path": "README.md",
+      "use": "项目定位、九项能力、模板说明、支持平台与整体流程"
+    },
+    {
+      "path": "skills.registry.json",
+      "use": "入口注册、清单生成与 WorkBuddy 的能力排除项"
+    },
+    {
+      "path": "package.json",
+      "use": "Node.js 要求、构建/验证/测试命令与插件声明"
+    },
+    {
+      "path": "lib/index.js",
+      "use": "DeepSeek Harness 文件系统技能提供器的挂载"
+    },
+    {
+      "path": "skills/job-match/SKILL.md",
+      "use": "JD 拆解、五种匹配状态与解释性结论"
+    },
+    {
+      "path": "skills/interview/SKILL.md",
+      "use": "四种面试模式、主张分类与追问停止条件"
+    },
+    {
+      "path": "skills/job-apply/SKILL.md",
+      "use": "页面快照、字段映射、操作核对与确认规则"
+    },
+    {
+      "path": "skills/make-resume/SKILL.md",
+      "use": "模板壳、共享资源合并和打印检查流程"
+    },
+    {
+      "path": "skills/offer/SKILL.md",
+      "use": "状态更新依据、进度表与邮箱处理要求"
+    },
+    {
+      "path": "assets/career-claim-ledger-template.json",
+      "use": "原始事实、来源、个人范围与确认状态的数据结构"
+    },
+    {
+      "path": "assets/frame/editor.js",
+      "use": "可编辑文字、字体、照片替换、HTML 保存和打印"
+    },
+    {
+      "path": "scripts/export-resume-pdf.mjs",
+      "use": "系统 Chrome/Edge、WebSocket/CDP 与 Page.printToPDF"
+    },
+    {
+      "path": "scripts/kimi-webbridge.mjs",
+      "use": "回环地址约束、状态查询及 JSON 命令转发"
+    }
+  ],
+  "publication": {
+    "repository": "https://github.com/yydshly/0918_codex_project/tree/main/projects/004-asu-skills",
+    "website": "https://yydshly.github.io/0918_codex_project/004-asu-skills/",
+    "sourceBase": "https://github.com/yydshly/0918_codex_project/blob/main/projects/004-asu-skills"
+  },
+  "understanding": [
+    {
+      "title": "九个入口，组织的是工作流",
+      "text": "Skill 定义何时介入、需要什么材料、按什么步骤处理、交付什么，以及何时确认。通常由同一个宿主 AI 按任务加载不同规则；九个入口不等于九个独立智能体。"
+    },
+    {
+      "title": "指南主要面向 AI 执行",
+      "text": "用户提供目标和事实，AI 阅读技能与参考材料，再借助可用工具执行。有工具时可以生成文件、修改代码或填写网页；工具不足时更多提供分析、计划与操作指导。"
+    },
+    {
+      "title": "核心资产是经验与工具的连接",
+      "text": "价值集中在求职任务拆解、证据边界、共享事实与制品交付。语义理解和判断依赖宿主模型；模板编辑、PDF 导出和浏览器命令转发有独立代码支持。"
+    }
+  ],
+  "personalValue": {
+    "scope": "以下判断基于本次交流中“研究仓库、追问原理、沉淀文档与网页”的实际需求，不假设用户的职业或求职状态。",
+    "items": [
+      {
+        "title": "最直接：形成可复用的研究流程",
+        "text": "把“项目定位 → 能力 → 原理 → 依赖 → 边界 → 文档与 Web”固定成检查框架。分析下一个开源库时，复用研究标准和交付方式。"
+      },
+      {
+        "title": "长期积累：区分项目成果与个人能力",
+        "text": "借鉴 project-guide 与 evidence-recap，分别记录自己提出的问题、作出的选择、AI 完成的工作及验证结果。做出一个产品和能解释其实现，需要分别确认。"
+      },
+      {
+        "title": "按需采用：求职专项能力",
+        "text": "简历提升、岗位匹配、申请填写和面试训练在明确求职需求时更有直接价值。当前材料不足以判断个人适合的岗位或求职效果。"
+      }
+    ],
+    "example": "用户提出研究目标、追问 Skill 的本质并要求图文沉淀；AI 阅读资料、组织分析并制作网页。网页交互与静态资源可验证，但这不能推导出上游插件已实测或个人已掌握其全部实现。"
+  }
+}

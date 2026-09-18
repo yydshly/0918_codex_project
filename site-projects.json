@@ -43,5 +43,26 @@
         "href": "#mechanism"
       }
     ]
+  },
+  {
+    "slug": "004-asu-skills",
+    "name": "ASu-skills",
+    "upstream": "https://github.com/Hisn00w/ASu-skills",
+    "summary": "九个中文求职 Skill 将经验组织为 AI 可执行的流程，配套证据账本、简历模板与浏览器桥接。整理各入口的功能、产出、底层原理及对研究与 AI 协作的价值；上游插件未实测。",
+    "cover": "assets/understanding-map.png",
+    "links": [
+      {
+        "label": "全景引导图",
+        "href": "#guide"
+      },
+      {
+        "label": "应用价值",
+        "href": "#value"
+      },
+      {
+        "label": "九项能力",
+        "href": "#capabilities"
+      }
+    ]
   }
 ]

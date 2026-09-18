@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="3010" viewBox="0 0 1920 3010" role="img" aria-labelledby="title desc"><title id="title">ASu-skills 能力、技术原理与个人价值总览</title><desc id="desc">九个技能的功能、产出和作用，以及技能流程、宿主人工智能、模板工具的协作方式。包括使用流程、对当前研究的价值和验证边界。</desc><style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif} .mono{font-family:Consolas,'Microsoft YaHei',monospace}</style>
+<rect x="0" y="0" width="1920" height="3010" rx="0" fill="#f4f7f9"/>
+<rect x="0" y="0" width="1920" height="230" rx="0" fill="#12323f"/>
+<rect x="80" y="52" width="8" height="57" rx="3" fill="#67e2c4"/>
+<text x="112" y="98" font-size="66" fill="#ffffff" font-weight="700">ASu-skills</text>
+<text x="529" y="98" font-size="48" fill="#ffffff" font-weight="600">能力与原理全景图</text>
+<text x="82" y="159" font-size="29" fill="#bce0e5" font-weight="400">9 个求职 Skill  ·  一套由 AI 执行的工作流  ·  模板与自动化脚本配套</text>
+<text x="82" y="204" font-size="27" fill="#67e2c4" font-weight="400">核心资产：将求职经验结构化，连接材料、证据、表达、交付与验证。</text>
+<rect x="80" y="268" width="552" height="155" rx="16" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<text x="104" y="311" font-size="29" fill="#19333f" font-weight="700">01  SKILL 定义流程</text>
+<text x="104" y="353" font-size="25" fill="#526977" font-weight="400">触发条件 / 所需材料 / 操作步骤</text>
+<text x="104" y="391" font-size="25" fill="#526977" font-weight="400">输出规范 / 事实边界 / 确认节点</text>
+<rect x="684" y="268" width="552" height="155" rx="16" fill="#e6f3ef" stroke="#d8e2e8" stroke-width="2"/>
+<text x="708" y="311" font-size="29" fill="#08775f" font-weight="700">02  宿主 AI 理解与决策</text>
+<text x="708" y="353" font-size="25" fill="#526977" font-weight="400">读取规则与参考资料，分析用户材料</text>
+<text x="708" y="391" font-size="25" fill="#526977" font-weight="400">通常由同一个 AI 按任务切换技能</text>
+<rect x="1288" y="268" width="552" height="155" rx="16" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<text x="1312" y="311" font-size="29" fill="#19333f" font-weight="700">03  工具与资源执行交付</text>
+<text x="1312" y="353" font-size="25" fill="#526977" font-weight="400">文件与代码工具 / 浏览器 / GitHub</text>
+<text x="1312" y="391" font-size="25" fill="#526977" font-weight="400">简历模板 / HTML 编辑 / PDF 脚本</text>
+<text x="645" y="358" font-size="35" fill="#08775f" font-weight="600">→</text>
+<text x="1249" y="358" font-size="35" fill="#08775f" font-weight="600">→</text>
+<text x="80" y="465" font-size="27" fill="#19333f" font-weight="500">有工具支持：AI 可直接生成文件、修改代码或填写网页；工具不足：提供分析、计划和操作指导。</text>
+<text x="80" y="506" font-size="25" fill="#526977" font-weight="400">九个入口是工作流划分，不代表九个独立智能体；执行质量取决于模型、材料和工具环境。</text>
+<text x="80" y="580" font-size="26" fill="#08775f" font-weight="700" class="mono">01</text>
+<text x="137" y="580" font-size="38" fill="#19333f" font-weight="700">九个 Skill：从输入材料到可用结果</text>
+<text x="137" y="624" font-size="23" fill="#526977" font-weight="400">每张卡片分别说明功能、交付物与预期帮助；预期帮助不等于已测得的效果。</text>
+<rect x="80" y="655" width="560" height="302" rx="16" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<rect x="80" y="655" width="7" height="302" rx="3" fill="#08775f"/>
+<text x="106" y="694" font-size="21" fill="#08775f" font-weight="600">积累与理解</text>
+<text x="566" y="694" font-size="23" fill="#7a919d" font-weight="500" class="mono">01</text>
+<text x="106" y="741" font-size="35" fill="#19333f" font-weight="700">开源贡献</text>
+<text x="106" y="777" font-size="24" fill="#08775f" font-weight="500" class="mono">/contributor</text>
+<text x="106" y="822" font-size="23" fill="#526977" font-weight="600">功能</text>
+<text x="172" y="822" font-size="23" fill="#19333f" font-weight="400">筛选真实问题，准备改动与验证</text>
+<text x="106" y="860" font-size="23" fill="#526977" font-weight="600">产出</text>
+<text x="172" y="860" font-size="23" fill="#19333f" font-weight="400">候选任务、代码差异、PR 与证据</text>
+<text x="106" y="898" font-size="23" fill="#526977" font-weight="600">作用</text>
+<text x="172" y="898" font-size="23" fill="#19333f" font-weight="400">积累可核验的项目协作经历</text>
+<path d="M106 914H614" stroke="#d8e2e8" stroke-width="2"/>
+<text x="106" y="941" font-size="21" fill="#526977" font-weight="400">提交 PR 与已合并必须分开记录</text>
+<rect x="680" y="655" width="560" height="302" rx="16" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<rect x="680" y="655" width="7" height="302" rx="3" fill="#08775f"/>
+<text x="706" y="694" font-size="21" fill="#08775f" font-weight="600">积累与理解</text>
+<text x="1166" y="694" font-size="23" fill="#7a919d" font-weight="500" class="mono">02</text>
+<text x="706" y="741" font-size="35" fill="#19333f" font-weight="700">证据复盘</text>
+<text x="706" y="777" font-size="24" fill="#08775f" font-weight="500" class="mono">/evidence-recap</text>
+<text x="706" y="822" font-size="23" fill="#526977" font-weight="600">功能</text>
+<text x="772" y="822" font-size="23" fill="#19333f" font-weight="400">从 AI 对话与交付记录还原事实</text>
+<text x="706" y="860" font-size="23" fill="#526977" font-weight="600">产出</text>
+<text x="772" y="860" font-size="23" fill="#19333f" font-weight="400">九段证据链、个人动作与待补证据</text>
+<text x="706" y="898" font-size="23" fill="#526977" font-weight="600">作用</text>
+<text x="772" y="898" font-size="23" fill="#19333f" font-weight="400">分清谁做了什么、实际做到哪里</text>
+<path d="M706 914H1214" stroke="#d8e2e8" stroke-width="2"/>
+<text x="706" y="941" font-size="21" fill="#526977" font-weight="400">对话中“完成”不等于已上线</text>
+<rect x="1280" y="655" width="560" height="302" rx="16" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<rect x="1280" y="655" width="7" height="302" rx="3" fill="#08775f"/>
+<text x="1306" y="694" font-size="21" fill="#08775f" font-weight="600">积累与理解</text>
+<text x="1766" y="694" font-size="23" fill="#7a919d" font-weight="500" class="mono">03</text>
+<text x="1306" y="741" font-size="35" fill="#19333f" font-weight="700">项目导学</text>
+<text x="1306" y="777" font-size="24" fill="#08775f" font-weight="500" class="mono">/project-guide</text>
+<text x="1306" y="822" font-size="23" fill="#526977" font-weight="600">功能</text>
+<text x="1372" y="822" font-size="23" fill="#19333f" font-weight="400">梳理源码路径、课程与设计取舍</text>
+<text x="1306" y="860" font-size="23" fill="#526977" font-weight="600">产出</text>
+<text x="1372" y="860" font-size="23" fill="#19333f" font-weight="400">学习大纲、练习题、导学与面经</text>
+<text x="1306" y="898" font-size="23" fill="#526977" font-weight="600">作用</text>
+<text x="1372" y="898" font-size="23" fill="#19333f" font-weight="400">把“看过项目”推进为能解释原理</text>
+<path d="M1306 914H1814" stroke="#d8e2e8" stroke-width="2"/>
+<text x="1306" y="941" font-size="21" fill="#526977" font-weight="400">阅读材料不能证明本人参与项目</text>
+<rect x="80" y="981" width="560" height="302" rx="16" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<rect x="80" y="981" width="7" height="302" rx="3" fill="#2862a9"/>
+<text x="106" y="1020" font-size="21" fill="#2862a9" font-weight="600">表达与匹配</text>
+<text x="566" y="1020" font-size="23" fill="#7a919d" font-weight="500" class="mono">04</text>
+<text x="106" y="1067" font-size="35" fill="#19333f" font-weight="700">简历提升</text>
+<text x="106" y="1103" font-size="24" fill="#2862a9" font-weight="500" class="mono">/great-resume</text>
+<text x="106" y="1148" font-size="23" fill="#526977" font-weight="600">功能</text>
+<text x="172" y="1148" font-size="23" fill="#19333f" font-weight="400">按目标岗位重组职责与成果表达</text>
+<text x="106" y="1186" font-size="23" fill="#526977" font-weight="600">产出</text>
+<text x="172" y="1186" font-size="23" fill="#19333f" font-weight="400">简历要点、岗位定位、HR 开场白</text>
+<text x="106" y="1224" font-size="23" fill="#526977" font-weight="600">作用</text>
+<text x="172" y="1224" font-size="23" fill="#19333f" font-weight="400">让真实经历更清楚、更贴近岗位</text>
+<path d="M106 1240H614" stroke="#d8e2e8" stroke-width="2"/>
+<text x="106" y="1267" font-size="21" fill="#526977" font-weight="400">不虚构公司、职责或成果指标</text>
+<rect x="680" y="981" width="560" height="302" rx="16" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<rect x="680" y="981" width="7" height="302" rx="3" fill="#2862a9"/>
+<text x="706" y="1020" font-size="21" fill="#2862a9" font-weight="600">表达与匹配</text>
+<text x="1166" y="1020" font-size="23" fill="#7a919d" font-weight="500" class="mono">05</text>
+<text x="706" y="1067" font-size="35" fill="#19333f" font-weight="700">简历制作</text>
+<text x="706" y="1103" font-size="24" fill="#2862a9" font-weight="500" class="mono">/make-resume</text>
+<text x="706" y="1148" font-size="23" fill="#526977" font-weight="600">功能</text>
+<text x="772" y="1148" font-size="23" fill="#19333f" font-weight="400">把确认后的内容排版为正式简历</text>
+<text x="706" y="1186" font-size="23" fill="#526977" font-weight="600">产出</text>
+<text x="772" y="1186" font-size="23" fill="#19333f" font-weight="400">可编辑 HTML / PDF；18 套中文模板</text>
+<text x="706" y="1224" font-size="23" fill="#526977" font-weight="600">作用</text>
+<text x="772" y="1224" font-size="23" fill="#19333f" font-weight="400">获得可修改、可打印的求职材料</text>
+<path d="M706 1240H1214" stroke="#d8e2e8" stroke-width="2"/>
+<text x="706" y="1267" font-size="21" fill="#526977" font-weight="400">依赖完整资源与浏览器排版检查</text>
+<rect x="1280" y="981" width="560" height="302" rx="16" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<rect x="1280" y="981" width="7" height="302" rx="3" fill="#2862a9"/>
+<text x="1306" y="1020" font-size="21" fill="#2862a9" font-weight="600">表达与匹配</text>
+<text x="1766" y="1020" font-size="23" fill="#7a919d" font-weight="500" class="mono">06</text>
+<text x="1306" y="1067" font-size="35" fill="#19333f" font-weight="700">岗位匹配</text>
+<text x="1306" y="1103" font-size="24" fill="#2862a9" font-weight="500" class="mono">/job-match</text>
+<text x="1306" y="1148" font-size="23" fill="#526977" font-weight="600">功能</text>
+<text x="1372" y="1148" font-size="23" fill="#19333f" font-weight="400">将 JD 要求与经历证据逐项对照</text>
+<text x="1306" y="1186" font-size="23" fill="#526977" font-weight="600">产出</text>
+<text x="1372" y="1186" font-size="23" fill="#19333f" font-weight="400">证据矩阵、硬性门槛、投递建议</text>
+<text x="1306" y="1224" font-size="23" fill="#526977" font-weight="600">作用</text>
+<text x="1372" y="1224" font-size="23" fill="#19333f" font-weight="400">分清表达缺口、证据缺口与能力差距</text>
+<path d="M1306 1240H1814" stroke="#d8e2e8" stroke-width="2"/>
+<text x="1306" y="1267" font-size="21" fill="#526977" font-weight="400">不提供伪精确的匹配百分比</text>
+<rect x="80" y="1307" width="560" height="302" rx="16" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<rect x="80" y="1307" width="7" height="302" rx="3" fill="#7255a5"/>
+<text x="106" y="1346" font-size="21" fill="#7255a5" font-weight="600">执行与复盘</text>
+<text x="566" y="1346" font-size="23" fill="#7a919d" font-weight="500" class="mono">07</text>
+<text x="106" y="1393" font-size="35" fill="#19333f" font-weight="700">申请填写</text>
+<text x="106" y="1429" font-size="24" fill="#7255a5" font-weight="500" class="mono">/job-apply</text>
+<text x="106" y="1474" font-size="23" fill="#526977" font-weight="600">功能</text>
+<text x="172" y="1474" font-size="23" fill="#19333f" font-weight="400">读页面、映射字段、填写并核对</text>
+<text x="106" y="1512" font-size="23" fill="#526977" font-weight="600">产出</text>
+<text x="172" y="1512" font-size="23" fill="#19333f" font-weight="400">已填申请表、缺失项、提交前摘要</text>
+<text x="106" y="1550" font-size="23" fill="#526977" font-weight="600">作用</text>
+<text x="172" y="1550" font-size="23" fill="#19333f" font-weight="400">减少具体职位申请中的重复录入</text>
+<path d="M106 1566H614" stroke="#d8e2e8" stroke-width="2"/>
+<text x="106" y="1593" font-size="21" fill="#526977" font-weight="400">默认停在提交前；验证码由用户处理</text>
+<rect x="680" y="1307" width="560" height="302" rx="16" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<rect x="680" y="1307" width="7" height="302" rx="3" fill="#7255a5"/>
+<text x="706" y="1346" font-size="21" fill="#7255a5" font-weight="600">执行与复盘</text>
+<text x="1166" y="1346" font-size="23" fill="#7a919d" font-weight="500" class="mono">08</text>
+<text x="706" y="1393" font-size="35" fill="#19333f" font-weight="700">面试训练</text>
+<text x="706" y="1429" font-size="24" fill="#7255a5" font-weight="500" class="mono">/interview</text>
+<text x="706" y="1474" font-size="23" fill="#526977" font-weight="600">功能</text>
+<text x="772" y="1474" font-size="23" fill="#19333f" font-weight="400">提取简历主张，一次一问动态追问</text>
+<text x="706" y="1512" font-size="23" fill="#526977" font-weight="600">产出</text>
+<text x="772" y="1512" font-size="23" fill="#19333f" font-weight="400">问题预测、模拟面试、复盘与复练</text>
+<text x="706" y="1550" font-size="23" fill="#526977" font-weight="600">作用</text>
+<text x="772" y="1550" font-size="23" fill="#19333f" font-weight="400">检验能否讲清技术、职责与指标</text>
+<path d="M706 1566H1214" stroke="#d8e2e8" stroke-width="2"/>
+<text x="706" y="1593" font-size="21" fill="#526977" font-weight="400">反馈基于回答证据，不预测录用率</text>
+<rect x="1280" y="1307" width="560" height="302" rx="16" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<rect x="1280" y="1307" width="7" height="302" rx="3" fill="#7255a5"/>
+<text x="1306" y="1346" font-size="21" fill="#7255a5" font-weight="600">执行与复盘</text>
+<text x="1766" y="1346" font-size="23" fill="#7a919d" font-weight="500" class="mono">09</text>
+<text x="1306" y="1393" font-size="35" fill="#19333f" font-weight="700">求职进度</text>
+<text x="1306" y="1429" font-size="24" fill="#7255a5" font-weight="500" class="mono">/offer</text>
+<text x="1306" y="1474" font-size="23" fill="#526977" font-weight="600">功能</text>
+<text x="1372" y="1474" font-size="23" fill="#19333f" font-weight="400">整理邮件、截图并合并申请状态</text>
+<text x="1306" y="1512" font-size="23" fill="#526977" font-weight="600">产出</text>
+<text x="1372" y="1512" font-size="23" fill="#19333f" font-weight="400">HTML 进度表、状态变化与下一步</text>
+<text x="1306" y="1550" font-size="23" fill="#526977" font-weight="600">作用</text>
+<text x="1372" y="1550" font-size="23" fill="#19333f" font-weight="400">将分散消息变成可跟进的行动记录</text>
+<path d="M1306 1566H1814" stroke="#d8e2e8" stroke-width="2"/>
+<text x="1306" y="1593" font-size="21" fill="#526977" font-weight="400">持续监控需宿主调度与邮箱访问</text>
+<text x="80" y="1720" font-size="26" fill="#08775f" font-weight="700" class="mono">02</text>
+<text x="137" y="1720" font-size="38" fill="#19333f" font-weight="700">底层机制：指令编排 + 事实记录 + 标准工具</text>
+<rect x="80" y="1760" width="336" height="151" rx="14" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<text x="101" y="1801" font-size="30" fill="#19333f" font-weight="700">入口注册</text>
+<text x="101" y="1842" font-size="21" fill="#08775f" font-weight="500">registry / 插件清单</text>
+<text x="101" y="1880" font-size="21" fill="#526977" font-weight="400">宿主发现和调用 Skill</text>
+<rect x="436" y="1760" width="336" height="151" rx="14" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<text x="457" y="1801" font-size="30" fill="#19333f" font-weight="700">技能指令</text>
+<text x="457" y="1842" font-size="21" fill="#08775f" font-weight="500">SKILL.md / references</text>
+<text x="457" y="1880" font-size="21" fill="#526977" font-weight="400">模型按流程解释与执行</text>
+<rect x="792" y="1760" width="336" height="151" rx="14" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<text x="813" y="1801" font-size="30" fill="#19333f" font-weight="700">证据状态</text>
+<text x="813" y="1842" font-size="21" fill="#08775f" font-weight="500">JSON 主张—证据账本</text>
+<text x="813" y="1880" font-size="21" fill="#526977" font-weight="400">保留来源、责任和确认状态</text>
+<rect x="1148" y="1760" width="336" height="151" rx="14" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<text x="1169" y="1801" font-size="30" fill="#19333f" font-weight="700">文件交付</text>
+<text x="1169" y="1842" font-size="21" fill="#08775f" font-weight="500">HTML / CSS / JavaScript</text>
+<text x="1169" y="1880" font-size="21" fill="#526977" font-weight="400">编辑、保存、A4 排版与导出</text>
+<rect x="1504" y="1760" width="336" height="151" rx="14" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<text x="1525" y="1801" font-size="30" fill="#19333f" font-weight="700">外部操作</text>
+<text x="1525" y="1842" font-size="21" fill="#08775f" font-weight="500">浏览器桥接 / 宿主工具</text>
+<text x="1525" y="1880" font-size="21" fill="#526977" font-weight="400">页面读取、动作执行与核对</text>
+<rect x="80" y="1936" width="1760" height="133" rx="14" fill="#e7eff3"/>
+<text x="107" y="1975" font-size="25" fill="#19333f" font-weight="700">两条具体技术链路</text>
+<text x="107" y="2016" font-size="25" fill="#19333f" font-weight="400">简历导出：HTML → Node.js → Chrome / Edge 的 CDP → Page.printToPDF → PDF</text>
+<text x="107" y="2053" font-size="25" fill="#19333f" font-weight="400">网页填写：AI → WebBridge 本机服务与扩展 → CDP → 当前页面 → 重新读取核对</text>
+<text x="80" y="2130" font-size="26" fill="#08775f" font-weight="700" class="mono">03</text>
+<text x="137" y="2130" font-size="38" fill="#19333f" font-weight="700">如何串起来：按需要选择入口</text>
+<text x="137" y="2174" font-size="23" fill="#526977" font-weight="400">以下是组合建议，步骤之间不会自动继承外部操作授权。</text>
+<rect x="80" y="2200" width="1760" height="133" rx="14" fill="#ffffff" stroke="#d8e2e8" stroke-width="2"/>
+<text x="107" y="2245" font-size="25" fill="#08775f" font-weight="700">求职路径</text>
+<text x="262" y="2245" font-size="26" fill="#19333f" font-weight="400">项目导学 / 证据复盘 → 简历提升 → 简历制作 → 岗位匹配 → 申请填写 → 进度管理</text>
+<text x="107" y="2295" font-size="25" fill="#08775f" font-weight="700">补强循环</text>
+<text x="262" y="2295" font-size="26" fill="#19333f" font-weight="400">开源贡献补充真实经历；面试训练暴露薄弱主张 → 补证据、补知识或调整表述 → 复练</text>
+<text x="80" y="2400" font-size="26" fill="#08775f" font-weight="700" class="mono">04</text>
+<text x="137" y="2400" font-size="38" fill="#19333f" font-weight="700">对你的价值：从研究一个库，到积累自己的方法</text>
+<rect x="80" y="2438" width="560" height="156" rx="14" fill="#e6f3ef"/>
+<text x="103" y="2480" font-size="27" fill="#08775f" font-weight="700">最直接：固化研究流程</text>
+<text x="103" y="2524" font-size="23" fill="#19333f" font-weight="400">复用“定位—能力—原理—边界—文档/Web”</text>
+<text x="103" y="2561" font-size="23" fill="#19333f" font-weight="400">下次分析其他库，可按同一标准开展。</text>
+<rect x="680" y="2438" width="560" height="156" rx="14" fill="#e6f3ef"/>
+<text x="703" y="2480" font-size="27" fill="#08775f" font-weight="700">值得积累：区分成果与能力</text>
+<text x="703" y="2524" font-size="23" fill="#19333f" font-weight="400">借鉴 project-guide 与 evidence-recap</text>
+<text x="703" y="2561" font-size="23" fill="#19333f" font-weight="400">记录你的决策、AI 的工作和已验证结果。</text>
+<rect x="1280" y="2438" width="560" height="156" rx="14" fill="#e6f3ef"/>
+<text x="1303" y="2480" font-size="27" fill="#08775f" font-weight="700">按需采用：求职专项工具</text>
+<text x="1303" y="2524" font-size="23" fill="#19333f" font-weight="400">简历、匹配、申请和面试围绕真实需求</text>
+<text x="1303" y="2561" font-size="23" fill="#19333f" font-weight="400">当前尚不知道你的职业与求职计划。</text>
+<rect x="80" y="2631" width="1760" height="220" rx="18" fill="#12323f"/>
+<text x="109" y="2678" font-size="29" fill="#ffffff" font-weight="700">阅读这张图时，保留四个边界</text>
+<text x="109" y="2724" font-size="24" fill="#d2e2e8" font-weight="400">① 技能规定主要是给模型的指令；桥接客户端并未独立核验“用户已批准”。</text>
+<text x="109" y="2765" font-size="24" fill="#d2e2e8" font-weight="400">② 安装 Skill 不会自动获得工具、登录权限或持续后台监控能力。</text>
+<text x="109" y="2806" font-size="24" fill="#d2e2e8" font-weight="400">③ 本机浏览器桥接不代表全流程离线。  ④ 证据账本与面试反馈不等于事实认证或录用保证。</text>
+<text x="80" y="2900" font-size="22" fill="#526977" font-weight="400">依据：Hisn00w/ASu-skills 的 README、技能定义、注册表、证据账本及编辑器 / PDF / WebBridge 源码。</text>
+<text x="80" y="2940" font-size="22" fill="#526977" font-weight="400">https://github.com/Hisn00w/ASu-skills   ·   整理：2026-09-18   ·   独立研究，非官方说明</text>
+<text x="80" y="2979" font-size="21" fill="#526977" font-weight="400">研究范围：基于已读 main 分支资料；未固定提交版本，未安装运行上游插件或实测招聘网站。</text>
+</svg>

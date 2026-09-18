@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-09-18T07:15:07.564Z",
+  "scope": "Local static integration only; no upstream plugin runtime test.",
+  "projects": [
+    "001-understand-anything",
+    "002-claude-code-best-practice",
+    "003-frontend-design-toolkit",
+    "004-asu-skills"
+  ],
+  "checks": [
+    "Four existing/new numbered demos built",
+    "All four homepage entries exist",
+    "004 relative documents and images resolve",
+    "PNG is byte-identical to original",
+    "No nested Git repository copied"
+  ],
+  "imageSha256": "ed15a57b98c8c1ef5b4bb80bfe62901602ce5d1b8a1582c212fc19f66ffe654b"
+}
