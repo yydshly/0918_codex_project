@@ -123,3 +123,11 @@ https://yydshly.github.io/0918_codex_project/
 首次功能发布版本 `6abb6e6343cf5922a300cb6ff908fbc855f669f0`，[发布流程](https://github.com/yydshly/0918_codex_project/actions/runs/35362960262)已成功完成。已核验十个项目入口、24 项 HTTP 资源、总站与项目摘要、PNG/SVG 原图，以及四条路线、联合筛选、深链与历史、进度保存、笔记导出、图像缩放下载和手机布局。
 
 [部署记录](../projects/011-selfteaching/notes/evidence/deployment.json) · [线上网页交互](../projects/011-selfteaching/notes/evidence/remote-browser.json) · [线上图像交互](../projects/011-selfteaching/notes/evidence/remote-map.json) · [运行说明](../projects/011-selfteaching/demo/README.md)。原书 Notebook 未运行，网页可用不代表学习成效已验证。
+
+## 012 本地集成状态
+
+012 · Agent 扩展实验室已登记到 `site-projects.json`，沿用既有构建器，编号入口为 `012-agent-extension-lab/`。包含六种观察方式、10 类 40 个产品方向与四个原创交互模拟。
+
+状态：未部署。已使用临时 Git 索引构建全部 11 个静态展厅，保留 001—006、008—011；真实暂存区未变。012 原始入口与 `_site/012-agent-extension-lab/` 的联合筛选、导出、四演示、键盘操作、五档宽度与章节刷新均已通过本地浏览器验证。
+
+[本地浏览器记录](../projects/012-agent-extension-lab/notes/evidence/browser.json) · [编号入口交互记录](../projects/012-agent-extension-lab/notes/evidence/integration.json) · [运行说明](../projects/012-agent-extension-lab/demo/README.md)。本次未推送或触发 Pages 发布，尚无 012 公网验证记录。上游软件未安装运行，模拟演示未接入真实 Agent。

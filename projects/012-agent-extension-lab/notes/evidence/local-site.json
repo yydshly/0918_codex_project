@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-09-18T16:23:23.552Z",
+  "url": "http://127.0.0.1:8912/_site/012-agent-extension-lab/",
+  "source_commit": "7ddb857bb2155fc5a524e45fc1df87e069de4806",
+  "workflow": null,
+  "project_count": 11,
+  "resources": [
+    "build.json?verify=1789748603271",
+    "",
+    "001-understand-anything/",
+    "002-claude-code-best-practice/",
+    "003-frontend-design-toolkit/",
+    "004-asu-skills/",
+    "005-chat-on-steroids/",
+    "006-anbeime-skill/",
+    "008-baoyu-design/",
+    "009-awesome-ceo/",
+    "010-ai-infra-book/",
+    "011-selfteaching/",
+    "012-agent-extension-lab/",
+    "012-agent-extension-lab/index.html",
+    "012-agent-extension-lab/app.js",
+    "012-agent-extension-lab/data.js",
+    "012-agent-extension-lab/styles.css",
+    "012-agent-extension-lab/README.md",
+    "012-agent-extension-lab/demo/README.md",
+    "012-agent-extension-lab/THIRD_PARTY_NOTICES.md",
+    "012-agent-extension-lab/notes/research.md",
+    "012-agent-extension-lab/notes/understanding-map.md",
+    "012-agent-extension-lab/assets/cover.png",
+    "012-agent-extension-lab/assets/understanding-map.png",
+    "012-agent-extension-lab/assets/understanding-map.svg"
+  ],
+  "sha256": {
+    "assets/understanding-map.png": "70462d1167b0bd13e25d931bf850fbe45f1f6b8002835dc6dd9a751cddb6af6b",
+    "assets/understanding-map.svg": "820fc739d2b9b983285f621c7a99e2f8800db2ca71b83e529768c736514b0347"
+  },
+  "scope": "静态研究站点与原创模拟已验证；上游插件未安装运行，未连接真实 Agent。"
+}

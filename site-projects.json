@@ -243,5 +243,38 @@
         "href": "#practice"
       }
     ]
+  },
+  {
+    "slug": "012-agent-extension-lab",
+    "name": "Agent 扩展实验室",
+    "upstream": "https://github.com/anthropics/claude-code/issues/91870",
+    "summary": "Claude Mods 展示借助插件和 Hook 扩展 Agent 工作过程的机制与示例。可定制运行监控、像素办公室、桌面伴侣与小游戏、效率与安全助手、协作调度、研究交付及业务工作台等产品。本页整理 10 类 40 个产品方向、六种观察方式与四个原创模拟；对我们的意义是借鉴这些机制开发自己的产品，而不是研究 Agent 的通用能力分类。",
+    "cover": "assets/understanding-map.png",
+    "links": [
+      {
+        "label": "一图理解",
+        "href": "assets/understanding-map.svg"
+      },
+      {
+        "label": "插件与 Hook",
+        "href": "#mechanism"
+      },
+      {
+        "label": "40 个产品方向",
+        "href": "#products"
+      },
+      {
+        "label": "四个交互实验",
+        "href": "#playground"
+      },
+      {
+        "label": "真实案例",
+        "href": "#cases"
+      },
+      {
+        "label": "对我们的意义",
+        "href": "#roadmap"
+      }
+    ]
   }
 ]

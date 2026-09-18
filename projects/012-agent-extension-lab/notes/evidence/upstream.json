@@ -1,0 +1,12 @@
+{
+  "checked_date": "2026-09-18",
+  "scope": "GitHub 公开资料与提交元数据；未安装运行上游软件。",
+  "original_comment": "https://github.com/anthropics/claude-code/issues/91870#issuecomment-5666255143",
+  "projects": [
+    {"repository": "anthropics/claude-code", "commit": "31a3b00bef145a0393d9dbf840a98674fec07712", "license": "All rights reserved; Anthropic Commercial Terms of Service"},
+    {"repository": "pixel-agents-hq/pixel-agents", "commit": "3537e140c2094761beae748592aeb92ece8edfdd", "license": "MIT"},
+    {"repository": "paulrobello/claude-office", "commit": "3522c16399660ac787cd1f4ad4f3255352ec8e6c", "license": "MIT"},
+    {"repository": "sezaakgun/cc-arcade", "commit": "0baff06d31295850283c2eebe052f39bbc35473f", "license": "MIT"}
+  ],
+  "reuse": "原创概述、代码、CSS 图形与本地网页截图；未复制上游实现或素材。"
+}

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2440" viewBox="0 0 1800 2440"><title>借助插件与 Hook 开发产品</title><desc>运行扩展点、插件与 Hook、十类定制产品方向，以及开发自己产品的参考价值。</desc><style>text{font-family:Microsoft YaHei,Arial,sans-serif;fill:#203d37}.title{font-weight:700}.muted{fill:#58716b}</style><rect width="1800" height="2440" fill="#f6f4eb"/>
+<text x="70" y="58" font-size="20" style="fill:#58716b">AGENT EXTENSION LAB  /  012</text>
+<text x="70" y="135" font-size="62" font-weight="700">借助插件与 Hook 开发产品</text>
+<text x="72" y="184" font-size="29" style="fill:#58716b">围绕 Agent 工作过程，定制功能、界面和工作流程</text>
+<rect x="70" y="217" width="1660" height="80" rx="14" fill="#e2e9da" stroke="#e2e9da"/>
+<text x="98" y="268" font-size="31" font-weight="700">Claude Mods 展示扩展机制与示例；我们可以据此开发自己的产品。</text>
+<rect x="70" y="329" width="52" height="42" rx="7" fill="#1e6759" stroke="#1e6759"/>
+<text x="79" y="361" font-size="26" font-weight="700" style="fill:#ffffff">01</text>
+<text x="140" y="361" font-size="34" font-weight="700">可以接入哪些运行环节？</text>
+<text x="140" y="400" font-size="23" style="fill:#58716b">下面是运行扩展点示意，不是 Agent 的六大能力；具体以宿主开放接口为准。</text>
+<rect x="70" y="427" width="540" height="137" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="93" y="466" font-size="29" font-weight="700">输入提交时</text>
+<text x="93" y="504" font-size="24">获取请求，按开放接口检查或补充</text>
+<text x="93" y="539" font-size="23" style="fill:#58716b">用于：需求预检 · 模板与上下文</text>
+<rect x="630" y="427" width="540" height="137" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="653" y="466" font-size="29" font-weight="700">工具调用前后</text>
+<text x="653" y="504" font-size="24">观察调用、检查参数、处理结果</text>
+<text x="653" y="539" font-size="23" style="fill:#58716b">用于：操作预览 · 脱敏与记录</text>
+<rect x="1190" y="427" width="540" height="137" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="1213" y="466" font-size="29" font-weight="700">权限与等待时</text>
+<text x="1213" y="504" font-size="24">接收权限或输入请求，提醒用户</text>
+<text x="1213" y="539" font-size="23" style="fill:#58716b">用于：授权收件箱 · 人工接力</text>
+<rect x="70" y="580" width="540" height="137" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="93" y="619" font-size="29" font-weight="700">会话与代理状态变化时</text>
+<text x="93" y="657" font-size="24">获取开始、执行、结束等事件</text>
+<text x="93" y="692" font-size="23" style="fill:#58716b">用于：多代理看板 · 像素办公室</text>
+<rect x="630" y="580" width="540" height="137" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="653" y="619" font-size="29" font-weight="700">输出与交付后</text>
+<text x="653" y="657" font-size="24">关联输出、产物和检查结果</text>
+<text x="653" y="692" font-size="23" style="fill:#58716b">用于：交付验收 · 复盘与回放</text>
+<rect x="1190" y="580" width="540" height="137" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="1213" y="619" font-size="29" font-weight="700">界面与通知入口</text>
+<text x="1213" y="657" font-size="24">展示组件、交互控件与提醒</text>
+<text x="1213" y="692" font-size="23" style="fill:#58716b">用于：桌面伴侣 · 等待小游戏</text>
+<rect x="70" y="759" width="52" height="42" rx="7" fill="#1e6759" stroke="#1e6759"/>
+<text x="79" y="791" font-size="26" font-weight="700" style="fill:#ffffff">02</text>
+<text x="140" y="791" font-size="34" font-weight="700">怎样把扩展点做成产品？</text>
+<text x="140" y="830" font-size="23" style="fill:#58716b">Agent 工作系统 → 开放扩展点 → 插件接入与功能实现 → 产品体验</text>
+<rect x="70" y="853" width="400" height="102" rx="14" fill="#e5ede4" stroke="#d6ded1"/>
+<text x="91" y="894" font-size="27" font-weight="700">插件 / Mod</text>
+<text x="91" y="930" font-size="24">安装与组合功能</text>
+<rect x="490" y="853" width="400" height="102" rx="14" fill="#e5ede4" stroke="#d6ded1"/>
+<text x="511" y="894" font-size="27" font-weight="700">Hook / SDK / 日志</text>
+<text x="511" y="930" font-size="24">接入过程、获取事件</text>
+<rect x="910" y="853" width="400" height="102" rx="14" fill="#e5ede4" stroke="#d6ded1"/>
+<text x="931" y="894" font-size="27" font-weight="700">工具 / MCP / API</text>
+<text x="931" y="930" font-size="24">连接资料与执行动作</text>
+<rect x="1330" y="853" width="400" height="102" rx="14" fill="#e5ede4" stroke="#d6ded1"/>
+<text x="1351" y="894" font-size="27" font-weight="700">网页 / IDE / 桌面</text>
+<text x="1351" y="930" font-size="24">展示、交互与提醒</text>
+<rect x="70" y="974" width="820" height="68" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<rect x="910" y="974" width="820" height="68" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="94" y="1017" font-size="27" font-weight="700">观察：真实事件 → 状态整理 → 界面与动画</text>
+<text x="934" y="1017" font-size="27" font-weight="700">控制：用户操作 → 执行接口 → 真实回执</text>
+<text x="72" y="1083" font-size="25" style="fill:#a64e2d">显示状态不等于控制任务；停止事件不等于验收通过；扩展流程不等于改变模型参数。</text>
+<rect x="70" y="1129" width="52" height="42" rx="7" fill="#1e6759" stroke="#1e6759"/>
+<text x="79" y="1161" font-size="26" font-weight="700" style="fill:#ffffff">03</text>
+<text x="140" y="1161" font-size="34" font-weight="700">可以开发哪些产品？</text>
+<text x="140" y="1200" font-size="23" style="fill:#58716b">十类产品方向设想；完整网页收录 40 项，并列出实现方式与边界。</text>
+<rect x="70" y="1228" width="820" height="100" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="94" y="1268" font-size="28" font-weight="700">01  需求与输入</text>
+<text x="94" y="1305" font-size="25" style="fill:#58716b">需求预检 · 任务模板 · 范围确认</text>
+<rect x="910" y="1228" width="820" height="100" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="934" y="1268" font-size="28" font-weight="700">02  知识与上下文</text>
+<text x="934" y="1305" font-size="25" style="fill:#58716b">项目记忆 · 会话交接 · 资料溯源</text>
+<rect x="70" y="1344" width="820" height="100" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="94" y="1384" font-size="28" font-weight="700">03  执行与质量</text>
+<text x="94" y="1421" font-size="25" style="fill:#58716b">防跑偏监督 · 测试助手 · 交付验收</text>
+<rect x="910" y="1344" width="820" height="100" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="934" y="1384" font-size="28" font-weight="700">04  安全与治理</text>
+<text x="934" y="1421" font-size="25" style="fill:#58716b">敏感信息处理 · 操作预览 · 授权收件箱</text>
+<rect x="70" y="1460" width="820" height="100" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="94" y="1500" font-size="28" font-weight="700">05  观察与成本</text>
+<text x="94" y="1537" font-size="25" style="fill:#58716b">多代理看板 · 运行回放 · 预算管家</text>
+<rect x="910" y="1460" width="820" height="100" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="934" y="1500" font-size="28" font-weight="700">06  协作与调度</text>
+<text x="934" y="1537" font-size="25" style="fill:#58716b">角色分工 · 任务队列 · 人工接力</text>
+<rect x="70" y="1576" width="820" height="100" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="94" y="1616" font-size="28" font-weight="700">07  界面与陪伴</text>
+<text x="94" y="1653" font-size="25" style="fill:#58716b">像素办公室 · 桌面伴侣 · 等待小游戏</text>
+<rect x="910" y="1576" width="820" height="100" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="934" y="1616" font-size="28" font-weight="700">08  研究与内容</text>
+<text x="934" y="1653" font-size="25" style="fill:#58716b">开源研究 · 内容流水线 · 实验记录</text>
+<rect x="70" y="1692" width="820" height="100" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="94" y="1732" font-size="28" font-weight="700">09  业务与集成</text>
+<text x="94" y="1769" font-size="25" style="fill:#58716b">工单交付 · 设计检查 · 数据分析</text>
+<rect x="910" y="1692" width="820" height="100" rx="14" fill="#fffef9" stroke="#d6ded1"/>
+<text x="934" y="1732" font-size="28" font-weight="700">10  平台与生态</text>
+<text x="934" y="1769" font-size="25" style="fill:#58716b">多工具适配 · 插件诊断 · 场景模板</text>
+<rect x="70" y="1840" width="52" height="42" rx="7" fill="#1e6759" stroke="#1e6759"/>
+<text x="79" y="1872" font-size="26" font-weight="700" style="fill:#ffffff">04</text>
+<text x="140" y="1872" font-size="34" font-weight="700">对我们的意义：可以基于这些开发产品</text>
+<text x="140" y="1911" font-size="23" style="fill:#58716b">借鉴扩展机制与案例，把自己的需求做成可使用、可定制的产品。</text>
+<rect x="70" y="1938" width="540" height="108" rx="14" fill="#efe9d9" stroke="#d6ded1"/>
+<text x="93" y="1981" font-size="30" font-weight="700">选择产品场景</text>
+<text x="93" y="2020" font-size="24">监控、陪伴、效率、安全或业务流程</text>
+<rect x="630" y="1938" width="540" height="108" rx="14" fill="#efe9d9" stroke="#d6ded1"/>
+<text x="653" y="1981" font-size="30" font-weight="700">组合功能与体验</text>
+<text x="653" y="2020" font-size="24">接入事件和工具，设计自己的界面</text>
+<rect x="1190" y="1938" width="540" height="108" rx="14" fill="#efe9d9" stroke="#d6ded1"/>
+<text x="1213" y="1981" font-size="30" font-weight="700">验证并迭代产品</text>
+<text x="1213" y="2020" font-size="24">先做最小版本，验证真实使用价值</text>
+<rect x="70" y="2070" width="1660" height="147" rx="14" fill="#203d37" stroke="#203d37"/>
+<text x="101" y="2122" font-size="35" font-weight="700" style="fill:#ffffff">我们可以做：监控台、桌面伴侣、小游戏、研究与验收助手</text>
+<text x="102" y="2175" font-size="29" style="fill:#e5eddd">例如：把开源项目研究做成带进展、证据和验收的独立工作台</text>
+<text x="72" y="2271" font-size="30" font-weight="700">开发路径：选择需求 → 确认可用接口 → 做出最小产品 → 验证与分发</text>
+<text x="72" y="2322" font-size="26" style="fill:#58716b">Hook 提供接入时机；界面、存储、调度与业务逻辑仍需按产品需求实现。</text>
+<path d="M70 2359H1730" stroke="#cbd5c8"/>
+<text x="72" y="2397" font-size="21" style="fill:#58716b">原创理解图  ·  基于 Claude Mods、Hooks 与相关案例归纳  ·  产品设想，非真实运行截图</text>
+</svg>

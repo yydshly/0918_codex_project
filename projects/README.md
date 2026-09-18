@@ -16,6 +16,7 @@ projects/
 ├── 009-awesome-ceo/
 ├── 010-ai-infra-book/
 ├── 011-selfteaching/
+├── 012-agent-extension-lab/
 └── ...
 ```
 
