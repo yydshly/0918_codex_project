@@ -14,6 +14,7 @@ projects/
 ├── 007-koreader/
 ├── 008-baoyu-design/
 ├── 009-awesome-ceo/
+├── 010-ai-infra-book/
 └── ...
 ```
 

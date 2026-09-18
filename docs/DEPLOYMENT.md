@@ -101,3 +101,11 @@ https://yydshly.github.io/0918_codex_project/
 状态：已上线。[中文资源导航](https://yydshly.github.io/0918_codex_project/009-awesome-ceo/) · [一图看懂](https://yydshly.github.io/0918_codex_project/009-awesome-ceo/overview.html) · [按资料类型浏览](https://yydshly.github.io/0918_codex_project/009-awesome-ceo/#types)。摘要说明它通过人工精选与分类提供创业管理资料入口，覆盖融资、产品、销售、团队管理等 11 类、85 条资料；对我们的直接技术参考价值较低，作为备查目录即可。
 
 首次发布版本 `f85fb9a6496c14ea034a4efa283df8cb6ee3c547`，沿用既有 Pages 工作流。2026-09-18 核验八个项目入口、22 项 HTTP 资源、总站与项目摘要、85 条资源与 86 个内容链接，以及总览图字节一致性。[公网记录](../projects/009-awesome-ceo/notes/evidence/deployment.json) · [线上交互记录](../projects/009-awesome-ceo/notes/evidence/remote-browser.json) · [运行说明](../projects/009-awesome-ceo/demo/README.md)。外部资料目标和服务未逐项验证。
+
+## 010 本地集成状态
+
+010 · AI Infra Book 已制作中文能力导览，包含三类能力、十二章知识地图、四条学习路线、原理分析、上手命令与验证边界。登记到 `site-projects.json`，沿用编号子路径 `010-ai-infra-book/` 和既有静态构建器，保留此前八个展厅清单条目。
+
+状态：本地网页与编号入口验证完成，未部署公网。使用方法见 [010 演示说明](../projects/010-ai-infra-book/demo/README.md)，验证记录见 [browser.json](../projects/010-ai-infra-book/notes/evidence/browser.json) 和 [integration.json](../projects/010-ai-infra-book/notes/evidence/integration.json)。研究导览可用不代表上游计算器、GPU 实验或模型服务已运行。
+
+010 新增原创完整理解图与 `overview.html` 缩放查看器，概括定位、使用场景、十二章模块、方法、实践建议和使用价值；继续使用同一编号子路径，状态为本地验证、未部署。

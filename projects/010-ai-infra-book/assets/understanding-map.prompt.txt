@@ -1,0 +1,80 @@
+Use case: infographic-diagram
+Create one polished, professional, high-resolution simplified-Chinese educational infographic, landscape 4:3, preferably 3200 × 2400, crisp large readable Chinese typography. This is a complete single-page understanding map for the open-source book ai-infra-book, for a nontechnical reader. All important labels and contents below must appear accurately; no hallucinated charts, benchmarks or software UI screenshots. Original editorial information design with warm ivory background, dark navy type, muted sage and restrained ochre accents, generous padding, thin connectors, simple vector-like book/GPU/model/dataset icons. No gradients, no cartoon mascots, no visual clutter. Strong reading order: title banner at top; six numbered panels in 3 columns × 2 rows, equal well-spaced cards; a full-width takeaway strip and tiny provenance footer. Use sufficiently large text, short line lengths, excellent hierarchy, all text sharp and accurate. Icons small; content dominates. Upper row panels 01,02,03; lower row 04,05,06. Each panel with concise subheads and exactly the meaningful content below. Don't squeeze content into tiny text; retain every module and important distinction.
+
+Title: “一图读懂 AI Infra Book”
+Subtitle: “让模型跑得动、跑得快，并理解资源与成本的取舍”
+Intro line: “《深入理解 AI Infra：量化分析与系统设计》 · 李博杰 著”
+Top highlighted statement: “开源技术书 ＋ 资源计算工具 ＋ 配套实验”
+
+Panel 01 heading: “01  它是什么？”
+Main: “理解模型运行原理、分析资源瓶颈的参考书”
+Three compact illustrated rows:
+“书籍：解释原理与系统设计取舍”
+“计算：估算计算量、存储与数据读写”
+“实验：用计算对照或硬件实跑核对推导”
+Bottom callout: “不必从零设计模型，也能用上它”
+Small note: “安装步骤看具体教程；资源问题回书中分析”
+
+Panel 02 heading: “02  什么目标会用到？”
+Four rows with scenario → use:
+“只想把开源模型装起来 → 先看部署教程”
+“显存不足、回复很慢 → 分析容量与速度瓶颈”
+“多人同时使用、成本偏高 → 研究批处理、调度与通信”
+“微调或训练专用模型 → 理解显存、训练速度与资源取舍”
+Bottom note: “研究模型架构也可参考，但不是阅读前提”
+Make first row understated, next three highlighted as main useful cases.
+
+Panel 03 heading: “03  包含哪些模块？”
+Group twelve chapters in three blocks, exact numbers and names:
+“模型与任务 / 01—03”
+“01 初识 AI Infra · 02 模型架构”
+“03 推理与训练负载”
+“硬件与执行 / 04—07”
+“04 加速器架构 · 05 算子与运行时”
+“06 超节点 · 07 数据中心网络”
+“优化与部署 / 08—12”
+“08 推理优化 · 09 分布式推理”
+“10 训练系统 · 11 资源调度与运行环境”
+“12 端边云协同”
+Footer in panel: “配套：案例分析、专题研究、引用资料、PDF 与阅读网站”
+
+Panel 04 heading: “04  遇到问题，怎样用？”
+Use a vertical four-step flow with arrows:
+“明确目标：模型、输入长度、并发与质量”
+“拆分资源：显存、计算、数据搬移与等待”
+“查阅并估算：相关章节 ＋ 配套计算工具”
+“实测再调整：对照耗时、显存和实际效果”
+Two short callouts:
+“静态计算：Python 3.10+，无需 GPU 或模型权重”
+“真实速度与可用容量：在目标设备上验证”
+Tiny reading guide: “先读 1—3 章；推理看 8—9，训练看 10”
+
+Panel 05 heading: “05  我们可以怎样实践？”
+Example main title: “本地资料分类 / 开源项目初筛”
+Horizontal mini flow: “项目介绍 → 本地模型 → 类型与主题”
+Small example: “例如：教程、资料目录、可执行软件、Skill 工具包”
+Then clearly labelled recommendation:
+“建议路线”
+“先运行现成模型，记录效果、耗时与显存”
+“若反复答错且有正确样本，再考虑微调”
+“用未参与训练的新资料检验效果”
+Bottom note: “训练用于学习任务标准；查阅新资料可先用知识库检索”
+All this is marked “实践建议，尚未执行”, no claimed success.
+
+Panel 06 heading: “06  对我们的价值与边界”
+Three positive value rows:
+“看懂方案：判断项目依赖哪些硬件和运行条件”
+“解释问题：理解为什么放不下、为什么慢”
+“理性取舍：比较模型大小、质量、速度与成本”
+Separate bottom boundary box:
+“当前：按需查阅，先解决真实问题”
+“做网页、调用 API：通常无需先通读”
+“不能替代：数据准备、任务训练教程与效果评估”
+“静态估算 ≠ 真实性能保证”
+
+Full-width bottom takeaway, largest after title:
+“先有一个具体目标，再带着资源问题读这本书。”
+Smaller follow-up: “它帮助我们理解运行与训练的约束；具体操作仍结合模型和工具的教程。”
+Footer small but legible:
+“来源：github.com/bojieli/ai-infra-book · 研究版本 b069b69 · 2026-09-18”
+“原创理解图，非上游产品截图；书稿持续修订；上游计算工具与 GPU 实验未在本项目执行。”

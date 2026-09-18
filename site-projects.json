@@ -181,5 +181,34 @@
         "href": "#category=books"
       }
     ]
+  },
+  {
+    "slug": "010-ai-infra-book",
+    "name": "AI Infra Book 能力与学习导览",
+    "upstream": "https://github.com/bojieli/ai-infra-book",
+    "summary": "开源 AI 基础设施技术书，配套资源计算工具与实验。覆盖模型与负载、加速器与算子、多卡互联与网络、推理与训练优化、资源调度及端边云协同。我们在本地运行模型遇到显存不足或速度慢、评估多人服务成本，以及微调训练受资源限制时按需参考，用于理解瓶颈和比较取舍；普通安装先看具体教程，不必从零设计模型。",
+    "cover": "assets/understanding-map.png",
+    "links": [
+      {
+        "label": "一图理解",
+        "href": "overview.html"
+      },
+      {
+        "label": "能力组成",
+        "href": "#capabilities"
+      },
+      {
+        "label": "学习路线",
+        "href": "#path"
+      },
+      {
+        "label": "开始使用",
+        "href": "#start"
+      },
+      {
+        "label": "价值与边界",
+        "href": "#value"
+      }
+    ]
   }
 ]
