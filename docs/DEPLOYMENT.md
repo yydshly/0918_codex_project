@@ -48,6 +48,8 @@ https://yydshly.github.io/0918_codex_project/
 
 ## 新演示发布步骤
 
+005 · Chat On Steroids 已新增[本地交互研究展厅](../projects/005-chat-on-steroids/demo/README.md)，并登记到 `site-projects.json`。编号输出目录为 `_site/005-chat-on-steroids/`，沿用现有构建和 Pages 工作流。**尚未部署，暂无已验证公网地址**；本次仅检查五项目共同构建、本地编号路径与交互，不改变 001—004 的线上状态。检查使用临时 Git 索引，具体结果见 [005 集成记录](../projects/005-chat-on-steroids/notes/evidence/integration.json)。
+
 项目清单支持可选 `links` 字段，为不同展厅设置导航；省略时保留 001 的“一图总览 / 工具对比”。002 使用“流程演示 / 一图理解”，不创建不存在的 overview.html。
 
 新增 002 的本地构建检查使用临时 Git 索引，真实暂存区不变；正式构建需要先将新文件纳入 Git。构建脚本会清理固定的仓库内 `_site/` 目录后重建，构建通过不等于已推送或已部署。

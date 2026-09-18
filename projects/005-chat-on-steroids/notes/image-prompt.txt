@@ -1,0 +1,59 @@
+Create a polished, technically precise simplified-Chinese infographic for an open-source research collection. Portrait high resolution, roughly 2400x3200, readable Chinese typography, ivory paper background, deep forest green typography, sage panels, blue for cloud/MCP path, ochre for browser bridge path. Editorial engineering explainer, vector-like clean boxes, generous spacing, clear arrows, no decorative robots, no logos. The user wants a comprehensive single summary image. Make every following Chinese sentence readable, with hierarchy and no cutoffs. Use SIX clearly numbered horizontal sections. Do NOT invent text or protocols. It is a conceptual diagram, not a product screenshot.
+
+TITLE: "Chat On Steroids"
+SUBTITLE: "围绕真实 ChatGPT 网页会话，连接本地项目与工具"
+Intro statement: "本地工作台组织任务；网页承载真实对话；云端模型负责推理；本地工具执行动作。"
+
+SECTION 01 "三处位置，各有分工"
+Three equal cards:
+"CoS 本地工作台" / "输入任务、管理项目、展示记录与进度"
+"ChatGPT 网页" / "主会话与工作会话的真实对话界面"
+"ChatGPT 云端" / "模型推理、生成回答、决定调用工具"
+Small note: "也可从 ChatGPT 网页参与对话；主执行路径沿用 ChatGPT 会话。"
+
+SECTION 02 "两条独立通道，连接网页与本地"
+Two wide numbered horizontal diagram lanes, with bidirectional arrows representing requests plus returns.
+Lane A ochre label "A · 会话控制通道（本机）"
+boxes left to right "CoS 工作台 / 本机 Bridge" ↔ "Chrome 扩展" ↔ "ChatGPT 网页"
+Under first arrow: "HTTP：命令、事件与回执"
+Under second arrow: "递送输入、观察状态、管理会话"
+Below lane: "WebSocket 用于唤醒；这条桥接与 MCP 服务分开。"
+Lane B blue label "B · 工具调用通道（云端 ↔ 本地）"
+boxes left to right "ChatGPT 服务端" ↔ "配置的隧道" ↔ "本地 MCP 服务" ↔ "实际执行工具"
+Below: "模型选择工具 → 服务端发起调用 → 本地检查权限并执行 → 返回真实结果。"
+Second note: "MCP 定义工具接口；隧道解决可达性；本地程序负责执行。"
+
+SECTION 03 "工具到达本地之后，分三路执行"
+Three cards under shared label "Core / Desktop / Plugins：独立工具入口与权限边界"
+"Core" / "文件、补丁、终端与任务计划" / "本地进程执行，结果返回模型"
+"Desktop" / "浏览器工具 → 本机桥接 → 扩展 → CDP → 目标网页" / "原生桌面工具 → 系统辅助程序 → 桌面应用"
+"Plugins" / "转发到外部 MCP 服务" / "服务可能在本地，也可能在远端"
+Below cards: "驱动 ChatGPT 网页，是组织对话；驱动其他网页，是执行任务。"
+
+SECTION 04 "它提供哪些能力"
+Eight concise capability items arranged 2 rows of 4:
+"文件与终端" / "读写代码、执行命令与测试"
+"目标网页" / "DOM、截图、点击、填表、诊断"
+"原生桌面" / "Windows / macOS 窗口与输入"
+"外部插件" / "接入 Blender、Playwright 等"
+"多智能体" / "多个真实工作会话，分工与复用"
+"Goal / Loop" / "判断继续或按目标持续推进"
+"Compact & Resume" / "交接摘要，新会话续接原任务"
+"本地记录" / "项目、消息、工具结果与进度"
+
+SECTION 05 "价值：把现成聊天产品组织成 Agent 工作环境"
+Two side-by-side comparison cards:
+"常见自建 AI 应用" / "自建聊天页面 → 自建后端 → 模型 API"
+"CoS 主执行路径" / "真实 ChatGPT 会话 + MCP 工具 + 扩展桥接 + 本地编排"
+Conclusion: "底层仍有客户端与服务端通信；差异在于复用现成对话环境。"
+Secondary line: "已有 Codex 时常见能力重叠；研究重点是网页会话桥接、任务归属与恢复。"
+
+SECTION 06 "边界与证据"
+Four concise bullets:
+"主模型不在本地；Goal / Loop 辅助决策可另配 API。"
+"Shell 不等于批准目录沙箱；网页操作后仍需验证结果。"
+"续接不增加配额，不等于无限上下文；网页变化可能影响兼容。"
+"部分运行中指令可随工具结果递送，不是所有输入都模拟键盘发送。"
+Footer: "原创研究概念图 · 固定源码 2f9acf3 / 版本声明 2.1.14 · 上游端到端未实测"
+Small source: "github.com/totec448-spec/chat-on-steroids"
+Ensure no arrow implies Chrome extension directly runs shell commands. Make cloud versus local clear. Use a readable grid, not overloaded crossed arrows.

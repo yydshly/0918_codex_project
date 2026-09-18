@@ -9,6 +9,7 @@ projects/
 ├── 002-claude-code-best-practice/
 ├── 003-frontend-design-toolkit/
 ├── 004-asu-skills/
+├── 005-chat-on-steroids/
 └── ...
 ```
 

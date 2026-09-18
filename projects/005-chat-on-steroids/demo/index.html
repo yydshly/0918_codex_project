@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Chat On Steroids 能力研究：两种浏览器驱动、本地工具、多会话协作、长任务续接与 Codex 的关系。">
+  <title>005 · Chat On Steroids — 交互研究手册</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="architecture.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="masthead"><a class="brand" href="#overview"><span class="brand-mark">05</span><span>开源项目研究集<small>CHAT ON STEROIDS</small></span></a><div class="edition">研究手册 <span>2026.09 / 源码分析</span></div><a class="upstream" href="https://github.com/totec448-spec/chat-on-steroids">查看源库 ↗</a></header>
+  <div class="layout">
+    <aside class="sidebar"><p class="eyebrow">RESEARCH / 005</p><nav aria-label="研究章节"><a data-page="overview" href="#overview"><span>01</span>先看懂它</a><a data-page="map" href="#map"><span>02</span>一图总览</a><a data-page="capabilities" href="#capabilities"><span>03</span>能力与实现</a><a data-page="workflow" href="#workflow"><span>04</span>跟着任务走</a><a data-page="value" href="#value"><span>05</span>模式与实际价值</a><a data-page="evidence" href="#evidence"><span>06</span>来源与验证</a></nav><div class="sidebar-note"><span class="dot"></span> 静态交互研究展厅<p>源码可见 ≠ 已经实测<br>教学样本 ≠ 工具执行</p><a href="../notes/research.md">阅读完整研究 ↗</a></div></aside>
+    <main id="main" tabindex="-1">
+      <section data-view="overview" aria-labelledby="overview-title">
+        <div class="section-top"><span class="eyebrow">CHATGPT × LOCAL TOOLS × ORCHESTRATION</span><span class="stamp">独立开源 / MIT</span></div>
+        <h1 id="overview-title">把 ChatGPT 会话，<br>组织成能执行任务的工作台。</h1>
+        <p class="lead">CoS 在本地组织任务，ChatGPT 网页承载真实对话，云端模型负责推理。<br class="desktop-break">MCP、隧道与扩展把这段对话连接到本地项目，形成可执行、分工和续接的工作过程。</p>
+        <div class="thesis"><span>这个库的核心价值</span><p><strong>把网页版 ChatGPT 与真实本地环境关联起来，并围绕它构建 Agent 能力。</strong>让真实对话能够操作项目、执行工具、组织分工和持续推进任务。</p></div>
+        <div class="section-heading"><div><span class="eyebrow">WHERE THE CONVERSATION LIVES</span><h2>真实对话在哪里，谁在推理？</h2></div><a class="source-link" href="#map">打开完整总览图 ↗</a></div>
+        <div class="locations"><article><span>本地 / 操作入口</span><h3>CoS 工作台</h3><p>你可以在这里输入任务、管理项目、查看历史和工具结果。它是围绕网页会话组织的工作视图。</p></article><article><span>浏览器 / 对话界面</span><h3>ChatGPT 网页</h3><p>这里承载真实的主会话和工作会话；你也可以从网页参与。网页不是本地运行的模型。</p></article><article><span>云端 / 模型执行</span><h3>ChatGPT 服务</h3><p>云端模型理解问题、生成回答并决定调用工具。主执行流程沿用 ChatGPT 会话。</p></article></div>
+        <div class="section-heading"><div><span class="eyebrow">THE KEY DISTINCTION</span><h2>“驱动浏览器”，其实是两件事。</h2></div><span class="muted">切换查看控制方向 ↓</span></div>
+        <div class="segmented" role="group" aria-label="浏览器驱动类型"><button type="button" data-drive="chat" aria-pressed="true">A · 驱动 ChatGPT 会话</button><button type="button" data-drive="web" aria-pressed="false">B · 驱动其他目标网页</button></div>
+        <div id="drive-panel" class="drive-panel" aria-live="polite"></div>
+        <div class="section-heading"><div><span class="eyebrow">TWO CHANNELS / DIFFERENT RESPONSIBILITIES</span><h2>网页与本地，实际怎样接起来？</h2></div></div>
+        <div class="channels">
+          <article><span class="tag">A · 会话控制 / 本机</span><h3>CoS 工作台与 Bridge ↔ Chrome 扩展 ↔ ChatGPT 网页</h3><p>扩展通过本机 HTTP 交换命令、事件与回执；WebSocket 用于唤醒。它配合递送消息、观察会话、开新聊天和唤醒工作会话。这是独立于 MCP 的本机桥接服务。</p></article>
+          <article><span class="tag accent">B · 工具调用 / 云端 ↔ 本地</span><h3>ChatGPT 服务端 ↔ 配置的隧道 ↔ 本地 MCP 服务 ↔ 执行工具</h3><p>模型选择工具，ChatGPT 服务端发起 MCP 调用。隧道让远端服务可达本机；CoS 检查权限后执行文件、命令或其他工具，把真实结果返回模型。不是 ChatGPT 页面直接访问你的 localhost。</p></article>
+          <article><span class="tag">两条链路组合 / 控制目标网页</span><h3>浏览器工具 → 本机桥接 → 扩展 → CDP → 目标标签页</h3><p>浏览器任务先走 MCP 到达 CoS，再由扩展通过 Chrome 调试接口执行并回传结果。原生桌面走系统辅助程序；外部插件走相应 MCP 服务，后者可能在本地或远端。</p></article>
+        </div>
+        <p class="boundary">主输入通常经网页递送；部分运行中纠正和收尾指令可随工具响应送达，不能把所有消息都理解为模拟键盘输入。Goal / Loop 的辅助决策也可另配 API。<a href="../notes/research.md#2-两种浏览器驱动与一条工具链路">阅读详细链路 ↗</a></p>
+        <div class="takeaways"><article><span>01 / 执行</span><h3>把工具接给模型</h3><p>读文件、改代码、跑测试、操作网页。真实结果回到模型，决定下一步。</p></article><article><span>02 / 组织</span><h3>把会话组织起来</h3><p>工作会话分工、消息回传、任务推进与交接。多 Agent 是其中一部分。</p></article><article><span>03 / 判断</span><h3>对我们的增益在哪</h3><p>已有 Codex 时，常见能力重叠。更值得研究的是桥接、归属与恢复机制。</p></article></div>
+        <p class="boundary">本页为原创概念展示，依据固定提交 2f9acf3；没有运行上游应用或连接你的 ChatGPT。</p>
+      </section>
+      <section data-view="map" hidden aria-labelledby="map-title">
+        <span class="eyebrow">ONE MAP / CAPABILITIES & ARCHITECTURE</span><h1 id="map-title">从真实网页会话，<br>到本地项目的完整链路。</h1><p class="lead">一张图汇总角色分工、两条通信通道、工具执行、八项能力与使用价值。<br class="desktop-break">这是依据固定源码制作的概念图，非上游产品截图或实测拓扑。</p>
+        <div class="map-toolbar" role="group" aria-label="总览图缩放"><button type="button" id="map-minus" aria-label="缩小总览图">−</button><output id="map-scale" aria-live="polite">100%</output><button type="button" id="map-plus" aria-label="放大总览图">＋</button><button type="button" id="map-fit">适应宽度</button><a href="../assets/understanding-map.png" target="_blank" rel="noopener">打开高清原图 ↗</a></div>
+        <div id="map-viewport" tabindex="0" role="region" aria-label="总览图，可放大并横向滚动"><img id="map-image" src="../assets/understanding-map.png" alt="Chat On Steroids 能力与原理总览：本地工作台、ChatGPT 网页及云端模型分工；本机扩展桥接与云端 MCP 隧道两条通道；Core、Desktop、Plugins 执行路径；八项能力、模式价值与边界。详细文字见总览和研究文档。"></div>
+        <p class="boundary">图由 ImageGen 生成并人工核对。浏览器内部实现与账号可用性可能变化；本次仅核对固定源码和研究展厅。<a href="../notes/content-review.md">查看本次内容审查 ↗</a> · <a href="../notes/research.md">完整文字分析 ↗</a></p>
+      </section>
+      <section data-view="capabilities" hidden aria-labelledby="capabilities-title">
+        <span class="eyebrow">CAPABILITY ATLAS / SOURCE-BASED</span><h1 id="capabilities-title">能做什么，<br>由谁真正执行。</h1><p class="lead">选择一项能力，看清实现方式、使用场景与前提。八项能力均为源码分析，未做上游端到端实测。</p>
+        <div class="cap-layout"><div id="cap-list" class="cap-list" role="group" aria-label="八项能力"></div><article id="cap-detail" class="detail" aria-live="polite"></article></div>
+      </section>
+      <section data-view="workflow" hidden aria-labelledby="workflow-title">
+        <span class="eyebrow">WALK THROUGH / FIXED TEACHING SAMPLE</span><h1 id="workflow-title">跟着一次任务，<br>看各部分如何配合。</h1><p class="lead">同一个需求：“修复本地网站的登录问题，并在浏览器里验证。”</p>
+        <div class="sample-notice"><strong>固定教学样本</strong><span>点击步骤只切换说明，不启动模型、不修改文件、不操作真实网页。</span></div>
+        <div class="workflow-toolbar"><label for="outcome">流程分支</label><select id="outcome"><option value="success">连接正常：走完整个任务</option><option value="blocked">连接受阻：停下并确认问题</option></select><span id="step-counter"></span></div>
+        <div class="workflow-grid"><ol id="step-list" class="step-list"></ol><article id="step-detail" class="step-detail" aria-live="polite"></article></div>
+        <div class="step-controls"><button type="button" id="reset">重新开始</button><div><button type="button" id="prev">← 上一步</button><button type="button" id="next" class="primary">下一步 →</button></div></div>
+        <div class="lesson"><span>为什么需要结果回传？</span><p>“已经点击”只说明操作被尝试。模型还需要重新观察页面、查看请求与测试结果，才能判断任务是否完成。真实运行必须保留实际证据。</p></div>
+      </section>
+      <section data-view="value" hidden aria-labelledby="value-title">
+        <span class="eyebrow">FIT & VALUE / OUR CONTEXT</span><h1 id="value-title">复用现成对话环境，<br>组织自己的 Agent 工作流。</h1><p class="lead">它的特色是围绕真实 ChatGPT 网页会话，用 MCP 接入执行能力，用扩展和本地程序组织会话。<br class="desktop-break">底层仍然有客户端与服务端通信；差异在于谁承载对话、谁组织模型与工具。</p>
+        <div class="mode-comparison"><article><span class="eyebrow">常见自建 AI 应用</span><h3>自建聊天页面 → 自建后端 → 模型 API</h3><p>自己维护对话界面，由自己的后端组织模型调用与工具执行。</p></article><article><span class="eyebrow">CoS 主执行路径</span><h3>真实 ChatGPT 会话 + MCP + 扩展 + 本地编排</h3><p>复用已有对话环境，向外连接本地项目与工具；Goal / Loop 辅助后端可另配 API。</p></article></div>
+        <div class="recommendation"><span>核心价值 / 从对话到行动</span><h2>把网页版 ChatGPT<br>与真实本地环境关联，构建 Agent 能力。</h2><p>复用现成网页会话，通过 MCP、隧道、扩展与本地工作台接入执行、分工和续接。已有 Codex 时常见能力重叠；我们重点研究的是这套连接与组织模式。</p></div>
+        <div class="table-wrap"><table><caption>能力重叠与实现差异</caption><thead><tr><th scope="col">比较维度</th><th scope="col">Codex</th><th scope="col">Chat On Steroids</th></tr></thead><tbody><tr><th scope="row">产品入口</th><td>官方 Agent 客户端与运行环境</td><td>第三方 ChatGPT 本地工作台</td></tr><tr><th scope="row">文件 / 终端 / MCP</th><td>已有同类能力</td><td>自建本地 MCP 服务供会话调用</td></tr><tr><th scope="row">多智能体</th><td>官方子智能体机制</td><td>多个 ChatGPT 会话与自行管理的消息</td></tr><tr><th scope="row">网页控制</th><td>取决于宿主与已配置工具</td><td>随仓库提供扩展浏览器工具</td></tr><tr><th scope="row">长任务</th><td>客户端自身会话与任务机制</td><td>Goal / Loop、交接摘要与新会话绑定</td></tr><tr><th scope="row">主要研究点</th><td>直接用于项目工作</td><td>桥接、任务归属、持久化与恢复</td></tr></tbody></table></div>
+        <div class="section-heading"><div><span class="eyebrow">WHEN IT MAKES SENSE</span><h2>按需求判断价值。</h2></div></div>
+        <div class="use-cases"><article><span class="tag">重叠较多</span><h3>读代码、改代码、跑测试</h3><p>现有 Codex 已能承担。仅为这些能力新增工作台，收益不明确。</p></article><article><span class="tag accent">有针对性</span><h3>从 ChatGPT 网页操作本地项目</h3><p>CoS 提供会话、隧道、工具与桌面界面的整套连接方式。</p></article><article><span class="tag accent">值得研究</span><h3>开发自己的 Agent 工作台</h3><p>重点学习消息回执、会话身份、休眠复用和续接失败的处理。</p></article></div>
+        <p class="boundary">对比基于 2026-09-18 官方文档与固定源码，不包含性能、成本、可靠性或模型效果的实测排名。<a href="https://developers.openai.com/es-419/docs/codex/cli">Codex 官方说明 ↗</a> · <a href="https://developers.openai.com/es-419/docs/agent-configuration/subagents">官方子智能体说明 ↗</a> · <a href="../notes/usage.md">完整选型说明 ↗</a></p>
+      </section>
+      <section data-view="evidence" hidden aria-labelledby="evidence-title">
+        <span class="eyebrow">EVIDENCE & LIMITS</span><h1 id="evidence-title">结论有出处，<br>展示有边界。</h1><p class="lead">上游版本声明 2.1.14 · 固定提交 2f9acf3 · 主仓库 MIT。<br class="desktop-break">这里验证的是源码依据与原创展厅，不是上游整套产品的真实运行。</p>
+        <div class="evidence-levels"><article><span class="tag accent">已核对</span><h3>固定版本来源</h3><p>25 个源码与说明文件，保留链接、字节数与 SHA-256；增加本机桥接和输入递送依据。</p><a href="../notes/evidence/sources.json">查看来源记录 ↗</a></article><article><span class="tag accent">本地检查</span><h3>原创研究展厅</h3><p>交互分支、总览图缩放、路由、资源与响应式，以及五项目共同构建。</p><a href="../notes/evidence/browser-qa.json">查看浏览器记录 ↗</a></article><article><span class="tag">未执行</span><h3>上游端到端任务</h3><p>未安装 CoS、连接账号 / 隧道，也未验证真实桌面与多 Agent。</p><a href="../notes/usage.md">查看后续实测方案 ↗</a></article></div>
+        <div class="discrepancy"><h2>文档与源码的差异，也属于研究结果。</h2><p>README 写 Chrome 116+，该提交的扩展实际要求 Chrome 125。工具参考文档也未完整覆盖当前浏览器声明。本研究以固定代码为准，不把较早说明当作完整能力清单。</p></div>
+        <div id="source-list" class="source-list"></div>
+        <div class="reading"><h2>本次内容审查</h2><p>修正网页节点上的“推理”表述；补充云端与本机两条通道、三类工具执行分支、输入递送例外，以及复用现成对话环境的价值。</p><a href="../notes/content-review.md">查看逐项核对与更正依据 ↗</a></div>
+        <div class="reading"><h2>继续阅读</h2><a href="../README.md">项目说明 ↗</a><a href="../notes/research.md">完整原理分析 ↗</a><a href="../notes/usage.md">场景与选型 ↗</a><a href="../notes/evidence/integration.json">总站集成记录 ↗</a><a href="../THIRD_PARTY_NOTICES.md">来源与许可 ↗</a></div>
+      </section>
+      <footer><span>005 / CHAT ON STEROIDS</span><p>原创研究展示 · 固定源码分析 · 上游端到端未实测</p><a href="../README.md">项目文档 ↗</a></footer>
+    </main>
+  </div>
+  <noscript><p class="noscript">交互展示需要 JavaScript；完整内容也可阅读 <a href="../notes/research.md">研究文档</a>。</p></noscript>
+</body>
+</html>

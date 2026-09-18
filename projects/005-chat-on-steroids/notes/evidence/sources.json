@@ -1,0 +1,161 @@
+{
+  "checkedAt": "2026-09-18T08:05:42.142835+00:00",
+  "upstream": "https://github.com/totec448-spec/chat-on-steroids",
+  "commit": "2f9acf307189ed1f05bee0cdc97871fdcff1d8f5",
+  "declaredVersion": "2.1.14",
+  "license": "MIT",
+  "extensionMinimumChrome": "125",
+  "scope": "固定提交文件可访问、元数据与关键实现存在；没有编译或运行上游应用，也不证明已发布版本。",
+  "sources": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/README.md",
+      "bytes": 7376,
+      "sha256": "44a751180517e2dc39fcb9b20fbdd6a1a4cd94fb943134e2bd1d98de8f5cd200"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/LICENSE",
+      "bytes": 1086,
+      "sha256": "4e179d05b8808d9b19fd6f6f7a22f5912410c13aefb01f19e569afe8cf6d2fbe"
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/package.json",
+      "bytes": 4371,
+      "sha256": "c0fa76150cf82a89f0031c94857be6d40a7369000426b33a0db4bcb53a2c43ed"
+    },
+    {
+      "path": "AGENTS.md",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/AGENTS.md",
+      "bytes": 214356,
+      "sha256": "5317a412d607ca3343b1ef2a5569f5fed45c070069672228202a597e67e41082"
+    },
+    {
+      "path": "SECURITY.md",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/SECURITY.md",
+      "bytes": 5180,
+      "sha256": "d835039128b181010db79f94e7a6b5902206ee916dfb25b691d0bbc12363828d"
+    },
+    {
+      "path": "docs/setup.md",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/docs/setup.md",
+      "bytes": 8548,
+      "sha256": "e35df48e72b0d3ede9e3c626aa57104571abf2d4280e69928ba6241e9e5647b2"
+    },
+    {
+      "path": "docs/tool-surface.md",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/docs/tool-surface.md",
+      "bytes": 10362,
+      "sha256": "cc7ea66694c127ebd6b4fcf4c43ec327bc10783830b5e77c0ba4e95c75fc4de8"
+    },
+    {
+      "path": "docs/plugins.md",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/docs/plugins.md",
+      "bytes": 7430,
+      "sha256": "b5ec20aa14d08ca7da1b001b295778c6faaef12400513c65b87ca9aa2e6db48b"
+    },
+    {
+      "path": "extension/manifest.json",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/extension/manifest.json",
+      "bytes": 1823,
+      "sha256": "ca968d5f3ae61e10f72e42b87b710a861d334545a34fe0b60fca39481dc6c463"
+    },
+    {
+      "path": "extension/fiber.js",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/extension/fiber.js",
+      "bytes": 86027,
+      "sha256": "c042eed8ef67ce9f1b61b008e2f96011929df43b28a08cdde1e0d4f62f9b0136"
+    },
+    {
+      "path": "extension/browser-control.js",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/extension/browser-control.js",
+      "bytes": 40161,
+      "sha256": "9e32d1371d62f1b6017fde05b59ad513a59ffe970cccdc860ad3d2cec1ced717"
+    },
+    {
+      "path": "src/main/mcp/server.ts",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/src/main/mcp/server.ts",
+      "bytes": 22981,
+      "sha256": "3105d53dc7acb82da5e818e1eb3fa615347f790fc6ef85351b82593f1c655b1e"
+    },
+    {
+      "path": "src/main/mcp/surfaces.ts",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/src/main/mcp/surfaces.ts",
+      "bytes": 10028,
+      "sha256": "d395b32285c77b8b9614170d4297f6d3d8e097ec668fd10c2f239c2ab4c2a2ce"
+    },
+    {
+      "path": "src/main/mcp/tools-browser.ts",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/src/main/mcp/tools-browser.ts",
+      "bytes": 11323,
+      "sha256": "6db9b53c7e0c1cb5c51618fbe102167f73257b74a57ccbd78bc2a7805a70d310"
+    },
+    {
+      "path": "src/main/mcp/code-mode-runtime.ts",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/src/main/mcp/code-mode-runtime.ts",
+      "bytes": 10253,
+      "sha256": "36f9a3f5a473051bb8ecbb164b749bbebcf3f4922014cdbfb118e1e68a3f0772"
+    },
+    {
+      "path": "src/main/agents.ts",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/src/main/agents.ts",
+      "bytes": 193506,
+      "sha256": "8af06264eb83386ee9f0a1a951d695532af354b60acc581be141189304cd7334"
+    },
+    {
+      "path": "src/main/goal.ts",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/src/main/goal.ts",
+      "bytes": 139908,
+      "sha256": "4240b2deed6ab060c632dc5cdd4a8ce88f6e8afb4344e13bf0a913073b9a0fba"
+    },
+    {
+      "path": "src/main/session/handoff.ts",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/src/main/session/handoff.ts",
+      "bytes": 7930,
+      "sha256": "a4e373b1f406355a020615e3bfd2d6c6ba2fc83b33042f6ffd755f1635f30a14"
+    },
+    {
+      "path": "src/main/session/continuation.ts",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/src/main/session/continuation.ts",
+      "bytes": 81095,
+      "sha256": "31835a85426088f92d37381936c391fa59885da094b0bf636579c0940a5f6243"
+    },
+    {
+      "path": "src/main/durable.ts",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/src/main/durable.ts",
+      "bytes": 7973,
+      "sha256": "0cefada7950fc96164cc918672a70e106c659eef651200de53e7ae91edcf0637"
+    },
+    {
+      "path": "src/main/plugins/manager.ts",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/src/main/plugins/manager.ts",
+      "bytes": 43938,
+      "sha256": "c4bd6dbb9c8148cf1bfc4c4b716590a2d0728e3254c5088b8d88a9bde39bdded"
+    },
+    {
+      "path": "src/main/bridge.ts",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/src/main/bridge.ts",
+      "bytes": 469628,
+      "sha256": "f7f921e2078c5b6abb861a776e2f641cb4273b4c71cf678f7f2309a1ee8035fd"
+    },
+    {
+      "path": "src/main/browser-wake.ts",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/src/main/browser-wake.ts",
+      "bytes": 3575,
+      "sha256": "ad3787ea7341df2f04eeac0cf2f5c8f8d06a45dfe9ab6271376d14bea6f8de05"
+    },
+    {
+      "path": "extension/background.js",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/extension/background.js",
+      "bytes": 211580,
+      "sha256": "71d173ca92e7e6caf1c27f59c571a43a8c8148dd8592fc25443d71d0bd731c33"
+    },
+    {
+      "path": "src/main/session/input.ts",
+      "url": "https://github.com/totec448-spec/chat-on-steroids/blob/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5/src/main/session/input.ts",
+      "bytes": 110499,
+      "sha256": "b188e6154113ad7f64f11fdd0c4c19e7436e11c3423149355a36fbdb16c6a0f3"
+    }
+  ]
+}

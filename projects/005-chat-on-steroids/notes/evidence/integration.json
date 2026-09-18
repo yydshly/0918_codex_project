@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-09-18T08:18:40.647055+00:00",
+  "projects": [
+    "001-understand-anything",
+    "002-claude-code-best-practice",
+    "003-frontend-design-toolkit",
+    "004-asu-skills",
+    "005-chat-on-steroids"
+  ],
+  "localLinksChecked": 160,
+  "realStagingAreaUnchanged": true,
+  "source": "working tree with temporary Git index",
+  "baseCommit": "baa601bce2c4b6ca224e673a4cfe1bb01236fda7",
+  "published": false,
+  "checks": [
+    "五项目共同构建",
+    "既有导航和代表图保留",
+    "005 编号路径资源改写",
+    "文档和网页本地链接",
+    "六个章节路由和总览图资源",
+    "真实暂存区未变"
+  ]
+}

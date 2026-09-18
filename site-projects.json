@@ -64,5 +64,18 @@
         "href": "#capabilities"
       }
     ]
+  },
+  {
+    "slug": "005-chat-on-steroids",
+    "name": "Chat On Steroids",
+    "upstream": "https://github.com/totec448-spec/chat-on-steroids",
+    "summary": "核心价值是把网页版 ChatGPT 与真实本地环境关联起来，并围绕它构建 Agent 能力。MCP 与隧道连接工具执行，扩展桥接协调网页会话，本地工作台组织项目操作、多会话分工和任务续接；以总览图、链路说明与教学流程解释这套模式，上游端到端未实测。",
+    "cover": "assets/understanding-map.png",
+    "links": [
+      {"label": "一图总览", "href": "#map"},
+      {"label": "两条通信通道", "href": "#overview"},
+      {"label": "任务流程", "href": "#workflow"},
+      {"label": "与 Codex 的关系", "href": "#value"}
+    ]
   }
 ]
