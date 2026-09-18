@@ -22,7 +22,7 @@
 | 010 | [AI Infra Book](https://github.com/bojieli/ai-infra-book) | [完整研究](projects/010-ai-infra-book/) | 开源 AI 基础设施技术书，配套资源计算工具与实验。覆盖模型与负载、加速器与算子、多卡互联与网络、推理与训练优化、资源调度及端边云协同。我们在本地运行模型遇到显存不足或速度慢、评估多人服务成本，以及微调训练受资源限制时按需参考，用于理解瓶颈和比较取舍；普通安装先看具体教程，不必从零设计模型。 | 已验证（静态研究、导览与公网访问；上游工具和 GPU 实验未执行） | [能力与使用导览](https://yydshly.github.io/0918_codex_project/010-ai-infra-book/) |
 | 011 | [自学是门手艺](https://github.com/selfteaching/the-craft-of-selfteaching) | [完整研究](projects/011-selfteaching/) | 以 Python 为实践载体的自学书，训练独立阅读、问题拆解、代码实践与持续学习。覆盖学习方法、Python 基础与进阶、文档检索和沟通协作；技巧包括重读整理、刻意练习、以用带练、任务拆解、测试反馈与注意力管理。提供 Markdown 正文、Jupyter Notebook、代码示例、工具附录及延伸阅读。对我们主要是研究陌生项目、学习新工具和复核 AI 结果的方法参考；已有编程基础可按需查漏，不必当作完整职业课程从头学习。 | 已验证（静态研究、网页交互与公网访问；上游 Notebook 未运行） | [能力与学习指南](https://yydshly.github.io/0918_codex_project/011-selfteaching/) |
 
-| 012 | [Claude Mods 与扩展案例](https://github.com/anthropics/claude-code/issues/91870) | [完整研究](projects/012-agent-extension-lab/) | Claude Mods 展示借助插件和 Hook 扩展 Agent 工作过程的机制与示例。可定制运行监控、像素办公室、桌面伴侣与小游戏、效率与安全助手、协作调度、研究交付及业务工作台等产品。本页整理 10 类 40 个产品方向、六种观察方式与四个原创模拟；对我们的意义是借鉴这些机制开发自己的产品，而不是研究 Agent 的通用能力分类。 | 已验证（本地网页与交互；真实 Agent 未接入） | 未部署；[本地网页文件](projects/012-agent-extension-lab/demo/index.html) |
+| 012 | [Claude Mods 与扩展案例](https://github.com/anthropics/claude-code/issues/91870) | [完整研究](projects/012-agent-extension-lab/) | Claude Mods 展示借助插件和 Hook 扩展 Agent 工作过程的机制与示例。可定制运行监控、像素办公室、桌面伴侣与小游戏、效率与安全助手、协作调度、研究交付及业务工作台等产品。本页整理 10 类 40 个产品方向、六种观察方式与四个原创模拟；对我们的意义是借鉴这些机制开发自己的产品，而不是研究 Agent 的通用能力分类。 | 已验证（网页交互、理解图与公网访问；真实 Agent 未接入） | [产品扩展指南](https://yydshly.github.io/0918_codex_project/012-agent-extension-lab/) |
 
 ## 项目图览
 
@@ -106,7 +106,7 @@ baoyu-design 将设计方法、品牌规范、组件模板和执行工具组织�
 
 Claude Mods 展示借助插件和 Hook 扩展 Agent 工作过程的机制与示例。可定制运行监控、像素办公室、桌面伴侣与小游戏、效率与安全助手、协作调度、研究交付及业务工作台等产品。本页整理 10 类 40 个产品方向、六种观察方式与四个原创模拟；对我们的意义是借鉴这些机制开发自己的产品，而不是研究 Agent 的通用能力分类。
 
-图为原创理解归纳，非产品截图；整理运行扩展点、观察与控制的区别、十类产品方向和开发路径。所有站内演示使用模拟数据，未接入真实 Agent，未安装运行上游项目。网页已本地验证，未部署到公网。[打开网页文件](projects/012-agent-extension-lab/demo/index.html) · [办公室截图](projects/012-agent-extension-lab/assets/office-demo.png) · [研究记录](projects/012-agent-extension-lab/notes/research.md) · [运行说明](projects/012-agent-extension-lab/demo/README.md)。
+图为原创理解归纳，非产品截图；整理运行扩展点、观察与控制的区别、十类产品方向和开发路径。所有站内演示使用模拟数据，未接入真实 Agent，未安装运行上游项目。网页与公网访问已验证。[打开产品扩展指南](https://yydshly.github.io/0918_codex_project/012-agent-extension-lab/) · [放大理解图](https://yydshly.github.io/0918_codex_project/012-agent-extension-lab/assets/understanding-map.svg) · [办公室截图](projects/012-agent-extension-lab/assets/office-demo.png) · [研究记录](projects/012-agent-extension-lab/notes/research.md) · [运行说明](projects/012-agent-extension-lab/demo/README.md)。
 
 ## 仓库导航
 
@@ -124,7 +124,7 @@ Claude Mods 展示借助插件和 Hook 扩展 Agent 工作过程的机制与示�
 3. 添加实际截图和研究记录，再更新本页索引与图览。
 4. 有可运行的演示后，在子项目中记录启动方法和实际部署地址。
 
-详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 12 个研究项目，001—006 与 008—011 的 10 个 Web 演示均已上线并完成公网验证，沿用各自编号子路径；007 已完成静态研究与能力图，安装取消并清理，未运行、未部署；008 已完成原型、设计系统工具链、PPTX 演示和公网验证，保留完整理解引导图；009 已完成中文全量资源网页、摘要、一图总览、分类汇总、搜索与公网验证；010 已完成能力与场景摘要、完整理解图、学习路线和公网验证；011 已完成能力与价值摘要、全书学习指南、总览图、阅读记录和公网验证；012 已完成产品方向目录、四个模拟演示与本地验证，尚未部署。[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
+详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 12 个研究项目，001—006 与 008—012 的 11 个 Web 演示均已上线并完成公网验证，沿用各自编号子路径；007 已完成静态研究与能力图，安装取消并清理，未运行、未部署；008 已完成原型、设计系统工具链、PPTX 演示和公网验证，保留完整理解引导图；009 已完成中文全量资源网页、摘要、一图总览、分类汇总、搜索与公网验证；010 已完成能力与场景摘要、完整理解图、学习路线和公网验证；011 已完成能力与价值摘要、全书学习指南、总览图、阅读记录和公网验证；012 已完成产品开发摘要、理解图、40 个产品方向、四个模拟演示与公网验证。[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
 
 ## 来源与许可
 

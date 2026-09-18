@@ -1,6 +1,6 @@
 # Web 演示部署约定
 
-已启用 GitHub Pages 与 GitHub Actions 自动部署。001—006 与 008—011 的十个静态研究展厅已上线，2026-09-18 完成各项目的公网验证。运行方式见各项目的 `demo/README.md`。
+已启用 GitHub Pages 与 GitHub Actions 自动部署。001—006 与 008—012 的十一个静态研究展厅已上线；012 于 2026-09-19 完成公网验证，其余项目的记录见下文。运行方式见各项目的 `demo/README.md`。
 
 | 入口 | 已验证地址 |
 | --- | --- |
@@ -38,7 +38,8 @@ https://yydshly.github.io/0918_codex_project/
 ├── 008-baoyu-design/
 ├── 009-awesome-ceo/
 ├── 010-ai-infra-book/
-└── 011-selfteaching/
+├── 011-selfteaching/
+└── 012-agent-extension-lab/
 ```
 
 站点首页作为演示导航，各子路径沿用研究项目编号。另有独立托管平台或自定义域名时，直接在索引填写实际地址。
@@ -124,10 +125,12 @@ https://yydshly.github.io/0918_codex_project/
 
 [部署记录](../projects/011-selfteaching/notes/evidence/deployment.json) · [线上网页交互](../projects/011-selfteaching/notes/evidence/remote-browser.json) · [线上图像交互](../projects/011-selfteaching/notes/evidence/remote-map.json) · [运行说明](../projects/011-selfteaching/demo/README.md)。原书 Notebook 未运行，网页可用不代表学习成效已验证。
 
-## 012 本地集成状态
+## 012 发布状态
 
-012 · Agent 扩展实验室已登记到 `site-projects.json`，沿用既有构建器，编号入口为 `012-agent-extension-lab/`。包含六种观察方式、10 类 40 个产品方向与四个原创交互模拟。
+012 · Agent 扩展实验室已上线：[产品扩展指南](https://yydshly.github.io/0918_codex_project/012-agent-extension-lab/) · [完整理解图](https://yydshly.github.io/0918_codex_project/012-agent-extension-lab/assets/understanding-map.svg)。沿用既有构建器与 Pages 工作流，保留此前十个展厅。
 
-状态：未部署。已使用临时 Git 索引构建全部 11 个静态展厅，保留 001—006、008—011；真实暂存区未变。012 原始入口与 `_site/012-agent-extension-lab/` 的联合筛选、导出、四演示、键盘操作、五档宽度与章节刷新均已通过本地浏览器验证。
+摘要说明 Claude Mods 借助插件和 Hook 扩展 Agent 工作过程，为定制监控、像素办公室、桌面伴侣、小游戏、效率安全助手及业务工作台等产品提供机制与案例。对我们的意义是基于这些机制开发自己的产品；40 个方向属于产品设想，不是 Agent 的通用能力分类，也不是上游已有成品清单。
 
-[本地浏览器记录](../projects/012-agent-extension-lab/notes/evidence/browser.json) · [编号入口交互记录](../projects/012-agent-extension-lab/notes/evidence/integration.json) · [运行说明](../projects/012-agent-extension-lab/demo/README.md)。本次未推送或触发 Pages 发布，尚无 012 公网验证记录。上游软件未安装运行，模拟演示未接入真实 Agent。
+首次功能发布版本 `755b0af4894c014ad4f841e75c1778edb089526a`，[发布流程](https://github.com/yydshly/0918_codex_project/actions/runs/35368219127)成功。2026-09-19 已核验十一个项目入口、25 项 HTTP 资源、总站与项目摘要、PNG/SVG 字节一致性，以及筛选导出、四个演示、键盘操作、页面刷新和手机布局。
+
+[公网记录](../projects/012-agent-extension-lab/notes/evidence/deployment.json) · [线上交互](../projects/012-agent-extension-lab/notes/evidence/remote-browser.json) · [运行说明](../projects/012-agent-extension-lab/demo/README.md)。上游软件未安装运行，站内演示为原创模拟，未接入真实 Agent。

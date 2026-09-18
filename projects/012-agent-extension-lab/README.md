@@ -4,9 +4,9 @@ Claude Mods 展示借助插件和 Hook 扩展 Agent 工作过程的机制与示�
 
 ## 查看网页
 
-- [网页入口](demo/index.html) · [运行说明](demo/README.md)
+- [在线产品扩展指南](https://yydshly.github.io/0918_codex_project/012-agent-extension-lab/) · [放大理解图](https://yydshly.github.io/0918_codex_project/012-agent-extension-lab/assets/understanding-map.svg) · [运行说明](demo/README.md)
 - [研究记录](notes/research.md) · [来源与许可](THIRD_PARTY_NOTICES.md)
-- 状态：本地网页和交互已验证；未部署到公网，未连接真实 Agent，未安装运行上游软件。
+- 状态：已上线，网页交互、理解图与公网访问已验证；未连接真实 Agent，未安装运行上游软件。
 
 ![原创网页的桌面截图，角色与场景为概念示意](assets/cover.png)
 
@@ -42,6 +42,6 @@ Claude Mods 展示借助插件和 Hook 扩展 Agent 工作过程的机制与示�
 
 [浏览器记录](notes/evidence/browser.json)验证内容数量、联合筛选、下载内容、四个演示的主要分支、键盘切换、五档宽度、页面刷新与内部锚点。截图来自本地原创网页：[办公室](assets/office-demo.png)、[手机](assets/mobile.png)。
 
-沿用既有构建器生成了 11 个展厅的本地站点，012 的编号入口也已通过同样的[交互验证](notes/evidence/integration.json)。新文件使用临时 Git 索引参与构建，真实暂存区未变；本地构建不代表已发布。
+沿用既有构建器和 GitHub Pages 工作流发布，保留 11 个静态展厅。首次功能发布版本 `755b0af4894c014ad4f841e75c1778edb089526a`，2026-09-19 核验全部项目入口、25 项 HTTP 资源、摘要、PNG/SVG 字节一致性，以及四演示、筛选与导出、键盘操作和手机布局。[公网记录](notes/evidence/deployment.json) · [线上交互](notes/evidence/remote-browser.json) · [发布流程](https://github.com/yydshly/0918_codex_project/actions/runs/35368219127)。
 
 产品方向属于研究归纳，复杂度属于设计判断；没有市场需求、收入或真实代理性能方面的实测结论。静态页面不读取工作区、终端、模型或真实日志。对我们的核心价值是据此开发自己的产品；结合本仓库，可以选择“项目研究助手＋状态可视化＋交付验收”作为起步场景。
