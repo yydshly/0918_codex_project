@@ -123,7 +123,7 @@
     "slug": "008-baoyu-design",
     "name": "baoyu-design",
     "upstream": "https://github.com/JimLiu/baoyu-design",
-    "summary": "设计工作流与工具包：按需组合通用规则、项目规范和专项 Skill，制作 13 类设计成果；借鉴分层组织、组件复用与脚本交付。附完整引导图、53 份说明目录及原型、设计系统和 PPTX 实测。",
+    "summary": "面向 AI 编程助手的设计 Skill 工具包，支持网页与移动端原型、演示文稿、文档、图表、动画等设计成果。通过分层设计规范、可复用组件和导入导出工具，指导 AI 从需求梳理、方案设计到成果交付，并在不同成果中保持品牌与视觉一致。",
     "cover": "assets/understanding-map.png",
     "demoAssetDirs": [
       "_ds",

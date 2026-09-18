@@ -17,7 +17,7 @@
 | 005 | [Chat On Steroids](https://github.com/totec448-spec/chat-on-steroids) | [完整研究](projects/005-chat-on-steroids/) | 把网页版 ChatGPT 与真实本地环境关联起来，并围绕它构建 Agent 能力。MCP 与隧道连接工具执行，扩展桥接协调网页会话，本地工作台组织项目操作、多会话分工与任务续接；重点研究这套连接和组织模式。 | 研究中（源码分析；展厅与公网已验证，上游未实测） | [在线研究展厅](https://yydshly.github.io/0918_codex_project/005-chat-on-steroids/) |
 | 006 | [anbeime/skill](https://github.com/anbeime/skill) | [完整研究](projects/006-anbeime-skill/) | Skill 收集、分类与导航库，配套目录同步、数据导出和格式检查。收录内容创作与发布、图像音视频、电商营销、文档演示、知识管理、软件开发与分析等 19 类方向。对我们当前直接参考价值较低，作为资源目录备查；具体需求回原作者仓库评估，关联产品暂无明确复用价值。 | 已归档（静态研究完成；展厅与公网已验证，上游未实测） | [在线研究展厅](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/) |
 | 007 | [KOReader](https://github.com/koreader/koreader) | [完整研究](projects/007-koreader/) | 多格式阅读器，提供自由排版、PDF 重排、查词摘录、内容接入与墨水屏优化。当前 Windows 直接使用价值有限；有阅读设备时再评估，工程上参考多引擎整合、插件与设备适配。 | 已归档（静态研究与能力图；安装取消、产物已清理，上游未实测） | 未部署 |
-| 008 | [baoyu-design](https://github.com/JimLiu/baoyu-design) | [完整研究](projects/008-baoyu-design/) | 以 Skill 驱动的设计工作流与工具包；梳理 13 类任务、53 份说明和执行边界，实测原型、设计系统及 PPTX。 | 已验证（原型、工具链、PPTX 与公网；外部服务未接入） | [已上线](https://yydshly.github.io/0918_codex_project/008-baoyu-design/) |
+| 008 | [baoyu-design](https://github.com/JimLiu/baoyu-design) | [完整研究](projects/008-baoyu-design/) | 面向 AI 编程助手的设计 Skill 工具包，支持原型、演示文稿、文档、图表与动画；通过分层规范、组件和工具指导设计交付，保持品牌与视觉一致。 | 已验证（原型、工具链、PPTX 与公网；外部服务未接入） | [已上线](https://yydshly.github.io/0918_codex_project/008-baoyu-design/) |
 
 ## 项目图览
 
@@ -69,7 +69,9 @@
 
 [![baoyu-design 完整引导图：能力、产品目标、统一约束、Skill 分类与研究意义](projects/008-baoyu-design/assets/understanding-map.png)](projects/008-baoyu-design/assets/understanding-map.png)
 
-核心理解：以 Skill 为入口，AI 按任务读取指令，组合模板与脚本完成设计交付；没有完整独立工作台。已整理可缩放完整引导图，覆盖 13 类任务、53 份说明、从通用到专项的分层组合与五层统一约束。本次真实制作三种阅读布局，实测原版设计系统编译、检查、导入与预览，以及四页可编辑 PPTX 和三个动画。图为原创研究归纳，非上游产品截图；实际原型截图保留在子项目。没有连接真实 RSS 或在线 AI。研究展厅已上线：[在线概要](https://yydshly.github.io/0918_codex_project/008-baoyu-design/) · [引导图](https://yydshly.github.io/0918_codex_project/008-baoyu-design/#u-map)。[我们的理解](projects/008-baoyu-design/notes/understanding.md) · [实测研究](projects/008-baoyu-design/notes/research.md) · [运行方法](projects/008-baoyu-design/demo/README.md) · [可编辑 PPTX](projects/008-baoyu-design/demo/downloads/shiye-design.pptx)。
+baoyu-design 将设计方法、品牌规范、组件模板和执行工具组织成可组合的 Skill 工作流。用户在 AI 助手中提出设计需求，AI 按目标读取通用与专项指南，生成界面原型、演示文稿、文档、图表、动画等成果，并通过预览、检查和导出工具完成交付。其价值是复用设计规范与组件，让不同类型的成果共享一致的品牌和视觉基础；使用入口依托现有 AI 助手。
+
+图为原创项目原理归纳，非上游产品截图。[在线介绍](https://yydshly.github.io/0918_codex_project/008-baoyu-design/) · [完整引导图](https://yydshly.github.io/0918_codex_project/008-baoyu-design/#u-map) · [详细理解](projects/008-baoyu-design/notes/understanding.md) · [实测研究](projects/008-baoyu-design/notes/research.md) · [运行方法](projects/008-baoyu-design/demo/README.md)。
 
 ## 仓库导航
 
