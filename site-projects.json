@@ -1,0 +1,9 @@
+[
+  {
+    "slug": "001-understand-anything",
+    "name": "Understand-Anything",
+    "upstream": "https://github.com/Egonex-AI/Understand-Anything",
+    "summary": "从代码、Wiki 与 Figma 提取结构，结合模型解释，形成可探索的知识图谱。包含能力总览、四类图谱效果、使用指南与五工具对比。",
+    "cover": "assets/capability-map.png"
+  }
+]
