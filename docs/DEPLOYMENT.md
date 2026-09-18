@@ -1,6 +1,6 @@
 # Web 演示部署约定
 
-已启用 GitHub Pages 与 GitHub Actions 自动部署。001 · Understand-Anything 与 002 · Claude Code Best Practice 的静态交互展厅已上线，2026-09-18 完成公网浏览器验证。运行方式见[项目演示说明](../projects/001-understand-anything/demo/README.md)。
+已启用 GitHub Pages 与 GitHub Actions 自动部署。001 · Understand-Anything、002 · Claude Code Best Practice 与 003 · Frontend Design Toolkit 的静态交互展厅已上线，2026-09-18 完成公网浏览器验证。运行方式见[项目演示说明](../projects/001-understand-anything/demo/README.md)。
 
 | 入口 | 已验证地址 |
 | --- | --- |
@@ -15,7 +15,7 @@
 
 ## 多个演示如何组织
 
-003 · Frontend Design Toolkit 已完成本地研究展厅，并登记到 `site-projects.json`，当前正在发布，公网验证后登记地址。运行与检查方法见 [003 演示说明](../projects/003-frontend-design-toolkit/demo/README.md)。发布目录规划为 `003-frontend-design-toolkit/`，使用“实际价值 / 能力地图 / 原理演示”导航；展厅包含六个章节，用同一个咖啡首页需求串联四种资源的目录选型、接入条件、任务中使用和结果检查。新增文件使用临时 Git 索引检查三项目共同构建，真实暂存区不变；该检查不代表已推送或发布。
+003 · Frontend Design Toolkit 已上线：[一图理解](https://yydshly.github.io/0918_codex_project/003-frontend-design-toolkit/)。沿用已生成的引导图，摘要说明其围绕前端需求，从设计、实现与验证等角度组织约束、方法和工具，指导 Agent 完成页面。页面区分模型基础能力、Agent 工作指导和实际工具支持；用同一个咖啡首页需求说明如何配合。运行与检查方法见 [003 演示说明](../projects/003-frontend-design-toolkit/demo/README.md)，[公网验证记录](../projects/003-frontend-design-toolkit/notes/evidence/deployment.json)记录首次发布版本。
 
 002 · Claude Code Best Practice 已登记到 `site-projects.json`，并完成线上部署。运行与验证方法见 [002 演示说明](../projects/002-claude-code-best-practice/demo/README.md)。
 
@@ -26,7 +26,8 @@ GitHub Pages 每个仓库支持一个项目站点，可在这个站点下用不�
 ```text
 https://yydshly.github.io/0918_codex_project/
 ├── 001-understand-anything/
-└── 002-claude-code-best-practice/
+├── 002-claude-code-best-practice/
+└── 003-frontend-design-toolkit/
 ```
 
 站点首页作为演示导航，各子路径沿用研究项目编号。另有独立托管平台或自定义域名时，直接在索引填写实际地址。

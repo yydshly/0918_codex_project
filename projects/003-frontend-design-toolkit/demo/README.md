@@ -29,15 +29,15 @@ python projects/003-frontend-design-toolkit/code/verify-integration.py
 
 前一命令检查页面交互、变量计算样式、响应式与离线打开，并更新展厅真实截图。后一命令使用临时 Git 索引构建 `_site/`，检查三个子项目并保留真实暂存区。记录位于 [notes/evidence](../notes/evidence/)。
 
-联网复查固定来源可运行 `python projects/003-frontend-design-toolkit/code/verify-sources.py`，只记录元数据与哈希。构建后，可运行 `node projects/003-frontend-design-toolkit/code/verify-demo.mjs http://127.0.0.1:8767/_site/003-frontend-design-toolkit/ browser-built-qa.json` 检查编号路径；仓库级回归使用 `node scripts/verify_pages.mjs http://127.0.0.1:8767/_site/`。这些地址仍是本地访问。
+联网复查固定来源可运行 `python projects/003-frontend-design-toolkit/code/verify-sources.py`，只记录元数据与哈希。构建后，可运行 `node projects/003-frontend-design-toolkit/code/verify-demo.mjs http://127.0.0.1:8767/_site/003-frontend-design-toolkit/ browser-built-qa.json` 检查编号路径；仓库级回归使用 `node scripts/verify_pages.mjs http://127.0.0.1:8767/_site/`。这些地址仍是本地访问。公网站点检查使用 `node scripts/verify_pages.mjs https://yydshly.github.io/0918_codex_project/`；网络较慢时，可通过 `RESOURCE_TIMEOUT_MS` 调整公网导航与资源下载等待时间，默认 30000 毫秒，本次公网检查使用 120000 毫秒。
 
 ## 集成与部署
 
 | 字段 | 当前状态 |
 | --- | --- |
-| 部署状态 | 部署中 |
-| 公网地址 | 未部署 |
-| 发布目录 | `003-frontend-design-toolkit/`（规划路径） |
+| 部署状态 | 已上线（2026-09-18） |
+| 公网地址 | [在线展厅](https://yydshly.github.io/0918_codex_project/003-frontend-design-toolkit/) |
+| 发布目录 | `003-frontend-design-toolkit/` |
 | 发布清单 | 根目录 site-projects.json |
 | 构建 | `python scripts/build_site.py`，文件须先纳入 Git |
 | 构建产物 | `_site/003-frontend-design-toolkit/` |
@@ -45,7 +45,7 @@ python projects/003-frontend-design-toolkit/code/verify-integration.py
 | 页面路由 | `#overview`、`#capabilities`、`#mechanism`、`#practice`、`#scenarios`、`#evidence` |
 | 环境配置 | 浏览无环境变量；检查脚本可使用上述两个路径变量，不含秘密 |
 
-沿用仓库既有 GitHub Pages 方式，不创建独立 Sites 项目。发布时必须保留 001、002；本轮沿用现有工作流发布，公网访问与版本核对完成后更新部署记录。
+沿用仓库既有 GitHub Pages 方式，不创建独立 Sites 项目。发布时必须保留 001、002；已通过既有工作流发布，线上摘要及 PNG / SVG 引导图已核对。首次发布版本为 `4723a5be30741e9cc7fdeff776af9028a1b803b5`；[公网验证记录](../notes/evidence/deployment.json)记录该版本的浏览器检查，后续文档状态同步版本可在站点 build.json 查看。
 
 ## 演示边界
 

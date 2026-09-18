@@ -13,12 +13,14 @@
 | 研究版本 | [`2a6d0958e6966e0003896f94ce5003466e89e91d`](https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit/tree/2a6d0958e6966e0003896f94ce5003466e89e91d) |
 | 上游提交时间 | 2026-04-11T11:57:59Z |
 | 上游许可证 | README 声明 MIT，但固定版本缺少所链接的 LICENSE；许可文本未核实 |
-| 研究进度 | 已验证（文档核查与本地展厅；第三方工具组合未实测） |
+| 研究进度 | 已验证（文档核查、展厅与公网访问；第三方工具组合未实测） |
 | 展示技术 | 原生 HTML / CSS / JavaScript；无需构建或安装依赖 |
 | 收录 / 核查日期 | 2026-09-18 |
-| 在线演示 | 部署中；发布后核对公网地址 |
+| 在线演示 | [已上线 · 一图理解](https://yydshly.github.io/0918_codex_project/003-frontend-design-toolkit/) |
 
 ## 阅读入口
+
+- [在线引导展厅](https://yydshly.github.io/0918_codex_project/003-frontend-design-toolkit/) · [公网验证记录](notes/evidence/deployment.json) · [003 交互与引导图核对](notes/evidence/deployment-project.json)。
 
 - [Web 展厅](demo/index.html)：一图理解、能力地图、原理与演示、这个库的实际价值、场景选型、证据与边界。
 - [这个库的实际价值](demo/index.html#practice)：围绕同一个咖啡首页需求，串联目录选型、资源接入、任务中使用和结果检查。

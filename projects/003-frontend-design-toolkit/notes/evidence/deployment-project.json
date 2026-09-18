@@ -1,0 +1,30 @@
+{
+  "verifiedAt": "2026-09-18T06:07:42.876Z",
+  "site": "https://yydshly.github.io/0918_codex_project/003-frontend-design-toolkit/",
+  "sourceCommit": "4723a5be30741e9cc7fdeff776af9028a1b803b5",
+  "checks": [
+    "公网摘要与 Agent 定位",
+    "原引导图加载、缩放",
+    "四种资源与同一需求的关联",
+    "能力筛选、流程与样式交互",
+    "证据路由刷新",
+    "六章节在 390/320px 无横向溢出"
+  ],
+  "browserErrors": [],
+  "scope": "003 公网交互检查；模型与第三方工具组合未实测",
+  "guideAssets": [
+    {
+      "file": "understanding-map.png",
+      "bytes": 1500524,
+      "sha256": "386ada3515c43245e0e49df2e656e79cdb398e0e845ebc47ae74c35892aad48a",
+      "matchesExistingLocalImage": true
+    },
+    {
+      "file": "understanding-map.svg",
+      "bytes": 19000,
+      "sha256": "62813b83b92fa102501ed00c87a2e55228431b836f65a36b4b6974d38581e659",
+      "matchesExistingLocalImage": true
+    }
+  ],
+  "workflow": "https://github.com/yydshly/0918_codex_project/actions/runs/35313063321"
+}
