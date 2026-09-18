@@ -2,7 +2,7 @@
 
 原生 HTML / CSS / JavaScript，无运行依赖、账号或 API。网页只呈现原创研究内容，不连接上游模型，也不执行技能。
 
-**状态：本地网页和六项目集成已验证，公网未部署。**
+**状态：已上线。** [在线研究展厅](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/) · [一图理解](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/#map)。2026-09-18 已验证六项目入口、本站七章节交互、手机布局、文档和高清图；上游技能未实测。
 
 ## 打开网页
 
@@ -45,6 +45,14 @@ node projects/006-anbeime-skill/code/verify-demo.mjs http://127.0.0.1:8767/_site
 
 ## 集成与发布边界
 
-已登记 `site-projects.json`，沿用现有构建器和 Pages 工作流；不新增根应用或跨项目依赖。`verify-integration.py` 使用临时 Git 索引检查六个展厅共同构建，保留真实暂存区。`build.json` 中的 commit 是工作树基线，本地检查包含未提交文件，不表示该 commit 已发布 006。
+已登记 `site-projects.json`，沿用现有构建器和 Pages 工作流；不新增根应用或跨项目依赖。`verify-integration.py` 使用临时 Git 索引检查六个展厅共同构建，保留真实暂存区。历史本地集成记录中的 commit 是当时的工作树基线，不代表上线版本；公网发布版本以站点 `build.json` 与部署记录为准。
 
-正式构建 `python scripts/build_site.py` 仅复制 Git 已跟踪文件。未来发布应先纳入版本管理，再按[部署约定](../../../docs/DEPLOYMENT.md)发布并验证编号子路径。本次未推送、未触发部署，也未声明外部上游站点在线可用。
+正式构建 `python scripts/build_site.py` 仅复制 Git 已跟踪文件，产物为 `_site/`，006 基础路径为 `/0918_codex_project/006-anbeime-skill/`，无需环境密钥。本次已提交并推送 main，经现有 GitHub Pages 工作流发布；六个展厅在同次部署中保留。外部上游站点的可用性仍未核实。
+
+首次发布版本为 `11c9c87d689a225f31939d6ee649d2851c738e90`；[部署工作流](https://github.com/yydshly/0918_codex_project/actions/runs/35337069117)与[公网验证记录](../notes/evidence/deployment.json)可回查。验证包含 PNG/SVG 与本地文件逐字节一致，以及总站摘要、研究文档和所有章节。后续发布遵循[部署约定](../../../docs/DEPLOYMENT.md)。
+
+公网复查命令（按需要设置 `EXPECTED_COMMIT` 核对目标版本）：
+
+```powershell
+node projects/006-anbeime-skill/code/verify-demo.mjs https://yydshly.github.io/0918_codex_project/006-anbeime-skill/ deployment.json
+```

@@ -11,18 +11,18 @@
 | 研究版本 | [`f21302e204d513d09763ebb291704eb9a2aaa34f`](https://github.com/anbeime/skill/commit/f21302e204d513d09763ebb291704eb9a2aaa34f) |
 | 上游版本时间 | 2026-09-18 07:08:57 UTC |
 | 上游许可证 | 根 README 声明 MIT，但该版本根目录没有独立 LICENSE；部分子目录另有许可，见[来源与许可](THIRD_PARTY_NOTICES.md) |
-| 研究进度 | 研究中（能力与网页整理完成；本地研究展厅已验证，上游运行未实测） |
+| 研究进度 | 已归档（本轮静态研究完成；展厅与公网已验证，上游运行未实测） |
 | 技术构成 | Markdown 技能说明；Python 目录同步与辅助脚本；Node.js 对话脚本；HTML 展示；各子技能独立依赖 |
 | 收录及检查日期 | 2026-09-18 |
-| 在线演示 | 未部署 |
+| 在线演示 | [在线研究展厅](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/) |
 
 ## 网页研究导览
 
-[打开本地网页](demo/index.html) · [一图理解](demo/index.html#map) · [关联网页](demo/index.html#websites) · [能力分类](demo/index.html#capabilities) · [文件清单](demo/index.html#inventory) · [使用价值](demo/index.html#workflow)
+[打开在线展厅](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/) · [本地网页](demo/index.html) · [一图理解](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/#map) · [关联网页](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/#websites) · [能力分类](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/#capabilities) · [文件清单](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/#inventory) · [使用价值](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/#workflow)
 
-[![anbeime/skill能力全景：收集导航、19类技能方向、执行条件与实际意义](assets/understanding-map.png)](demo/index.html#map)
+[![anbeime/skill能力全景：收集导航、19类技能方向、执行条件与实际意义](assets/understanding-map.png)](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/#map)
 
-图为原创研究示意图，非上游运行截图。[高清 PNG](assets/understanding-map.png) · [可编辑 SVG](assets/understanding-map.svg)。网页支持总览图缩放、7 个网页入口说明、19 类能力搜索、84 份文件筛选，以及 3 种使用场景切换。桌面与手机布局、深链接和本地总站构建均已验证，公网尚未部署。运行方式见[演示说明](demo/README.md)。
+图为原创研究示意图，非上游运行截图。[高清 PNG](assets/understanding-map.png) · [可编辑 SVG](assets/understanding-map.svg)。网页支持总览图缩放、7 个网页入口说明、19 类能力搜索、84 份文件筛选，以及 3 种使用场景切换。桌面与手机布局、深链接、六项目共同构建与公网访问均已验证，见[公网记录](notes/evidence/deployment.json)。运行方式见[演示说明](demo/README.md)。
 
 ## 阅读入口
 
@@ -75,7 +75,7 @@
 
 ## 本项目范围
 
-本轮已完成中文能力整理、技能入口盘点、7 份站内网页分析、代表性源码检查及根索引更新；已制作并验证本地研究展厅。未安装上游技能、调用其模型 API、执行发布或交易；研究展厅公网未部署。
+本轮已完成中文能力整理、技能入口盘点、7 份站内网页分析、代表性源码检查及根索引更新；已制作研究展厅，提交 GitHub 并通过 GitHub Pages 发布及公网检查。未安装上游技能、调用其模型 API，或执行上游技能中的内容发布、交易等任务。
 
 后续若选择一个具体技能开展实验，应先核对完整包、许可和依赖，再以一个明确输入验证输出文件与实际效果，并同步本项目进度。
 

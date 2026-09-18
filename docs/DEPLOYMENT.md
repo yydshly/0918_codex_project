@@ -1,6 +1,6 @@
 # Web 演示部署约定
 
-已启用 GitHub Pages 与 GitHub Actions 自动部署。001—005 的五个静态研究展厅已上线，2026-09-18 完成各项目的公网验证。运行方式见各项目的 `demo/README.md`。
+已启用 GitHub Pages 与 GitHub Actions 自动部署。001—006 的六个静态研究展厅已上线，2026-09-18 完成各项目的公网验证。运行方式见各项目的 `demo/README.md`。
 
 | 入口 | 已验证地址 |
 | --- | --- |
@@ -13,9 +13,9 @@
 
 根索引、子项目 README 和仓库 About 的 Website 均关联线上入口。
 
-## 006 本地集成状态
+## 006 发布状态
 
-006 · anbeime/skill 已完成本地研究导览，并加入 `site-projects.json`。内容包括关联网页、能力分类、技能文件清单、使用路径与证据边界；[运行说明](../projects/006-anbeime-skill/demo/README.md)。本地临时索引构建保留 001—005，共六个展厅，见[集成记录](../projects/006-anbeime-skill/notes/evidence/integration.json)。**006 公网未部署**，没有登记线上访问地址；现有公网状态仍为 001—005。
+006 · anbeime/skill 已上线：[研究展厅](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/) · [一图理解](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/#map)。摘要明确其主要是 Skill 收集、分类与导航库，收录内容、音视频、电商、文档、知识管理与开发等 19 类方向；对我们当前直接参考价值较低，作为资源目录备查。首次发布版本为 `11c9c87d689a225f31939d6ee649d2851c738e90`。2026-09-18 核验公网六项目入口、总站摘要、文档、七章节交互及 PNG/SVG 字节一致性，见[公网记录](../projects/006-anbeime-skill/notes/evidence/deployment.json)。沿用既有 Pages 工作流，保留 001—005；[运行说明](../projects/006-anbeime-skill/demo/README.md)与[本地集成记录](../projects/006-anbeime-skill/notes/evidence/integration.json)。
 
 ## 多个演示如何组织
 
@@ -33,7 +33,8 @@ https://yydshly.github.io/0918_codex_project/
 ├── 002-claude-code-best-practice/
 ├── 003-frontend-design-toolkit/
 ├── 004-asu-skills/
-└── 005-chat-on-steroids/
+├── 005-chat-on-steroids/
+└── 006-anbeime-skill/
 ```
 
 站点首页作为演示导航，各子路径沿用研究项目编号。另有独立托管平台或自定义域名时，直接在索引填写实际地址。

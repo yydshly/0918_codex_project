@@ -15,7 +15,7 @@
 | 003 | [Frontend Design Toolkit](https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit) | [完整研究](projects/003-frontend-design-toolkit/) | 围绕前端需求，从视觉风格、主题一致性、动效交互、用户体验与可访问性、设计稿衔接、框架与文档、浏览器验证及预览交付等角度，组织约束、方法和工具，指导 Agent 设计、实现与检查页面，以获得更符合需求的效果。 主要指导 Agent 工作，通用能力已有时增益有限。 | 已验证（文档、展厅与公网访问；第三方组合未实测） | [在线展厅](https://yydshly.github.io/0918_codex_project/003-frontend-design-toolkit/) |
 | 004 | [ASu-skills](https://github.com/Hisn00w/ASu-skills) | [完整研究](projects/004-asu-skills/) | 九个求职 Skill 定义流程，宿主 AI 理解并调用工具执行；配套证据账本、简历编辑与 PDF、网页申请填写。价值在经验结构化、事实边界与可复用研究方法。 | 已验证（文档、迁移展厅与公网资源；上游插件未实测） | [在线研究手册](https://yydshly.github.io/0918_codex_project/004-asu-skills/) |
 | 005 | [Chat On Steroids](https://github.com/totec448-spec/chat-on-steroids) | [完整研究](projects/005-chat-on-steroids/) | 把网页版 ChatGPT 与真实本地环境关联起来，并围绕它构建 Agent 能力。MCP 与隧道连接工具执行，扩展桥接协调网页会话，本地工作台组织项目操作、多会话分工与任务续接；重点研究这套连接和组织模式。 | 研究中（源码分析；展厅与公网已验证，上游未实测） | [在线研究展厅](https://yydshly.github.io/0918_codex_project/005-chat-on-steroids/) |
-| 006 | [anbeime/skill](https://github.com/anbeime/skill) | [完整研究](projects/006-anbeime-skill/) | Skill 收集、分类与导航库，配套目录同步、数据导出和格式检查。收录内容创作与发布、图像音视频、电商营销、文档演示、知识管理、软件开发与分析等 19 类方向。对我们当前直接参考价值较低，作为资源目录备查；具体需求回原作者仓库评估，关联产品暂无明确复用价值。 | 研究中（本地研究网页与静态盘点已验证；上游未实测） | 未部署 · [本地网页](projects/006-anbeime-skill/demo/index.html) |
+| 006 | [anbeime/skill](https://github.com/anbeime/skill) | [完整研究](projects/006-anbeime-skill/) | Skill 收集、分类与导航库，配套目录同步、数据导出和格式检查。收录内容创作与发布、图像音视频、电商营销、文档演示、知识管理、软件开发与分析等 19 类方向。对我们当前直接参考价值较低，作为资源目录备查；具体需求回原作者仓库评估，关联产品暂无明确复用价值。 | 已归档（静态研究完成；展厅与公网已验证，上游未实测） | [在线研究展厅](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/) |
 
 ## 项目图览
 
@@ -53,9 +53,9 @@
 
 ### 006 · anbeime/skill
 
-[![anbeime/skill能力全景：Skill收集导航、19类方向、执行条件和对我们的意义](projects/006-anbeime-skill/assets/understanding-map.png)](projects/006-anbeime-skill/demo/index.html#map)
+[![anbeime/skill能力全景：Skill收集导航、19类方向、执行条件和对我们的意义](projects/006-anbeime-skill/assets/understanding-map.png)](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/#map)
 
-核心理解：仓库主要收集、分类和展示 Skill，配套目录维护工具；收录内容创作与发布、图像音视频、电商营销、文档演示、知识管理、软件开发与分析等 19 类方向。收录某类技能不等于自身具备完整运行能力。对我们当前直接参考价值较低，作为资源目录备查；具体需求回原作者仓库评估，关联产品暂无明确复用价值。图为原创研究总览，非上游运行截图；本地交互与六项目集成已验证，公网未部署。[一图理解与缩放](projects/006-anbeime-skill/demo/index.html#map) · [高清 PNG](projects/006-anbeime-skill/assets/understanding-map.png) · [网页关系说明](projects/006-anbeime-skill/notes/web-landscape.md) · [运行方法](projects/006-anbeime-skill/demo/README.md)。
+核心理解：仓库主要收集、分类和展示 Skill，配套目录维护工具；收录内容创作与发布、图像音视频、电商营销、文档演示、知识管理、软件开发与分析等 19 类方向。收录某类技能不等于自身具备完整运行能力。对我们当前直接参考价值较低，作为资源目录备查；具体需求回原作者仓库评估，关联产品暂无明确复用价值。图为原创研究总览，非上游运行截图；桌面与手机交互、六项目集成和公网访问已验证。[一图理解与缩放](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/#map) · [高清 PNG](projects/006-anbeime-skill/assets/understanding-map.png) · [网页关系说明](projects/006-anbeime-skill/notes/web-landscape.md) · [运行方法](projects/006-anbeime-skill/demo/README.md)。
 
 ## 仓库导航
 
@@ -73,7 +73,7 @@
 3. 添加实际截图和研究记录，再更新本页索引与图览。
 4. 有可运行的演示后，在子项目中记录启动方法和实际部署地址。
 
-详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 6 个研究项目，001—005 的 5 个 Web 演示已上线，均沿用编号子路径；006 本地研究网页与六项目集成已验证，公网未部署。[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
+详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 6 个研究项目，001—006 的 6 个 Web 演示均已上线并完成公网验证，沿用各自编号子路径。[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
 
 ## 来源与许可
 

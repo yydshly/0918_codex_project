@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-09-18T10:54:22.437969+00:00",
+  "verifiedAt": "2026-09-18T10:57:27.700909+00:00",
   "projects": [
     "001-understand-anything",
     "002-claude-code-best-practice",
@@ -8,10 +8,10 @@
     "005-chat-on-steroids",
     "006-anbeime-skill"
   ],
-  "localLinksChecked": 176,
+  "localLinksChecked": 171,
   "realStagingAreaUnchanged": true,
   "source": "working tree with temporary Git index",
-  "baseCommit": "1450e72c0dbde620a4961898d869b06771c8ab2c",
+  "baseCommit": "11c9c87d689a225f31939d6ee649d2851c738e90",
   "published": false,
   "upstreamExecuted": false,
   "checks": [
