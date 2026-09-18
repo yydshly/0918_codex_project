@@ -210,5 +210,38 @@
         "href": "#value"
       }
     ]
+  },
+  {
+    "slug": "011-selfteaching",
+    "name": "自学是门手艺 · 能力与学习指南",
+    "upstream": "https://github.com/selfteaching/the-craft-of-selfteaching",
+    "summary": "以 Python 为实践载体的自学书，训练独立阅读、问题拆解、代码实践与持续学习。覆盖学习方法、Python 基础与进阶、文档检索和沟通协作；技巧包括重读整理、刻意练习、以用带练、任务拆解、测试反馈与注意力管理。提供 Markdown 正文、Jupyter Notebook、代码示例、工具附录及延伸阅读。对我们主要是研究陌生项目、学习新工具和复核 AI 结果的方法参考；已有编程基础可按需查漏，不必当作完整职业课程从头学习。",
+    "cover": "assets/understanding-map.png",
+    "links": [
+      {
+        "label": "一图理解",
+        "href": "overview.html"
+      },
+      {
+        "label": "能力与使用价值",
+        "href": "#use-summary"
+      },
+      {
+        "label": "能力地图",
+        "href": "#map"
+      },
+      {
+        "label": "学习路线",
+        "href": "#path"
+      },
+      {
+        "label": "全书导览",
+        "href": "#chapters"
+      },
+      {
+        "label": "实践与自查",
+        "href": "#practice"
+      }
+    ]
   }
 ]

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="2280" viewBox="0 0 3000 2280" role="img" aria-labelledby="title desc">
+<title id="title">一图读懂《自学是门手艺》</title>
+<desc id="desc">两条主线是如何自学与 Python 入门实践；通过学、练、用、造形成反馈。图解仓库材料、内容范围和对我们研究项目、学习新工具与 AI 协作的意义。</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 1 L8 5 L0 9" fill="none" stroke="#84946e" stroke-width="1.5"/></marker></defs>
+<rect width="3000" height="2280" fill="#f8f6ed"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="100" y="82" font-size="24" font-weight="600" fill="#b45d3a">011 / 开源项目研究</text>
+<text x="100" y="185" font-size="82" font-weight="700" fill="#193f40">一图读懂《自学是门手艺》</text>
+<text x="100" y="255" font-size="38" font-weight="400" fill="#596d62">通过自学 Python，练习如何独立学会新知识。</text>
+<text x="2135" y="78" font-size="25" font-weight="400" fill="#596d62">李笑来著 · 自学方法 + Python 入门实践</text>
+<text x="2135" y="121" font-size="25" font-weight="400" fill="#596d62">面向新手，也适合学习陌生领域</text>
+<path d="M100 293 L2900 293" fill="none" stroke="#cad3bd" stroke-width="2"/>
+<rect x="100" y="332" width="1368" height="456" rx="12" fill="#eaf0e0" stroke="#cad3bd" stroke-width="2"/>
+<rect x="1532" y="332" width="1368" height="456" rx="12" fill="#f2e9d9" stroke="#cad3bd" stroke-width="2"/>
+<rect x="142" y="358" width="70" height="56" rx="6" fill="#193f40" stroke="#193f40" stroke-width="2"/>
+<text x="158" y="398" font-size="28" font-weight="600" fill="#fffcef">01</text>
+<text x="238" y="401" font-size="43" font-weight="600" fill="#193f40">主线一：教你如何学</text>
+<rect x="1574" y="358" width="70" height="56" rx="6" fill="#b45d3a" stroke="#b45d3a" stroke-width="2"/>
+<text x="1590" y="398" font-size="28" font-weight="600" fill="#fffcef">02</text>
+<text x="1670" y="401" font-size="43" font-weight="600" fill="#193f40">主线二：用 Python 学着做</text>
+<text x="142" y="477" font-size="30" font-weight="600" fill="#193f40">阅读与理解</text>
+<text x="142" y="516" font-size="28" font-weight="400" fill="#596d62">带着问题阅读；接受暂时不懂；重读、整理概念</text>
+<text x="142" y="559" font-size="30" font-weight="600" fill="#193f40">练习与拆解</text>
+<text x="142" y="598" font-size="28" font-weight="400" fill="#596d62">找出自己的薄弱点；拆成小任务；变化输入反复练习</text>
+<text x="142" y="641" font-size="30" font-weight="600" fill="#193f40">查证与表达</text>
+<text x="142" y="680" font-size="28" font-weight="400" fill="#596d62">查官方文档；清楚提问；记录过程；解释成果</text>
+<text x="1574" y="477" font-size="30" font-weight="600" fill="#193f40">基础阅读</text>
+<text x="1574" y="516" font-size="28" font-weight="400" fill="#596d62">值与运算、分支循环、字符串、容器、文件</text>
+<text x="1574" y="559" font-size="30" font-weight="600" fill="#193f40">独立编写</text>
+<text x="1574" y="598" font-size="28" font-weight="400" fill="#596d62">函数与参数、递归、文档、模块、测试、程序入口</text>
+<text x="1574" y="641" font-size="30" font-weight="600" fill="#193f40">进一步理解</text>
+<text x="1574" y="680" font-size="28" font-weight="400" fill="#596d62">类、迭代器、生成器、装饰器、正则、BNF / EBNF</text>
+<path d="M142 712 L1426 712" fill="none" stroke="#cad3bd" stroke-width="2"/>
+<path d="M1574 712 L2858 712" fill="none" stroke="#cad3bd" stroke-width="2"/>
+<text x="142" y="755" font-size="30" font-weight="600" fill="#193f40">目标：从依赖带教，走向独立学习</text>
+<text x="1574" y="755" font-size="30" font-weight="600" fill="#b45d3a">目标：从看懂例子，走向写出小工具</text>
+<rect x="1040" y="807" width="920" height="55" rx="12" fill="#f8f6ed" stroke="#f8f6ed" stroke-width="2"/>
+<text x="1101" y="845" font-size="32" font-weight="600" fill="#b45d3a">方法指导实践，实践提供反馈</text>
+<path d="M760 835 L1058 835" fill="none" stroke="#cad3bd" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M2238 835 L1948 835" fill="none" stroke="#cad3bd" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="100" y="925" font-size="40" font-weight="600" fill="#193f40">它采用的方法</text>
+<text x="448" y="925" font-size="32" font-weight="400" fill="#596d62">学 → 练 → 用 → 造</text>
+<rect x="100" y="960" width="646" height="188" rx="12" fill="#fffef8" stroke="#cad3bd" stroke-width="2"/>
+<text x="130" y="1008" font-size="24" font-weight="600" fill="#b45d3a">01</text>
+<text x="191" y="1016" font-size="41" font-weight="600" fill="#193f40">学</text>
+<text x="265" y="1016" font-size="30" font-weight="600" fill="#193f40">建立理解</text>
+<path d="M130 1041 L716 1041" fill="none" stroke="#cad3bd" stroke-width="2"/>
+<text x="130" y="1098" font-size="29" font-weight="400" fill="#596d62">读文档、记疑问、梳理关系</text>
+<path d="M760 1051 L798 1051" fill="none" stroke="#cad3bd" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="818" y="960" width="646" height="188" rx="12" fill="#fffef8" stroke="#cad3bd" stroke-width="2"/>
+<text x="848" y="1008" font-size="24" font-weight="600" fill="#b45d3a">02</text>
+<text x="909" y="1016" font-size="41" font-weight="600" fill="#193f40">练</text>
+<text x="983" y="1016" font-size="30" font-weight="600" fill="#193f40">修正薄弱点</text>
+<path d="M848 1041 L1434 1041" fill="none" stroke="#cad3bd" stroke-width="2"/>
+<text x="848" y="1098" font-size="29" font-weight="400" fill="#596d62">预测结果、动手验证、复盘错误</text>
+<path d="M1478 1051 L1516 1051" fill="none" stroke="#cad3bd" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1536" y="960" width="646" height="188" rx="12" fill="#fffef8" stroke="#cad3bd" stroke-width="2"/>
+<text x="1566" y="1008" font-size="24" font-weight="600" fill="#b45d3a">03</text>
+<text x="1627" y="1016" font-size="41" font-weight="600" fill="#193f40">用</text>
+<text x="1701" y="1016" font-size="30" font-weight="600" fill="#193f40">解决小问题</text>
+<path d="M1566 1041 L2152 1041" fill="none" stroke="#cad3bd" stroke-width="2"/>
+<text x="1566" y="1098" font-size="29" font-weight="400" fill="#596d62">从小函数开始，以用带练</text>
+<path d="M2196 1051 L2234 1051" fill="none" stroke="#cad3bd" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="2254" y="960" width="646" height="188" rx="12" fill="#fffef8" stroke="#cad3bd" stroke-width="2"/>
+<text x="2284" y="1008" font-size="24" font-weight="600" fill="#b45d3a">04</text>
+<text x="2345" y="1016" font-size="41" font-weight="600" fill="#193f40">造</text>
+<text x="2419" y="1016" font-size="30" font-weight="600" fill="#193f40">完成一个作品</text>
+<path d="M2284 1041 L2870 1041" fill="none" stroke="#cad3bd" stroke-width="2"/>
+<text x="2284" y="1098" font-size="29" font-weight="400" fill="#596d62">组合、说明、分享、接受反馈</text>
+<path d="M 2580 1165 L2580 1205 L420 1205 L420 1165" fill="none" stroke="#84946e" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1075" y="1174" width="850" height="60" rx="12" fill="#f8f6ed" stroke="#f8f6ed" stroke-width="2"/>
+<text x="1120" y="1215" font-size="31" font-weight="400" fill="#596d62">发现新问题，开始下一轮</text>
+<rect x="100" y="1271" width="1368" height="354" rx="12" fill="#fffef8" stroke="#cad3bd" stroke-width="2"/>
+<rect x="1532" y="1271" width="1368" height="354" rx="12" fill="#edf0e6" stroke="#cad3bd" stroke-width="2"/>
+<text x="142" y="1339" font-size="40" font-weight="600" fill="#193f40">仓库提供什么</text>
+<text x="1574" y="1339" font-size="40" font-weight="600" fill="#193f40">能力范围到哪里</text>
+<text x="142" y="1410" font-size="31" font-weight="400" fill="#596d62">按章节组织的书籍正文</text>
+<text x="142" y="1461" font-size="31" font-weight="400" fill="#596d62">Markdown：直接阅读</text>
+<text x="142" y="1512" font-size="31" font-weight="400" fill="#596d62">Jupyter Notebook：文字 + 代码 + 输出</text>
+<text x="142" y="1563" font-size="31" font-weight="400" fill="#596d62">配套示例、工具附录与延伸阅读</text>
+<text x="1574" y="1410" font-size="29" font-weight="400" fill="#596d62">建立自学方法与 Python 基础，衔接官方文档</text>
+<text x="1574" y="1461" font-size="29" font-weight="400" fill="#596d62">涵盖学习、编程、资料检索与沟通协作</text>
+<text x="1574" y="1512" font-size="29" font-weight="400" fill="#596d62">不覆盖完整职业开发、Web、数据科学或 AI 工程训练</text>
+<text x="1574" y="1563" font-size="29" font-weight="400" fill="#596d62">读完不等于熟练，掌握要靠独立实践</text>
+<rect x="100" y="1674" width="2800" height="390" rx="12" fill="#f0e6d5" stroke="#ded1bb" stroke-width="2"/>
+<text x="142" y="1744" font-size="42" font-weight="600" fill="#193f40">对我们的意义：把研究过程做扎实</text>
+<text x="2510" y="1744" font-size="24" font-weight="400" fill="#b45d3a">本项目建议</text>
+<text x="142" y="1818" font-size="33" font-weight="600" fill="#b45d3a">研究陌生项目</text>
+<text x="142" y="1875" font-size="29" font-weight="400" fill="#596d62">读说明 → 拆出最小例子</text>
+<text x="142" y="1923" font-size="29" font-weight="400" fill="#596d62">验证结果 → 记录可回查的结论</text>
+<path d="M1009 1789 L1009 1934" fill="none" stroke="#d3c5ac" stroke-width="2"/>
+<text x="1061" y="1818" font-size="33" font-weight="600" fill="#b45d3a">学习新工具</text>
+<text x="1061" y="1875" font-size="29" font-weight="400" fill="#596d62">先完成一个小任务，再补缺失知识</text>
+<text x="1061" y="1923" font-size="29" font-weight="400" fill="#596d62">减少只收藏教程、不做实践</text>
+<path d="M1928 1789 L1928 1934" fill="none" stroke="#d3c5ac" stroke-width="2"/>
+<text x="1980" y="1818" font-size="33" font-weight="600" fill="#b45d3a">与 AI 协作</text>
+<text x="1980" y="1875" font-size="29" font-weight="400" fill="#596d62">让 AI 辅助解释与提示</text>
+<text x="1980" y="1923" font-size="29" font-weight="400" fill="#596d62">自己判断、运行和复核结果</text>
+<path d="M142 1960 L2858 1960" fill="none" stroke="#d3c5ac" stroke-width="2"/>
+<text x="142" y="2020" font-size="31" font-weight="600" fill="#193f40">我们的使用判断：主要价值在学习方法；已有编程基础可按需查阅，Python 部分作为入门复习。</text>
+<text x="100" y="2145" font-size="24" font-weight="400" fill="#596d62">来源：selfteaching/the-craft-of-selfteaching  ·  研究版本 987a8e8  ·  原书许可 CC BY-NC-ND 3.0</text>
+<text x="100" y="2190" font-size="23" font-weight="400" fill="#596d62">本图为独立归纳，非原书插图；“对我们的意义”为本项目建议。部分工具配置具有历史性，上游 Notebook 未在本项目运行。</text>
+</g></svg>

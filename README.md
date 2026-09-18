@@ -20,6 +20,7 @@
 | 008 | [baoyu-design](https://github.com/JimLiu/baoyu-design) | [完整研究](projects/008-baoyu-design/) | 面向 AI 编程助手的设计 Skill 工具包，支持原型、演示文稿、文档、图表与动画；通过分层规范、组件和工具指导设计交付，保持品牌与视觉一致。 | 已验证（原型、工具链、PPTX 与公网；外部服务未接入） | [已上线](https://yydshly.github.io/0918_codex_project/008-baoyu-design/) |
 | 009 | [Awesome CEO](https://github.com/kuchin/awesome-ceo) | [完整研究](projects/009-awesome-ceo/) | 创业与管理资料的人工精选链接清单，通过分类与推荐语帮助寻找资料、跳转原文。收录融资、创业、产品、销售、营销、管理、招聘、财务，以及书籍课程、扩展资料和 CTO / TPM 资源，共 11 类、85 条。对我们当前直接参考价值较低，作为业务知识与阅读入口备查即可，无需技术深挖或集成。 | 已验证（资料完整性、中文网页与公网访问；外链服务未逐项验证） | [中文资源导航](https://yydshly.github.io/0918_codex_project/009-awesome-ceo/) |
 | 010 | [AI Infra Book](https://github.com/bojieli/ai-infra-book) | [完整研究](projects/010-ai-infra-book/) | 开源 AI 基础设施技术书，配套资源计算工具与实验。覆盖模型与负载、加速器与算子、多卡互联与网络、推理与训练优化、资源调度及端边云协同。我们在本地运行模型遇到显存不足或速度慢、评估多人服务成本，以及微调训练受资源限制时按需参考，用于理解瓶颈和比较取舍；普通安装先看具体教程，不必从零设计模型。 | 已验证（静态研究、导览与公网访问；上游工具和 GPU 实验未执行） | [能力与使用导览](https://yydshly.github.io/0918_codex_project/010-ai-infra-book/) |
+| 011 | [自学是门手艺](https://github.com/selfteaching/the-craft-of-selfteaching) | [完整研究](projects/011-selfteaching/) | 以 Python 为实践载体的自学书，训练独立阅读、问题拆解、代码实践与持续学习。覆盖学习方法、Python 基础与进阶、文档检索和沟通协作；技巧包括重读整理、刻意练习、以用带练、任务拆解、测试反馈与注意力管理。提供 Markdown 正文、Jupyter Notebook、代码示例、工具附录及延伸阅读。对我们主要是研究陌生项目、学习新工具和复核 AI 结果的方法参考；已有编程基础可按需查漏，不必当作完整职业课程从头学习。 | 已验证（静态研究、网页交互与本地编号入口；上游 Notebook 未运行） | 未部署 |
 
 ## 项目图览
 
@@ -89,6 +90,14 @@ baoyu-design 将设计方法、品牌规范、组件模板和执行工具组织�
 
 图为原创完整理解图，非上游截图；说明运行现成模型、优化服务与微调训练的不同使用时机，不要求从零设计模型。导览与公网访问已验证；上游工具与 GPU 实验未执行。[放大理解图](https://yydshly.github.io/0918_codex_project/010-ai-infra-book/overview.html) · [完整文字理解](projects/010-ai-infra-book/notes/understanding.md)。[打开导览](https://yydshly.github.io/0918_codex_project/010-ai-infra-book/) · [研究分析](projects/010-ai-infra-book/notes/research.md) · [运行说明](projects/010-ai-infra-book/demo/README.md)。
 
+### 011 · 自学是门手艺
+
+[![《自学是门手艺》两条主线、能力、方法、范围与研究意义](projects/011-selfteaching/assets/understanding-map.png)](projects/011-selfteaching/demo/overview.html)
+
+以 Python 为实践载体的自学书，训练独立阅读、问题拆解、代码实践与持续学习。覆盖学习方法、Python 基础与进阶、文档检索和沟通协作；技巧包括重读整理、刻意练习、以用带练、任务拆解、测试反馈与注意力管理。提供 Markdown 正文、Jupyter Notebook、代码示例、工具附录及延伸阅读。对我们主要是研究陌生项目、学习新工具和复核 AI 结果的方法参考；已有编程基础可按需查漏，不必当作完整职业课程从头学习。
+
+图为独立归纳信息图，非原书插图；网页提供 46 个章节、四条路线、实践建议、成果自查和学习记录。上游 Notebook 未运行，未部署。[放大总览图](projects/011-selfteaching/demo/overview.html) · [完整文字说明](projects/011-selfteaching/notes/understanding.md) · [打开学习指南](projects/011-selfteaching/demo/index.html) · [运行说明](projects/011-selfteaching/demo/README.md)。
+
 ## 仓库导航
 
 | 入口 | 内容 |
@@ -100,12 +109,12 @@ baoyu-design 将设计方法、品牌规范、组件模板和执行工具组织�
 
 ## 新增研究项目
 
-1. 查看索引和 Git 历史，复制 `templates/project/` 到下一个未使用编号的子目录；当前下一编号为 `011`。
+1. 查看索引和 Git 历史，复制 `templates/project/` 到下一个未使用编号的子目录；当前下一编号为 `012`。
 2. 填写子项目 README，记录上游仓库、研究目标及版本信息。
 3. 添加实际截图和研究记录，再更新本页索引与图览。
 4. 有可运行的演示后，在子项目中记录启动方法和实际部署地址。
 
-详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 10 个研究项目，001—006 与 008—010 的 9 个 Web 演示均已上线并完成公网验证，沿用各自编号子路径；007 已完成静态研究与能力图，安装取消并清理，未运行、未部署；008 已完成原型、设计系统工具链、PPTX 演示和公网验证，保留完整理解引导图；009 已完成中文全量资源网页、摘要、一图总览、分类汇总、搜索与公网验证；010 已完成能力与场景摘要、完整理解图、学习路线和公网验证。[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
+详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 11 个研究项目，001—006 与 008—010 的 9 个 Web 演示均已上线并完成公网验证，沿用各自编号子路径；007 已完成静态研究与能力图，安装取消并清理，未运行、未部署；008 已完成原型、设计系统工具链、PPTX 演示和公网验证，保留完整理解引导图；009 已完成中文全量资源网页、摘要、一图总览、分类汇总、搜索与公网验证；010 已完成能力与场景摘要、完整理解图、学习路线和公网验证；011 已完成全书能力与学习指南、阅读记录及本地验证，未部署。[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
 
 ## 来源与许可
 

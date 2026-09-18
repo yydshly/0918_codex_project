@@ -111,3 +111,11 @@ https://yydshly.github.io/0918_codex_project/
 首次发布版本 `1ddf3d259cda942ac6ef048f1c60d5c41b812203`。[发布流程](https://github.com/yydshly/0918_codex_project/actions/runs/35359019969)已成功完成。2026-09-18 核验九个项目入口、22 项 HTTP 资源、总站与项目摘要、完整图字节一致性，以及四条学习路线、刷新与历史、复制命令、图像缩放下载和手机布局。
 
 [公网记录](../projects/010-ai-infra-book/notes/evidence/deployment.json) · [线上交互](../projects/010-ai-infra-book/notes/evidence/remote-browser.json) · [运行说明](../projects/010-ai-infra-book/demo/README.md)。研究站点发布不代表上游模型、计算器或 GPU 实验已实测。
+
+## 011 本地集成状态
+
+011 · 自学是门手艺已制作完整的中文能力与学习指南：三类九项能力、46 个正文与附录入口、四条路线、三个实践任务、七种学习卡点和八项成果自查。支持搜索与组合筛选、本地阅读进度、笔记保存与 Markdown 导出。登记到 `site-projects.json`，沿用 `011-selfteaching/` 编号子路径及既有构建器，保留此前九个展厅。
+
+状态：本地网页和编号入口验证完成，未部署公网。见 [011 运行说明](../projects/011-selfteaching/demo/README.md)、[网页检查](../projects/011-selfteaching/notes/evidence/browser.json) 与 [集成检查](../projects/011-selfteaching/notes/evidence/integration.json)。原书 Notebook 未运行，网页可用不代表学习成效已验证。
+
+011 已补充原创能力与学习总览图及 `overview.html` 放大、适应窗口和下载入口；图区分学习方法与 Python 实践两条主线，并说明内容范围及研究价值。根图览、总站封面和项目网页同步引用。状态仍为本地完成、未部署。
