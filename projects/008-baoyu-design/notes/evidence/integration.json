@@ -1,0 +1,19 @@
+{
+  "verifiedAt": "2026-09-18T13:09:19.633794+00:00",
+  "projects": [
+    "001-understand-anything",
+    "002-claude-code-best-practice",
+    "003-frontend-design-toolkit",
+    "004-asu-skills",
+    "005-chat-on-steroids",
+    "006-anbeime-skill",
+    "008-baoyu-design"
+  ],
+  "localHtmlResourceLinks": 16,
+  "stagingAreaUnchanged": true,
+  "existingCoversByteIdentical": true,
+  "cleanAndSourceDemoPathsChecked": true,
+  "deployment": "not-deployed",
+  "buildOutput": "Built 7 project(s) in _site; source commit f1e741420e3ed2b6292423d80ff5ce0601656649",
+  "note": "Local working-tree build uses temporary index; build.json names base HEAD, not a released snapshot."
+}

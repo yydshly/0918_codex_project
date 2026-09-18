@@ -42,6 +42,12 @@ for project in sorted(MANIFEST, key=lambda p: int(p['slug'].split('-')[0])):
             text = text.replace(f'../{folder}/', f'./{folder}/')
         for filename in ('README.md', 'THIRD_PARTY_NOTICES.md'):
             text = text.replace(f'../{filename}', f'./{filename}')
+        # Optional nested demo resources keep their original tracked location.
+        # Only the clean-URL copies need rebasing; the source demo stays portable.
+        for folder in project.get('demoAssetDirs', []):
+            assert re.fullmatch(r'[a-zA-Z0-9_-]+', folder), folder
+            assert (target / 'demo' / folder).is_dir(), f'Missing demo assets: {slug}/{folder}'
+            text = text.replace(f'./{folder}/', f'./demo/{folder}/')
         (target / src.name).write_text(text, encoding='utf-8')
     assert (target / project['cover']).is_file()
     e = html.escape

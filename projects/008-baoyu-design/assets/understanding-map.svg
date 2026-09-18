@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="4065" viewBox="0 0 1800 4065" role="img" aria-labelledby="title desc">
+<title id="title">baoyu-design 完整理解引导图</title>
+<desc id="desc">库的定位、13 类产品目标、五层统一约束、AI 执行机制、53 份技能说明及研究意义和验证边界。</desc>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;dominant-baseline:text-before-edge}</style>
+<rect width="1800" height="4065" fill="#f5f4fa"/>
+<rect x="0" y="0" width="1800" height="255" rx="0" fill="#28233f" stroke="#28233f"/>
+<text x="64" y="32" font-size="22" font-weight="700" fill="#c5b9e5">008 / OPEN SOURCE STUDY</text>
+<text x="1250" y="32" font-size="21" font-weight="400" fill="#c5b9e5">固定版本 026d4ea · 2026-09-18</text>
+<text x="64" y="88" font-size="49" font-weight="700" fill="white">baoyu-design：从通用规则到专项设计</text>
+<text x="64" y="166" font-size="28" font-weight="400" fill="#e7e1f4">按需组合 Skill，由现有 AI 助手调用模板和工具，完成多种设计成果。</text>
+<text x="64" y="217" font-size="20" font-weight="400" fill="#c5b9e5">我们的理解总览 · 原创研究图，不是上游产品截图或独立操作后台</text>
+<rect x="64" y="284" width="1672" height="102" rx="16" fill="#eeebf8" stroke="#eeebf8"/>
+<text x="88" y="303" font-size="23" font-weight="700" fill="#6552b7">本质</text>
+<text x="88" y="343" font-size="21" font-weight="400" fill="#28233f">Skill 流程＋代码模板＋工具脚本</text>
+<text x="643" y="303" font-size="23" font-weight="700" fill="#6552b7">覆盖</text>
+<text x="643" y="343" font-size="21" font-weight="400" fill="#28233f">设计、展示、原型与格式交付</text>
+<text x="1198" y="303" font-size="23" font-weight="700" fill="#6552b7">执行者</text>
+<text x="1198" y="343" font-size="21" font-weight="400" fill="#28233f">宿主 AI 理解与决策，工具执行操作</text>
+<rect x="64" y="430" width="49" height="42" rx="9" fill="#6552b7" stroke="#6552b7"/>
+<text x="75" y="437" font-size="22" font-weight="700" fill="white">01</text>
+<text x="132" y="429" font-size="32" font-weight="700" fill="#28233f">能力是什么？支持哪些产品目标？</text>
+<text x="132" y="478" font-size="21" font-weight="400" fill="#635c78">13 类官方任务入口；按成果形式划分，可服务阅读、电商、教育等不同领域。</text>
+<rect x="64" y="528" width="544" height="280" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="89" y="550" font-size="28" font-weight="700" fill="#6552b7">界面与设计规范</text>
+<text x="90" y="601" font-size="23" font-weight="400" fill="#28233f">· UI 界面</text>
+<text x="90" y="631" font-size="23" font-weight="400" fill="#28233f">· 移动 App 设计</text>
+<text x="90" y="661" font-size="23" font-weight="400" fill="#28233f">· 线框图</text>
+<text x="90" y="691" font-size="23" font-weight="400" fill="#28233f">· 配色与字体系统</text>
+<text x="89" y="763" font-size="18" font-weight="400" fill="#635c78">网页与手机原型、布局探索、品牌和 UI Kit</text>
+<rect x="628" y="528" width="544" height="280" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="653" y="550" font-size="28" font-weight="700" fill="#6552b7">文档与内容传播</text>
+<text x="654" y="601" font-size="23" font-weight="400" fill="#28233f">· 幻灯片</text>
+<text x="654" y="631" font-size="23" font-weight="400" fill="#28233f">· 文档</text>
+<text x="654" y="661" font-size="23" font-weight="400" fill="#28233f">· 简历</text>
+<text x="654" y="691" font-size="23" font-weight="400" fill="#28233f">· HTML 邮件</text>
+<text x="654" y="721" font-size="23" font-weight="400" fill="#28233f">· 宣传单</text>
+<text x="653" y="763" font-size="18" font-weight="400" fill="#635c78">演示、可打印页面与传播版式</text>
+<rect x="1192" y="528" width="544" height="280" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="1217" y="550" font-size="28" font-weight="700" fill="#6552b7">动态内容与信息表达</text>
+<text x="1218" y="601" font-size="23" font-weight="400" fill="#28233f">· 动画</text>
+<text x="1218" y="631" font-size="23" font-weight="400" fill="#28233f">· 3D 对象</text>
+<text x="1218" y="661" font-size="23" font-weight="400" fill="#28233f">· 研究报告</text>
+<text x="1218" y="691" font-size="23" font-weight="400" fill="#28233f">· 图表</text>
+<text x="1217" y="763" font-size="18" font-weight="400" fill="#635c78">时间轴、三维展示、来源研究与数据表达</text>
+<text x="64" y="845" font-size="23" font-weight="400" fill="#635c78">共享 HTML / CSS 与浏览器表达，再接专项组件和转换器；原型不等于已完成后端、支付、安全与运维。</text>
+<rect x="64" y="923" width="49" height="42" rx="9" fill="#6552b7" stroke="#6552b7"/>
+<text x="75" y="930" font-size="22" font-weight="700" fill="white">02</text>
+<text x="132" y="922" font-size="32" font-weight="700" fill="#28233f">如何统一约束？共同规范之下，按目标细化</text>
+<text x="132" y="971" font-size="21" font-weight="400" fill="#635c78">分层读取＋横向组合；统一工作方法和品牌依据，各种载体保留自己的实现规则。</text>
+<rect x="64" y="1021" width="320" height="183" rx="16" fill="#eeebf8" stroke="#dcd6e9"/>
+<text x="84" y="1039" font-size="27" font-weight="700" fill="#6552b7">共同流程</text>
+<text x="84" y="1081" font-size="19" font-weight="400" fill="#635c78">system-prompt.md</text>
+<text x="84" y="1122" font-size="23" font-weight="400" fill="#28233f">理解需求、读资料、制作、</text>
+<text x="84" y="1158" font-size="23" font-weight="400" fill="#28233f">检查与交付</text>
+<rect x="402" y="1021" width="320" height="183" rx="16" fill="#eeebf8" stroke="#dcd6e9"/>
+<text x="422" y="1039" font-size="27" font-weight="700" fill="#6552b7">项目规范</text>
+<text x="422" y="1081" font-size="19" font-weight="400" fill="#635c78">_ds_prompt.md</text>
+<text x="422" y="1122" font-size="23" font-weight="400" fill="#28233f">绑定品牌、字体、组件和允</text>
+<text x="422" y="1158" font-size="23" font-weight="400" fill="#28233f">许的样式变量</text>
+<rect x="740" y="1021" width="320" height="183" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="760" y="1039" font-size="27" font-weight="700" fill="#6552b7">专项 Skill</text>
+<text x="760" y="1081" font-size="19" font-weight="400" fill="#635c78">built-in-skills/</text>
+<text x="760" y="1122" font-size="23" font-weight="400" fill="#28233f">按手机、PPT、邮件等目标</text>
+<text x="760" y="1158" font-size="23" font-weight="400" fill="#28233f">添加具体规则</text>
+<rect x="1078" y="1021" width="320" height="183" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="1098" y="1039" font-size="27" font-weight="700" fill="#6552b7">实际代码</text>
+<text x="1098" y="1081" font-size="19" font-weight="400" fill="#635c78">模板＋组件＋脚本</text>
+<text x="1098" y="1122" font-size="23" font-weight="400" fill="#28233f">将样式与行为落实到产物，</text>
+<text x="1098" y="1158" font-size="23" font-weight="400" fill="#28233f">执行重复工作</text>
+<rect x="1416" y="1021" width="320" height="183" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="1436" y="1039" font-size="27" font-weight="700" fill="#6552b7">反馈验证</text>
+<text x="1436" y="1081" font-size="19" font-weight="400" fill="#635c78">浏览器＋检查工具</text>
+<text x="1436" y="1122" font-size="23" font-weight="400" fill="#28233f">依据报错、操作和视觉结果</text>
+<text x="1436" y="1158" font-size="23" font-weight="400" fill="#28233f">修正</text>
+<rect x="64" y="1231" width="1672" height="135" rx="16" fill="#eaf5f0" stroke="#eaf5f0"/>
+<text x="90" y="1249" font-size="25" font-weight="700" fill="#1e6558">同一个品牌 → 三种成果</text>
+<text x="90" y="1292" font-size="25" font-weight="400" fill="#28233f">手机原型：触控与状态反馈     PPT：画布、字号与翻页     邮件：客户端兼容布局</text>
+<text x="90" y="1333" font-size="21" font-weight="400" fill="#635c78">共同使用品牌色、字体和内容风格；组件仅在技术载体允许时复用。统一规范，不是统一页面结构。</text>
+<rect x="64" y="1412" width="49" height="42" rx="9" fill="#6552b7" stroke="#6552b7"/>
+<text x="75" y="1419" font-size="22" font-weight="700" fill="white">03</text>
+<text x="132" y="1411" font-size="32" font-weight="700" fill="#28233f">Skill 如何驱动工作？AI 读取规则，再操作工具</text>
+<text x="132" y="1460" font-size="21" font-weight="400" fill="#635c78">Markdown 不会自己执行；入口给出任务路由，AI 决定下一步并使用当前环境的工具。</text>
+<rect x="64" y="1510" width="306" height="112" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="84" y="1527" font-size="26" font-weight="700" fill="#28233f">提出需求</text>
+<text x="84" y="1575" font-size="19" font-weight="400" fill="#635c78">目标、资料与验收条件</text>
+<text x="378" y="1548" font-size="24" font-weight="400" fill="#6552b7">→</text>
+<rect x="402" y="1510" width="306" height="112" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="422" y="1527" font-size="26" font-weight="700" fill="#28233f">加载说明</text>
+<text x="422" y="1575" font-size="19" font-weight="400" fill="#635c78">总入口＋专项＋项目规范</text>
+<text x="716" y="1548" font-size="24" font-weight="400" fill="#6552b7">→</text>
+<rect x="740" y="1510" width="306" height="112" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="760" y="1527" font-size="26" font-weight="700" fill="#28233f">生成产物</text>
+<text x="760" y="1575" font-size="19" font-weight="400" fill="#635c78">AI 写代码、复用模板</text>
+<text x="1054" y="1548" font-size="24" font-weight="400" fill="#6552b7">→</text>
+<rect x="1078" y="1510" width="306" height="112" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="1098" y="1527" font-size="26" font-weight="700" fill="#28233f">实际检查</text>
+<text x="1098" y="1575" font-size="19" font-weight="400" fill="#635c78">浏览器运行、反馈修改</text>
+<text x="1392" y="1548" font-size="24" font-weight="400" fill="#6552b7">→</text>
+<rect x="1416" y="1510" width="306" height="112" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="1436" y="1527" font-size="26" font-weight="700" fill="#28233f">记录交付</text>
+<text x="1436" y="1575" font-size="19" font-weight="400" fill="#635c78">保存版本，按需求导出</text>
+<text x="64" y="1655" font-size="23" font-weight="700" fill="#6552b7">规范持续生效：设计系统 → 组件包与变量 → 生成 _ds_prompt.md → AI 续做时恢复项目绑定。</text>
+<text x="64" y="1695" font-size="22" font-weight="400" fill="#635c78">文字要求依赖 AI 遵循；共享组件直接影响结果；检查只覆盖实际验证范围。没有统一强制规则引擎。</text>
+<rect x="64" y="1765" width="49" height="42" rx="9" fill="#6552b7" stroke="#6552b7"/>
+<text x="75" y="1772" font-size="22" font-weight="700" fill="white">04</text>
+<text x="132" y="1764" font-size="32" font-weight="700" fill="#28233f">Skill 如何划分？53 份说明，按职责组合</text>
+<text x="132" y="1813" font-size="21" font-weight="400" fill="#635c78">以下 8 组为我们的归纳；包含专项指导、协议、兼容入口和工具接入，不等于 53 个独立功能。</text>
+<rect x="64" y="1863" width="826" height="404" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="88" y="1881" font-size="27" font-weight="700" fill="#6552b7">需求、视觉与交互 · 10 份</text>
+<text x="88" y="1933" font-size="19" font-weight="400" fill="#28233f">ask-the-user</text>
+<text x="499" y="1933" font-size="18" font-weight="400" fill="#635c78">补充关键需求</text>
+<text x="88" y="1964" font-size="19" font-weight="400" fill="#28233f">options-stack</text>
+<text x="499" y="1964" font-size="18" font-weight="400" fill="#635c78">组织可比较方案</text>
+<text x="88" y="1995" font-size="19" font-weight="400" fill="#28233f">frontend-design</text>
+<text x="499" y="1995" font-size="18" font-weight="400" fill="#635c78">无既有品牌时确定审美方向</text>
+<text x="88" y="2026" font-size="19" font-weight="400" fill="#28233f">hi-fi-design</text>
+<text x="499" y="2026" font-size="18" font-weight="400" fill="#635c78">高保真设计流程</text>
+<text x="88" y="2057" font-size="19" font-weight="400" fill="#28233f">interactive-prototype</text>
+<text x="499" y="2057" font-size="18" font-weight="400" fill="#635c78">交互状态、校验与切换</text>
+<text x="88" y="2088" font-size="19" font-weight="400" fill="#28233f">mobile-prototype</text>
+<text x="499" y="2088" font-size="18" font-weight="400" fill="#635c78">移动端原型</text>
+<text x="88" y="2119" font-size="19" font-weight="400" fill="#28233f">wireframe</text>
+<text x="499" y="2119" font-size="18" font-weight="400" fill="#635c78">低保真探索</text>
+<text x="88" y="2150" font-size="19" font-weight="400" fill="#28233f">website-landing-page</text>
+<text x="499" y="2150" font-size="18" font-weight="400" fill="#635c78">网站与落地页构图</text>
+<text x="88" y="2181" font-size="19" font-weight="400" fill="#28233f">design-feedback</text>
+<text x="499" y="2181" font-size="18" font-weight="400" fill="#635c78">设计反馈与审查</text>
+<text x="88" y="2212" font-size="19" font-weight="400" fill="#28233f">something-cool</text>
+<text x="499" y="2212" font-size="18" font-weight="400" fill="#635c78">用户明确要求时探索惊喜作品</text>
+<rect x="910" y="1863" width="826" height="404" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="934" y="1881" font-size="27" font-weight="700" fill="#6552b7">设计系统 · 5 份</text>
+<text x="934" y="1933" font-size="19" font-weight="400" fill="#28233f">design-system-authoring-guide</text>
+<text x="1345" y="1933" font-size="18" font-weight="400" fill="#635c78">设计系统编写总流程</text>
+<text x="934" y="1964" font-size="19" font-weight="400" fill="#28233f">create-design-system</text>
+<text x="1345" y="1964" font-size="18" font-weight="400" fill="#635c78">创建品牌与 UI 规范</text>
+<text x="934" y="1995" font-size="19" font-weight="400" fill="#28233f">design-components</text>
+<text x="1345" y="1995" font-size="18" font-weight="400" fill="#635c78">Design Components 编写约定</text>
+<text x="934" y="2026" font-size="19" font-weight="400" fill="#28233f">design-system-preview</text>
+<text x="1345" y="2026" font-size="18" font-weight="400" fill="#635c78">生成独立预览页</text>
+<text x="934" y="2057" font-size="19" font-weight="400" fill="#28233f">use-design-system</text>
+<text x="1345" y="2057" font-size="18" font-weight="400" fill="#635c78">在项目中绑定并复用设计系统</text>
+<rect x="64" y="2287" width="826" height="280" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="88" y="2305" font-size="27" font-weight="700" fill="#6552b7">资料导入 · 4 份</text>
+<text x="88" y="2357" font-size="19" font-weight="400" fill="#28233f">import-from-figma</text>
+<text x="499" y="2357" font-size="18" font-weight="400" fill="#635c78">本地 .fig 资料解析与导入</text>
+<text x="88" y="2388" font-size="19" font-weight="400" fill="#28233f">import-from-github</text>
+<text x="499" y="2388" font-size="18" font-weight="400" fill="#635c78">按需读取仓库设计资料</text>
+<text x="88" y="2419" font-size="19" font-weight="400" fill="#28233f">import-from-html</text>
+<text x="499" y="2419" font-size="18" font-weight="400" fill="#635c78">从已有页面提取样式和组件参考</text>
+<text x="88" y="2450" font-size="19" font-weight="400" fill="#28233f">read-pdf</text>
+<text x="499" y="2450" font-size="18" font-weight="400" fill="#635c78">读取 PDF 内容</text>
+<rect x="910" y="2287" width="826" height="280" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="934" y="2305" font-size="27" font-weight="700" fill="#6552b7">图像、动画与三维 · 6 份</text>
+<text x="934" y="2357" font-size="19" font-weight="400" fill="#28233f">3d-object</text>
+<text x="1345" y="2357" font-size="18" font-weight="400" fill="#635c78">三维对象与查看器</text>
+<text x="934" y="2388" font-size="19" font-weight="400" fill="#28233f">animated-video</text>
+<text x="1345" y="2388" font-size="18" font-weight="400" fill="#635c78">时间轴动画制作</text>
+<text x="934" y="2419" font-size="19" font-weight="400" fill="#28233f">generate-images</text>
+<text x="1345" y="2419" font-size="18" font-weight="400" fill="#635c78">选择可用图像后端并生成素材</text>
+<text x="934" y="2450" font-size="19" font-weight="400" fill="#28233f">gemini-image</text>
+<text x="1345" y="2450" font-size="18" font-weight="400" fill="#635c78">Gemini 图像工具专项说明</text>
+<text x="934" y="2481" font-size="19" font-weight="400" fill="#28233f">watercolor-illustration</text>
+<text x="1345" y="2481" font-size="18" font-weight="400" fill="#635c78">水彩插画方向</text>
+<text x="934" y="2512" font-size="19" font-weight="400" fill="#28233f">sound-effects</text>
+<text x="1345" y="2512" font-size="18" font-weight="400" fill="#635c78">音效生成接入</text>
+<rect x="64" y="2587" width="826" height="311" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="88" y="2605" font-size="27" font-weight="700" fill="#6552b7">文档、演示与传播 · 7 份</text>
+<text x="88" y="2657" font-size="19" font-weight="400" fill="#28233f">make-a-deck</text>
+<text x="499" y="2657" font-size="18" font-weight="400" fill="#635c78">HTML 幻灯片</text>
+<text x="88" y="2688" font-size="19" font-weight="400" fill="#28233f">make-a-doc</text>
+<text x="499" y="2688" font-size="18" font-weight="400" fill="#635c78">文档与简历</text>
+<text x="88" y="2719" font-size="19" font-weight="400" fill="#28233f">html-email</text>
+<text x="499" y="2719" font-size="18" font-weight="400" fill="#635c78">邮件客户端布局要求</text>
+<text x="88" y="2750" font-size="19" font-weight="400" fill="#28233f">flier</text>
+<text x="499" y="2750" font-size="18" font-weight="400" fill="#635c78">宣传单</text>
+<text x="88" y="2781" font-size="19" font-weight="400" fill="#28233f">trifold-brochure</text>
+<text x="499" y="2781" font-size="18" font-weight="400" fill="#635c78">三折宣传册</text>
+<text x="88" y="2812" font-size="19" font-weight="400" fill="#28233f">social-media-content</text>
+<text x="499" y="2812" font-size="18" font-weight="400" fill="#635c78">社交平台内容</text>
+<text x="88" y="2843" font-size="19" font-weight="400" fill="#28233f">speaker-notes</text>
+<text x="499" y="2843" font-size="18" font-weight="400" fill="#635c78">演讲者备注</text>
+<rect x="910" y="2587" width="826" height="311" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="934" y="2605" font-size="27" font-weight="700" fill="#6552b7">研究、分析与可视化 · 5 份</text>
+<text x="934" y="2657" font-size="19" font-weight="400" fill="#28233f">web-research</text>
+<text x="1345" y="2657" font-size="18" font-weight="400" fill="#635c78">带来源的当前资料研究</text>
+<text x="934" y="2688" font-size="19" font-weight="400" fill="#28233f">data-visualization</text>
+<text x="1345" y="2688" font-size="18" font-weight="400" fill="#635c78">图表与图解</text>
+<text x="934" y="2719" font-size="19" font-weight="400" fill="#28233f">maps-geography</text>
+<text x="1345" y="2719" font-size="18" font-weight="400" fill="#635c78">地理可视化</text>
+<text x="934" y="2750" font-size="19" font-weight="400" fill="#28233f">data-science</text>
+<text x="1345" y="2750" font-size="18" font-weight="400" fill="#635c78">数据分析相关指导</text>
+<text x="934" y="2781" font-size="19" font-weight="400" fill="#28233f">experiment-workflow</text>
+<text x="1345" y="2781" font-size="18" font-weight="400" fill="#635c78">实验工作流</text>
+<rect x="64" y="2918" width="826" height="435" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="88" y="2936" font-size="27" font-weight="700" fill="#6552b7">导出与交接 · 11 份</text>
+<text x="88" y="2988" font-size="19" font-weight="400" fill="#28233f">export-as-pptx-editable</text>
+<text x="499" y="2988" font-size="18" font-weight="400" fill="#635c78">可编辑 PPTX 导出</text>
+<text x="88" y="3019" font-size="19" font-weight="400" fill="#28233f">export-as-pptx-screenshots</text>
+<text x="499" y="3019" font-size="18" font-weight="400" fill="#635c78">截图式 PPTX 导出</text>
+<text x="88" y="3050" font-size="19" font-weight="400" fill="#28233f">export-pptx-editable</text>
+<text x="499" y="3050" font-size="18" font-weight="400" fill="#635c78">可编辑 PPTX 的另一入口</text>
+<text x="88" y="3081" font-size="19" font-weight="400" fill="#28233f">export-pptx-screenshots</text>
+<text x="499" y="3081" font-size="18" font-weight="400" fill="#635c78">截图 PPTX 的另一入口</text>
+<text x="88" y="3112" font-size="19" font-weight="400" fill="#28233f">export-as-video</text>
+<text x="499" y="3112" font-size="18" font-weight="400" fill="#635c78">视频文件导出</text>
+<text x="88" y="3143" font-size="19" font-weight="400" fill="#28233f">exportable-video</text>
+<text x="499" y="3143" font-size="18" font-weight="400" fill="#635c78">动画可导出的接口约定</text>
+<text x="88" y="3174" font-size="19" font-weight="400" fill="#28233f">save-as-pdf</text>
+<text x="499" y="3174" font-size="18" font-weight="400" fill="#635c78">PDF 打印导出</text>
+<text x="88" y="3205" font-size="19" font-weight="400" fill="#28233f">save-as-standalone-html</text>
+<text x="499" y="3205" font-size="18" font-weight="400" fill="#635c78">自包含 HTML</text>
+<text x="88" y="3236" font-size="19" font-weight="400" fill="#28233f">send-to-canva</text>
+<text x="499" y="3236" font-size="18" font-weight="400" fill="#635c78">Canva 交接指导</text>
+<text x="88" y="3267" font-size="19" font-weight="400" fill="#28233f">send-to-figma</text>
+<text x="499" y="3267" font-size="18" font-weight="400" fill="#635c78">Figma 交接指导</text>
+<text x="88" y="3298" font-size="19" font-weight="400" fill="#28233f">handoff-to-claude-code</text>
+<text x="499" y="3298" font-size="18" font-weight="400" fill="#635c78">开发交接资料</text>
+<rect x="910" y="2918" width="826" height="435" rx="16" fill="white" stroke="#dcd6e9"/>
+<text x="934" y="2936" font-size="27" font-weight="700" fill="#6552b7">调节控件与环境接入 · 5 份</text>
+<text x="934" y="2988" font-size="19" font-weight="400" fill="#28233f">make-tweakable</text>
+<text x="1345" y="2988" font-size="18" font-weight="400" fill="#635c78">添加页面内调节控件</text>
+<text x="934" y="3019" font-size="19" font-weight="400" fill="#28233f">tweaks-protocol</text>
+<text x="1345" y="3019" font-size="18" font-weight="400" fill="#635c78">调节面板消息与持久化协议</text>
+<text x="934" y="3050" font-size="19" font-weight="400" fill="#28233f">low-level-tweaks-api</text>
+<text x="1345" y="3050" font-size="18" font-weight="400" fill="#635c78">调节面板与聊天交互接口</text>
+<text x="934" y="3081" font-size="19" font-weight="400" fill="#28233f">claude-api-in-prototypes</text>
+<text x="1345" y="3081" font-size="18" font-weight="400" fill="#635c78">原型中 Claude API 的宿主接口</text>
+<text x="934" y="3112" font-size="19" font-weight="400" fill="#28233f">google-slides-safe</text>
+<text x="1345" y="3112" font-size="18" font-weight="400" fill="#635c78">Google Slides 兼容性指导</text>
+<rect x="64" y="3399" width="49" height="42" rx="9" fill="#6552b7" stroke="#6552b7"/>
+<text x="75" y="3406" font-size="22" font-weight="700" fill="white">05</text>
+<text x="132" y="3398" font-size="32" font-weight="700" fill="#28233f">对我们的意义：复用可执行经验，用证据判断价值</text>
+<text x="132" y="3447" font-size="21" font-weight="400" fill="#635c78">003 偏前端资源导航；专门 frontend-design 偏审美指导；008 增加任务组织、上下文和交付工具。</text>
+<rect x="64" y="3497" width="544" height="180" rx="16" fill="#eeebf8" stroke="#eeebf8"/>
+<text x="88" y="3517" font-size="27" font-weight="700" fill="#6552b7">分层编写自己的 Skill</text>
+<text x="88" y="3570" font-size="23" font-weight="400" fill="#28233f">把通用流程和专项步骤分开，任务需要时才读取</text>
+<text x="88" y="3606" font-size="23" font-weight="400" fill="#28233f">；避免一份超长说明包办所有事情。</text>
+<rect x="628" y="3497" width="544" height="180" rx="16" fill="#eeebf8" stroke="#eeebf8"/>
+<text x="652" y="3517" font-size="27" font-weight="700" fill="#6552b7">让规范跟随项目</text>
+<text x="652" y="3570" font-size="23" font-weight="400" fill="#28233f">沉淀品牌、组件、资产和验收条件，续做时恢复</text>
+<text x="652" y="3606" font-size="23" font-weight="400" fill="#28233f">；比反复要求“做得好看”更具体。</text>
+<rect x="1192" y="3497" width="544" height="180" rx="16" fill="#eeebf8" stroke="#eeebf8"/>
+<text x="1216" y="3517" font-size="27" font-weight="700" fill="#6552b7">将重复工作脚本化</text>
+<text x="1216" y="3570" font-size="23" font-weight="400" fill="#28233f">编译、转换与结构检查交给代码；设计取舍交给</text>
+<text x="1216" y="3606" font-size="23" font-weight="400" fill="#28233f">人和 AI，以实际结果衡量收益。</text>
+<rect x="64" y="3713" width="1672" height="220" rx="16" fill="#28233f" stroke="#28233f"/>
+<text x="90" y="3731" font-size="27" font-weight="700" fill="white">验证边界</text>
+<text x="90" y="3782" font-size="23" font-weight="400" fill="#e7e1f4">已测：阅读原型、设计系统编译 / 检查 / 导入 / 预览、原版幻灯片与 4 页可编辑 PPTX 结构。</text>
+<text x="90" y="3824" font-size="23" font-weight="400" fill="#e7e1f4">未测：Figma / Canva 交接、图像音效、视频、3D 专项，以及桌面 PowerPoint 播放表现。</text>
+<text x="90" y="3866" font-size="23" font-weight="400" fill="#e7e1f4">覆盖广不代表全部成熟；没有证明加入 Skill 后审美和效率必然提升。部分能力依赖外部服务。</text>
+<text x="64" y="3969" font-size="20" font-weight="400" fill="#635c78">来源：JimLiu / baoyu-design · MIT · 固定版本 026d4ea · 完整说明与证据见子项目 notes/understanding.md</text>
+<text x="64" y="4007" font-size="22" font-weight="700" fill="#6552b7">阅读顺序：定位 → 目标 → 统一约束 → 执行机制 → 技能目录 → 对我们的意义与边界</text>
+</svg>

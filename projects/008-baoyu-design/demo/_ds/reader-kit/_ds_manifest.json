@@ -1,0 +1,167 @@
+{
+  "namespace": "ReaderKit_4d7f19",
+  "components": [
+    {
+      "name": "Button",
+      "sourcePath": "components/core/Button.jsx",
+      "props": [
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "variant",
+          "values": [
+            "primary",
+            "secondary",
+            "ghost"
+          ]
+        },
+        {
+          "name": "disabled",
+          "type": "boolean"
+        },
+        {
+          "name": "onClick",
+          "type": "(event: any) => void"
+        }
+      ]
+    },
+    {
+      "name": "Tag",
+      "sourcePath": "components/core/Tag.jsx",
+      "props": [
+        {
+          "name": "label",
+          "type": "string"
+        },
+        {
+          "name": "tone",
+          "values": [
+            "accent",
+            "neutral",
+            "success"
+          ]
+        }
+      ]
+    }
+  ],
+  "startingPoints": [],
+  "cards": [
+    {
+      "path": "components/core/index.html",
+      "group": "Components / 交互组件",
+      "viewport": "700x250",
+      "subtitle": "真实编译组件，点击按钮可计数",
+      "name": "按钮与标签"
+    },
+    {
+      "path": "guidelines/foundations.html",
+      "group": "Foundations / 视觉基础",
+      "viewport": "700x250",
+      "subtitle": "主色、正文与留白",
+      "name": "颜色与排版"
+    }
+  ],
+  "globalCssPaths": [
+    "tokens/foundation.css",
+    "components/core/components.css",
+    "styles.css"
+  ],
+  "tokens": [
+    {
+      "name": "--accent",
+      "value": "#5144ce",
+      "kind": "color",
+      "definedIn": "tokens/foundation.css"
+    },
+    {
+      "name": "--accent-soft",
+      "value": "#efedff",
+      "kind": "color",
+      "definedIn": "tokens/foundation.css"
+    },
+    {
+      "name": "--accent-ink",
+      "value": "#ffffff",
+      "kind": "color",
+      "definedIn": "tokens/foundation.css"
+    },
+    {
+      "name": "--ink",
+      "value": "#222338",
+      "kind": "color",
+      "definedIn": "tokens/foundation.css"
+    },
+    {
+      "name": "--muted",
+      "value": "#686b80",
+      "kind": "color",
+      "definedIn": "tokens/foundation.css"
+    },
+    {
+      "name": "--canvas",
+      "value": "#f5f5fa",
+      "kind": "color",
+      "definedIn": "tokens/foundation.css"
+    },
+    {
+      "name": "--surface",
+      "value": "#ffffff",
+      "kind": "color",
+      "definedIn": "tokens/foundation.css"
+    },
+    {
+      "name": "--line",
+      "value": "#e5e5ee",
+      "kind": "color",
+      "definedIn": "tokens/foundation.css"
+    },
+    {
+      "name": "--success",
+      "value": "#29795c",
+      "kind": "color",
+      "definedIn": "tokens/foundation.css"
+    },
+    {
+      "name": "--radius",
+      "value": "14px",
+      "kind": "spacing",
+      "definedIn": "tokens/foundation.css"
+    },
+    {
+      "name": "--space-sm",
+      "value": "8px",
+      "kind": "spacing",
+      "definedIn": "tokens/foundation.css"
+    },
+    {
+      "name": "--space-md",
+      "value": "16px",
+      "kind": "spacing",
+      "definedIn": "tokens/foundation.css"
+    },
+    {
+      "name": "--space-lg",
+      "value": "24px",
+      "kind": "spacing",
+      "definedIn": "tokens/foundation.css"
+    },
+    {
+      "name": "--body-size",
+      "value": "16px",
+      "kind": "spacing",
+      "definedIn": "tokens/foundation.css"
+    },
+    {
+      "name": "--shadow",
+      "value": "0 12px 38px rgba(29, 24, 67, .05)",
+      "kind": "shadow",
+      "definedIn": "tokens/foundation.css"
+    }
+  ],
+  "themes": [],
+  "fonts": [],
+  "brandFonts": [],
+  "source": "spa"
+}

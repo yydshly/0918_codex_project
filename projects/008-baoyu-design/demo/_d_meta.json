@@ -1,0 +1,35 @@
+{
+  "type": "design",
+  "designSystems": [
+    {
+      "name": "拾页 · Reader Kit",
+      "slug": "reader-kit",
+      "namespace": "ReaderKit_4d7f19",
+      "dsFolder": "_ds/reader-kit",
+      "sourcePath": "projects/008-baoyu-design/code/reader-kit"
+    }
+  ],
+  "primaryDesignSystem": "reader-kit",
+  "createdAt": "2026-09-18T12:03:19.167Z",
+  "updatedAt": "2026-09-18T12:11:08.747Z",
+  "assets": {
+    "拾页阅读原型": {
+      "versions": [
+        {
+          "path": "index.html",
+          "createdAt": "2026-09-18T12:05:52.045Z",
+          "status": "needs-review"
+        }
+      ]
+    },
+    "拾页演示文稿": {
+      "versions": [
+        {
+          "path": "deck.html",
+          "createdAt": "2026-09-18T12:05:52.147Z",
+          "status": "needs-review"
+        }
+      ]
+    }
+  }
+}

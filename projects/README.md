@@ -12,6 +12,7 @@ projects/
 ├── 005-chat-on-steroids/
 ├── 006-anbeime-skill/
 ├── 007-koreader/
+├── 008-baoyu-design/
 └── ...
 ```
 

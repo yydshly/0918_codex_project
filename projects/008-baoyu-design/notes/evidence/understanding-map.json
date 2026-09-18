@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-09-18T12:58:07.906031+00:00",
+  "upstream": "026d4ea012bdd5cada72ac8cc13f21ba4edf2245",
+  "type": "原创研究引导图，非产品截图",
+  "svgDimensions": [
+    1800,
+    4065
+  ],
+  "pngDimensions": [
+    3600,
+    8130
+  ],
+  "taskTargets": 13,
+  "guideFiles": 53,
+  "editorialGroups": 8,
+  "textElements": 214,
+  "measuredHorizontalBoundsPassed": true,
+  "renderer": "Pillow / Microsoft YaHei; SVG keeps editable text",
+  "limits": "Original research guide; no new upstream capability or external service tests. Local update only, not deployed.",
+  "reviewedAt": "2026-09-18T13:02:33.611626+00:00",
+  "visualReview": {
+    "png": "Full graphic inspected; content and section layout readable without overlap.",
+    "svg": "Browser rendered SVG; all 214 text boxes within SVG canvas.",
+    "catalog": "All 53 guide names verified in SVG text.",
+    "browser": "Codex in-app browser",
+    "webChecks": [
+      "PNG loaded at natural width 3600",
+      "100% fit / 150% zoom / 450% decrement / 500% maximum verified",
+      "Zoom buttons disable at boundary",
+      "390px mobile page has no horizontal overflow at 500% map zoom",
+      "1440px desktop layout has no horizontal page overflow",
+      "Five constraint layers rendered",
+      "Integrated #u-unified reload retains section",
+      "Integrated PNG and SVG asset paths resolve; copied bytes match source",
+      "No browser warnings or errors reported"
+    ],
+    "temporaryViewportReset": true
+  }
+}

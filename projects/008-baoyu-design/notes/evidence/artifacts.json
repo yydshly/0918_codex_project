@@ -1,0 +1,32 @@
+{
+  "verifiedAt": "2026-09-18T13:09:18.462526+00:00",
+  "designSystem": {
+    "components": 2,
+    "tokens": 15,
+    "cards": 2,
+    "namespace": "ReaderKit_4d7f19",
+    "runtimeMatchesSource": true,
+    "previewGroupAndCardIdsUnique": true,
+    "previewHasNoExternalScriptOrStylesheetTags": true
+  },
+  "pptx": {
+    "slides": 4,
+    "clickAnimationSteps": 3,
+    "nativeShapeEffects": 12,
+    "editableTextRuns": [
+      9,
+      13,
+      19,
+      13
+    ],
+    "nativeShapes": [
+      8,
+      27,
+      17,
+      11
+    ],
+    "bytes": 118781,
+    "sha256": "81f327fc58b1b2e3e82f6dca839587910d1a21a68d9347f769a94f9dd4fcf60a"
+  },
+  "limits": "XML and generated-artifact checks; no desktop PowerPoint rendering or playback verification."
+}

@@ -72,10 +72,22 @@
     "summary": "核心价值是把网页版 ChatGPT 与真实本地环境关联起来，并围绕它构建 Agent 能力。MCP 与隧道连接工具执行，扩展桥接协调网页会话，本地工作台组织项目操作、多会话分工和任务续接；以总览图、链路说明与教学流程解释这套模式，上游端到端未实测。",
     "cover": "assets/understanding-map.png",
     "links": [
-      {"label": "一图总览", "href": "#map"},
-      {"label": "两条通信通道", "href": "#overview"},
-      {"label": "任务流程", "href": "#workflow"},
-      {"label": "与 Codex 的关系", "href": "#value"}
+      {
+        "label": "一图总览",
+        "href": "#map"
+      },
+      {
+        "label": "两条通信通道",
+        "href": "#overview"
+      },
+      {
+        "label": "任务流程",
+        "href": "#workflow"
+      },
+      {
+        "label": "与 Codex 的关系",
+        "href": "#value"
+      }
     ]
   },
   {
@@ -85,11 +97,60 @@
     "summary": "Skill 收集、分类与导航库，配套目录同步、数据导出和格式检查。收录内容创作与发布、图像音视频、电商营销、文档演示、知识管理、软件开发与分析等 19 类方向。对我们当前直接参考价值较低，作为资源目录备查；具体需求回原作者仓库评估，关联产品暂无明确复用价值。",
     "cover": "assets/understanding-map.png",
     "links": [
-      {"label": "一图理解", "href": "#map"},
-      {"label": "关联网页", "href": "#websites"},
-      {"label": "能力分类", "href": "#capabilities"},
-      {"label": "文件清单", "href": "#inventory"},
-      {"label": "使用价值", "href": "#workflow"}
+      {
+        "label": "一图理解",
+        "href": "#map"
+      },
+      {
+        "label": "关联网页",
+        "href": "#websites"
+      },
+      {
+        "label": "能力分类",
+        "href": "#capabilities"
+      },
+      {
+        "label": "文件清单",
+        "href": "#inventory"
+      },
+      {
+        "label": "使用价值",
+        "href": "#workflow"
+      }
+    ]
+  },
+  {
+    "slug": "008-baoyu-design",
+    "name": "baoyu-design",
+    "upstream": "https://github.com/JimLiu/baoyu-design",
+    "summary": "设计工作流与工具包：按需组合通用规则、项目规范和专项 Skill，制作 13 类设计成果；借鉴分层组织、组件复用与脚本交付。附完整引导图、53 份说明目录及原型、设计系统和 PPTX 实测。",
+    "cover": "assets/understanding-map.png",
+    "demoAssetDirs": [
+      "_ds",
+      "vendor",
+      "downloads"
+    ],
+    "links": [
+      {
+        "label": "完整引导图",
+        "href": "#u-map"
+      },
+      {
+        "label": "交互原型",
+        "href": "#prototype"
+      },
+      {
+        "label": "设计系统",
+        "href": "#system"
+      },
+      {
+        "label": "演示文稿",
+        "href": "#slides"
+      },
+      {
+        "label": "理解与原理",
+        "href": "#principle"
+      }
     ]
   }
 ]

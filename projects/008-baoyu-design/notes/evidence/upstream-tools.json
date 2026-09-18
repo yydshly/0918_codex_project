@@ -1,0 +1,81 @@
+{
+  "recordedAt": "2026-09-18T12:18:17.935596+00:00",
+  "upstream": "https://github.com/JimLiu/baoyu-design",
+  "commit": "026d4ea012bdd5cada72ac8cc13f21ba4edf2245",
+  "environment": {
+    "os": "Windows",
+    "node": "22.15.0",
+    "python": "3.10.11"
+  },
+  "executed": [
+    {
+      "tool": "compile-design-system.mjs",
+      "result": {
+        "components": 2,
+        "cards": 2,
+        "tokens": 15,
+        "namespace": "ReaderKit_4d7f19"
+      }
+    },
+    {
+      "tool": "check-design-system.mjs",
+      "result": "No issues — clean."
+    },
+    {
+      "tool": "build-preview.mjs",
+      "result": {
+        "file": "code/reader-kit/preview.html",
+        "bytes": 176457,
+        "inlinedReact": "18.3.1",
+        "jsxCompiler": "Babel 7.29.0"
+      }
+    },
+    {
+      "tool": "import-design-system.mjs",
+      "result": {
+        "syncedFiles": 9,
+        "cssFiles": 3,
+        "primaryDesignSystem": "reader-kit"
+      }
+    },
+    {
+      "tool": "record-asset.mjs",
+      "result": {
+        "assets": [
+          "拾页阅读原型",
+          "拾页演示文稿"
+        ],
+        "status": "needs-review"
+      }
+    },
+    {
+      "tool": "gen-pptx/dist/cli.mjs",
+      "result": {
+        "ok": true,
+        "slides": 4,
+        "animations": 3,
+        "bytes": 118781,
+        "flags": [
+          {
+            "code": "no_speaker_notes",
+            "expected": true
+          }
+        ],
+        "warnings": []
+      }
+    }
+  ],
+  "reusedFiles": [
+    {
+      "path": "demo/deck-stage.js",
+      "upstreamPath": "skills/baoyu-design/starter-components/deck-stage.js",
+      "sha256": "285501b11d5101429c8d40b5902596869652799571551c95d8640414005cdb79",
+      "unmodified": true
+    }
+  ],
+  "knownIssue": {
+    "issue": "Non-ASCII group names map to g-x and collide in generated preview",
+    "workaround": "ASCII prefixes Components / 交互组件 and Foundations / 视觉基础; regenerate, no upstream edit"
+  },
+  "scope": "Execution record summarized from actual CLI runs; independent artifact and browser checks stored separately."
+}

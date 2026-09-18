@@ -1,0 +1,44 @@
+{
+  "verifiedAt": "2026-09-18T12:47:02.048Z",
+  "upstream": "026d4ea012bdd5cada72ac8cc13f21ba4edf2245",
+  "scope": "Understanding guide update; existing prototype and exports retained.",
+  "sourceChecks": {
+    "taskRoutesExactlyMatchUpstream": 13,
+    "uniqueGuidesExactlyMatchUpstream": 53,
+    "editorialGroups": 8,
+    "localDocumentLinks": 20
+  },
+  "browser": {
+    "tool": "Codex in-app browser",
+    "taskButtonsChecked": 13,
+    "allTaskTitlesAndPressedStateMatched": true,
+    "expandedGroups": 8,
+    "guideLinks": 53,
+    "desktopViewport": {
+      "width": 1440,
+      "height": 1000,
+      "documentScrollWidth": 1425
+    },
+    "mobileViewport": {
+      "width": 390,
+      "height": 844,
+      "documentScrollWidth": 375
+    },
+    "visualReview": "Desktop task layout and mobile task selector inspected using viewport screenshots.",
+    "keyboardExpandVerified": true,
+    "chapterHashReloadVerified": true,
+    "integratedHash": "#u-catalog",
+    "integratedSectionTop": 24.125,
+    "prototypeArticleCards": 4,
+    "designSystemSectionPresent": true,
+    "slidesFrameSource": "./deck.html",
+    "consoleWarningsOrErrors": [],
+    "viewportOverrideReset": true
+  },
+  "limits": [
+    "Static research guide; does not execute AI.",
+    "Capability source inventory is not end-to-end verification of all upstream skills.",
+    "No new PPTX, external-service, native mobile or desktop PowerPoint test in this update."
+  ],
+  "deployment": "not-deployed"
+}
