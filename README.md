@@ -18,6 +18,7 @@
 | 006 | [anbeime/skill](https://github.com/anbeime/skill) | [完整研究](projects/006-anbeime-skill/) | Skill 收集、分类与导航库，配套目录同步、数据导出和格式检查。收录内容创作与发布、图像音视频、电商营销、文档演示、知识管理、软件开发与分析等 19 类方向。对我们当前直接参考价值较低，作为资源目录备查；具体需求回原作者仓库评估，关联产品暂无明确复用价值。 | 已归档（静态研究完成；展厅与公网已验证，上游未实测） | [在线研究展厅](https://yydshly.github.io/0918_codex_project/006-anbeime-skill/) |
 | 007 | [KOReader](https://github.com/koreader/koreader) | [完整研究](projects/007-koreader/) | 多格式阅读器，提供自由排版、PDF 重排、查词摘录、内容接入与墨水屏优化。当前 Windows 直接使用价值有限；有阅读设备时再评估，工程上参考多引擎整合、插件与设备适配。 | 已归档（静态研究与能力图；安装取消、产物已清理，上游未实测） | 未部署 |
 | 008 | [baoyu-design](https://github.com/JimLiu/baoyu-design) | [完整研究](projects/008-baoyu-design/) | 面向 AI 编程助手的设计 Skill 工具包，支持原型、演示文稿、文档、图表与动画；通过分层规范、组件和工具指导设计交付，保持品牌与视觉一致。 | 已验证（原型、工具链、PPTX 与公网；外部服务未接入） | [已上线](https://yydshly.github.io/0918_codex_project/008-baoyu-design/) |
+| 009 | [Awesome CEO](https://github.com/kuchin/awesome-ceo) | [完整研究](projects/009-awesome-ceo/) | 创业与管理资料的人工精选链接清单，通过分类与推荐语帮助寻找资料、跳转原文。收录融资、创业、产品、销售、营销、管理、招聘、财务，以及书籍课程、扩展资料和 CTO / TPM 资源，共 11 类、85 条。对我们当前直接参考价值较低，作为业务知识与阅读入口备查即可，无需技术深挖或集成。 | 已验证（资料完整性与本地中文网页；外链服务未逐项验证） | 部署中 |
 
 ## 项目图览
 
@@ -73,6 +74,12 @@ baoyu-design 将设计方法、品牌规范、组件模板和执行工具组织�
 
 图为原创项目原理归纳，非上游产品截图。[在线介绍](https://yydshly.github.io/0918_codex_project/008-baoyu-design/) · [完整引导图](https://yydshly.github.io/0918_codex_project/008-baoyu-design/#u-map) · [详细理解](projects/008-baoyu-design/notes/understanding.md) · [实测研究](projects/008-baoyu-design/notes/research.md) · [运行方法](projects/008-baoyu-design/demo/README.md)。
 
+### 009 · Awesome CEO
+
+[![Awesome CEO 一图看懂：资料收集导航、六组类型、11个主题与实际价值](projects/009-awesome-ceo/assets/understanding-map.png)](projects/009-awesome-ceo/demo/overview.html)
+
+它是一份创业与管理资料导航，作为备查目录即可，技术复用价值较低。图为原创概念汇总，非产品截图；展示资料类型、11 个主题、使用方式与边界。中文网页完整保留 85 条资源与 86 个内容链接，可按六组类型展开阅读。本地交互已验证，未发布到公网。[放大总览图](projects/009-awesome-ceo/demo/overview.html) · [打开中文网页](projects/009-awesome-ceo/demo/index.html) · [运行说明](projects/009-awesome-ceo/demo/README.md)。
+
 ## 仓库导航
 
 | 入口 | 内容 |
@@ -84,12 +91,12 @@ baoyu-design 将设计方法、品牌规范、组件模板和执行工具组织�
 
 ## 新增研究项目
 
-1. 查看索引和 Git 历史，复制 `templates/project/` 到下一个未使用编号的子目录；当前下一编号为 `009`。
+1. 查看索引和 Git 历史，复制 `templates/project/` 到下一个未使用编号的子目录；当前下一编号为 `010`。
 2. 填写子项目 README，记录上游仓库、研究目标及版本信息。
 3. 添加实际截图和研究记录，再更新本页索引与图览。
 4. 有可运行的演示后，在子项目中记录启动方法和实际部署地址。
 
-详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 8 个研究项目，001—006 与 008 的 7 个 Web 演示均已上线并完成公网验证，沿用各自编号子路径；007 已完成静态研究与能力图，安装取消并清理，未运行、未部署；008 已完成原型、设计系统工具链、PPTX 演示和公网验证，保留完整理解引导图。[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
+详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 9 个研究项目，001—006 与 008 的 7 个 Web 演示均已上线并完成公网验证，沿用各自编号子路径；007 已完成静态研究与能力图，安装取消并清理，未运行、未部署；008 已完成原型、设计系统工具链、PPTX 演示和公网验证，保留完整理解引导图；009 已完成中文全量资源网页、分类汇总、搜索与本地验证，未发布到公网。[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
 
 ## 来源与许可
 

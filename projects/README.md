@@ -13,6 +13,7 @@ projects/
 ├── 006-anbeime-skill/
 ├── 007-koreader/
 ├── 008-baoyu-design/
+├── 009-awesome-ceo/
 └── ...
 ```
 

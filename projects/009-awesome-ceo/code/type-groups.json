@@ -1,0 +1,8 @@
+[
+  {"id":"reading","name":"文章 / 指南 / 问答","kinds":["文章","指南","问答"],"count":45,"description":"了解方法与经验。从种子轮融资、首批客户到团队管理，按当下问题选择阅读。"},
+  {"id":"books-courses","name":"书籍 / 课程","kinds":["书籍","课程"],"count":11,"description":"建立系统认识。包含 9 本书与 2 个课程入口，原文与课程内容在外部站点。"},
+  {"id":"directories","name":"资源目录","kinds":["目录"],"count":13,"description":"继续寻找资料与入口。包含投资人目录、创业工具集及 CTO、TPM 相关清单。"},
+  {"id":"cases","name":"案例","kinds":["案例"],"count":6,"description":"参考他人的做法。阅读融资路演、企业转型和 B2B 获客案例，再判断是否适合自己。"},
+  {"id":"frameworks","name":"框架 / 清单","kinds":["框架","清单"],"count":4,"description":"梳理工作中的问题。包括尽调清单、招聘框架、财务规划与工程预算框架。"},
+  {"id":"practical","name":"模板 / 工具 / 演示 / 视频","kinds":["模板","工具","演示","视频"],"count":6,"description":"前往原站使用或观看。包括 2 个模板、2 个计算器、1 份演示和 1 个视频。"}
+]

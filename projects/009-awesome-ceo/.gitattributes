@@ -1,0 +1,3 @@
+# Preserve the exact upstream evidence bytes, including original trailing spaces.
+notes/evidence/upstream-readme.md -text -whitespace
+notes/evidence/LICENSE -text

@@ -1,0 +1,49 @@
+{
+  "repository": "https://github.com/kuchin/awesome-ceo",
+  "checked_at_utc": "2026-09-18T13:20:06.2386907Z",
+  "research_date": "2026-09-18",
+  "default_branch": "main",
+  "commit": "89f761c2af903066500e1a0c33c33cf36873cdf6",
+  "commit_date": "2023-02-16T09:50:34Z",
+  "commit_message": "More content",
+  "license": "CC0-1.0",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e259d42c996742e9e3cba14c677129b2c1b6311",
+      "size": 7048,
+      "url": "https://api.github.com/repos/kuchin/awesome-ceo/git/blobs/0e259d42c996742e9e3cba14c677129b2c1b6311"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1746a801190d4b3267f4734ea488254c491c0f2",
+      "size": 15531,
+      "url": "https://api.github.com/repos/kuchin/awesome-ceo/git/blobs/a1746a801190d4b3267f4734ea488254c491c0f2"
+    }
+  ],
+  "count_method": "Top-level resource list items within content sections; exclude Contents, License, nested explanatory bullets and badges. A row with multiple links counts once.",
+  "section_counts": {
+    "Fundraising": 24,
+    "Entrepreneurship": 12,
+    "Product": 6,
+    "Sales": 1,
+    "Marketing": 5,
+    "Management": 12,
+    "Hiring": 3,
+    "Finance": 4,
+    "Books": 10,
+    "More links": 6,
+    "Other": 2
+  },
+  "total_resource_items": 85.0,
+  "snapshot_sha256": {
+    "readme": "6461d4f4b81ec09579586b7a44c003ca0be9823d4a969c5fb75443445b34e3cc",
+    "license": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+  },
+  "verification_scope": "Fixed-commit tree, README, license and resource-list counts; external destinations and business outcomes not tested."
+}

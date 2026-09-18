@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Awesome CEO 中文资源导航：全量整理 85 条创业与管理资料，提供中文导读、原文入口与分类汇总。">
+  <title>Awesome CEO · 创业与管理中文资源导航</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#library">跳到资源清单</a>
+<aside class="sidebar" aria-label="资源分类">
+  <a class="brand" href="#all"><span class="brand-mark">a<span>c</span></span><span>Awesome CEO<small>中文资源导航 / 009</small></span></a>
+  <div class="sidebar-label">按主题浏览</div>
+  <nav id="category-nav"><a href="#all" data-filter="all" aria-current="page"><span>全部资源</span><span class="count">85</span></a><!-- NAV --></nav>
+  <div class="sidebar-bottom"><p>一个 README，<br>一份创业者的阅读清单。</p><a href="https://github.com/kuchin/awesome-ceo" target="_blank" rel="noopener noreferrer">查看上游仓库 ↗</a><a href="#about">关于这份整理 ↓</a></div>
+</aside>
+<main>
+  <header class="topbar"><span>THE FOUNDER’S READING SHELF</span><nav><a href="#map">一图看懂 ↘</a><a href="#types">资料类型 ↘</a><a href="#overview">主题汇总 ↘</a></nav></header>
+  <section class="hero" aria-labelledby="page-title">
+    <p class="eyebrow">AWESOME CEO / 中文全量整理</p>
+    <h1 id="page-title">创业与管理的<br>资料导航<span class="period">。</span></h1>
+    <p class="hero-description">一份人工精选的 README 链接清单。<br class="desktop-break">帮助你找到资料、选择阅读入口，再到原站阅读或使用。</p>
+    <div class="hero-bottom"><div class="stats"><span><strong>85</strong> 条资源</span><span><strong>11</strong> 个分类</span><span><strong>86</strong> 个原始链接</span></div><span class="edition">原清单版本 · 2023.02.16</span></div>
+  </section>
+  <section class="project-summary" aria-label="项目摘要"><article><span class="eyebrow">01 / 能力</span><h2>收集、分类、导航</h2><p>通过主题分类和少量推荐语，降低寻找资料的成本。知识正文与工具服务由外部网站提供，仓库本身没有自动分析或业务执行功能。</p></article><article><span class="eyebrow">02 / 内容</span><h2>创业与经营的资料入口</h2><p>涵盖融资、创业、产品、销售、营销、管理、招聘、财务，以及书籍课程、扩展资料和 CTO / TPM 相关资源，共 11 个主题、85 条资料。</p></article><article><span class="eyebrow">03 / 对我们的意义</span><h2>作为备查目录即可</h2><p>对当前的软件能力与技术实现研究，直接参考价值较低。需要验证需求、寻找客户或组织团队时再查阅，无需继续技术深挖或集成。</p></article></section>
+  <section class="map-section" id="map" aria-labelledby="map-title"><div class="map-heading"><div><span class="eyebrow">AT A GLANCE</span><h2 id="map-title">先看一张图，再按需查资料。</h2></div><a href="./overview.html">放大查看 ↗</a></div><a href="./overview.html" class="map-link"><img id="understanding-map" src="../assets/understanding-map.png" alt="Awesome CEO 一图看懂：85条资源按六组资料类型与11个主题整理，人工筛选、README分类、点击外链、自行阅读实践；适合作为备查目录，技术复用价值较低。"></a><p class="map-caption">原创概念汇总，非上游软件截图。<a href="../assets/understanding-map.png" download>下载原图 ↓</a></p></section>
+  <section class="type-section" id="types" aria-labelledby="types-title"><span class="eyebrow">BROWSE BY FORMAT</span><h2 id="types-title">按资料类型，继续展开。</h2><p class="type-intro">点击一组查看全部对应资源。类型与业务主题是同一批资料的两个视角，数量不叠加。</p><div class="type-grid"><!-- TYPE_CARDS --></div></section>
+  <details class="overview" id="overview"><summary><span><span class="eyebrow">READING MAP</span><strong>这份清单都整理了什么？</strong></span><span class="overview-toggle">展开分类汇总 ＋</span></summary><div class="overview-grid"><!-- OVERVIEW --></div></details>
+  <section class="library" id="library" aria-label="完整资源清单">
+    <div class="filters"><div class="search-wrap"><span aria-hidden="true" class="search-icon">⌕</span><label class="sr-only" for="search">搜索中文、英文、作者或关键词</label><input type="search" id="search" placeholder="搜索中文、英文、作者或关键词…" autocomplete="off"><button type="button" id="clear-search" aria-label="清空搜索" hidden>×</button></div><label class="sr-only" for="kind">资源类型</label><select id="kind"><option value="all">所有类型</option><!-- TYPES --></select></div>
+    <div class="result-bar"><p id="result-status" role="status" aria-live="polite">全部资源 · 85 / 85 条</p><button id="reset" type="button" hidden>重置筛选 ↺</button><span class="guide-label">中文导读 · 点击链接前往原站</span></div>
+    <p class="scope-note">导读依据原清单标题与附注整理，帮助判断阅读方向；不替代外部原文。资源顺序与原清单一致。</p>
+    <div class="empty-state" id="empty" hidden><span aria-hidden="true">⌕</span><h2>暂时没有匹配的资料</h2><p>试试更短的关键词，或清除分类与类型筛选。</p><button id="empty-reset" type="button">查看全部 85 条资源</button></div>
+    <div id="resource-sections"><!-- SECTIONS --></div>
+  </section>
+  <footer id="about"><span class="eyebrow">ABOUT THIS EDITION</span><h2>链接是入口，阅读从原文开始。</h2><p>Awesome CEO 是 kuchin 人工精选、带有个人判断的创业与管理资源清单。这个页面将 README 的全部 85 个资源条目整理为中文，并保留 86 个内容链接、英文原标题、原有署名与作者附注译文。中文标题为便于阅读的译名，书籍版本请以出版信息为准。</p><p>原作者以一句玩笑开场：“你好，我叫 Dima，我是一名 CEO。”众人回答：“欢迎，Dima。”清单既有严肃方法，也有个人经验；适合带着问题选择阅读。</p><p>整理日期：2026-09-18。依据上游提交 89f761c（2023-02-16）。外部文章未做全文翻译，链接可用性与收费条件未逐项核验；部分条目的 💰 为原清单标记。清单采用 CC0-1.0，外部内容遵循各自许可。</p><nav aria-label="来源与说明"><a href="https://github.com/kuchin/awesome-ceo/blob/89f761c2af903066500e1a0c33c33cf36873cdf6/README.md" target="_blank" rel="noopener noreferrer">固定版本原清单 ↗</a><a href="https://awesomeceo.substack.com/" target="_blank" rel="noopener noreferrer">原作者的订阅入口 ↗</a><a href="../notes/evidence/LICENSE">清单许可证</a><a href="../README.md">本项目说明</a></nav><div class="footer-bottom"><span>AWESOME CEO · 中文资源书架</span><a href="#all">返回全部资源 ↑</a></div></footer>
+</main>
+</body>
+</html>

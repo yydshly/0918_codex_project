@@ -92,3 +92,9 @@ https://yydshly.github.io/0918_codex_project/
 首次发布版本 `19023eea28c7931453eb5878f2e7627b31e983a3`，通过现有 Pages 工作流发布，保留 001—006。2026-09-18 已验证七项目公网入口、26 项 HTTP 资源、引导图与 PPTX 字节一致性，以及线上任务切换、目录展开、图片缩放、章节刷新与手机布局。[部署记录](../projects/008-baoyu-design/notes/evidence/deployment.json) · [运行说明](../projects/008-baoyu-design/demo/README.md)。
 
 构建器支持可选 `demoAssetDirs` 字段，将声明的嵌套 demo 资源路径重写到编号入口下的 `demo/<目录>/`。008 使用 `_ds`、`vendor`、`downloads`；原始 demo 和编号入口均保留。001—006 沿用原有行为。发布成功只证明研究站点可访问，不扩大上游能力的实测结论。
+
+## 009 本地集成状态
+
+009 · Awesome CEO 已制作中文资源导航：完整展示 85 条资源、86 个内容链接与 13 处作者附注译文，支持分类汇总、搜索和类型筛选。新增原创“一图看懂”、六组资料类型入口和说明，以及可缩放的 `overview.html`。已登记到 `site-projects.json`，沿用编号子路径 `009-awesome-ceo/` 和现有静态构建器，清单保留之前的七个展厅。
+
+状态：本地验证完成，未发布到公网。启动与重建方法见 [009 网页说明](../projects/009-awesome-ceo/demo/README.md)，原始网页验证见 [browser.json](../projects/009-awesome-ceo/notes/evidence/browser.json)，编号入口验证见 [integration.json](../projects/009-awesome-ceo/notes/evidence/integration.json)。本次没有将预定发布地址标为已上线地址。

@@ -152,5 +152,34 @@
         "href": "#principle"
       }
     ]
+  },
+  {
+    "slug": "009-awesome-ceo",
+    "name": "Awesome CEO 中文资源导航",
+    "upstream": "https://github.com/kuchin/awesome-ceo",
+    "summary": "创业与管理资料的人工精选链接清单，通过分类和推荐语帮助寻找资料、跳转原文。收录融资、创业、产品、销售、营销、管理、招聘、财务，以及书籍课程、扩展资料和 CTO / TPM 相关资源，共 11 类、85 条。对我们当前直接参考价值较低，作为业务知识与阅读入口备查即可，无需技术深挖或集成。",
+    "cover": "assets/understanding-map.png",
+    "links": [
+      {
+        "label": "一图看懂",
+        "href": "overview.html"
+      },
+      {
+        "label": "按资料类型",
+        "href": "#types"
+      },
+      {
+        "label": "全部资源",
+        "href": "#all"
+      },
+      {
+        "label": "分类汇总",
+        "href": "#overview"
+      },
+      {
+        "label": "书籍与课程",
+        "href": "#category=books"
+      }
+    ]
   }
 ]

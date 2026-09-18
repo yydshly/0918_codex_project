@@ -1,0 +1,1751 @@
+{
+  "commit": "89f761c2af903066500e1a0c33c33cf36873cdf6",
+  "items": [
+    {
+      "id": "r01",
+      "number": 1,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "种子轮融资指南",
+      "original": "A Guide to Seed Fundraising",
+      "summary": "从种子轮融资指南开始，了解早期融资需要研究的问题与准备工作。",
+      "kind": "指南",
+      "author": "YCombinator",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "非常好的入门起点。",
+      "links": [
+        {
+          "label": "A Guide to Seed Fundraising",
+          "url": "https://www.ycombinator.com/library/4A-a-guide-to-seed-fundraising"
+        }
+      ]
+    },
+    {
+      "id": "r02",
+      "number": 2,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "融资行动手册",
+      "original": "A Playbook for Fundraising",
+      "summary": "一份关于融资的行动指南，可与其他融资入门材料对照阅读。",
+      "kind": "指南",
+      "author": "Lenny Rachitsky",
+      "profiles": [
+        "https://twitter.com/lennysan"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "很棒的总结。",
+      "links": [
+        {
+          "label": "A Playbook for Fundraising",
+          "url": "https://www.lennysnewsletter.com/p/a-playbook-for-fundraising?triedSigningIn=true"
+        }
+      ]
+    },
+    {
+      "id": "r03",
+      "number": 3,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "创业公司融资手册",
+      "original": "The Startup Fundraising Playbook",
+      "summary": "DocSend 的创业融资资料入口，适合准备融资时查阅。",
+      "kind": "指南",
+      "author": "Dropbox",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "The Startup Fundraising Playbook",
+          "url": "https://www.docsend.com/index/startup-fundraising/"
+        }
+      ]
+    },
+    {
+      "id": "r04",
+      "number": 4,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "产品上线前，如何融资",
+      "original": "How to raise money before launch",
+      "summary": "聚焦尚未推出产品的阶段，了解这一阶段的融资讨论。",
+      "kind": "文章",
+      "author": "Khosla Ventures",
+      "profiles": [],
+      "originalMoneyMarker": true,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "How to raise money before launch",
+          "url": "https://medium.com/@zebulgar/how-to-raise-money-before-launch-a3544ef4dba6"
+        }
+      ]
+    },
+    {
+      "id": "r05",
+      "number": 5,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "我如何让 50 位知名天使投资人参与种子轮",
+      "original": "How I got 50 high-profile angel investors to join our seed round",
+      "summary": "一位创始人邀请天使投资人参与融资的案例记录。",
+      "kind": "案例",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "How I got 50 high-profile angel investors to join our seed round",
+          "url": "https://www.mentava.com/blog/how-i-got-50-high-profile-angel-investors-to-join-our-seed-round"
+        }
+      ]
+    },
+    {
+      "id": "r06",
+      "number": 6,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "2022 年，SaaS 公司融资需要什么",
+      "original": "What does it take to raise capital, in SaaS, in 2022?",
+      "summary": "带有明确年份的 SaaS 融资讨论，适合作为当时市场的历史材料。",
+      "kind": "文章",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "What does it take to raise capital, in SaaS, in 2022?",
+          "url": "https://medium.com/point-nine-news/what-does-it-take-to-raise-capital-in-saas-in-2022-7ebe55c86e3e"
+        }
+      ]
+    },
+    {
+      "id": "r07",
+      "number": 7,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "如何为你的创业公司融资",
+      "original": "How to Raise Money for Your Startup",
+      "summary": "围绕创业融资的入门文章，可用于梳理进一步阅读的问题。",
+      "kind": "指南",
+      "author": "Alex Banks",
+      "profiles": [
+        "https://twitter.com/thealexbanks"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "How to Raise Money for Your Startup",
+          "url": "https://noise.beehiiv.com/p/how-to-raise-money-for-your-startup"
+        }
+      ]
+    },
+    {
+      "id": "r08",
+      "number": 8,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "如何向风险投资人介绍你的项目",
+      "original": "How to pitch to a VC",
+      "summary": "David S. Rose 的 TED 演讲，主题是向风险投资人进行项目推介。",
+      "kind": "视频",
+      "author": "David S. Rose",
+      "profiles": [
+        "https://twitter.com/davidsrose"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "How to pitch to a VC",
+          "url": "https://www.ted.com/talks/david_s_rose_how_to_pitch_to_a_vc"
+        }
+      ]
+    },
+    {
+      "id": "r09",
+      "number": 9,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "当投资人问起估值时，应该怎么谈",
+      "original": "How to Talk About Valuation When a VC Asks",
+      "summary": "聚焦融资沟通中的估值话题，提供一个研究入口。",
+      "kind": "文章",
+      "author": "Mark Suster",
+      "profiles": [
+        "https://twitter.com/msuster"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "How to Talk About Valuation When a VC Asks",
+          "url": "https://bothsidesofthetable.com/how-to-talk-about-valuation-when-a-vc-asks-7376f5721226"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "number": 10,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "种子轮前与种子轮创始人最难的问题",
+      "original": "Pre-seed and seed founder's hardest question",
+      "summary": "继续打磨当前产品，还是转向下一个想法？这是原清单强调的问题。",
+      "kind": "文章",
+      "author": "Aditya Agarwal",
+      "profiles": [
+        "https://twitter.com/adityaag"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "对种子轮前与种子轮阶段的创始人而言，最难的问题是判断：应该坚持当前产品，还是转向下一个想法。",
+      "links": [
+        {
+          "label": "Pre-seed and seed founder's hardest question",
+          "url": "https://www.linkedin.com/posts/adityaagarwal3_the-single-hardest-question-at-the-pre-seed-activity-7021553572609744896-XEue/"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "number": 11,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "种子轮阶段的期权授予",
+      "original": "Option grants at seed round",
+      "summary": "Index Ventures 关于早期人才期权分配的资料入口。",
+      "kind": "指南",
+      "author": "Index Ventures",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Option grants at seed round",
+          "url": "https://www.indexventures.com/rewardingtalent/how-much-and-who-gets-it"
+        }
+      ]
+    },
+    {
+      "id": "r12",
+      "number": 12,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "创业融资如何运作",
+      "original": "How Startup Funding Works",
+      "summary": "介绍创业融资运作方式的资料，适合建立基础认识。",
+      "kind": "文章",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "How Startup Funding Works",
+          "url": "https://www.linkedin.com/posts/herwigspringer_founder-investor-venturecapital-activity-7000525239516319744-iDS_/"
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "number": 13,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "IPO 及其他选择：公司退出路径指南",
+      "original": "IPOs and Beyond: A Guide to Exit Options for Companies",
+      "summary": "将上市与其他退出方式放在一起理解的资料入口。",
+      "kind": "指南",
+      "author": "a16z",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "IPOs and Beyond: A Guide to Exit Options for Companies",
+          "url": "https://future.a16z.com/ipos-and-beyond-a-guide-to-exit-options-for-companies/"
+        }
+      ]
+    },
+    {
+      "id": "r14",
+      "number": 14,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "小型创业公司的 CTO 应获得多少股权",
+      "original": "What would a CTO equity be for a small startup?",
+      "summary": "围绕创业公司技术负责人薪酬与股权的问答讨论。",
+      "kind": "问答",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "What would a CTO equity be for a small startup?",
+          "url": "https://www.quora.com/What-would-a-CTO-compensation-equity-be-for-a-small-startup"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "number": 15,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "期权还是现金",
+      "original": "Options vs Cash",
+      "summary": "比较期权与现金报酬的讨论，适合了解两者的不同考虑因素。",
+      "kind": "文章",
+      "author": "Dan Luu",
+      "profiles": [
+        "https://twitter.com/danluu"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Options vs Cash",
+          "url": "https://danluu.com/startup-options/"
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "number": 16,
+      "category": "fundraising",
+      "subgroup": "",
+      "title": "如何投资创业公司",
+      "original": "How To Invest In Startups",
+      "summary": "Sam Altman 从投资创业公司的角度展开的文章。",
+      "kind": "文章",
+      "author": "Sam Altman",
+      "profiles": [
+        "https://twitter.com/sama"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "How To Invest In Startups",
+          "url": "https://blog.samaltman.com/how-to-invest-in-startups"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "number": 17,
+      "category": "fundraising",
+      "subgroup": "融资计算工具",
+      "title": "创业公司股权稀释计算器",
+      "original": "Startup Equity Dilution Calculator",
+      "summary": "前往外部工具查看股权稀释计算；本页不执行计算。",
+      "kind": "工具",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Startup Equity Dilution Calculator",
+          "url": "https://www.capboard.io/en/captable/equity-dilution-calculator"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "number": 18,
+      "category": "fundraising",
+      "subgroup": "融资计算工具",
+      "title": "创业经济模型计算器",
+      "original": "Startup Economics Calculator",
+      "summary": "清单收录的创业经济计算工具入口，参数与功能以目标站点为准。",
+      "kind": "工具",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Startup Economics Calculator",
+          "url": "https://smartasset.com/infographic/startup"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "number": 19,
+      "category": "fundraising",
+      "subgroup": "投资人目录",
+      "title": "First Round 天使投资人目录",
+      "original": "First Round Capital",
+      "summary": "原清单放在天使投资人目录中的 First Round 入口。",
+      "kind": "目录",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": true,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "First Round Capital",
+          "url": "https://angels.firstround.com"
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "number": 20,
+      "category": "fundraising",
+      "subgroup": "投资人目录",
+      "title": "NFX 投资人目录",
+      "original": "NFX list",
+      "summary": "前往 NFX Signal 研究投资人资料；可用范围以原站为准。",
+      "kind": "目录",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": true,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "NFX list",
+          "url": "https://signal.nfx.com"
+        }
+      ]
+    },
+    {
+      "id": "r21",
+      "number": 21,
+      "category": "fundraising",
+      "subgroup": "投资人目录",
+      "title": "funden 投资人资源入口",
+      "original": "funden",
+      "summary": "原清单收录的投资人目录服务，需在原站确认当前功能与条件。",
+      "kind": "目录",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": true,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "funden",
+          "url": "https://funden.com"
+        }
+      ]
+    },
+    {
+      "id": "r22",
+      "number": 22,
+      "category": "fundraising",
+      "subgroup": "路演材料",
+      "title": "30 份经典创业路演材料及其启发",
+      "original": "30 Legendary Startup Pitch Decks and What You Can Learn From Them",
+      "summary": "通过路演材料案例研究表达结构与呈现方式。",
+      "kind": "案例",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "30 Legendary Startup Pitch Decks and What You Can Learn From Them",
+          "url": "https://piktochart.com/blog/startup-pitch-decks-what-you-can-learn/"
+        }
+      ]
+    },
+    {
+      "id": "r23",
+      "number": 23,
+      "category": "fundraising",
+      "subgroup": "路演材料",
+      "title": "获得风投支持的创业公司路演材料合集",
+      "original": "Pitch deck collection from VC funded startups",
+      "summary": "从已获融资企业的材料中寻找参考案例。",
+      "kind": "案例",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Pitch deck collection from VC funded startups",
+          "url": "https://www.alexanderjarvis.com/pitch-deck-collection-from-vc-funded-startups/"
+        }
+      ]
+    },
+    {
+      "id": "r24",
+      "number": 24,
+      "category": "fundraising",
+      "subgroup": "路演材料",
+      "title": "创业路演材料合集",
+      "original": "Startup decks collection",
+      "summary": "集中浏览不同创业项目的路演材料。",
+      "kind": "案例",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Startup decks collection",
+          "url": "https://startupdecks.co/decks/"
+        }
+      ]
+    },
+    {
+      "id": "r25",
+      "number": 25,
+      "category": "entrepreneurship",
+      "subgroup": "",
+      "title": "创业公司必须做对哪些事",
+      "original": "What are the things startups have to get right?",
+      "summary": "从问答讨论中了解人们如何界定创业过程中的关键事项。",
+      "kind": "问答",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "What are the things startups have to get right?",
+          "url": "https://www.quora.com/What-are-the-things-startups-have-to-get-right"
+        }
+      ]
+    },
+    {
+      "id": "r26",
+      "number": 26,
+      "category": "entrepreneurship",
+      "subgroup": "",
+      "title": "担任 CEO 后，我学到的 85 件事",
+      "original": "85 Things I learned being a CEO",
+      "summary": "一份 CEO 经验清单，适合按当前遇到的问题选择阅读。",
+      "kind": "文章",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "85 Things I learned being a CEO",
+          "url": "https://hackernoon.com/85-things-i-learned-being-a-ceo-4c25fc1c7b99"
+        }
+      ]
+    },
+    {
+      "id": "r27",
+      "number": 27,
+      "category": "entrepreneurship",
+      "subgroup": "",
+      "title": "创业公司 CEO 的第二项工作是什么",
+      "original": "What’s the Second Job of a Startup CEO?",
+      "summary": "Y Combinator 关于 CEO 职责的文章。",
+      "kind": "文章",
+      "author": "Y Combinator",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "What’s the Second Job of a Startup CEO?",
+          "url": "https://blog.ycombinator.com/the-second-job-of-a-startup-ceo/"
+        }
+      ]
+    },
+    {
+      "id": "r28",
+      "number": 28,
+      "category": "entrepreneurship",
+      "subgroup": "",
+      "title": "如果孩子将来创业，我会告诉他们什么",
+      "original": "Things I will tell my kids if they become entrepreneurs",
+      "summary": "以给下一代建议的方式呈现创业经验的演示文稿。",
+      "kind": "演示",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Things I will tell my kids if they become entrepreneurs",
+          "url": "https://www.slideshare.net/laurenthaug/things-i-will-tell-my-kids-if-they-become-entrepreneurs"
+        }
+      ]
+    },
+    {
+      "id": "r29",
+      "number": 29,
+      "category": "entrepreneurship",
+      "subgroup": "",
+      "title": "风险投资人在投资时真正看什么",
+      "original": "What do VCs really look for when making investments?",
+      "summary": "围绕投资人关注因素的问答入口。",
+      "kind": "问答",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "What do VCs really look for when making investments?",
+          "url": "https://www.quora.com/What-do-VCs-really-look-for-when-making-investments"
+        }
+      ]
+    },
+    {
+      "id": "r30",
+      "number": 30,
+      "category": "entrepreneurship",
+      "subgroup": "",
+      "title": "作为创业公司员工，如何判断何时离开",
+      "original": "As an employee of a startup, how do you know when to quit?",
+      "summary": "从员工视角讨论创业公司中的去留判断。",
+      "kind": "问答",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "As an employee of a startup, how do you know when to quit?",
+          "url": "https://www.quora.com/As-an-employee-of-a-startup-how-do-you-know-when-to-quit"
+        }
+      ]
+    },
+    {
+      "id": "r31",
+      "number": 31,
+      "category": "entrepreneurship",
+      "subgroup": "",
+      "title": "YC 的 A 轮融资尽调清单",
+      "original": "YC’s Series A Diligence Checklist",
+      "summary": "用于了解 A 轮融资尽调涉及事项的清单入口。",
+      "kind": "清单",
+      "author": "Y Combinator",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "YC’s Series A Diligence Checklist",
+          "url": "https://blog.ycombinator.com/ycs-series-a-diligence-checklist/"
+        }
+      ]
+    },
+    {
+      "id": "r32",
+      "number": 32,
+      "category": "entrepreneurship",
+      "subgroup": "",
+      "title": "创业行动手册",
+      "original": "Startup Playbook",
+      "summary": "Sam Altman 的创业手册，适合建立整体阅读框架。",
+      "kind": "指南",
+      "author": "Sam Altman",
+      "profiles": [
+        "https://twitter.com/sama"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Startup Playbook",
+          "url": "https://playbook.samaltman.com"
+        }
+      ]
+    },
+    {
+      "id": "r33",
+      "number": 33,
+      "category": "entrepreneurship",
+      "subgroup": "",
+      "title": "创业课程",
+      "original": "Startup Class",
+      "summary": "Sam Altman 的创业课程入口，作为持续学习的起点。",
+      "kind": "课程",
+      "author": "Sam Altman",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Startup Class",
+          "url": "https://startupclass.samaltman.com"
+        }
+      ]
+    },
+    {
+      "id": "r34",
+      "number": 34,
+      "category": "entrepreneurship",
+      "subgroup": "",
+      "title": "精益画布与 Miro 模板",
+      "original": "Lean Canvas",
+      "summary": "同一条目包含精益画布介绍和 Miro 模板，可用于整理商业假设。",
+      "kind": "模板",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Lean Canvas",
+          "url": "https://leanstack.com/leancanvas"
+        },
+        {
+          "label": "Miro template",
+          "url": "https://miro.com/templates/lean-canvas/"
+        }
+      ]
+    },
+    {
+      "id": "r35",
+      "number": 35,
+      "category": "entrepreneurship",
+      "subgroup": "",
+      "title": "Figma 开源融资演示模板",
+      "original": "Open Source Pitch Deck Templates for Figma",
+      "summary": "原清单推荐的 Figma 路演模板入口；获取条件以原站为准。",
+      "kind": "模板",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Open Source Pitch Deck Templates for Figma",
+          "url": "https://www.figmafinder.com/figma-pitch-deck"
+        }
+      ]
+    },
+    {
+      "id": "r36",
+      "number": 36,
+      "category": "entrepreneurship",
+      "subgroup": "",
+      "title": "成功转型的创业公司案例清单",
+      "original": "List of startups that had successful pivots",
+      "summary": "收集企业转型案例的 GitHub 清单，可作为案例研究起点。",
+      "kind": "案例",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "List of startups that had successful pivots",
+          "url": "https://github.com/fikrikarim/companies-with-successful-pivot"
+        }
+      ]
+    },
+    {
+      "id": "r37",
+      "number": 37,
+      "category": "product",
+      "subgroup": "",
+      "title": "做好产品为什么这么难",
+      "original": "Product is Hard",
+      "summary": "从价值、可用性、技术可行性和商业可行性四个方面审视产品。",
+      "kind": "文章",
+      "author": "Marty Cagan",
+      "profiles": [
+        "https://twitter.com/cagan"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "解决方案需要具备四个条件：有价值——客户愿意选择使用；可用——容易理解如何使用；技术可行——能用已有技术栈和技能构建；商业可行——在预算、法律、伦理和声誉等约束下，对利益相关者行得通。",
+      "links": [
+        {
+          "label": "Product is Hard",
+          "url": "https://www.mindtheproduct.com/product-is-hard-by-marty-cagan/"
+        }
+      ]
+    },
+    {
+      "id": "r38",
+      "number": 38,
+      "category": "product",
+      "subgroup": "",
+      "title": "红海市场：如何寻找有利润空间的创业想法",
+      "original": "Red Oceans: How to Find Profitable Startup Ideas",
+      "summary": "围绕成熟竞争市场中的创业想法寻找展开讨论。",
+      "kind": "文章",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Red Oceans: How to Find Profitable Startup Ideas",
+          "url": "https://capitalandgrowth.org/answers/Article/3143488/How-to-Find-Profitable-Business-Ideas"
+        }
+      ]
+    },
+    {
+      "id": "r39",
+      "number": 39,
+      "category": "product",
+      "subgroup": "",
+      "title": "创造性思维的秘密",
+      "original": "The Secrets Of Creative Thinking",
+      "summary": "关于创意思考的资料入口，可用于拓展产品想法。",
+      "kind": "文章",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "The Secrets Of Creative Thinking",
+          "url": "https://www.lemonade.com/blog/creative-thinking-hacks/"
+        }
+      ]
+    },
+    {
+      "id": "r40",
+      "number": 40,
+      "category": "product",
+      "subgroup": "",
+      "title": "多数创业公司应当做“猎鹿者”",
+      "original": "Most Startups Should Be Deer Hunters",
+      "summary": "以“猎鹿者”为比喻的创业文章；比喻的具体含义需阅读原文。",
+      "kind": "文章",
+      "author": "Mark Suster",
+      "profiles": [
+        "https://twitter.com/msuster"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Most Startups Should Be Deer Hunters",
+          "url": "https://bothsidesofthetable.com/most-startups-should-be-deer-hunters-7fdecf58f4f6"
+        }
+      ]
+    },
+    {
+      "id": "r41",
+      "number": 41,
+      "category": "product",
+      "subgroup": "",
+      "title": "每位创始人都要跨越的 8 道产品关卡",
+      "original": "8 Product Hurdles Every Founder Must Clear",
+      "summary": "First Round 收录的产品挑战与经验资料。",
+      "kind": "文章",
+      "author": "First Round Capital",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "8 Product Hurdles Every Founder Must Clear",
+          "url": "https://review.firstround.com/8-product-hurdles-every-founder-must-clear-this-pm-turned-founder-shares-his-playbooks"
+        }
+      ]
+    },
+    {
+      "id": "r42",
+      "number": 42,
+      "category": "product",
+      "subgroup": "产品与市场匹配",
+      "title": "关于产品与市场匹配的 12 件事",
+      "original": "12 Things About Product-Market Fit",
+      "summary": "围绕 PMF（产品与市场匹配）的讨论入口。",
+      "kind": "文章",
+      "author": "a16z",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "12 Things About Product-Market Fit",
+          "url": "https://a16z.com/2017/02/18/12-things-about-product-market-fit-2/"
+        }
+      ]
+    },
+    {
+      "id": "r43",
+      "number": 43,
+      "category": "sales",
+      "subgroup": "",
+      "title": "找到你的前 10 位客户",
+      "original": "Your first 10 customers",
+      "summary": "Stripe 的早期销售指南，适合开始寻找首批客户时阅读。",
+      "kind": "指南",
+      "author": "Stripe",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Your first 10 customers",
+          "url": "https://stripe.com/en-in/guides/atlas/starting-sales"
+        }
+      ]
+    },
+    {
+      "id": "r44",
+      "number": 44,
+      "category": "marketing",
+      "subgroup": "",
+      "title": "让你的营销更有创意",
+      "original": "Get creative with your marketing",
+      "summary": "关于营销创意的短内容入口。",
+      "kind": "文章",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Get creative with your marketing",
+          "url": "https://www.linkedin.com/posts/kevinleeme_marketing-growth-business-activity-7002752700526256129-5Wsi/"
+        }
+      ]
+    },
+    {
+      "id": "r45",
+      "number": 45,
+      "category": "marketing",
+      "subgroup": "",
+      "title": "开发者营销指南",
+      "original": "Developer Marketing Guide",
+      "summary": "面向开发者受众的营销资料，适合开发工具与技术产品查阅。",
+      "kind": "指南",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Developer Marketing Guide",
+          "url": "https://www.devmarketingguide.com"
+        }
+      ]
+    },
+    {
+      "id": "r46",
+      "number": 46,
+      "category": "marketing",
+      "subgroup": "",
+      "title": "创业营销与公关精选资源",
+      "original": "Top Resources for Startup Marketing and PR",
+      "summary": "一份外部表格资源集，继续汇总营销与公关资料。",
+      "kind": "目录",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Top Resources for Startup Marketing and PR",
+          "url": "https://docs.google.com/spreadsheets/d/1tAiya71mDQgtwn_F9-mNQhuc7GdsQ5e2_BeG69Cb82A/edit#gid=0"
+        }
+      ]
+    },
+    {
+      "id": "r47",
+      "number": 47,
+      "category": "marketing",
+      "subgroup": "",
+      "title": "SaaS 邮件营销手册",
+      "original": "SaaS Email Marketing Handbook",
+      "summary": "针对 SaaS 邮件营销主题的学习入口，本页不提供邮件发送服务。",
+      "kind": "指南",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "SaaS Email Marketing Handbook",
+          "url": "https://saasemailmarketing.net"
+        }
+      ]
+    },
+    {
+      "id": "r48",
+      "number": 48,
+      "category": "marketing",
+      "subgroup": "",
+      "title": "快速成长的 B2B 企业如何找到前 10 位客户",
+      "original": "How today's fastest growing B2B businesses found their first ten customers",
+      "summary": "从企业案例了解早期客户获取的不同路径。",
+      "kind": "案例",
+      "author": "Lenny Rachitsky",
+      "profiles": [
+        "https://twitter.com/lennysan"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "How today's fastest growing B2B businesses found their first ten customers",
+          "url": "https://www.lennysnewsletter.com/p/how-todays-fastest-growing-b2b-businesses"
+        }
+      ]
+    },
+    {
+      "id": "r49",
+      "number": 49,
+      "category": "management",
+      "subgroup": "",
+      "title": "创业公司的 CEO 与 CTO 如何良好协作",
+      "original": "What makes for a successful CEO and CTO relationship in a startup?",
+      "summary": "关于创始人与技术负责人合作关系的问答讨论。",
+      "kind": "问答",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "What makes for a successful CEO and CTO relationship in a startup?",
+          "url": "https://www.quora.com/What-makes-for-a-successful-CEO-and-CTO-relationship-in-a-startup"
+        }
+      ]
+    },
+    {
+      "id": "r50",
+      "number": 50,
+      "category": "management",
+      "subgroup": "",
+      "title": "创作者的时间表，管理者的时间表",
+      "original": "Maker's Schedule, Manager's Schedule",
+      "summary": "Paul Graham 关于两种工作节奏的文章，适合讨论会议与专注时间。",
+      "kind": "文章",
+      "author": "Paul Graham",
+      "profiles": [
+        "https://twitter.com/paulg"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Maker's Schedule, Manager's Schedule",
+          "url": "http://www.paulgraham.com/makersschedule.html"
+        }
+      ]
+    },
+    {
+      "id": "r51",
+      "number": 51,
+      "category": "management",
+      "subgroup": "",
+      "title": "与员工讨论薪酬的诀窍",
+      "original": "The Secret To Discussing Pay With Employees",
+      "summary": "围绕管理者如何开展薪酬沟通的资料入口。",
+      "kind": "文章",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "The Secret To Discussing Pay With Employees",
+          "url": "https://www.officevibe.com/blog/secret-to-discussing-pay-with-employees"
+        }
+      ]
+    },
+    {
+      "id": "r52",
+      "number": 52,
+      "category": "management",
+      "subgroup": "",
+      "title": "领导力与管理精选资源",
+      "original": "Awesome Leading and Managing",
+      "summary": "另一个 GitHub 管理资源清单，用于继续扩展阅读。",
+      "kind": "目录",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Awesome Leading and Managing",
+          "url": "https://github.com/LappleApple/awesome-leading-and-managing"
+        }
+      ]
+    },
+    {
+      "id": "r53",
+      "number": 53,
+      "category": "management",
+      "subgroup": "",
+      "title": "Keith Rabois 的经验：如何成为高效管理者",
+      "original": "Lessons from Keith Rabois: How to be an Effective Executive",
+      "summary": "关于管理者有效工作的经验整理。",
+      "kind": "文章",
+      "author": "Keith Rabois",
+      "profiles": [
+        "https://twitter.com/rabois"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Lessons from Keith Rabois: How to be an Effective Executive",
+          "url": "https://delian.io/lessons-3"
+        }
+      ]
+    },
+    {
+      "id": "r54",
+      "number": 54,
+      "category": "management",
+      "subgroup": "",
+      "title": "任务切换如何损害生产力",
+      "original": "How Context Switching Sabotages Your Productivity",
+      "summary": "围绕频繁切换工作情境与效率的讨论。",
+      "kind": "文章",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "How Context Switching Sabotages Your Productivity",
+          "url": "https://blog.doist.com/context-switching/"
+        }
+      ]
+    },
+    {
+      "id": "r55",
+      "number": 55,
+      "category": "management",
+      "subgroup": "",
+      "title": "与 Reid Hoffman 共事一万小时，我学到了什么",
+      "original": "10,000 Hours with Reid Hoffman: What I Learned",
+      "summary": "以长期共事经历为线索的经验回顾。",
+      "kind": "文章",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "10,000 Hours with Reid Hoffman: What I Learned",
+          "url": "https://casnocha.com/reid-hoffman-lessons"
+        }
+      ]
+    },
+    {
+      "id": "r56",
+      "number": 56,
+      "category": "management",
+      "subgroup": "",
+      "title": "帮助新员工顺利起步的 7 种方法",
+      "original": "7 Ways to Set Up a New Hire for Success",
+      "summary": "关注新人加入团队后的支持与融入。",
+      "kind": "文章",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "7 Ways to Set Up a New Hire for Success",
+          "url": "https://hbr.org/2019/05/7-ways-to-set-up-a-new-hire-for-success"
+        }
+      ]
+    },
+    {
+      "id": "r57",
+      "number": 57,
+      "category": "management",
+      "subgroup": "",
+      "title": "个人的作用很重要",
+      "original": "Individuals matter",
+      "summary": "Dan Luu 关于个人作用的文章入口。",
+      "kind": "文章",
+      "author": "Dan Luu",
+      "profiles": [
+        "https://twitter.com/danluu"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Individuals matter",
+          "url": "https://danluu.com/people-matter/"
+        }
+      ]
+    },
+    {
+      "id": "r58",
+      "number": 58,
+      "category": "management",
+      "subgroup": "",
+      "title": "授权层级",
+      "original": "Mandate Levels",
+      "summary": "以授权层级为主题的管理文章。",
+      "kind": "文章",
+      "author": "John Cutler",
+      "profiles": [
+        "https://twitter.com/johncutlefish"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Mandate Levels",
+          "url": "https://cutlefish.substack.com/p/tbm-2752-mandate-levels"
+        }
+      ]
+    },
+    {
+      "id": "r59",
+      "number": 59,
+      "category": "management",
+      "subgroup": "",
+      "title": "建设优秀远程团队文化的 10 个想法",
+      "original": "10 ideas for building great culture in a distributed (remote) team",
+      "summary": "围绕分布式团队文化的经验分享。",
+      "kind": "文章",
+      "author": "Nathan Barry",
+      "profiles": [
+        "https://twitter.com/nathanbarry"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "10 ideas for building great culture in a distributed (remote) team",
+          "url": "https://twitter.com/nathanbarry/status/1520442729397858304"
+        }
+      ]
+    },
+    {
+      "id": "r60",
+      "number": 60,
+      "category": "management",
+      "subgroup": "",
+      "title": "调整以求长久：危机管理",
+      "original": "Adapting to Endure / Crisis management",
+      "summary": "红杉资本关于适应变化与危机应对的资料，链接带有 2022 年背景。",
+      "kind": "文章",
+      "author": "Sequoia Capital",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Adapting to Endure / Crisis management",
+          "url": "https://www.sequoiacap.com/adapting-to-endure-2022/"
+        }
+      ]
+    },
+    {
+      "id": "r61",
+      "number": 61,
+      "category": "hiring",
+      "subgroup": "",
+      "title": "Keith Rabois 的经验：如何面试高管",
+      "original": "Lessons from Keith Rabois: How to Interview an Executive",
+      "summary": "围绕管理层候选人面试的经验资料。",
+      "kind": "文章",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Lessons from Keith Rabois: How to Interview an Executive",
+          "url": "https://delian.io/lessons-2"
+        }
+      ]
+    },
+    {
+      "id": "r62",
+      "number": 62,
+      "category": "hiring",
+      "subgroup": "",
+      "title": "Keith Rabois 的经验：如何吸引优秀人才",
+      "original": "Lessons from Keith Rabois: How to Become a Magnet for Talent",
+      "summary": "关于人才吸引的经验分享。",
+      "kind": "文章",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Lessons from Keith Rabois: How to Become a Magnet for Talent",
+          "url": "https://delian.io/lessons-5"
+        }
+      ]
+    },
+    {
+      "id": "r63",
+      "number": 63,
+      "category": "hiring",
+      "subgroup": "",
+      "title": "GitLab 人才招聘框架",
+      "original": "GitLab Talent Acquisition Framework",
+      "summary": "GitLab 招聘流程与框架的原始资料入口。",
+      "kind": "框架",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "GitLab Talent Acquisition Framework",
+          "url": "https://about.gitlab.com/handbook/hiring/talent-acquisition-framework/"
+        }
+      ]
+    },
+    {
+      "id": "r64",
+      "number": 64,
+      "category": "finance",
+      "subgroup": "",
+      "title": "财务规划与分析",
+      "original": "Financial Planning & Analysis",
+      "summary": "GitLab 的财务规划与分析资料，作为组织财务学习入口。",
+      "kind": "框架",
+      "author": "GitLab",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Financial Planning & Analysis",
+          "url": "https://about.gitlab.com/handbook/finance/financial-planning-and-analysis/"
+        }
+      ]
+    },
+    {
+      "id": "r65",
+      "number": 65,
+      "category": "finance",
+      "subgroup": "",
+      "title": "平衡工程资源与预算的框架",
+      "original": "Framework for balancing and budgeting engineering resourcing",
+      "summary": "关注工程资源投入、平衡与预算安排的讨论。",
+      "kind": "框架",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Framework for balancing and budgeting engineering resourcing",
+          "url": "https://medium.com/engineering-operations/a-framework-for-balancing-and-budgeting-engineering-resourcing-d0cce0e6911c"
+        }
+      ]
+    },
+    {
+      "id": "r66",
+      "number": 66,
+      "category": "finance",
+      "subgroup": "",
+      "title": "如何与供应商谈成合适的交易",
+      "original": "Negotiate the right deal with suppliers",
+      "summary": "围绕供应商谈判与交易安排的指南。",
+      "kind": "指南",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Negotiate the right deal with suppliers",
+          "url": "https://www.infoentrepreneurs.org/en/guides/negotiate-the-right-deal-with-suppliers/"
+        }
+      ]
+    },
+    {
+      "id": "r67",
+      "number": 67,
+      "category": "finance",
+      "subgroup": "",
+      "title": "战略采购：管理采购流程的十条准则",
+      "original": "Strategic Procurements 10 Commandments for Managing the Buying Process",
+      "summary": "采购流程管理资料；原始链接路径包含医院采购情境。",
+      "kind": "指南",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Strategic Procurements 10 Commandments for Managing the Buying Process",
+          "url": "https://strategicdynamicsfirm.com/strategic-procurements-10-commandments-managing-hospital-buying-process/"
+        }
+      ]
+    },
+    {
+      "id": "r68",
+      "number": 68,
+      "category": "books",
+      "subgroup": "",
+      "title": "《创业维艰》",
+      "original": "The Hard Thing About Hard Things",
+      "summary": "面对创业经营中的困难，阅读关于团队文化与领导方式的经验。",
+      "kind": "书籍",
+      "author": "Ben Horowitz",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "关于如何应对创办和领导创业公司时最棘手挑战的实用建议，从裁员到个人危机；也讨论如何建立强大的公司文化，并以同理心和谦逊领导。",
+      "links": [
+        {
+          "label": "The Hard Thing About Hard Things",
+          "url": "https://amzn.com/dp/B00DQ845EA"
+        }
+      ]
+    },
+    {
+      "id": "r69",
+      "number": 69,
+      "category": "books",
+      "subgroup": "",
+      "title": "《从零到一》",
+      "original": "Zero to One: Notes on Startups, or How to Build the Future",
+      "summary": "从创新与新市场的角度思考如何建立有差异的企业。",
+      "kind": "书籍",
+      "author": "Peter Thiel",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "提供识别和发展颠覆性想法的框架，这些想法可能开创新市场并改变行业；以逆向视角讨论如何建立真正创新的创业公司。",
+      "links": [
+        {
+          "label": "Zero to One: Notes on Startups, or How to Build the Future",
+          "url": "https://amzn.com/dp/B00J6YBOFQ"
+        }
+      ]
+    },
+    {
+      "id": "r70",
+      "number": 70,
+      "category": "books",
+      "subgroup": "",
+      "title": "《高效能人士的七个习惯》",
+      "original": "The 7 Habits of Highly Effective People",
+      "summary": "围绕主动承担责任、持续改进和明确目标的个人成长读物。",
+      "kind": "书籍",
+      "author": "Stephen Covey",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "书名有些误导，我因此多年没有读它。实际上它很有洞见且可实践：个人责任、主动行动与持续改进。它讨论如何获得成功与满足、建立良好关系、培养成长型思维，并让行动与明确目标一致。",
+      "links": [
+        {
+          "label": "The 7 Habits of Highly Effective People",
+          "url": "https://amzn.com/dp/B07WF972WK"
+        }
+      ]
+    },
+    {
+      "id": "r71",
+      "number": 71,
+      "category": "books",
+      "subgroup": "",
+      "title": "《要事第一》",
+      "original": "First Things First",
+      "summary": "关注时间管理、重要目标与长期生活平衡。",
+      "kind": "书籍",
+      "author": "Stephen Covey",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "时间管理与生产力指南：克服拖延、实现最重要的目标，同时平衡工作和生活，并专注于长期真正重要的事。",
+      "links": [
+        {
+          "label": "First Things First",
+          "url": "https://amzn.com/dp/B00V1XGKJK"
+        }
+      ]
+    },
+    {
+      "id": "r72",
+      "number": 72,
+      "category": "books",
+      "subgroup": "",
+      "title": "《冷启动》",
+      "original": "The Cold Start Problem: How to Start and Scale Network Effects",
+      "summary": "关于网络效应企业如何建立和扩大用户基础的书籍。",
+      "kind": "书籍",
+      "author": "Andrew Chen",
+      "profiles": [
+        "https://twitter.com/andrewchen"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "提供建立新网络效应企业的框架，介绍成功企业如何克服从零建立用户基础时的挑战及其策略与方法。",
+      "links": [
+        {
+          "label": "The Cold Start Problem: How to Start and Scale Network Effects",
+          "url": "https://amzn.com/dp/B08HZ5XY7X"
+        }
+      ]
+    },
+    {
+      "id": "r73",
+      "number": 73,
+      "category": "books",
+      "subgroup": "",
+      "title": "《原子习惯》",
+      "original": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+      "summary": "从细小而持续的改变入手，讨论好习惯的建立与坏习惯的改变。",
+      "kind": "书籍",
+      "author": "James Clear",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "建立并保持好习惯、改掉坏习惯的框架；通过日常生活中微小、渐进的改变，促成长期成功和个人成长。",
+      "links": [
+        {
+          "label": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+          "url": "https://amzn.com/dp/B07D23CFGR"
+        }
+      ]
+    },
+    {
+      "id": "r74",
+      "number": 74,
+      "category": "books",
+      "subgroup": "",
+      "title": "《思考，快与慢》",
+      "original": "Thinking, Fast and Slow",
+      "summary": "认识直觉判断与审慎思考，以及决策中可能出现的偏差。",
+      "kind": "书籍",
+      "author": "Daniel Kahneman",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "改善决策能力的框架：自动、直觉式的“快思考”容易带来错误和偏见，更审慎、分析式的“慢思考”能帮助我们做出更好的决定、避开常见陷阱。",
+      "links": [
+        {
+          "label": "Thinking, Fast and Slow",
+          "url": "https://amzn.com/dp/B00555X8OA"
+        }
+      ]
+    },
+    {
+      "id": "r75",
+      "number": 75,
+      "category": "books",
+      "subgroup": "",
+      "title": "《The Mom Test》：如何和客户谈出真实需求",
+      "original": "The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you",
+      "summary": "围绕客户访谈与想法验证，识别礼貌性反馈与真实需求的区别。",
+      "kind": "书籍",
+      "author": "Rob Fitzpatrick",
+      "profiles": [
+        "https://twitter.com/robfitz"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "开展有效客户访谈、构建人们真正需要的产品的框架；帮助验证想法，避免依赖假阳性信号或有偏差的反馈。",
+      "links": [
+        {
+          "label": "The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you",
+          "url": "https://amzn.com/dp/B01H4G2J1U"
+        }
+      ]
+    },
+    {
+      "id": "r76",
+      "number": 76,
+      "category": "books",
+      "subgroup": "",
+      "title": "《Disciplined Entrepreneurship》：创业的 24 个步骤",
+      "original": "Disciplined Entrepreneurship: 24 Steps to a Successful Startup",
+      "summary": "以步骤化框架研究需求、市场、原型、测试与创业发展。",
+      "kind": "书籍",
+      "author": "Bill Aulet",
+      "profiles": [
+        "https://twitter.com/BillAulet"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "发展和测试创新商业想法的框架，从识别客户需求和市场细分，到制作原型、测试方案，再到创业项目的推出与扩大。",
+      "links": [
+        {
+          "label": "Disciplined Entrepreneurship: 24 Steps to a Successful Startup",
+          "url": "https://amzn.com/dp/B00DQ97TWO"
+        }
+      ]
+    },
+    {
+      "id": "r77",
+      "number": 77,
+      "category": "books",
+      "subgroup": "",
+      "title": "Mochary 管理方法课程",
+      "original": "Mochary Method Curriculum",
+      "summary": "Matt Mochary 的管理课程文档入口；这是课程，不是电子书附件。",
+      "kind": "课程",
+      "author": "Matt Mochary",
+      "profiles": [
+        "https://twitter.com/mattmochary"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Mochary Method Curriculum",
+          "url": "https://docs.google.com/document/d/18FiJbYn53fTtPmphfdCKT2TMWH-8Y2L-MLqDk-MFV4s/preview"
+        }
+      ]
+    },
+    {
+      "id": "r78",
+      "number": 78,
+      "category": "more-links",
+      "subgroup": "",
+      "title": "创始人资料库",
+      "original": "The Founder Library",
+      "summary": "原清单以 The Founder Library 收录的 NFX 站点入口。",
+      "kind": "目录",
+      "author": "NfX",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "The Founder Library",
+          "url": "https://www.nfx.com"
+        }
+      ]
+    },
+    {
+      "id": "r79",
+      "number": 79,
+      "category": "more-links",
+      "subgroup": "",
+      "title": "创始人的经验与建议",
+      "original": "Advices from founders",
+      "summary": "foundr 的文章入口，可继续发现创业经验材料。",
+      "kind": "目录",
+      "author": "foundr",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Advices from founders",
+          "url": "https://foundr.com/articles"
+        }
+      ]
+    },
+    {
+      "id": "r80",
+      "number": 80,
+      "category": "more-links",
+      "subgroup": "",
+      "title": "与 Sherpa 一起学习",
+      "original": "Learn with Sherpa",
+      "summary": "Alex Lieberman 的外部学习资源入口。",
+      "kind": "目录",
+      "author": "Alex Lieberman",
+      "profiles": [
+        "https://twitter.com/businessbarista"
+      ],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Learn with Sherpa",
+          "url": "https://www.learnwithsherpa.com"
+        }
+      ]
+    },
+    {
+      "id": "r81",
+      "number": 81,
+      "category": "more-links",
+      "subgroup": "",
+      "title": "创业工具精选清单",
+      "original": "Awesome startup tools list",
+      "summary": "汇总创业工具的 GitHub 清单，具体工具需进入各自页面了解。",
+      "kind": "目录",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Awesome startup tools list",
+          "url": "https://github.com/Ibexoft/awesome-startup-tools-list"
+        }
+      ]
+    },
+    {
+      "id": "r82",
+      "number": 82,
+      "category": "more-links",
+      "subgroup": "",
+      "title": "创业书籍、视频、课程与资源精选",
+      "original": "Awesome books, videos, courses and resources about making a startup",
+      "summary": "覆盖多种学习形式的创业资源清单。",
+      "kind": "目录",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Awesome books, videos, courses and resources about making a startup",
+          "url": "https://github.com/KrishMunot/awesome-startup"
+        }
+      ]
+    },
+    {
+      "id": "r83",
+      "number": 83,
+      "category": "more-links",
+      "subgroup": "",
+      "title": "常用创业资源集",
+      "original": "Go-To Startup Resources",
+      "summary": "Learning Loop 的 Notion 资源汇总入口。",
+      "kind": "目录",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Go-To Startup Resources",
+          "url": "https://learningloop.notion.site/learningloop/Go-To-Startup-Resources-28954916f3ad4445be7e713554bc6a8b"
+        }
+      ]
+    },
+    {
+      "id": "r84",
+      "number": 84,
+      "category": "other",
+      "subgroup": "",
+      "title": "CTO 精选资源",
+      "original": "Awesome CTO",
+      "summary": "同一维护者整理的技术负责人资源清单。",
+      "kind": "目录",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Awesome CTO",
+          "url": "https://github.com/kuchin/awesome-cto"
+        }
+      ]
+    },
+    {
+      "id": "r85",
+      "number": 85,
+      "category": "other",
+      "subgroup": "",
+      "title": "TPM 精选资源",
+      "original": "Awesome TPM",
+      "summary": "同一维护者整理的 TPM 角色相关资源清单。",
+      "kind": "目录",
+      "author": "",
+      "profiles": [],
+      "originalMoneyMarker": false,
+      "authorNote": "",
+      "links": [
+        {
+          "label": "Awesome TPM",
+          "url": "https://github.com/kuchin/awesome-tpm"
+        }
+      ]
+    }
+  ]
+}
