@@ -14,14 +14,14 @@
 | 版本声明 | `2.1.14`；不表示已核验该版本发布包 |
 | 上游许可证 | MIT；[原始声明](licenses/upstream.LICENSE)，依赖与插件有各自许可 |
 | 技术栈 | 上游：Electron、TypeScript、MCP、Chrome MV3 扩展、原生辅助程序；本展厅：原生 HTML/CSS/JavaScript |
-| 研究进度 | 研究中；源码分析与本地静态展厅验证，未运行上游端到端工作流 |
+| 研究进度 | 研究中；源码分析、静态展厅与公网验证完成，未运行上游端到端工作流 |
 | 收录 / 验证日期 | 2026-09-18；具体执行时间见证据文件 |
-| 在线演示 | 部署中；完成公网验证后记录地址 |
+| 在线演示 | [在线研究展厅](https://yydshly.github.io/0918_codex_project/005-chat-on-steroids/) · [一图总览](https://yydshly.github.io/0918_codex_project/005-chat-on-steroids/#map) |
 
 ## 展示与阅读
 
-- [打开交互展厅](demo/index.html)：真实对话的三个位置、两条通信通道、八类能力、成功 / 受阻流程、模式价值及源码证据。
-- [一图总览](demo/index.html#map)：可放大查看完整能力、网页驱动、本地交互和价值；[高清 PNG](assets/understanding-map.png)。
+- [打开交互展厅](https://yydshly.github.io/0918_codex_project/005-chat-on-steroids/)：真实对话的三个位置、两条通信通道、八类能力、成功 / 受阻流程、模式价值及源码证据。
+- [一图总览](https://yydshly.github.io/0918_codex_project/005-chat-on-steroids/#map)：可放大查看完整能力、网页驱动、本地交互和价值；[高清 PNG](assets/understanding-map.png)。
 - [内容审查记录](notes/content-review.md)：逐项更正含混表述并补充链路，区分主执行路径与输入递送例外。
 - [完整研究](notes/research.md)：架构、调用链、多智能体、Goal / Loop、续接和权限边界。
 - [使用与选型](notes/usage.md)：面向本仓库的价值判断、接入前提与未来实测方案。
@@ -64,7 +64,8 @@ python -m http.server 8767 --bind 127.0.0.1
 | 构建后展厅 | 编号路径下重复浏览器检查 | [构建浏览器记录](notes/evidence/browser-built-qa.json) |
 | 既有总站回归 | 首页导航及既有 001—003 专项浏览器检查；004 资源随五项目构建检查 | [总站回归记录](notes/evidence/site-qa.json) |
 | 上游真实执行 | 未安装、未运行；账号、模型、隧道和桌面控制未实测 | 后续方案见使用说明 |
-| 公网部署 | 部署中 | 验证成功后补充实际地址与版本记录 |
+| 公网部署 | 已上线并验证；首次发布源版本 `3b125a880ba9fa26960ea14742cd529f086c182e` | [发布验证](notes/evidence/deployment.json)：五项目入口、摘要、图片哈希与 005 交互 |
+| 公网既有展厅回归 | 001—003 专项浏览器检查通过；004 入口随五项目访问检查 | [公网回归记录](notes/evidence/public-site-qa.json) |
 
 ## 来源与改动
 

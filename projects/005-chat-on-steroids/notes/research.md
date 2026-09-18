@@ -137,6 +137,8 @@ Codex 对比仅限文档明确的文件、命令、MCP 与子智能体能力，�
 
 ## 8. 固定版本来源地图
 
+研究展厅已发布至 [005 编号入口](https://yydshly.github.io/0918_codex_project/005-chat-on-steroids/)；[首次公网验证](evidence/deployment.json)对应源提交 `3b125a880ba9fa26960ea14742cd529f086c182e`，核对五个入口、摘要、图片字节与 005 的交互。验证只覆盖研究展厅，不将上游工具能力升级为实测结论。
+
 所有上游引用均位于 [固定提交目录](https://github.com/totec448-spec/chat-on-steroids/tree/2f9acf307189ed1f05bee0cdc97871fdcff1d8f5)，完整文件链接与 SHA-256 见来源证据。
 
 | 研究问题 | 关键文件 |

@@ -14,7 +14,7 @@
 | 002 | [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) | [完整研究](projects/002-claude-code-best-practice/) | Claude Code 使用指南＋配置示例集。对我们当前的直接参考价值不大，核心是指导理解 AI 工作流程与动作，认识各组件分工，更好使用 AI；以引导图、配置示例和教学流程辅助理解。 | 已验证（Hooks 与本地展厅；模型流程未验证） | [在线展厅](https://yydshly.github.io/0918_codex_project/002-claude-code-best-practice/) |
 | 003 | [Frontend Design Toolkit](https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit) | [完整研究](projects/003-frontend-design-toolkit/) | 围绕前端需求，从视觉风格、主题一致性、动效交互、用户体验与可访问性、设计稿衔接、框架与文档、浏览器验证及预览交付等角度，组织约束、方法和工具，指导 Agent 设计、实现与检查页面，以获得更符合需求的效果。 主要指导 Agent 工作，通用能力已有时增益有限。 | 已验证（文档、展厅与公网访问；第三方组合未实测） | [在线展厅](https://yydshly.github.io/0918_codex_project/003-frontend-design-toolkit/) |
 | 004 | [ASu-skills](https://github.com/Hisn00w/ASu-skills) | [完整研究](projects/004-asu-skills/) | 九个求职 Skill 定义流程，宿主 AI 理解并调用工具执行；配套证据账本、简历编辑与 PDF、网页申请填写。价值在经验结构化、事实边界与可复用研究方法。 | 已验证（文档、迁移展厅与公网资源；上游插件未实测） | [在线研究手册](https://yydshly.github.io/0918_codex_project/004-asu-skills/) |
-| 005 | [Chat On Steroids](https://github.com/totec448-spec/chat-on-steroids) | [完整研究](projects/005-chat-on-steroids/) | 把网页版 ChatGPT 与真实本地环境关联起来，并围绕它构建 Agent 能力。MCP 与隧道连接工具执行，扩展桥接协调网页会话，本地工作台组织项目操作、多会话分工与任务续接；重点研究这套连接和组织模式。 | 研究中（源码与展厅已检查；上游未实测） | 部署中 |
+| 005 | [Chat On Steroids](https://github.com/totec448-spec/chat-on-steroids) | [完整研究](projects/005-chat-on-steroids/) | 把网页版 ChatGPT 与真实本地环境关联起来，并围绕它构建 Agent 能力。MCP 与隧道连接工具执行，扩展桥接协调网页会话，本地工作台组织项目操作、多会话分工与任务续接；重点研究这套连接和组织模式。 | 研究中（源码分析；展厅与公网已验证，上游未实测） | [在线研究展厅](https://yydshly.github.io/0918_codex_project/005-chat-on-steroids/) |
 
 ## 项目图览
 
@@ -46,9 +46,9 @@
 
 ### 005 · Chat On Steroids
 
-[![Chat On Steroids 全景：真实网页会话、MCP 隧道、扩展桥接、本地执行与能力价值](projects/005-chat-on-steroids/assets/understanding-map.png)](projects/005-chat-on-steroids/demo/index.html#map)
+[![Chat On Steroids 全景：真实网页会话、MCP 隧道、扩展桥接、本地执行与能力价值](projects/005-chat-on-steroids/assets/understanding-map.png)](https://yydshly.github.io/0918_codex_project/005-chat-on-steroids/#map)
 
-核心价值：把网页版 ChatGPT 与真实本地环境关联起来，并围绕它构建 Agent 能力。本地工作台组织任务，网页承载真实对话，云端模型推理；扩展桥接协调会话，MCP 与隧道接入真实工具执行，从而支持项目操作、分工与续接。图为 ImageGen 生成并核对的原创概念图，非产品截图；上游端到端未实测，展厅部署中。[放大查看](projects/005-chat-on-steroids/demo/index.html#map) · [高清图](projects/005-chat-on-steroids/assets/understanding-map.png) · [完整分析](projects/005-chat-on-steroids/notes/research.md) · [审查与补充](projects/005-chat-on-steroids/notes/content-review.md)。
+核心价值：把网页版 ChatGPT 与真实本地环境关联起来，并围绕它构建 Agent 能力。本地工作台组织任务，网页承载真实对话，云端模型推理；扩展桥接协调会话，MCP 与隧道接入真实工具执行，从而支持项目操作、分工与续接。图为 ImageGen 生成并核对的原创概念图，非产品截图；上游端到端未实测，研究展厅已上线并验证。[在线总览](https://yydshly.github.io/0918_codex_project/005-chat-on-steroids/#map) · [高清图](projects/005-chat-on-steroids/assets/understanding-map.png) · [完整分析](projects/005-chat-on-steroids/notes/research.md) · [审查与补充](projects/005-chat-on-steroids/notes/content-review.md)。
 
 ## 仓库导航
 
@@ -66,7 +66,7 @@
 3. 添加实际截图和研究记录，再更新本页索引与图览。
 4. 有可运行的演示后，在子项目中记录启动方法和实际部署地址。
 
-详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 5 个研究项目，4 个 Web 演示已上线；005 已建立研究展厅，部署中。演示均沿用编号子路径；[打开已上线演示总入口](https://yydshly.github.io/0918_codex_project/)。
+详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 5 个研究项目，5 个 Web 演示已上线，均沿用编号子路径；[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
 
 ## 来源与许可
 

@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-09-18T08:18:40.647055+00:00",
+  "verifiedAt": "2026-09-18T08:24:09.128319+00:00",
   "projects": [
     "001-understand-anything",
     "002-claude-code-best-practice",
@@ -7,10 +7,10 @@
     "004-asu-skills",
     "005-chat-on-steroids"
   ],
-  "localLinksChecked": 160,
+  "localLinksChecked": 158,
   "realStagingAreaUnchanged": true,
   "source": "working tree with temporary Git index",
-  "baseCommit": "baa601bce2c4b6ca224e673a4cfe1bb01236fda7",
+  "baseCommit": "3b125a880ba9fa26960ea14742cd529f086c182e",
   "published": false,
   "checks": [
     "五项目共同构建",

@@ -1,6 +1,6 @@
 # Web 演示部署约定
 
-已启用 GitHub Pages 与 GitHub Actions 自动部署。001 · Understand-Anything、002 · Claude Code Best Practice 与 003 · Frontend Design Toolkit 的静态交互展厅已上线，2026-09-18 完成公网浏览器验证。运行方式见[项目演示说明](../projects/001-understand-anything/demo/README.md)。
+已启用 GitHub Pages 与 GitHub Actions 自动部署。001—005 的五个静态研究展厅已上线，2026-09-18 完成各项目的公网验证。运行方式见各项目的 `demo/README.md`。
 
 | 入口 | 已验证地址 |
 | --- | --- |
@@ -28,7 +28,8 @@ https://yydshly.github.io/0918_codex_project/
 ├── 001-understand-anything/
 ├── 002-claude-code-best-practice/
 ├── 003-frontend-design-toolkit/
-└── 004-asu-skills/
+├── 004-asu-skills/
+└── 005-chat-on-steroids/
 ```
 
 站点首页作为演示导航，各子路径沿用研究项目编号。另有独立托管平台或自定义域名时，直接在索引填写实际地址。
@@ -48,7 +49,7 @@ https://yydshly.github.io/0918_codex_project/
 
 ## 新演示发布步骤
 
-005 · Chat On Steroids 已新增[本地交互研究展厅](../projects/005-chat-on-steroids/demo/README.md)，并登记到 `site-projects.json`。编号输出目录为 `_site/005-chat-on-steroids/`，沿用现有构建和 Pages 工作流。**尚未部署，暂无已验证公网地址**；本次仅检查五项目共同构建、本地编号路径与交互，不改变 001—004 的线上状态。检查使用临时 Git 索引，具体结果见 [005 集成记录](../projects/005-chat-on-steroids/notes/evidence/integration.json)。
+005 · Chat On Steroids 已上线：[研究展厅](https://yydshly.github.io/0918_codex_project/005-chat-on-steroids/) · [一图总览](https://yydshly.github.io/0918_codex_project/005-chat-on-steroids/#map)。核心摘要是“把网页版 ChatGPT 与真实本地环境关联起来，并围绕它构建 Agent 能力”。沿用 `site-projects.json`、现有构建器与 Pages 工作流，保留 001—004。首次发布版本为 `3b125a880ba9fa26960ea14742cd529f086c182e`；2026-09-18 核验公网五项目入口、摘要、总览图字节一致性及 005 的六章节交互，见 [005 公网记录](../projects/005-chat-on-steroids/notes/evidence/deployment.json)。本地集成记录见 [005 集成检查](../projects/005-chat-on-steroids/notes/evidence/integration.json)。研究展厅部署成功不代表上游 Agent 已实测。
 
 项目清单支持可选 `links` 字段，为不同展厅设置导航；省略时保留 001 的“一图总览 / 工具对比”。002 使用“流程演示 / 一图理解”，不创建不存在的 overview.html。
 
