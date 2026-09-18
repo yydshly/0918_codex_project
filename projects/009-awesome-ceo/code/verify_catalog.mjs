@@ -113,6 +113,7 @@ try {
   assert.ok(await page.locator('#viewer').evaluate(el=>el.scrollWidth>el.clientWidth));
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   await page.getByRole('link',{name:'← 返回资料导航'}).click();
+  await page.locator('#understanding-map').waitFor({state:'visible'});
   assert.equal(await page.locator('#understanding-map').count(),1);
   checks.push('独立总览图放大、缩小、适应窗口、手机滚动与返回导航');
   assert.deepEqual(errors,[]);

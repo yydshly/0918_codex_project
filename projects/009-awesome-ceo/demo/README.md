@@ -46,6 +46,17 @@ node projects/009-awesome-ceo/code/verify_catalog.mjs http://127.0.0.1:8769/proj
 
 已加入根 `site-projects.json`，使用编号子路径 `009-awesome-ceo/`。现有构建器将网页与项目资料一起复制到 `_site/009-awesome-ceo/`，原始目录结构也保留。开发预览可使用临时 Git 索引纳入新文件，避免改变实际暂存区；正式发布前需将所需文件纳入 Git。
 
-状态：本地网页已验证，未发布到公网。没有填写计划中的公网地址。既有七个演示保留在清单中。
+状态：已上线。2026-09-18 发布并核验[中文资源导航](https://yydshly.github.io/0918_codex_project/009-awesome-ceo/)与[可缩放总览图](https://yydshly.github.io/0918_codex_project/009-awesome-ceo/overview.html)，首次发布版本为 `f85fb9a6496c14ea034a4efa283df8cb6ee3c547`。沿用既有 GitHub Pages 工作流，原有七个演示继续保留。
 
-[本地验证记录](../notes/evidence/browser.json) · [集成验证记录](../notes/evidence/integration.json) · [截图来源](../assets/README.md) · [返回项目](../README.md)
+公网核验包含八个项目入口、22 项 HTTP 资源、总站与项目摘要、85 条资源和 86 个内容链接，以及总览图与本地文件的字节一致性。浏览器交互单独记录。外链目标服务未逐项验证。
+
+可在仓库根目录执行以下命令复核当前线上版本（将提交号替换为 `build.json` 对应的真实版本）：
+
+```powershell
+python projects/009-awesome-ceo/code/verify_deployment.py --expected-commit <发布提交号>
+node projects/009-awesome-ceo/code/verify_catalog.mjs https://yydshly.github.io/0918_codex_project/009-awesome-ceo/ remote-browser.json
+```
+
+第一条命令核对版本与资源，第二条仍需设置上述 `PLAYWRIGHT_MODULE`。复核会更新本地证据文件，不会自动提交或发布。
+
+[公网验证记录](../notes/evidence/deployment.json) · [线上交互记录](../notes/evidence/remote-browser.json) · [本地验证记录](../notes/evidence/browser.json) · [集成验证记录](../notes/evidence/integration.json) · [截图来源](../assets/README.md) · [返回项目](../README.md)

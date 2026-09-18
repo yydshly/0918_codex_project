@@ -1,0 +1,133 @@
+{
+  "verifiedAt": "2026-09-18T14:07:57.550270+00:00",
+  "baseUrl": "https://yydshly.github.io/0918_codex_project/",
+  "projectUrl": "https://yydshly.github.io/0918_codex_project/009-awesome-ceo/",
+  "publishedCommit": "f85fb9a6496c14ea034a4efa283df8cb6ee3c547",
+  "projects": [
+    "001-understand-anything",
+    "002-claude-code-best-practice",
+    "003-frontend-design-toolkit",
+    "004-asu-skills",
+    "005-chat-on-steroids",
+    "006-anbeime-skill",
+    "008-baoyu-design",
+    "009-awesome-ceo"
+  ],
+  "httpChecks": [
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 304
+    },
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 9337
+    },
+    {
+      "path": "001-understand-anything/",
+      "status": 200,
+      "bytes": 21317
+    },
+    {
+      "path": "002-claude-code-best-practice/",
+      "status": 200,
+      "bytes": 2600
+    },
+    {
+      "path": "003-frontend-design-toolkit/",
+      "status": 200,
+      "bytes": 2671
+    },
+    {
+      "path": "004-asu-skills/",
+      "status": 200,
+      "bytes": 44192
+    },
+    {
+      "path": "005-chat-on-steroids/",
+      "status": 200,
+      "bytes": 16414
+    },
+    {
+      "path": "006-anbeime-skill/",
+      "status": 200,
+      "bytes": 17650
+    },
+    {
+      "path": "008-baoyu-design/",
+      "status": 200,
+      "bytes": 1164
+    },
+    {
+      "path": "009-awesome-ceo/",
+      "status": 200,
+      "bytes": 104081
+    },
+    {
+      "path": "009-awesome-ceo/overview.html",
+      "status": 200,
+      "bytes": 2883
+    },
+    {
+      "path": "009-awesome-ceo/styles.css",
+      "status": 200,
+      "bytes": 13265
+    },
+    {
+      "path": "009-awesome-ceo/app.js",
+      "status": 200,
+      "bytes": 4570
+    },
+    {
+      "path": "009-awesome-ceo/assets/understanding-map.png",
+      "status": 200,
+      "bytes": 1779859
+    },
+    {
+      "path": "009-awesome-ceo/assets/cover.png",
+      "status": 200,
+      "bytes": 548108
+    },
+    {
+      "path": "009-awesome-ceo/assets/mobile.png",
+      "status": 200,
+      "bytes": 55770
+    },
+    {
+      "path": "009-awesome-ceo/README.md",
+      "status": 200,
+      "bytes": 8130
+    },
+    {
+      "path": "009-awesome-ceo/demo/README.md",
+      "status": 200,
+      "bytes": 3755
+    },
+    {
+      "path": "009-awesome-ceo/notes/catalog.json",
+      "status": 200,
+      "bytes": 55990
+    },
+    {
+      "path": "009-awesome-ceo/notes/understanding.md",
+      "status": 200,
+      "bytes": 14387
+    },
+    {
+      "path": "009-awesome-ceo/notes/resources.md",
+      "status": 200,
+      "bytes": 9899
+    },
+    {
+      "path": "009-awesome-ceo/notes/evidence/LICENSE",
+      "status": 200,
+      "bytes": 7048
+    }
+  ],
+  "overviewImageSha256": "96dcb4cdc757b2f3f7545f75d47de2a5a9d82f44061c41105f4bf0624dc5134d",
+  "summaryVerified": true,
+  "resourceItems": 85,
+  "contentLinks": 86,
+  "externalDestinationsTested": false
+}

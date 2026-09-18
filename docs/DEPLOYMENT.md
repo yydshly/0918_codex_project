@@ -1,6 +1,6 @@
 # Web 演示部署约定
 
-已启用 GitHub Pages 与 GitHub Actions 自动部署。001—006 与 008 的七个静态研究展厅已上线，2026-09-18 完成各项目的公网验证。运行方式见各项目的 `demo/README.md`。
+已启用 GitHub Pages 与 GitHub Actions 自动部署。001—006、008 与 009 的八个静态研究展厅已上线，2026-09-18 完成各项目的公网验证。运行方式见各项目的 `demo/README.md`。
 
 | 入口 | 已验证地址 |
 | --- | --- |
@@ -35,7 +35,8 @@ https://yydshly.github.io/0918_codex_project/
 ├── 004-asu-skills/
 ├── 005-chat-on-steroids/
 ├── 006-anbeime-skill/
-└── 008-baoyu-design/
+├── 008-baoyu-design/
+└── 009-awesome-ceo/
 ```
 
 站点首页作为演示导航，各子路径沿用研究项目编号。另有独立托管平台或自定义域名时，直接在索引填写实际地址。
@@ -93,8 +94,10 @@ https://yydshly.github.io/0918_codex_project/
 
 构建器支持可选 `demoAssetDirs` 字段，将声明的嵌套 demo 资源路径重写到编号入口下的 `demo/<目录>/`。008 使用 `_ds`、`vendor`、`downloads`；原始 demo 和编号入口均保留。001—006 沿用原有行为。发布成功只证明研究站点可访问，不扩大上游能力的实测结论。
 
-## 009 本地集成状态
+## 009 发布状态
 
 009 · Awesome CEO 已制作中文资源导航：完整展示 85 条资源、86 个内容链接与 13 处作者附注译文，支持分类汇总、搜索和类型筛选。新增原创“一图看懂”、六组资料类型入口和说明，以及可缩放的 `overview.html`。已登记到 `site-projects.json`，沿用编号子路径 `009-awesome-ceo/` 和现有静态构建器，清单保留之前的七个展厅。
 
-状态：本地验证完成，未发布到公网。启动与重建方法见 [009 网页说明](../projects/009-awesome-ceo/demo/README.md)，原始网页验证见 [browser.json](../projects/009-awesome-ceo/notes/evidence/browser.json)，编号入口验证见 [integration.json](../projects/009-awesome-ceo/notes/evidence/integration.json)。本次没有将预定发布地址标为已上线地址。
+状态：已上线。[中文资源导航](https://yydshly.github.io/0918_codex_project/009-awesome-ceo/) · [一图看懂](https://yydshly.github.io/0918_codex_project/009-awesome-ceo/overview.html) · [按资料类型浏览](https://yydshly.github.io/0918_codex_project/009-awesome-ceo/#types)。摘要说明它通过人工精选与分类提供创业管理资料入口，覆盖融资、产品、销售、团队管理等 11 类、85 条资料；对我们的直接技术参考价值较低，作为备查目录即可。
+
+首次发布版本 `f85fb9a6496c14ea034a4efa283df8cb6ee3c547`，沿用既有 Pages 工作流。2026-09-18 核验八个项目入口、22 项 HTTP 资源、总站与项目摘要、85 条资源与 86 个内容链接，以及总览图字节一致性。[公网记录](../projects/009-awesome-ceo/notes/evidence/deployment.json) · [线上交互记录](../projects/009-awesome-ceo/notes/evidence/remote-browser.json) · [运行说明](../projects/009-awesome-ceo/demo/README.md)。外部资料目标和服务未逐项验证。

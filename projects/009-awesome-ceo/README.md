@@ -17,20 +17,21 @@ Awesome CEO 是一份面向创业者与管理者的人工精选链接清单。�
 | 上游许可证 | CC0-1.0；外链目标内容和服务的许可需分别确认 |
 | 研究版本 | [`89f761c2af903066500e1a0c33c33cf36873cdf6`](https://github.com/kuchin/awesome-ceo/tree/89f761c2af903066500e1a0c33c33cf36873cdf6)（核验时 main 的 HEAD） |
 | 上游提交时间 | 2023-02-16 09:50:34 UTC；提交说明为 `More content` |
-| 研究进度 | 已验证（资料完整性与本地中文网页；外链服务未逐项验证） |
+| 研究进度 | 已验证（资料完整性、中文网页与公网访问；外链服务未逐项验证） |
 | 技术形式 | 上游为 Markdown 清单；本项目增加独立 HTML / CSS / JavaScript 中文导航 |
 | 收录及验证日期 | 2026-09-18 |
-| 在线演示 | 部署中；本地验证已完成，远端地址将在验证后登记。启动方式见[网页说明](demo/README.md) |
+| 在线演示 | [中文资源导航](https://yydshly.github.io/0918_codex_project/009-awesome-ceo/) · [一图看懂](https://yydshly.github.io/0918_codex_project/009-awesome-ceo/overview.html) |
+| 首次发布版本 | `f85fb9a6496c14ea034a4efa283df8cb6ee3c547`；[公网验证记录](notes/evidence/deployment.json) |
 
 ## 中文网页
 
-[![Awesome CEO 一图看懂：资料类型、业务主题、导航方式与实际价值](assets/understanding-map.png)](demo/overview.html)
+[![Awesome CEO 一图看懂：资料类型、业务主题、导航方式与实际价值](assets/understanding-map.png)](https://yydshly.github.io/0918_codex_project/009-awesome-ceo/overview.html)
 
 图为原创概念汇总，非上游软件截图。一眼了解它收集哪些资料、可以怎样使用，以及“备查目录、技术复用价值较低”的定位。[放大查看](demo/overview.html) · [下载原图](assets/understanding-map.png) · [图片来源与提示词](assets/README.md)。网页下方按六组资料类型继续展示和说明，点击任意一组可筛选全部对应条目。
 
 本项目将原 README 的全部 85 条资源、86 个内容链接整理为中文网页。提供中文标题、导读、英文原标题、原有署名和 13 处作者附注译文，支持分类浏览、中英文搜索、资源类型筛选与手机阅读。[网页真实截图](assets/cover.png)另行保留。
 
-[打开完整网页](demo/index.html) · [运行与使用说明](demo/README.md) · [本地检查记录](notes/evidence/browser.json)。中文导读依据原清单标题和附注整理，不是外部文章全文翻译。
+[打开在线网页](https://yydshly.github.io/0918_codex_project/009-awesome-ceo/) · [运行与使用说明](demo/README.md) · [公网检查记录](notes/evidence/deployment.json) · [线上交互记录](notes/evidence/remote-browser.json)。中文导读依据原清单标题和附注整理，不是外部文章全文翻译。
 
 ## 阅读入口
 
@@ -89,7 +90,7 @@ Awesome CEO 是一份面向创业者与管理者的人工精选链接清单。�
 
 本次核验时，上游主分支最新提交为 2023 年 2 月。长期方法可供研究，市场案例、融资条件和外部服务状态应在实际使用时重新核查；这不等于所有外链内容都停留在同一日期。分类覆盖也不均衡，例如融资有 24 条，而销售仅 1 条。
 
-已验证文件结构、原始文档、许可证、分类和条目统计，以及本项目中文网页的完整性与交互；没有逐一访问外链、登录外部服务、试用计算器或验证经营效果。已制作真实网页截图并接入本地展厅构建，未发布到公网。
+已验证文件结构、原始文档、许可证、分类和条目统计，以及本项目中文网页的完整性、交互与公网访问。已通过既有 GitHub Pages 工作流发布，保留原有七个展厅。没有逐一访问外链、登录外部服务、试用计算器或验证经营效果。
 
 ## 来源与改动
 
