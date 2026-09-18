@@ -12,7 +12,7 @@
 | 研究进度 | 已验证：样本核心 API、原版浏览交互与人工领域 / Wiki / 设计样本渲染；四类图谱展厅完成 |
 | 收录 / 最近验证 | 2026-09-18（Asia/Shanghai） |
 | 展示技术 | 原生 HTML / CSS / JavaScript，无运行时依赖；实验使用上游 TypeScript 核心库 |
-| 在线演示 | 未部署 |
+| 在线演示 | [GitHub Pages 展厅](https://yydshly.github.io/0918_codex_project/001-understand-anything/) · [一图总览](https://yydshly.github.io/0918_codex_project/001-understand-anything/overview.html) · [工具对比](https://yydshly.github.io/0918_codex_project/001-understand-anything/#compare) |
 
 ## 我们的理解
 
@@ -34,21 +34,21 @@
 3. **浏览与核对**：生成图谱后运行 `understand-dashboard`，从模块、节点和导览进入，回查源码或原始来源。已有图谱可以反复浏览；源码查看仍需对应项目文件。
 4. **继续研究**：需要问答时使用 `understand-chat`；辅助评审改动时使用 `understand-diff`。重要逻辑变化后重新分析并核对，不能只依赖结构指纹决定摘要是否过期。
 
-以上为技能名称，实际命令写法随所用宿主而异。本地展厅的“如何使用”页提供分工具指南；该安装与完整模型分析流程没有在本机端到端执行。**GitHub 中的 HTML 链接用于查看文件；交互网页需下载后打开或按下文启动本地服务，本研究尚未部署公网网页。**
+以上为技能名称，实际命令写法随所用宿主而异。[在线展厅的“如何使用”页](https://yydshly.github.io/0918_codex_project/001-understand-anything/#guide)提供分工具指南；该安装与完整模型分析流程没有在本机端到端执行。网页已通过 GitHub Pages 发布，也可下载后打开或按下文启动本地服务。
 
 ## 先看展示
 
 ### 一张图理解完整能力
 
-[![输入来源、处理分工、图谱效果与价值](assets/capability-map.png)](demo/overview.html)
+[![输入来源、处理分工、图谱效果与价值](assets/capability-map.png)](https://yydshly.github.io/0918_codex_project/001-understand-anything/overview.html)
 
-[打开可缩放总览](demo/overview.html) · [高清 PNG](assets/capability-map.png) · [SVG 矢量图](assets/capability-map.svg)
+[打开可缩放总览](https://yydshly.github.io/0918_codex_project/001-understand-anything/overview.html) · [高清 PNG](assets/capability-map.png) · [SVG 矢量图](assets/capability-map.svg)
 
 图中串起代码 / Wiki / Figma / 已有图谱输入、程序与模型的分工、四类图谱与辅助交互、使用价值和能力边界。这是依据固定源码与实验整理的原创说明，不是原版产品截图。SVG 为 1800×2020，PNG 为 3600×4040；文字无重叠、无越界，缩放与手机阅读检查通过。[验证记录](notes/evidence/overview-qa.json)。
 
 ### 分类效果展厅
 
-直接用浏览器打开 [demo/index.html](demo/index.html)，不需要安装依赖。也可在研究仓库根目录启动静态服务：
+直接访问[在线分类效果展厅](https://yydshly.github.io/0918_codex_project/001-understand-anything/)，不需要安装依赖。本地使用可下载后用浏览器打开 [demo/index.html](demo/index.html)，或在研究仓库根目录启动静态服务：
 
 ```powershell
 python -m http.server 8765 --bind 127.0.0.1
@@ -56,13 +56,13 @@ python -m http.server 8765 --bind 127.0.0.1
 
 然后访问 <http://127.0.0.1:8765/projects/001-understand-anything/demo/>。这是启动服务后的本地入口，不是已上线地址。
 
-[![图谱类型与效果展厅：四类图谱与十二个展示条目](assets/gallery.png)](demo/index.html#gallery)
+[![图谱类型与效果展厅：四类图谱与十二个展示条目](assets/gallery.png)](https://yydshly.github.io/0918_codex_project/001-understand-anything/#gallery)
 
 *本研究网页的真实截图。订单结构来自上游核心库与样本适配；领域、Wiki、设计截图使用人工 JSON 验证原版渲染；关系示意为研究者绘制。未执行完整 LLM 流水线。*
 
 展示包括：
 
-- **同类工具与选型**：将本库与已研究的 Graphify、Archify、Diagram Design、Fireworks 对照，涵盖输入、处理、模型分工、产物、用途与验证范围；提供七种场景建议、同题示例、三种组合工作流和历史研究入口。[网页对比](demo/index.html#compare) · [文字对照](notes/comparison.md)。
+- **同类工具与选型**：将本库与已研究的 Graphify、Archify、Diagram Design、Fireworks 对照，涵盖输入、处理、模型分工、产物、用途与验证范围；提供七种场景建议、同题示例、三种组合工作流和历史研究入口。[网页对比](https://yydshly.github.io/0918_codex_project/001-understand-anything/#compare) · [文字对照](notes/comparison.md)。
 - **图谱类型与效果（默认首页）**：按代码与架构、业务领域、Wiki 知识、Figma 设计四类筛选；代码类细分六种观察角度，另列变更高亮和阅读导览，总计十二个效果条目。每项含示意、输入、生成技能、边界与源码；可切换原版截图和可点击示意。[详细分类](notes/graph-types.md)。
 - **能看到什么**：原版架构层、源码详情、阅读导览三张真实运行截图，可切换并查看大图；附明确标注的预写问答示例。
 - **使用场景**：接手项目、评审改动、定位逻辑、梳理业务、浏览 Wiki。每项包含问题、操作路线、预期结果和能力边界。
@@ -91,6 +91,7 @@ Understand-Anything 将文件、函数、类等对象组织成节点，将导入
 | 支付文件改动 | 订单节点受影响，间接依赖的入口不在一跳结果中 | [影响分析](notes/evidence/impact.json) |
 | 增量更新边界 | 上限 100 → 10，输入 50 的返回值 true → false；被判为 COSMETIC / SKIP | [实验结果](notes/evidence/experiments.json) |
 | 浏览器验证 | 23 组检查通过，九视图桌面 / 手机可用；12 条目、分类、原版图片与节点交互通过 | [浏览器记录](notes/evidence/browser-qa.json) |
+| 公网部署 | GitHub Pages 已上线；7 组检查覆盖导航、版本、图片与下载、工具对比、总览缩放、刷新与手机布局 | [部署记录](notes/evidence/deployment.json) |
 | 同类工具对比 | 7 组专项检查；七场景、五工具详情、历史版本、入口、刷新、键盘与三种屏宽 | [对比页记录](notes/evidence/comparison-qa.json) |
 | 原版 Dashboard | 实际加载样本、展开业务层、打开源码、前进阅读导览 | [原版运行记录](notes/evidence/upstream-dashboard.json) |
 | 新增原版渲染 | 人工领域 / Wiki / 设计样本加载；领域深入流程、设计展开聚类；4 张真实截图 | [渲染记录](notes/evidence/gallery-rendering.json) |

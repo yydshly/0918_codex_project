@@ -1,0 +1,17 @@
+{
+  "verifiedAt": "2026-09-18T03:48:33.152Z",
+  "site": "https://yydshly.github.io/0918_codex_project/",
+  "project": "https://yydshly.github.io/0918_codex_project/001-understand-anything/",
+  "sourceCommit": "b0eff0df723a611c6eee1656d6cdf14a4d5c6abb",
+  "checks": [
+    "站点首页、项目导航与发布版本",
+    "编号子路径与十二项图谱效果",
+    "跨目录截图资源与四类图谱原版图片",
+    "样本、证据说明、研究文档与高清图可访问",
+    "工具对比、场景选择与子路径刷新",
+    "一图总览、缩放与返回工具对比",
+    "九个视图的手机布局"
+  ],
+  "browserErrors": [],
+  "scope": "静态网页部署与资源、交互验证；不包含模型分析或第三方 API"
+}

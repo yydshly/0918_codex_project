@@ -4,7 +4,11 @@
 
 这是研究者编写的能力体验网页。默认“图谱类型与效果”按四类图谱整理十二个展示条目，附原版 Dashboard 真实运行截图、可点击关系示意、输入与生成方式。另保留五类使用场景、分工具操作指南和独立交互图谱。订单结构和影响分析来自上游程序实测；领域 / Wiki / 设计原版截图使用人工 JSON；中文摘要、分层与导览为研究注释。没有调用在线模型。
 
-## 运行
+## 在线访问
+
+已部署到 GitHub Pages：[分类效果展厅](https://yydshly.github.io/0918_codex_project/001-understand-anything/) · [一图总览](https://yydshly.github.io/0918_codex_project/001-understand-anything/overview.html) · [同类工具对比](https://yydshly.github.io/0918_codex_project/001-understand-anything/#compare)。
+
+## 本地运行
 
 无需依赖安装或构建，直接用浏览器打开 `index.html` 即可。或在仓库根目录运行：
 
@@ -77,13 +81,16 @@ node code/capture-upstream.mjs '终端实际打印的 Dashboard URL'
 
 | 字段 | 当前值 |
 | --- | --- |
-| 状态 | 未部署 |
-| 公网地址 | 未部署 |
-| 构建 | 无构建步骤；直接使用本目录静态文件 |
+| 状态 | 已上线，GitHub Pages / GitHub Actions 自动发布 |
+| 公网地址 | [001-understand-anything/](https://yydshly.github.io/0918_codex_project/001-understand-anything/) |
+| 首次发布版本 | `b0eff0df723a611c6eee1656d6cdf14a4d5c6abb`；当前线上版本见站点 [build.json](https://yydshly.github.io/0918_codex_project/build.json) |
+| 构建 | 仓库根目录运行 `python scripts/build_site.py`；产物为 `_site/`，不提交 Git |
 | 必需文件 | index.html、styles.css、experience.css、gallery.css、comparison.css、app.js、experience.js、gallery.js、comparison.js、data.js，以及 ../assets/upstream-*.png、../assets/gallery-*.png；样本下载依赖 ../code/gallery-fixtures/*.json |
 | 总览文件 | overview.html、../assets/capability-map.svg、../assets/capability-map.png |
-| 资源路径 | 相对路径，导航使用 hash |
+| 资源路径 | `/0918_codex_project/001-understand-anything/`；相对资源路径，导航使用 hash |
 | 环境变量 | 展示运行不需要；实验与 QA 参数见上文 |
-| 最近验证 | 2026-09-18，Edge 153，1600×1100 / 390×844 |
+| 最近验证 | 2026-09-18，Edge，公网 7 组检查，1440×1000 / 390×844；[部署验证记录](../notes/evidence/deployment.json) |
 
-研究仓库默认遵循 [Web 部署约定](../../../docs/DEPLOYMENT.md)，如未来发布，沿用 `001-understand-anything/` 编号子路径。**应同时保留 demo/、assets/ 与相关文档的目录关系**；页面有 `../README.md`、`../notes/` 和 `../assets/` 链接。也可以将文档链接改为代码仓库固定版本 URL。当前未配置部署，没有规划地址被标为上线。
+研究仓库遵循 [Web 部署约定](../../../docs/DEPLOYMENT.md)，使用 `001-understand-anything/` 编号子路径。构建脚本按根目录 `site-projects.json` 收集 Git 已跟踪的项目文件，保留 demo/、assets/、notes/、code/ 等目录，并在编号路径根部生成调整相对资源链接后的网页入口。研究文档与样本也随站点发布。
+
+发布流程为 [pages.yml](../../../.github/workflows/pages.yml)：相关项目文件推送到 main 后自动构建与发布，也可在 Actions 中手动执行。公网复查时，在仓库根目录设置 `PLAYWRIGHT_MODULE` 并运行 `node scripts/verify_pages.mjs https://yydshly.github.io/0918_codex_project/`；可选 `EXPECTED_COMMIT` 用于核对实际发布版本。验证记录中的 sourceCommit 对应当次被测版本，不代表随后每次发布都重新写入记录。
