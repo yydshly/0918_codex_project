@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-09-18T03:35:41.538Z",
+  "artwork": "Original research SVG, not upstream screenshot",
+  "svg": "1800x2020",
+  "png": "3600x4040",
+  "checks": [
+    "SVG text inside canvas",
+    "No overlapping text boxes",
+    "PNG rendered with Chinese system font",
+    "Viewer image loads via file URL",
+    "Zoom in and fit controls",
+    "390px mobile page has no horizontal overflow, including zoom",
+    "No JavaScript errors"
+  ],
+  "errors": []
+}

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Understand-Anything 图谱展厅：按代码、业务领域、Wiki、Figma 设计分类，展示十二个效果条目、原版渲染与使用边界。">
+  <title>Understand Anything · 图谱类型与效果</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%231e3730'/%3E%3Cpath d='M11 12v11a9 9 0 0 0 18 0V12' fill='none' stroke='%23d5f484' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./experience.css">
+  <link rel="stylesheet" href="./gallery.css">
+  <link rel="stylesheet" href="./comparison.css">
+  <script src="./data.js" defer></script><script src="./app.js" defer></script>
+  <script src="./experience.js" defer></script>
+  <script src="./gallery.js" defer></script>
+  <script src="./comparison.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#gallery"><span class="mark">u<span>·</span></span><span>OPEN SOURCE<br><strong>研究实验室</strong></span></a>
+    <div class="project-label">PROJECT / 001</div>
+    <div class="project-name">Understand<br>Anything<span>代码理解，变得可见。</span></div>
+    <nav aria-label="研究导航">
+      <a href="#gallery" data-page="gallery"><span>00</span>图谱类型与效果<i>↗</i></a>
+      <a href="#compare" data-page="compare"><span>↔</span>同类工具与选型<i>↗</i></a>
+      <a href="#effects" data-page="effects"><span>01</span>能看到什么<i>↗</i></a>
+      <a href="#scenarios" data-page="scenarios"><span>02</span>使用场景<i>↗</i></a>
+      <a href="#guide" data-page="guide"><span>03</span>如何使用<i>↗</i></a>
+      <a href="#graph" data-page="graph"><span>04</span>动手探索<i>↗</i></a>
+      <a href="#pipeline" data-page="pipeline"><span>05</span>实现原理<i>↗</i></a>
+      <a href="#experiments" data-page="experiments"><span>06</span>实验与边界<i>↗</i></a>
+      <a href="#capabilities" data-page="capabilities"><span>07</span>能力清单<i>↗</i></a>
+    </nav>
+    <div class="sidebar-foot"><span class="status-dot"></span> 本地研究快照<br><a href="https://github.com/Egonex-AI/Understand-Anything/tree/6df3065f1d8ddc2ce3615314d1d493f36d6b1c80" target="_blank" rel="noreferrer">上游源码 · 6df3065 ↗</a><small>MIT LICENSE · 2026.09.18</small></div>
+  </aside>
+  <main>
+    <header class="topbar"><span>开源项目研究集 <b>/</b> 001</span><a href="./overview.html">一图总览 ↗</a><a href="../README.md">阅读研究文档 ↗</a></header>
+    <div class="page-title"><div><div class="eyebrow">UNDERSTAND ANYTHING / RESEARCH EDITION</div><h1 id="page-heading">一个项目，三种理解方式<span>。</span></h1><p id="page-description">先看结构地图，再追踪代码，最后沿着导览建立全局认识。</p></div><span class="edition">能力体验指南<br><strong>001 / UA</strong></span></div>
+    <div class="notice"><span>证据说明</span>各效果单独标注数据来源：订单结构经解析实测；领域、Wiki、设计使用人工样本验证原版渲染；关系示意为研究者绘制。</div>
+    <section id="compare-page" class="page" hidden>
+      <div class="compare-intro"><strong>五个研究过的工具，按你要完成的任务选择。</strong><br>Understand Anything 与 Graphify 把关系提取纳入流程；Archify、Diagram Design、Fireworks 更侧重把确认后的内容制成图。它们都有交叉能力，下面比较的是工作重点。</div>
+      <div class="compare-landscape" aria-label="从资料到图形交付的工具分工"><article><span>01 / 发现与理解</span><h3>原始材料 → 关系与解释</h3><strong>Understand Anything · Graphify</strong><p>代码、文档或设计材料进入提取流程，形成可探索或可查询的图谱。</p></article><article><span>02 / 核实与选择</span><h3>确认事实 → 选择表达</h3><strong>人 / Agent + 原始证据</strong><p>核对来源、挑选主线，决定需要哪些节点、关系和图型。</p></article><article><span>03 / 表达与交付</span><h3>图规格 → 交互图或配图</h3><strong>Archify · Diagram Design · Fireworks</strong><p>按目标读者与交付形式，完成布局、绘制、检查与导出。</p></article></div>
+      <div class="compare-heading"><h2>先选场景，再看工具</h2><span>七种任务 · 适用性建议，不是性能排名</span></div>
+      <div class="compare-scenarios"><div id="compare-cases" class="compare-cases" aria-label="选择任务场景"></div><article id="compare-recommendation" class="compare-recommendation" aria-live="polite"></article></div>
+      <div class="compare-heading"><h2>五个工具，放在一起看</h2><span>窄屏可横向滚动表格；下方有逐项说明</span></div>
+      <div class="table-scroll compare-matrix"><table><thead><tr><th>工具 / 定位</th><th>谁整理原始事实</th><th>工作重点</th><th>适合的任务</th><th>已有成果</th></tr></thead><tbody id="compare-matrix"></tbody></table></div>
+      <div class="compare-heading"><h2>能力、分工与实测范围</h2><span>点击工具查看输入、原理、输出及与 UA 的差异</span></div>
+      <div id="compare-tools" class="compare-tools" aria-label="选择对比工具"></div><article id="compare-detail" class="compare-detail" tabindex="-1" aria-label="工具详细对比"></article>
+      <div class="compare-heading"><h2>同一个订单系统，会得到什么？</h2><span>用途举例 · 非五工具同输入实测</span></div><div id="compare-example" class="compare-example"></div>
+      <div class="compare-heading"><h2>对我们的三种组合方式</h2><span>建议工作流 · 尚未打通自动转换</span></div>
+      <div class="compare-recipes"><article><h3>研究一个新仓库</h3><strong>UA / Graphify → 核对源码 → 研究结论</strong><p>想沿路线学习，先体验 UA；想查询依赖、路径和相关子图，先复用 Graphify。无须为了同一目标把全部工具都跑一遍。</p></article><article><h3>把系统讲给同事</h3><strong>提取与人工分析 → 核实 → Archify</strong><p>从关系材料中挑选组件和请求链，写成 Archify 图规格，交付交互式架构、时序或方案差异。设计提案也可直接由作者建模。</p></article><article><h3>形成文章或技术配图</h3><strong>确认结论 → Diagram Design / Fireworks</strong><p>重视读者、品牌与信息取舍时使用 Diagram Design；重视工程图型、连线路由和几何检查时使用 Fireworks。</p></article></div>
+      <p class="compare-source-note">这些建议来自既有研究，并非统一样本的准确率、性能或费用测试。工具间 JSON 格式不同，不能直接互换；组合使用仍需字段转换、信息取舍与事实复核。图型数、样例数、节点数和渲染引擎数不能混为一谈。</p>
+      <p class="source-note">沿用历史固定版本，不将上游最新版本能力混入旧实测。每个工具附原研究展厅、研究记录和固定提交。未复制其他项目的代码或依赖。<a href="../notes/comparison.md">阅读完整对照与来源 ↗</a> · <a href="./overview.html">回到 UA 一图总览 ↗</a></p>
+    </section>
+    <section id="gallery-page" class="page" hidden>
+      <div class="gallery-intro"><p><strong>从“能生成什么图”，到“实际看起来怎样”。</strong><br>按四大图谱类别整理；代码图谱进一步分解为六种观察角度。另列两种辅助效果，不将每种关系或交互都算成独立图种。</p><div class="gallery-summary"><div><strong>04</strong><span>图谱类别</span></div><div><strong>12</strong><span>展示条目</span></div><div><strong>38</strong><span>关系类型</span></div></div></div>
+      <div id="gallery-filters" class="gallery-filters" aria-label="按图谱类别筛选"></div>
+      <div id="gallery-focus" class="gallery-detail" tabindex="-1" aria-label="选中效果详情"></div>
+      <div class="gallery-list-heading"><h2>按效果浏览</h2><span id="gallery-count"></span></div>
+      <div id="gallery-cards" class="gallery-cards" aria-label="图谱效果列表"></div>
+      <div class="gallery-boundary"><article><h3>四类内容，三套主要视图</h3><p>代码结构、业务领域、Wiki 知识各有对应的可视化视图。Figma 设计知识复用结构视图。文件依赖、函数调用、数据读写等是结构图谱中的关系；变更高亮、阅读导览属于辅助效果。</p></article><article><h3>它没有承诺生成的图</h3><p>在本研究版本中，没有看到标准 UML 时序图、带基数的 ER 图、BPMN、甘特图作为独立原生图种实现。能够表示“调用”或“数据表”，不等于具备完整的标准制图能力。</p></article></div>
+      <details class="relation-details"><summary>查看完整关系分类 · 9 组 / 38 种</summary><p>这是图数据模型可表达的关系，不是 38 种图。实际提取覆盖取决于输入、解析器与模型。<a href="https://github.com/Egonex-AI/Understand-Anything/blob/6df3065f1d8ddc2ce3615314d1d493f36d6b1c80/understand-anything-plugin/packages/core/src/types.ts" target="_blank" rel="noreferrer">上游类型定义 ↗</a></p><div class="table-scroll"><table><thead><tr><th>关系分类</th><th>源码中的边类型</th></tr></thead><tbody id="relation-families"></tbody></table></div></details>
+      <p class="source-note">截图可放大；关系示意可点击节点。生成命令需要在安装上游技能的环境中执行，本页不会扫描仓库或调用模型。<a href="../notes/graph-types.md">完整图谱分类与验证范围 ↗</a> · <a href="../notes/evidence/gallery-rendering.json">原版样本渲染记录 ↗</a></p>
+    </section>
+    <section id="effects-page" class="page" hidden>
+      <div class="effect-intro"><p><strong>把代码仓库变成可浏览的知识地图。</strong>你可以从模块关系进入具体文件，查看职责与源码，也可以按阅读路线逐步熟悉项目。</p><a class="primary-link" href="#graph">亲手探索样本 <span>↗</span></a></div>
+      <div class="showcase-grid"><div class="effect-choices" id="effect-choices" aria-label="选择展示效果"></div><figure class="official-shot"><div class="window-bar"><span class="window-dots">● ● ●</span><span>Understand Anything · 原版 Dashboard</span><span class="live-label">真实截图</span></div><a id="effect-image-link" target="_blank" rel="noreferrer"><img id="effect-image" width="1500" height="960" alt=""></a><figcaption id="effect-caption"></figcaption></figure></div>
+      <div class="effect-outcome" id="effect-outcome"></div>
+      <div class="section-heading"><div><span class="eyebrow">FROM QUESTION TO CODE</span><h2>提问之后，得到什么？</h2></div><span class="small-label">预写解读示例 · 无在线模型</span></div>
+      <div class="question-demo"><div id="example-questions" class="question-choices" aria-label="选择示例问题"></div><article id="example-answer" aria-live="polite"></article></div>
+      <div class="effect-bottom"><article><span>01 / 看关系</span><h3>结构图谱</h3><p>谁依赖谁、哪个文件负责哪件事，点击节点后继续追踪。</p></article><article><span>02 / 找入口</span><h3>源码与定位</h3><p>摘要帮助筛选阅读目标，文件路径和行号帮助回到代码验证。</p></article><article><span>03 / 建立上下文</span><h3>导览与问答</h3><p>导览按步骤阅读；真实问答在安装插件的 AI 工具中进行。</p></article></div>
+      <p class="source-note">截图加载本研究的 Order Lab 数据。架构层与导览为研究者编写，没有执行完整 LLM 自动分析。样本未带 Git commit，因此原版界面保留了新鲜度提示。<a href="../notes/evidence/upstream-dashboard.json">查看截图验证记录 ↗</a></p>
+    </section>
+    <section id="scenarios-page" class="page" hidden><div class="scenario-layout"><div id="scenario-choices" class="scenario-choices" aria-label="选择使用场景"></div><article class="scenario-detail" id="scenario-detail" aria-live="polite"></article></div><div class="fit-strip"><div><h3>更适合</h3><p>需要建立全局认识、反复阅读、传递项目知识的代码仓库。先用一个子目录评估效果。</p></div><div><h3>仍需要其他工具配合</h3><p>测试验证行为，调试器追踪运行时，性能分析器测量瓶颈；知识图谱提供阅读和排查线索。</p></div></div></section>
+    <section id="guide-page" class="page" hidden><div class="guide-start"><div><span class="eyebrow">START WITH YOUR OWN PROJECT</span><h2>安装一次，在目标仓库里使用</h2><p>先准备一个本地代码仓库，以及能够使用模型和执行工具的 AI 编程环境。此页只提供操作指南，不会自动安装插件。</p></div><label for="platform">我使用的工具<select id="platform"><option value="codex-win">Codex · Windows</option><option value="codex-unix">Codex · macOS / Linux</option><option value="claude">Claude Code</option><option value="cursor">Cursor</option></select></label></div><div class="guide-steps" id="guide-steps"></div><div class="reading-card compact"><h3>运行后会留下什么？</h3><div class="artifact-flow"><code>你的代码仓库</code><span>→</span><code>.ua/knowledge-graph.json</code><span>→</span><code>本地图谱 Dashboard</code></div><p>旧项目若已有 <code>.understand-anything/</code>，继续使用旧目录。图谱可以与团队共享，已有图谱的浏览不需要再次调用模型。</p><h3>常见情况</h3><details><summary>命令没有被识别</summary><p>安装后重启 CLI / IDE；在目标仓库打开新会话。也可以直接说“使用 understand 技能分析当前项目”。Codex 的技能前缀是 $，Claude Code 通常使用 /。</p></details><details><summary>仓库很大，第一次分析太久</summary><p>先分析一个子目录。首次分析需要阅读源码并生成语义内容，可能消耗较多模型额度；本研究没有测量大型项目的耗时和费用。</p></details><details><summary>只想让同事查看图谱</summary><p>共享已经生成的图谱目录，使用上游独立 viewer；不要求同事再次生成语义内容。源码查看还需要对应项目文件。</p><code class="viewer-command">npx https://github.com/Egonex-AI/Understand-Anything/releases/latest/download/understand-anything-viewer.tgz /path/to/analyzed/project</code></details><details><summary>为什么修改代码后，旧说明还在？</summary><p>图谱有生成时点；本版本的结构指纹可能跳过函数体内部变化。重要逻辑变更后可运行完整分析，并核对源码。<a href="#experiments">查看已实测的边界 →</a></p></details><p class="source-note">安装流程来自上游说明，安装脚本指向上游 main；本研究与截图固定在 6df3065，因此新安装版本可能不同。指南中的安装与模型分析命令未在本机完整执行。<a href="https://github.com/Egonex-AI/Understand-Anything/blob/6df3065f1d8ddc2ce3615314d1d493f36d6b1c80/README.md" target="_blank" rel="noreferrer">查阅上游说明 ↗</a></p></div></section>
+    <section id="graph-page" class="page">
+      <div class="metrics"><div><span>样本文件</span><strong id="file-count"></strong><small>TypeScript + SQL</small></div><div><span>图谱节点</span><strong id="node-count"></strong><small>文件 / 函数 / 数据表</small></div><div><span>结构关系</span><strong id="edge-count"></strong><small>包含 6 · 导入 4 · 调用 4</small></div><div><span>独立实验</span><strong>07<span class="green"> / 07</span></strong><small>全部完成 · 查看实验边界</small></div></div>
+      <div class="workspace">
+        <section class="graph-card" aria-label="知识图谱">
+          <div class="panel-head"><div><span class="eyebrow">ORDER LAB</span><h2>订单流程图谱</h2></div><button id="download" class="text-button">导出 JSON ↓</button></div>
+          <div class="tools"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="筛选名称、路径或中文摘要" aria-label="筛选图谱节点"></label><div class="segmented" aria-label="展示层级"><button id="symbols-mode" aria-pressed="true">函数 / 表</button><button id="files-mode" aria-pressed="false">文件</button></div></div>
+          <div class="impact-bar"><label for="impact">改动影响</label><select id="impact"><option value="">选择一个修改的文件</option></select><span id="impact-status">查看一跳关联</span></div>
+          <div class="graph-surface"><svg id="graph" viewBox="0 0 920 515" role="group" aria-label="可交互的结构图谱"></svg><div id="empty" hidden>没有匹配节点。<button id="clear-search">清除筛选</button></div><span class="graph-caption" id="graph-caption"></span></div>
+          <div class="legend"><span><i class="dot entry"></i>入口</span><span><i class="dot business"></i>业务</span><span><i class="dot infra"></i>基础设施</span><span><i class="dot data"></i>数据</span><span class="legend-note">连线来自语法解析 · SQL 独立样本</span></div>
+          <div class="tour"><div><span class="tour-icon">↳</span><span><small>阅读导览 · 研究者编写</small><strong id="tour-title"></strong></span></div><div class="tour-controls"><button id="tour-prev" aria-label="上一步">←</button><span id="tour-position"></span><button id="tour-next" aria-label="下一步">→</button></div></div>
+        </section>
+        <aside class="inspector" aria-label="节点详情"><div class="inspector-label">NODE INSPECTOR <span>↗</span></div><div id="details" aria-live="polite"></div></aside>
+      </div>
+      <div class="bottom-note"><span>● 上游核心库实测</span><p>本页筛选为本地文本匹配；上游模糊搜索有单独实验。没有调用在线模型或支付服务。</p><a href="#experiments">查看证据与限制 →</a></div>
+    </section>
+    <section id="pipeline-page" class="page" hidden><div class="pipeline-layout"><div id="pipeline-steps" class="pipeline-steps"></div><article id="pipeline-detail" class="reading-card"></article></div></section>
+    <section id="experiments-page" class="page" hidden><article class="finding"><div><span class="eyebrow">KEY FINDING / 01</span><h2>结构没有变，<br>业务行为却变了。</h2><p>库存上限从 100 改为 10。数量为 50 时，函数返回值由 true 变成 false，但结构指纹仍判定为 COSMETIC，更新分类器选择 SKIP。</p><a id="fingerprint-source" target="_blank" rel="noreferrer">查看固定版本源码 ↗</a></div><div class="comparison"><div><span>修改前</span><code>quantity &lt;= <b>100</b></code><strong>true</strong></div><div><span>修改后</span><code>quantity &lt;= <b>10</b></code><strong class="red">false</strong></div><p>实测输入 quantity = 50 · 仅覆盖本样本<br>风险：依赖增量更新的旧摘要可能没有刷新。</p></div></article><div class="experiment-columns"><article class="reading-card"><span class="eyebrow">VERIFIED EXPERIMENTS</span><h2>7 项可复现实验</h2><div id="check-list"></div></article><article class="reading-card"><span class="eyebrow">READ THE BOUNDARIES</span><h2>结果应该怎样理解</h2><h3>一跳关系，不是完整影响链</h3><p>修改 payment.ts 后，订单函数出现在受影响列表中，间接依赖它的入口函数没有出现。核心算法的结果不等于所有运行时风险。</p><h3>Semantic 按钮尚未接通向量检索</h3><p>此固定版本的上游 Dashboard 两种搜索模式调用同一个 Fuse 搜索引擎。核心库虽有向量搜索类，界面仍未接入。</p><h3>解析结果 ≠ 自动理解已验证</h3><p>本次没有执行完整 LLM 流水线，问答、业务流程推断和多 Agent 输出质量仅做源码研究。</p><a href="../notes/evidence/experiments.json">打开原始实验结果 ↗</a><br><a href="../notes/research.md">阅读完整研究笔记 ↗</a></article></div></section>
+    <section id="capabilities-page" class="page" hidden><article class="reading-card"><span class="eyebrow">CAPABILITY MATRIX</span><h2>能力、证据与使用边界</h2><div class="table-scroll"><table><thead><tr><th>能力</th><th>实现方式</th><th>本次证据</th><th>使用边界</th></tr></thead><tbody id="capability-rows"></tbody></table></div></article><div class="reading-card compact"><h3>生成一次，反复阅读</h3><p>核心产物是知识图谱 JSON。生成阶段依赖宿主 AI 工具；查看已有图谱可以独立进行。大型项目首次分析可能消耗较多模型额度。</p><p>本子项目保留解析样本、复现实验和研究证据，未安装全局插件、未运行完整 LLM 分析、未部署公开站点。</p></div></section>
+    <footer>001 / Understand Anything <span>源码版本固定 · 结果可追溯 · 结论有边界</span></footer>
+  </main>
+</body></html>

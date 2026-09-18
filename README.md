@@ -8,24 +8,19 @@
 
 按研究收录顺序排列，编号从 `001` 开始，创建后保持不变。
 
-| 编号 | 子项目 | 研究摘要 | 进度 | 在线演示 |
-| --- | --- | --- | --- | --- |
-| — | 暂无研究项目 | 仓库已初始化，等待收录第一个项目 | — | — |
-
-<!-- 新增项目时删除上面的空状态行，并按编号升序添加真实条目。
-| 001 | [项目名称](projects/001-project-name/) | 一句话说明研究价值 | 待研究 | 未部署 |
-不要将模板或规划中的演示地址当作已完成项目。
--->
+| 编号 | 源库 | 研究说明 | 能力、场景与使用价值 | 进度 | 在线演示 |
+| --- | --- | --- | --- | --- | --- |
+| 001 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | [完整研究](projects/001-understand-anything/) | 程序提取结构，模型补充含义，将代码、Wiki、Figma 组织为交互图谱；在 AI 工具中运行分析技能后浏览、查询与导览。适合陌生项目入门、依赖排查和知识交接，为个人研究保留关系与源码线索，并辅助后续图文表达。 | 已验证 | 未部署 |
 
 ## 项目图览
 
-后续在这里按编号展示各项目的代表截图和一句话结论；完整截图与图注保存在对应子项目中。
+### 001 · Understand-Anything
 
-<!-- 有真实截图后添加预览，保持与索引相同的编号顺序：
-### 001 · 项目名称
-[![项目名称的主要界面](projects/001-project-name/assets/cover.png)](projects/001-project-name/)
-一句话说明截图展示的功能或本次研究结论。
--->
+[![Understand-Anything 能力全景：输入来源、处理分工、四类图谱与使用价值](projects/001-understand-anything/assets/capability-map.png)](projects/001-understand-anything/README.md#一张图理解完整能力)
+
+核心理解：它把结构提取、语义归纳与图谱浏览组织成流程。程序负责可解析的对象与关系，大模型或人补充含义并核实；已有合规图谱可直接浏览。对我的意义是更快建立项目认识、回查关键源码、沉淀研究与交接材料；需要正式配图时，再将确认后的结论交给制图工具。
+
+图为原创能力总览，非产品截图。结构解析与原版浏览已实测，领域 / Wiki / 设计另用人工样本验证渲染；完整 LLM 分析未验证。[使用与本地网页](projects/001-understand-anything/README.md#如何使用) · [五工具对比](projects/001-understand-anything/notes/comparison.md) · [高清图](projects/001-understand-anything/assets/capability-map.png)。
 
 ## 仓库导航
 
@@ -38,12 +33,12 @@
 
 ## 新增研究项目
 
-1. 复制 `templates/project/` 到 `projects/001-project-name/`；后续使用下一个未使用编号。
+1. 查看索引和 Git 历史，复制 `templates/project/` 到下一个未使用编号的子目录；当前下一编号为 `002`。
 2. 填写子项目 README，记录上游仓库、研究目标及版本信息。
 3. 添加实际截图和研究记录，再更新本页索引与图览。
 4. 有可运行的演示后，在子项目中记录启动方法和实际部署地址。
 
-详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前尚未收录具体项目，也未发布 Web 演示。
+详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 1 个研究项目，提供本地交互展示，尚未发布 Web 演示。
 
 ## 来源与许可
 

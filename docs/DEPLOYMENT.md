@@ -1,6 +1,6 @@
 # Web 演示部署约定
 
-当前仅完成研究仓库初始化，尚未启用自动部署，也没有已上线的演示。
+当前已收录 001 · Understand-Anything，并完成其本地静态交互展示；尚未启用自动部署，也没有已上线的演示。运行方式见[项目演示说明](../projects/001-understand-anything/demo/README.md)。
 
 ## 多个演示如何组织
 

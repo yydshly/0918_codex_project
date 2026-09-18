@@ -1,0 +1,140 @@
+{
+  "version": "1.0.0",
+  "kind": "knowledge",
+  "project": {
+    "name": "缓存策略 Wiki · 人工样本",
+    "languages": [],
+    "frameworks": [],
+    "description": "研究者编写的渲染样本；未执行自动提取或 LLM 分析。",
+    "analyzedAt": "2026-09-18T03:03:42.768Z",
+    "gitCommitHash": ""
+  },
+  "nodes": [
+    {
+      "id": "topic",
+      "type": "topic",
+      "name": "缓存策略",
+      "summary": "连接性能与一致性的研究主题。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "article",
+      "type": "article",
+      "name": "缓存实践笔记",
+      "summary": "总结缓存的收益与代价。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim1",
+      "type": "claim",
+      "name": "缓存降低延迟",
+      "summary": "示例观点，需结合场景验证。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim2",
+      "type": "claim",
+      "name": "缓存可能增加延迟",
+      "summary": "示例反例：维护成本高于命中收益。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "source",
+      "type": "source",
+      "name": "实验记录 A",
+      "summary": "人工构造的来源节点，不代表真实研究结论。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity",
+      "type": "entity",
+      "name": "Redis",
+      "summary": "缓存组件示例。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "article",
+      "target": "topic",
+      "type": "categorized_under",
+      "description": "归属主题",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "article",
+      "target": "source",
+      "type": "cites",
+      "description": "引用来源",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "claim2",
+      "target": "claim1",
+      "type": "contradicts",
+      "description": "条件不同的相反观点",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "article",
+      "target": "claim1",
+      "type": "builds_on",
+      "description": "基于观点",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "entity",
+      "target": "claim1",
+      "type": "exemplifies",
+      "description": "举例",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "claim2",
+      "target": "source",
+      "type": "cites",
+      "description": "引用来源",
+      "weight": 0.8,
+      "direction": "forward"
+    }
+  ],
+  "layers": [
+    {
+      "id": "cache",
+      "name": "缓存研究",
+      "description": "人工示例主题",
+      "nodeIds": [
+        "topic",
+        "article",
+        "claim1",
+        "claim2",
+        "source",
+        "entity"
+      ]
+    }
+  ],
+  "tour": []
+}

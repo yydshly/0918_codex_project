@@ -1,0 +1,5 @@
+CREATE TABLE orders (
+  id INTEGER PRIMARY KEY,
+  quantity INTEGER NOT NULL,
+  receipt TEXT NOT NULL
+);

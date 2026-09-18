@@ -1,0 +1,8 @@
+{
+  "src/api.ts": { "summary": "接收数量与单价，将结账请求交给订单服务。", "layer": "入口", "symbol": "handleCheckout" },
+  "src/orders.ts": { "summary": "先检查库存，再生成模拟支付凭证，最后生成订单标识。", "layer": "业务", "symbol": "createOrder" },
+  "src/inventory.ts": { "summary": "检查数量是否大于零且不超过 100。此样本不会扣减库存。", "layer": "业务", "symbol": "reserveStock" },
+  "src/payment.ts": { "summary": "检查金额后生成模拟凭证；没有连接真实支付服务。", "layer": "基础设施", "symbol": "chargePayment" },
+  "src/repository.ts": { "summary": "返回模拟订单标识；没有持久化或数据库访问。", "layer": "基础设施", "symbol": "saveOrder" },
+  "schema.sql": { "summary": "独立 SQL 解析样本，声明 orders 表及三个字段。", "layer": "数据", "symbol": "orders" }
+}

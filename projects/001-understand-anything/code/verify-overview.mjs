@@ -1,0 +1,30 @@
+import assert from 'node:assert/strict';
+import { writeFile } from 'node:fs/promises';
+import { dirname,resolve } from 'node:path';
+import { fileURLToPath,pathToFileURL } from 'node:url';
+const project=resolve(dirname(fileURLToPath(import.meta.url)),'..');
+const {chromium}=await import(pathToFileURL(process.env.PLAYWRIGHT_MODULE).href);
+const browser=await chromium.launch({headless:true,channel:'msedge'});
+const page=await browser.newPage({viewport:{width:1800,height:2020},deviceScaleFactor:2});
+const errors=[];page.on('pageerror',e=>errors.push(e.message));
+try{
+ await page.goto(pathToFileURL(resolve(project,'assets/capability-map.svg')).href);
+ await page.evaluate(()=>document.fonts.ready);
+ const escaped=await page.locator('svg text').evaluateAll(nodes=>nodes.filter(n=>{const b=n.getBBox();return b.x<0||b.y<0||b.x+b.width>1800||b.y+b.height>2020;}).map(n=>n.textContent));
+ assert.deepEqual(escaped,[],'Text must remain inside the canvas');
+ const overlapping=await page.locator('svg text').evaluateAll(nodes=>{const a=nodes.map(n=>({text:n.textContent,b:n.getBBox()}));let out=[];for(let i=0;i<a.length;i++)for(let j=i+1;j<a.length;j++){let x=a[i].b,y=a[j].b;if(Math.min(x.x+x.width,y.x+y.width)-Math.max(x.x,y.x)>2&&Math.min(x.y+x.height,y.y+y.height)-Math.max(x.y,y.y)>2)out.push([a[i].text,a[j].text]);}return out;});
+ assert.deepEqual(overlapping,[],'Text boxes must not overlap');
+ await page.locator('svg').screenshot({path:resolve(project,'assets/capability-map.png')});
+ await page.setViewportSize({width:1400,height:1000});
+ await page.goto(pathToFileURL(resolve(project,'demo/overview.html')).href);
+ await page.locator('#overview').evaluate(i=>i.decode());
+ const before=await page.locator('#overview').evaluate(i=>i.clientWidth);
+ await page.locator('#zoom-in').click();assert.ok(await page.locator('#overview').evaluate(i=>i.clientWidth)>before);
+ await page.locator('#fit').click();assert.equal(await page.locator('#overview').evaluate(i=>i.clientWidth),before);
+ await page.setViewportSize({width:390,height:844});
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+ await page.locator('#zoom-in').click();assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+ assert.deepEqual(errors,[]);
+ await writeFile(resolve(project,'notes/evidence/overview-qa.json'),JSON.stringify({checkedAt:new Date().toISOString(),artwork:'Original research SVG, not upstream screenshot',svg:'1800x2020',png:'3600x4040',checks:['SVG text inside canvas','No overlapping text boxes','PNG rendered with Chinese system font','Viewer image loads via file URL','Zoom in and fit controls','390px mobile page has no horizontal overflow, including zoom','No JavaScript errors'],errors},null,2)+'\n');
+ console.log('Overview checks passed; PNG rendered at 3600 × 4040.');
+}finally{await browser.close();}

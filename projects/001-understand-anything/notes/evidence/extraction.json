@@ -1,0 +1,223 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 6,
+  "filesSkipped": [],
+  "filesUnreadable": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 6,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 5,
+      "failed": 0,
+      "skipped": 1
+    }
+  },
+  "results": [
+    {
+      "path": "src/api.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 5,
+      "nonEmptyLines": 4,
+      "functions": [
+        {
+          "name": "handleCheckout",
+          "startLine": 3,
+          "endLine": 5,
+          "params": [
+            "quantity",
+            "unitPrice"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "handleCheckout",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "handleCheckout",
+          "callee": "createOrder",
+          "lineNumber": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/orders.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 9,
+      "nonEmptyLines": 8,
+      "functions": [
+        {
+          "name": "createOrder",
+          "startLine": 5,
+          "endLine": 9,
+          "params": [
+            "quantity",
+            "unitPrice"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "createOrder",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "createOrder",
+          "callee": "reserveStock",
+          "lineNumber": 6
+        },
+        {
+          "caller": "createOrder",
+          "callee": "chargePayment",
+          "lineNumber": 7
+        },
+        {
+          "caller": "createOrder",
+          "callee": "saveOrder",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/inventory.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "functions": [
+        {
+          "name": "reserveStock",
+          "startLine": 1,
+          "endLine": 3,
+          "params": [
+            "quantity"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "reserveStock",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/payment.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "functions": [
+        {
+          "name": "chargePayment",
+          "startLine": 1,
+          "endLine": 4,
+          "params": [
+            "amount"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "chargePayment",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/repository.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "functions": [
+        {
+          "name": "saveOrder",
+          "startLine": 1,
+          "endLine": 3,
+          "params": [
+            "quantity",
+            "receipt"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "saveOrder",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "schema.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 5,
+      "nonEmptyLines": 5,
+      "definitions": [
+        {
+          "name": "orders",
+          "kind": "table",
+          "fields": [
+            "id",
+            "quantity",
+            "receipt"
+          ],
+          "startLine": 1,
+          "endLine": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 1
+      }
+    }
+  ]
+}

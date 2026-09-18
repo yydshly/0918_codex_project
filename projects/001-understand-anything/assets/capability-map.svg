@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2020" viewBox="0 0 1800 2020" role="img" aria-labelledby="title desc"><title id="title">Understand Anything 能力全景</title><desc id="desc">从代码、Wiki、Figma 或已有图谱输入，经程序提取、大模型或人理解、校验合并与布局，形成四类图谱，用于项目理解、改动排查与知识沉淀。下方注明实测范围和能力边界。</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="#798873"/></marker></defs><g font-family="'Microsoft YaHei','PingFang SC',system-ui,sans-serif"><rect x="0" y="0" width="1800" height="2020" rx="0" fill="#f5f5ed" stroke="#f5f5ed"/>
+<rect x="0" y="0" width="1800" height="190" rx="0" fill="#213e33" stroke="#213e33"/>
+<text x="52" y="47" font-size="18" fill="#c4d8ae" font-weight="500">OPEN SOURCE RESEARCH  /  001</text>
+<text x="52" y="104" font-size="46" fill="#f6f7e9" font-weight="650">Understand Anything · 一图理解</text>
+<text x="52" y="151" font-size="24" fill="#d2ddcb" font-weight="400">把源码与资料，变成可探索、可解释、可回查的知识图谱。</text>
+<text x="1390" y="52" font-size="19" fill="#c4d8ae" font-weight="400">研究版本 6df3065</text>
+<text x="1390" y="86" font-size="18" fill="#c4d8ae" font-weight="400">2026.09.18  ·  MIT</text>
+<text x="1390" y="144" font-size="18" fill="#c4d8ae" font-weight="400">原创能力示意 · 非产品截图</text>
+<rect x="52" y="215" width="40" height="36" rx="8" fill="#213e33" stroke="#213e33"/>
+<text x="62" y="242" font-size="18" fill="#e2efc5" font-weight="600">01</text>
+<text x="108" y="242" font-size="27" fill="#213e33" font-weight="650">输入从哪里来</text>
+<text x="480" y="242" font-size="18" fill="#6e7c70" font-weight="400">来源不同，提取路径不同；数据需要访问权限与对应材料。</text>
+<rect x="52" y="266" width="406" height="183" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<rect x="52" y="266" width="6" height="183" rx="0" fill="#547c58" stroke="#547c58"/>
+<text x="75" y="303" font-size="25" fill="#547c58" font-weight="650">代码仓库</text>
+<text x="75" y="336" font-size="18" fill="#213e33" font-weight="500">源码 / 配置 / SQL / 项目文档</text>
+<text x="75" y="371" font-size="18" fill="#6e7c70" font-weight="400">程序读取文件、语法与结构。</text>
+<text x="75" y="398" font-size="18" fill="#6e7c70" font-weight="400">业务领域可从已有代码图谱归纳，</text>
+<text x="75" y="425" font-size="18" fill="#6e7c70" font-weight="400">也可通过轻量扫描获取上下文。</text>
+<rect x="482" y="266" width="406" height="183" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<rect x="482" y="266" width="6" height="183" rx="0" fill="#82739d" stroke="#82739d"/>
+<text x="505" y="303" font-size="25" fill="#82739d" font-weight="650">Markdown Wiki</text>
+<text x="505" y="336" font-size="18" fill="#213e33" font-weight="500">文章 / 双向链接 / 原始来源</text>
+<text x="505" y="371" font-size="18" fill="#6e7c70" font-weight="400">读取约定的 Wiki 目录结构。</text>
+<text x="505" y="398" font-size="18" fill="#6e7c70" font-weight="400">显式链接可以直接解析；</text>
+<text x="505" y="425" font-size="18" fill="#6e7c70" font-weight="400">隐含知识关系需语义分析。</text>
+<rect x="912" y="266" width="406" height="183" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<rect x="912" y="266" width="6" height="183" rx="0" fill="#507f9a" stroke="#507f9a"/>
+<text x="935" y="303" font-size="25" fill="#507f9a" font-weight="650">已有 Figma 文件</text>
+<text x="935" y="336" font-size="18" fill="#213e33" font-weight="500">页面 / 组件 / 实例 / 设计变量</text>
+<text x="935" y="371" font-size="18" fill="#6e7c70" font-weight="400">经 Figma REST API 读取对象。</text>
+<text x="935" y="398" font-size="18" fill="#6e7c70" font-weight="400">需要文件 URL 或 key 与 token；</text>
+<text x="935" y="425" font-size="18" fill="#6e7c70" font-weight="400">分析已有设计的结构与引用。</text>
+<rect x="1342" y="266" width="406" height="183" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<rect x="1342" y="266" width="6" height="183" rx="0" fill="#a57b36" stroke="#a57b36"/>
+<text x="1365" y="303" font-size="25" fill="#a57b36" font-weight="650">已有图谱数据</text>
+<text x="1365" y="336" font-size="18" fill="#213e33" font-weight="500">合规 JSON / 人或工具整理的数据</text>
+<text x="1365" y="371" font-size="18" fill="#6e7c70" font-weight="400">已有图谱可直接进入浏览。</text>
+<text x="1365" y="398" font-size="18" fill="#6e7c70" font-weight="400">无需每次重新调用大模型；</text>
+<text x="1365" y="425" font-size="18" fill="#6e7c70" font-weight="400">业务领域、源码查看另需对应数据。</text>
+<path d="M900 451 V480" fill="none" stroke="#547c58" stroke-width="2"  marker-end="url(#arrow)"/>
+<rect x="52" y="493" width="40" height="36" rx="8" fill="#213e33" stroke="#213e33"/>
+<text x="62" y="520" font-size="18" fill="#e2efc5" font-weight="600">02</text>
+<text x="108" y="520" font-size="27" fill="#213e33" font-weight="650">如何处理与分工</text>
+<text x="480" y="520" font-size="18" fill="#6e7c70" font-weight="400">库包含部分分析流程；原始材料不需要全部由人预先整理。</text>
+<rect x="52" y="548" width="324" height="177" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<rect x="70" y="561" width="136" height="28" rx="14" fill="#f0f3e8" stroke="#d8dfce"/>
+<text x="82" y="581" font-size="15" fill="#547c58" font-weight="500">程序 / 编排</text>
+<text x="70" y="624" font-size="25" fill="#213e33" font-weight="650">扫描与分批</text>
+<text x="70" y="662" font-size="18" fill="#6e7c70" font-weight="400">识别文件、语言与入口</text>
+<text x="70" y="691" font-size="18" fill="#6e7c70" font-weight="400">代码按关联组织批次</text>
+<path d="M378 636 H397" fill="none" stroke="#547c58" stroke-width="2"  marker-end="url(#arrow)"/>
+<rect x="400" y="548" width="324" height="177" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<rect x="418" y="561" width="64" height="28" rx="14" fill="#f0f3e8" stroke="#d8dfce"/>
+<text x="430" y="581" font-size="15" fill="#547c58" font-weight="500">程序</text>
+<text x="418" y="624" font-size="25" fill="#213e33" font-weight="650">提取结构事实</text>
+<text x="418" y="662" font-size="18" fill="#6e7c70" font-weight="400">Tree-sitter、专用解析器</text>
+<text x="418" y="691" font-size="18" fill="#6e7c70" font-weight="400">提取符号 / 链接 / 引用</text>
+<path d="M726 636 H745" fill="none" stroke="#547c58" stroke-width="2"  marker-end="url(#arrow)"/>
+<rect x="748" y="548" width="324" height="177" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<rect x="766" y="561" width="136" height="28" rx="14" fill="#f0f3e8" stroke="#d8dfce"/>
+<text x="778" y="581" font-size="15" fill="#a57b36" font-weight="500">大模型 / 人</text>
+<text x="766" y="624" font-size="25" fill="#213e33" font-weight="650">理解与归纳</text>
+<text x="766" y="662" font-size="18" fill="#6e7c70" font-weight="400">补充摘要、职责、业务含义</text>
+<text x="766" y="691" font-size="18" fill="#6e7c70" font-weight="400">归纳领域、分层与导览</text>
+<path d="M1074 636 H1093" fill="none" stroke="#547c58" stroke-width="2"  marker-end="url(#arrow)"/>
+<rect x="1096" y="548" width="324" height="177" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<rect x="1114" y="561" width="168" height="28" rx="14" fill="#f0f3e8" stroke="#d8dfce"/>
+<text x="1126" y="581" font-size="15" fill="#547c58" font-weight="500">程序 + 必要复核</text>
+<text x="1114" y="624" font-size="25" fill="#213e33" font-weight="650">合并与校验</text>
+<text x="1114" y="662" font-size="18" fill="#6e7c70" font-weight="400">合并节点、规范标识</text>
+<text x="1114" y="691" font-size="18" fill="#6e7c70" font-weight="400">检查结构和悬空关系</text>
+<path d="M1422 636 H1441" fill="none" stroke="#547c58" stroke-width="2"  marker-end="url(#arrow)"/>
+<rect x="1444" y="548" width="324" height="177" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<rect x="1462" y="561" width="64" height="28" rx="14" fill="#f0f3e8" stroke="#d8dfce"/>
+<text x="1474" y="581" font-size="15" fill="#547c58" font-weight="500">程序</text>
+<text x="1462" y="624" font-size="25" fill="#213e33" font-weight="650">布局与交互</text>
+<text x="1462" y="662" font-size="18" fill="#6e7c70" font-weight="400">结构 / 领域布局、力导向</text>
+<text x="1462" y="691" font-size="18" fill="#6e7c70" font-weight="400">渲染节点、连线与详情</text>
+<rect x="52" y="748" width="1696" height="82" rx="14" fill="#e8efdc" stroke="#d8dfce"/>
+<text x="75" y="782" font-size="23" fill="#213e33" font-weight="600">核心产物：结构化图谱 JSON</text>
+<text x="75" y="812" font-size="19" fill="#6e7c70" font-weight="400">节点 + 关系 + 层级 + 导览 + 来源位置</text>
+<text x="618" y="782" font-size="23" fill="#213e33" font-weight="600">27 种节点 · 38 种关系</text>
+<text x="618" y="812" font-size="19" fill="#6e7c70" font-weight="400">这是数据模型的类型数，不是图种数或提取覆盖率。</text>
+<text x="1283" y="782" font-size="22" fill="#a57b36" font-weight="600">人 / 模型负责事实复核</text>
+<text x="1283" y="812" font-size="19" fill="#6e7c70" font-weight="400">结构校验通过 ≠ 业务结论正确</text>
+<path d="M900 833 V860" fill="none" stroke="#547c58" stroke-width="2"  marker-end="url(#arrow)"/>
+<rect x="52" y="874" width="40" height="36" rx="8" fill="#213e33" stroke="#213e33"/>
+<text x="62" y="901" font-size="18" fill="#e2efc5" font-weight="600">03</text>
+<text x="108" y="901" font-size="27" fill="#213e33" font-weight="650">内部能呈现什么</text>
+<text x="480" y="901" font-size="18" fill="#6e7c70" font-weight="400">4 大图谱类别；3 套主要视图；下图为效果形态示意。</text>
+<rect x="52" y="926" width="406" height="374" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<text x="74" y="963" font-size="27" fill="#547c58" font-weight="650">代码与架构</text>
+<text x="74" y="994" font-size="18" fill="#6e7c70" font-weight="400">结构视图</text>
+<rect x="76" y="1016" width="100" height="36" rx="7" fill="#fffef9" stroke="#547c58"/>
+<text x="88" y="1040" font-size="16" fill="#547c58" font-weight="500">入口</text>
+<rect x="302" y="1016" width="125" height="36" rx="7" fill="#fffef9" stroke="#547c58"/>
+<text x="314" y="1040" font-size="16" fill="#547c58" font-weight="500">业务模块</text>
+<rect x="302" y="1074" width="125" height="36" rx="7" fill="#fffef9" stroke="#547c58"/>
+<text x="314" y="1098" font-size="16" fill="#547c58" font-weight="500">基础设施</text>
+<path d="M176 1034 H298" fill="none" stroke="#547c58" stroke-width="2"  marker-end="url(#arrow)"/>
+<path d="M364 1054 V1070" fill="none" stroke="#547c58" stroke-width="2"  marker-end="url(#arrow)"/>
+<text x="74" y="1143" font-size="18" fill="#213e33" font-weight="400">架构分层 · 文件与模块依赖</text>
+<text x="74" y="1170" font-size="18" fill="#213e33" font-weight="400">函数调用 · 类继承与接口实现</text>
+<text x="74" y="1197" font-size="18" fill="#213e33" font-weight="400">数据读写 · 服务与基础设施</text>
+<text x="74" y="1234" font-size="17" fill="#6e7c70" font-weight="400">从架构层深入文件和符号；</text>
+<text x="74" y="1259" font-size="17" fill="#6e7c70" font-weight="400">这些是同一图谱的不同关系。</text>
+<text x="74" y="1281" font-size="17" fill="#547c58" font-weight="500">/understand</text>
+<rect x="482" y="926" width="406" height="374" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<text x="504" y="963" font-size="27" fill="#a57b36" font-weight="650">业务领域</text>
+<text x="504" y="994" font-size="18" fill="#6e7c70" font-weight="400">横向领域 / 流程视图</text>
+<rect x="506" y="1044" width="90" height="36" rx="7" fill="#fffef9" stroke="#a57b36"/>
+<text x="518" y="1068" font-size="16" fill="#a57b36" font-weight="500">领域</text>
+<rect x="632" y="1044" width="90" height="36" rx="7" fill="#fffef9" stroke="#a57b36"/>
+<text x="644" y="1068" font-size="16" fill="#a57b36" font-weight="500">流程</text>
+<rect x="758" y="1044" width="105" height="36" rx="7" fill="#fffef9" stroke="#a57b36"/>
+<text x="770" y="1068" font-size="16" fill="#a57b36" font-weight="500">步骤</text>
+<path d="M597 1062 H628" fill="none" stroke="#a57b36" stroke-width="2"  marker-end="url(#arrow)"/>
+<path d="M724 1062 H754" fill="none" stroke="#a57b36" stroke-width="2"  marker-end="url(#arrow)"/>
+<text x="504" y="1143" font-size="18" fill="#213e33" font-weight="400">领域 → 业务流程 → 编号步骤</text>
+<text x="504" y="1170" font-size="18" fill="#213e33" font-weight="400">跨领域协作、实体与规则</text>
+<text x="504" y="1197" font-size="18" fill="#213e33" font-weight="400">入口与相关源码线索</text>
+<text x="504" y="1234" font-size="17" fill="#6e7c70" font-weight="400">双击领域查看流程与步骤；</text>
+<text x="504" y="1259" font-size="17" fill="#6e7c70" font-weight="400">连接不等于真实执行时序。</text>
+<text x="504" y="1281" font-size="17" fill="#a57b36" font-weight="500">/understand-domain</text>
+<rect x="912" y="926" width="406" height="374" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<text x="934" y="963" font-size="27" fill="#82739d" font-weight="650">Wiki 知识</text>
+<text x="934" y="994" font-size="18" fill="#6e7c70" font-weight="400">力导向网络 / 主题聚类</text>
+<rect x="936" y="1016" width="100" height="36" rx="7" fill="#fffef9" stroke="#82739d"/>
+<text x="948" y="1040" font-size="16" fill="#82739d" font-weight="500">主题</text>
+<rect x="1162" y="1016" width="120" height="36" rx="7" fill="#fffef9" stroke="#82739d"/>
+<text x="1174" y="1040" font-size="16" fill="#82739d" font-weight="500">文章</text>
+<rect x="1057" y="1074" width="110" height="36" rx="7" fill="#fffef9" stroke="#82739d"/>
+<text x="1069" y="1098" font-size="16" fill="#82739d" font-weight="500">来源</text>
+<path d="M1160 1034 H1040" fill="none" stroke="#82739d" stroke-width="2"  marker-end="url(#arrow)"/>
+<path d="M1222 1054 L1169 1088" fill="none" stroke="#82739d" stroke-width="2"  marker-end="url(#arrow)"/>
+<path d="M1057 1092 L992 1056" fill="none" stroke="#82739d" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<text x="934" y="1143" font-size="18" fill="#213e33" font-weight="400">文章 · 实体 · 主题 · 观点 · 来源</text>
+<text x="934" y="1170" font-size="18" fill="#213e33" font-weight="400">引用 / 矛盾 / 归类 / 举例</text>
+<text x="934" y="1197" font-size="18" fill="#213e33" font-weight="400">社区聚类与关联探索</text>
+<text x="934" y="1234" font-size="17" fill="#6e7c70" font-weight="400">从主题进入文章与证据；</text>
+<text x="934" y="1259" font-size="17" fill="#6e7c70" font-weight="400">隐含联系需要核对原文。</text>
+<text x="934" y="1281" font-size="17" fill="#82739d" font-weight="500">/understand-knowledge</text>
+<rect x="1342" y="926" width="406" height="374" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<text x="1364" y="963" font-size="27" fill="#507f9a" font-weight="650">Figma 设计</text>
+<text x="1364" y="994" font-size="18" fill="#6e7c70" font-weight="400">复用结构视图</text>
+<rect x="1366" y="1016" width="100" height="36" rx="7" fill="#fffef9" stroke="#507f9a"/>
+<text x="1378" y="1040" font-size="16" fill="#507f9a" font-weight="500">界面实例</text>
+<rect x="1592" y="1016" width="125" height="36" rx="7" fill="#fffef9" stroke="#507f9a"/>
+<text x="1604" y="1040" font-size="16" fill="#507f9a" font-weight="500">组件</text>
+<rect x="1592" y="1074" width="125" height="36" rx="7" fill="#fffef9" stroke="#507f9a"/>
+<text x="1604" y="1098" font-size="16" fill="#507f9a" font-weight="500">设计变量</text>
+<path d="M1468 1034 H1588" fill="none" stroke="#507f9a" stroke-width="2"  marker-end="url(#arrow)"/>
+<path d="M1654 1054 V1070" fill="none" stroke="#507f9a" stroke-width="2"  marker-end="url(#arrow)"/>
+<text x="1364" y="1143" font-size="18" fill="#213e33" font-weight="400">页面 · 界面 · 组件集 · 组件</text>
+<text x="1364" y="1170" font-size="18" fill="#213e33" font-weight="400">实例 / 变体 / 设计变量引用</text>
+<text x="1364" y="1197" font-size="18" fill="#213e33" font-weight="400">设计对象的分组与解释</text>
+<text x="1364" y="1234" font-size="17" fill="#6e7c70" font-weight="400">盘点已有设计系统关系；</text>
+<text x="1364" y="1259" font-size="17" fill="#6e7c70" font-weight="400">不自动生成新的 UI 界面。</text>
+<text x="1364" y="1281" font-size="17" fill="#507f9a" font-weight="500">/understand-figma</text>
+<rect x="52" y="1320" width="1696" height="98" rx="14" fill="#e8efdc" stroke="#d8dfce"/>
+<text x="75" y="1357" font-size="22" fill="#213e33" font-weight="600">交互与辅助效果</text>
+<text x="310" y="1357" font-size="21" fill="#213e33" font-weight="400">筛选搜索 · 节点详情与源码 · 聚类展开 · 阅读导览 · 变更影响高亮</text>
+<text x="75" y="1392" font-size="19" fill="#213e33" font-weight="600">问答</text>
+<text x="137" y="1392" font-size="19" fill="#6e7c70" font-weight="400">在宿主 AI 工具中检索图谱并回答</text>
+<text x="640" y="1392" font-size="19" fill="#213e33" font-weight="600">导出</text>
+<text x="707" y="1392" font-size="19" fill="#6e7c70" font-weight="400">JSON 数据 / PNG、SVG 图像</text>
+<text x="1200" y="1392" font-size="19" fill="#213e33" font-weight="600">更新</text>
+<text x="1269" y="1392" font-size="19" fill="#6e7c70" font-weight="400">重新分析 / 增量更新</text>
+<rect x="52" y="1453" width="40" height="36" rx="8" fill="#213e33" stroke="#213e33"/>
+<text x="62" y="1480" font-size="18" fill="#e2efc5" font-weight="600">04</text>
+<text x="108" y="1480" font-size="27" fill="#213e33" font-weight="650">对我们的意义</text>
+<text x="480" y="1480" font-size="18" fill="#6e7c70" font-weight="400">先理解与核实，再用于阅读、协作和研究交付。</text>
+<rect x="52" y="1505" width="406" height="130" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<text x="74" y="1544" font-size="24" fill="#213e33" font-weight="600">更快进入陌生项目</text>
+<text x="74" y="1584" font-size="18" fill="#6e7c70" font-weight="400">先看模块全貌与阅读路线，</text>
+<text x="74" y="1612" font-size="18" fill="#6e7c70" font-weight="400">再回到关键源码验证细节。</text>
+<rect x="482" y="1505" width="406" height="130" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<text x="504" y="1544" font-size="24" fill="#213e33" font-weight="600">辅助改动与排查</text>
+<text x="504" y="1584" font-size="18" fill="#6e7c70" font-weight="400">追踪依赖和直接关联节点，</text>
+<text x="504" y="1612" font-size="18" fill="#6e7c70" font-weight="400">缩小阅读范围，配合测试调试。</text>
+<rect x="912" y="1505" width="406" height="130" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<text x="934" y="1544" font-size="24" fill="#213e33" font-weight="600">沉淀可复用的知识</text>
+<text x="934" y="1584" font-size="18" fill="#6e7c70" font-weight="400">把解释、关系和来源存成图谱，</text>
+<text x="934" y="1612" font-size="18" fill="#6e7c70" font-weight="400">用于交接、资料整理与反复查询。</text>
+<rect x="1342" y="1505" width="406" height="130" rx="14" fill="#fffef9" stroke="#d8dfce"/>
+<text x="1364" y="1544" font-size="24" fill="#213e33" font-weight="600">连接后续表达工具</text>
+<text x="1364" y="1584" font-size="18" fill="#6e7c70" font-weight="400">核实后可转成汇报或技术配图。</text>
+<text x="1364" y="1612" font-size="18" fill="#6e7c70" font-weight="400">对接 Archify 等需另写转换流程。</text>
+<rect x="52" y="1656" width="1696" height="58" rx="9" fill="#213e33" stroke="#213e33"/>
+<text x="76" y="1693" font-size="20" fill="#dce8c7" font-weight="600">使用路径</text>
+<text x="225" y="1693" font-size="21" fill="#f6f7e9" font-weight="400">准备材料与权限 → 在 AI 工具中运行对应技能 → 生成图谱 → 打开 Dashboard → 回查原始来源</text>
+<rect x="52" y="1743" width="40" height="36" rx="8" fill="#213e33" stroke="#213e33"/>
+<text x="62" y="1770" font-size="18" fill="#e2efc5" font-weight="600">05</text>
+<text x="108" y="1770" font-size="27" fill="#213e33" font-weight="650">如何理解结果</text>
+<text x="480" y="1770" font-size="18" fill="#6e7c70" font-weight="400">解析证据、模型推断和图形布局，属于不同层面的信息。</text>
+<rect x="52" y="1794" width="835" height="143" rx="14" fill="#fff9e9" stroke="#dfd3b7"/>
+<rect x="909" y="1794" width="839" height="143" rx="14" fill="#ecf1e6" stroke="#d8dfce"/>
+<text x="74" y="1828" font-size="23" fill="#a57b36" font-weight="600">能力边界</text>
+<text x="74" y="1863" font-size="18" fill="#6e7c70" font-weight="400">静态关系不等于运行轨迹；核心变更影响实测覆盖一跳。</text>
+<text x="74" y="1890" font-size="18" fill="#6e7c70" font-weight="400">增量结构指纹可能漏掉函数体变化；重要改动应核对源码。</text>
+<text x="74" y="1917" font-size="18" fill="#6e7c70" font-weight="400">未见标准 UML 时序图、ER 基数图、BPMN、甘特图的独立实现。</text>
+<text x="931" y="1828" font-size="23" fill="#547c58" font-weight="600">我们已经验证到哪里</text>
+<text x="931" y="1863" font-size="18" fill="#6e7c70" font-weight="400">已实测：小型订单源码解析、核心 API、原版浏览与导览。</text>
+<text x="931" y="1890" font-size="18" fill="#6e7c70" font-weight="400">领域 / Wiki / 设计：人工 JSON 的原版渲染；关系示意为原创。</text>
+<text x="931" y="1917" font-size="18" fill="#6e7c70" font-weight="400">未实测：完整 LLM 自动分析、真实 Figma API 与自动业务归纳。</text>
+<text x="52" y="1970" font-size="18" fill="#6e7c70" font-weight="400">依据固定版本源码与本地实验整理；不表示全部类型都能自动、完整、准确提取。</text>
+<text x="52" y="2000" font-size="17" fill="#6e7c70" font-weight="400">来源：github.com/Egonex-AI/Understand-Anything  ·  types.ts / skills / Dashboard  ·  详细证据见子项目研究说明</text></g></svg>

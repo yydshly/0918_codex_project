@@ -1,0 +1,48 @@
+// Capture the unmodified upstream dashboard using the URL printed by Vite.
+import assert from 'node:assert/strict';
+import { writeFile } from 'node:fs/promises';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath, pathToFileURL } from 'node:url';
+const { chromium } = await import(process.env.PLAYWRIGHT_MODULE ? pathToFileURL(process.env.PLAYWRIGHT_MODULE).href : 'playwright');
+const url = process.argv[2];
+if (!url) throw new Error('Usage: node code/capture-upstream.mjs <tokenized-dashboard-url>');
+const project = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const browser = await chromium.launch({ headless: true, ...(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : { channel: 'msedge' }) });
+const page = await browser.newPage({ viewport: { width: 1500, height: 960 } });
+const errors = [], checks = [];
+page.on('pageerror', error => errors.push(error.message));
+try {
+  await page.addInitScript(() => localStorage.setItem('ua-onboarding-dismissed-v1', '1'));
+  const graphResponse = page.waitForResponse(response => new URL(response.url()).pathname === '/knowledge-graph.json' && response.status() === 200);
+  await page.goto(url);
+  const loadedGraph = await (await graphResponse).json();
+  assert.equal(loadedGraph.nodes.length, 12); assert.equal(loadedGraph.edges.length, 14);
+  await page.getByText('业务', { exact: true }).waitFor();
+  await page.getByRole('button', { name: '开始导览', exact: true }).waitFor();
+  await page.getByRole('button', { name: 'Fit View', exact: true }).click();
+  await page.screenshot({ path: resolve(project, 'assets/upstream-overview.png') });
+  checks.push('原版 Dashboard 加载 12 节点 / 14 边，并呈现架构层');
+  await page.getByText('业务', { exact: true }).click();
+  for (const cluster of ['Cluster A', 'Cluster B']) await page.getByRole('button').filter({ hasText: cluster }).click();
+  await page.getByRole('button', { name: 'Fit View', exact: true }).click();
+  await page.getByText('orders.ts', { exact: true }).first().click();
+  const sourceResponse = page.waitForResponse(response => new URL(response.url()).pathname === '/file-content.json' && response.status() === 200);
+  await page.getByRole('button', { name: '打开代码', exact: true }).click();
+  await sourceResponse;
+  await page.locator('pre').first().waitFor();
+  assert.match(await page.locator('pre').first().textContent(), /createOrder/);
+  await page.screenshot({ path: resolve(project, 'assets/upstream-detail.png') });
+  checks.push('进入业务层、展开两个聚类、选择 orders.ts 并加载本地源码');
+  await page.getByRole('button', { name: '关闭代码查看器', exact: true }).click();
+  await page.getByRole('button', { name: '开始导览', exact: true }).click();
+  await page.getByRole('button', { name: '下一步', exact: true }).waitFor();
+  await page.getByRole('button', { name: '下一步', exact: true }).click();
+  await page.getByRole('heading', { name: 'createOrder', exact: true }).waitFor();
+  await page.getByText('Locating tour highlight…', { exact: true }).waitFor({ state: 'hidden', timeout: 20000 });
+  await page.screenshot({ path: resolve(project, 'assets/upstream-tour.png') });
+  checks.push('启动原版导览并前进到第二步 createOrder');
+  assert.deepEqual(errors, []);
+  const result = { capturedAt: new Date().toISOString(), upstreamCommit: '6df3065f1d8ddc2ce3615314d1d493f36d6b1c80', browser: await browser.version(), viewport: '1500x960', checks, browserErrors: errors, data: 'Order Lab 样本；结构来自上游解析；中文摘要、层级和导览由研究者编写', source: '未修改的上游 Vite Dashboard，本地 GRAPH_DIR 指向样本副本', warnings: ['样本图谱未含 Git commit，保留原版 freshness 提示'], scope: '验证既有数据的显示、源码读取和导览交互；未执行自动 LLM 生成、领域提取或实时问答' };
+  await writeFile(resolve(project, 'notes/evidence/upstream-dashboard.json'), JSON.stringify(result, null, 2) + '\n');
+  console.log(JSON.stringify(result, null, 2));
+} finally { await browser.close(); }

@@ -1,0 +1,139 @@
+{
+  "upstream": {
+    "repository": "https://github.com/Egonex-AI/Understand-Anything",
+    "commit": "6df3065f1d8ddc2ce3615314d1d493f36d6b1c80",
+    "license": "MIT"
+  },
+  "generatedAt": "2026-09-18T00:07:44.554Z",
+  "runtime": {
+    "node": "v24.19.0",
+    "platform": "win32",
+    "arch": "x64"
+  },
+  "fixtureHash": "40ef5d0ae6b974e9b875374e420f8d793c41dad86c5a370ed8dea79585c7b248",
+  "scope": "上游核心库与提取脚本实测；没有运行完整多 Agent / LLM 流水线。",
+  "provenance": {
+    "structure": "upstream-parser",
+    "graph": "upstream-GraphBuilder + fixture-only import/call adapter",
+    "summaries": "research-authored",
+    "layers": "research-authored",
+    "tour": "research-authored",
+    "impact": "upstream-buildDiffContext",
+    "demoSearch": "local substring filter",
+    "upstreamSearch": "upstream-SearchEngine (recorded experiment)"
+  },
+  "counts": {
+    "files": 6,
+    "nodes": 12,
+    "edges": 14
+  },
+  "checks": [
+    {
+      "id": "symbols",
+      "name": "Tree-sitter 提取 5 个函数及其行号",
+      "passed": true
+    },
+    {
+      "id": "sql",
+      "name": "SQLParser 提取 orders 表和三个字段",
+      "passed": true
+    },
+    {
+      "id": "graph",
+      "name": "GraphBuilder 组装 12 节点、4 条导入和 4 条调用关系",
+      "passed": true
+    },
+    {
+      "id": "impact",
+      "name": "支付文件变化只返回一跳邻居：订单受影响，入口不在结果中",
+      "passed": true
+    },
+    {
+      "id": "search",
+      "name": "上游 Fuse 搜索定位支付函数，未知词返回空结果",
+      "passed": true
+    },
+    {
+      "id": "fingerprint",
+      "name": "识别函数签名变化；函数体阈值变化被归类 COSMETIC",
+      "passed": true
+    },
+    {
+      "id": "entrypoint",
+      "name": "上游 extract-structure 入口处理全部 6 个文件",
+      "passed": true
+    }
+  ],
+  "searchResults": [
+    {
+      "query": "chargePayment",
+      "results": [
+        {
+          "nodeId": "function:src/payment.ts:chargePayment",
+          "score": 5.477420592293901e-7
+        }
+      ]
+    },
+    {
+      "query": "库存",
+      "results": [
+        {
+          "nodeId": "file:src/orders.ts",
+          "score": 0.251188643150958
+        },
+        {
+          "nodeId": "function:src/orders.ts:createOrder",
+          "score": 0.251188643150958
+        },
+        {
+          "nodeId": "file:src/inventory.ts",
+          "score": 0.3765303604122781
+        },
+        {
+          "nodeId": "function:src/inventory.ts:reserveStock",
+          "score": 0.3765303604122781
+        }
+      ]
+    },
+    {
+      "query": "不存在的符号xyz",
+      "results": []
+    }
+  ],
+  "fingerprints": {
+    "changes": {
+      "identical": {
+        "filePath": "src/inventory.ts",
+        "changeLevel": "NONE",
+        "details": []
+      },
+      "bodyOnly": {
+        "filePath": "src/inventory.ts",
+        "changeLevel": "COSMETIC",
+        "details": [
+          "internal logic changed (no structural impact)"
+        ]
+      },
+      "signature": {
+        "filePath": "src/inventory.ts",
+        "changeLevel": "STRUCTURAL",
+        "details": [
+          "params changed: reserveStock"
+        ]
+      }
+    },
+    "behavior": {
+      "quantity": 50,
+      "before": true,
+      "after": false
+    },
+    "decision": {
+      "action": "SKIP",
+      "filesToReanalyze": [],
+      "rerunArchitecture": false,
+      "rerunTour": false,
+      "reason": "1 file(s) have cosmetic-only changes (no structural impact)"
+    }
+  },
+  "extractionLog": ""
+}

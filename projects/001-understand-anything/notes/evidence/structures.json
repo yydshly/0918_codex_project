@@ -1,0 +1,208 @@
+{
+  "structures": {
+    "src/api.ts": {
+      "functions": [
+        {
+          "name": "handleCheckout",
+          "lineRange": [
+            3,
+            5
+          ],
+          "params": [
+            "quantity",
+            "unitPrice"
+          ],
+          "returnType": "string"
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "./orders",
+          "specifiers": [
+            "createOrder"
+          ],
+          "lineNumber": 1
+        }
+      ],
+      "exports": [
+        {
+          "name": "handleCheckout",
+          "lineNumber": 3,
+          "isDefault": false
+        }
+      ]
+    },
+    "src/orders.ts": {
+      "functions": [
+        {
+          "name": "createOrder",
+          "lineRange": [
+            5,
+            9
+          ],
+          "params": [
+            "quantity",
+            "unitPrice"
+          ],
+          "returnType": "string"
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "./inventory",
+          "specifiers": [
+            "reserveStock"
+          ],
+          "lineNumber": 1
+        },
+        {
+          "source": "./payment",
+          "specifiers": [
+            "chargePayment"
+          ],
+          "lineNumber": 2
+        },
+        {
+          "source": "./repository",
+          "specifiers": [
+            "saveOrder"
+          ],
+          "lineNumber": 3
+        }
+      ],
+      "exports": [
+        {
+          "name": "createOrder",
+          "lineNumber": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "src/inventory.ts": {
+      "functions": [
+        {
+          "name": "reserveStock",
+          "lineRange": [
+            1,
+            3
+          ],
+          "params": [
+            "quantity"
+          ],
+          "returnType": "boolean"
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        {
+          "name": "reserveStock",
+          "lineNumber": 1,
+          "isDefault": false
+        }
+      ]
+    },
+    "src/payment.ts": {
+      "functions": [
+        {
+          "name": "chargePayment",
+          "lineRange": [
+            1,
+            4
+          ],
+          "params": [
+            "amount"
+          ],
+          "returnType": "string"
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        {
+          "name": "chargePayment",
+          "lineNumber": 1,
+          "isDefault": false
+        }
+      ]
+    },
+    "src/repository.ts": {
+      "functions": [
+        {
+          "name": "saveOrder",
+          "lineRange": [
+            1,
+            3
+          ],
+          "params": [
+            "quantity",
+            "receipt"
+          ],
+          "returnType": "string"
+        }
+      ],
+      "classes": [],
+      "imports": [],
+      "exports": [
+        {
+          "name": "saveOrder",
+          "lineNumber": 1,
+          "isDefault": false
+        }
+      ]
+    },
+    "schema.sql": {
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "definitions": [
+        {
+          "name": "orders",
+          "kind": "table",
+          "lineRange": [
+            1,
+            5
+          ],
+          "fields": [
+            "id",
+            "quantity",
+            "receipt"
+          ]
+        }
+      ]
+    }
+  },
+  "calls": {
+    "src/api.ts": [
+      {
+        "caller": "handleCheckout",
+        "callee": "createOrder",
+        "lineNumber": 4
+      }
+    ],
+    "src/orders.ts": [
+      {
+        "caller": "createOrder",
+        "callee": "reserveStock",
+        "lineNumber": 6
+      },
+      {
+        "caller": "createOrder",
+        "callee": "chargePayment",
+        "lineNumber": 7
+      },
+      {
+        "caller": "createOrder",
+        "callee": "saveOrder",
+        "lineNumber": 8
+      }
+    ],
+    "src/inventory.ts": [],
+    "src/payment.ts": [],
+    "src/repository.ts": [],
+    "schema.sql": []
+  }
+}

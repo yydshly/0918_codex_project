@@ -1,0 +1,18 @@
+{
+  "capturedAt": "2026-09-18T00:21:02.163Z",
+  "upstreamCommit": "6df3065f1d8ddc2ce3615314d1d493f36d6b1c80",
+  "browser": "153.0.4234.32",
+  "viewport": "1500x960",
+  "checks": [
+    "原版 Dashboard 加载 12 节点 / 14 边，并呈现架构层",
+    "进入业务层、展开两个聚类、选择 orders.ts 并加载本地源码",
+    "启动原版导览并前进到第二步 createOrder"
+  ],
+  "browserErrors": [],
+  "data": "Order Lab 样本；结构来自上游解析；中文摘要、层级和导览由研究者编写",
+  "source": "未修改的上游 Vite Dashboard，本地 GRAPH_DIR 指向样本副本",
+  "warnings": [
+    "样本图谱未含 Git commit，保留原版 freshness 提示"
+  ],
+  "scope": "验证既有数据的显示、源码读取和导览交互；未执行自动 LLM 生成、领域提取或实时问答"
+}

@@ -1,0 +1,344 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "Order Lab · 确定性解析实验",
+    "languages": [
+      "sql",
+      "typescript"
+    ],
+    "frameworks": [],
+    "description": "结构来自上游核心库实测；中文摘要、分层和导览由本研究编写，未执行上游 LLM 流水线。",
+    "analyzedAt": "2026-09-18T00:07:44.316Z",
+    "gitCommitHash": ""
+  },
+  "nodes": [
+    {
+      "id": "file:src/api.ts",
+      "type": "file",
+      "name": "api.ts",
+      "filePath": "src/api.ts",
+      "summary": "接收数量与单价，将结账请求交给订单服务。",
+      "tags": [
+        "入口"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/api.ts:handleCheckout",
+      "type": "function",
+      "name": "handleCheckout",
+      "filePath": "src/api.ts",
+      "lineRange": [
+        3,
+        5
+      ],
+      "summary": "接收数量与单价，将结账请求交给订单服务。",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/orders.ts",
+      "type": "file",
+      "name": "orders.ts",
+      "filePath": "src/orders.ts",
+      "summary": "先检查库存，再生成模拟支付凭证，最后生成订单标识。",
+      "tags": [
+        "业务"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/orders.ts:createOrder",
+      "type": "function",
+      "name": "createOrder",
+      "filePath": "src/orders.ts",
+      "lineRange": [
+        5,
+        9
+      ],
+      "summary": "先检查库存，再生成模拟支付凭证，最后生成订单标识。",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/inventory.ts",
+      "type": "file",
+      "name": "inventory.ts",
+      "filePath": "src/inventory.ts",
+      "summary": "检查数量是否大于零且不超过 100。此样本不会扣减库存。",
+      "tags": [
+        "业务"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/inventory.ts:reserveStock",
+      "type": "function",
+      "name": "reserveStock",
+      "filePath": "src/inventory.ts",
+      "lineRange": [
+        1,
+        3
+      ],
+      "summary": "检查数量是否大于零且不超过 100。此样本不会扣减库存。",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/payment.ts",
+      "type": "file",
+      "name": "payment.ts",
+      "filePath": "src/payment.ts",
+      "summary": "检查金额后生成模拟凭证；没有连接真实支付服务。",
+      "tags": [
+        "基础设施"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/payment.ts:chargePayment",
+      "type": "function",
+      "name": "chargePayment",
+      "filePath": "src/payment.ts",
+      "lineRange": [
+        1,
+        4
+      ],
+      "summary": "检查金额后生成模拟凭证；没有连接真实支付服务。",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/repository.ts",
+      "type": "file",
+      "name": "repository.ts",
+      "filePath": "src/repository.ts",
+      "summary": "返回模拟订单标识；没有持久化或数据库访问。",
+      "tags": [
+        "基础设施"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/repository.ts:saveOrder",
+      "type": "function",
+      "name": "saveOrder",
+      "filePath": "src/repository.ts",
+      "lineRange": [
+        1,
+        3
+      ],
+      "summary": "返回模拟订单标识；没有持久化或数据库访问。",
+      "tags": [],
+      "complexity": "simple"
+    },
+    {
+      "id": "schema:schema.sql",
+      "type": "schema",
+      "name": "schema.sql",
+      "filePath": "schema.sql",
+      "summary": "独立 SQL 解析样本，声明 orders 表及三个字段。",
+      "tags": [
+        "数据"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:schema.sql:orders",
+      "type": "table",
+      "name": "orders",
+      "filePath": "schema.sql",
+      "lineRange": [
+        1,
+        5
+      ],
+      "summary": "table: orders (3 fields)",
+      "tags": [],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/api.ts",
+      "target": "function:src/api.ts:handleCheckout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/orders.ts",
+      "target": "function:src/orders.ts:createOrder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/inventory.ts",
+      "target": "function:src/inventory.ts:reserveStock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/payment.ts",
+      "target": "function:src/payment.ts:chargePayment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/repository.ts",
+      "target": "function:src/repository.ts:saveOrder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "schema:schema.sql",
+      "target": "table:schema.sql:orders",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/api.ts",
+      "target": "file:src/orders.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:src/api.ts:handleCheckout",
+      "target": "function:src/orders.ts:createOrder",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/orders.ts",
+      "target": "file:src/inventory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/orders.ts",
+      "target": "file:src/payment.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/orders.ts",
+      "target": "file:src/repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "function:src/orders.ts:createOrder",
+      "target": "function:src/inventory.ts:reserveStock",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/orders.ts:createOrder",
+      "target": "function:src/payment.ts:chargePayment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:src/orders.ts:createOrder",
+      "target": "function:src/repository.ts:saveOrder",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer-0",
+      "name": "入口",
+      "description": "研究者注释层",
+      "nodeIds": [
+        "file:src/api.ts",
+        "function:src/api.ts:handleCheckout"
+      ]
+    },
+    {
+      "id": "layer-1",
+      "name": "业务",
+      "description": "研究者注释层",
+      "nodeIds": [
+        "file:src/orders.ts",
+        "function:src/orders.ts:createOrder",
+        "file:src/inventory.ts",
+        "function:src/inventory.ts:reserveStock"
+      ]
+    },
+    {
+      "id": "layer-2",
+      "name": "基础设施",
+      "description": "研究者注释层",
+      "nodeIds": [
+        "file:src/payment.ts",
+        "function:src/payment.ts:chargePayment",
+        "file:src/repository.ts",
+        "function:src/repository.ts:saveOrder"
+      ]
+    },
+    {
+      "id": "layer-3",
+      "name": "数据",
+      "description": "研究者注释层",
+      "nodeIds": [
+        "schema:schema.sql",
+        "table:schema.sql:orders"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "handleCheckout",
+      "description": "接收数量与单价，将结账请求交给订单服务。",
+      "nodeIds": [
+        "function:src/api.ts:handleCheckout"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "createOrder",
+      "description": "先检查库存，再生成模拟支付凭证，最后生成订单标识。",
+      "nodeIds": [
+        "function:src/orders.ts:createOrder"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "reserveStock",
+      "description": "检查数量是否大于零且不超过 100。此样本不会扣减库存。",
+      "nodeIds": [
+        "function:src/inventory.ts:reserveStock"
+      ]
+    },
+    {
+      "order": 4,
+      "title": "chargePayment",
+      "description": "检查金额后生成模拟凭证；没有连接真实支付服务。",
+      "nodeIds": [
+        "function:src/payment.ts:chargePayment"
+      ]
+    },
+    {
+      "order": 5,
+      "title": "saveOrder",
+      "description": "返回模拟订单标识；没有持久化或数据库访问。",
+      "nodeIds": [
+        "function:src/repository.ts:saveOrder"
+      ]
+    }
+  ]
+}

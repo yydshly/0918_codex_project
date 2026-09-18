@@ -1,0 +1,138 @@
+{
+  "version": "1.0.0",
+  "kind": "design",
+  "project": {
+    "name": "设计系统 · 人工样本",
+    "languages": [],
+    "frameworks": [],
+    "description": "研究者编写的渲染样本；未执行自动提取或 LLM 分析。",
+    "analyzedAt": "2026-09-18T03:03:42.768Z",
+    "gitCommitHash": ""
+  },
+  "nodes": [
+    {
+      "id": "page",
+      "type": "page",
+      "name": "商城页面集",
+      "summary": "人工示例中的 Figma 页面。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "screen",
+      "type": "screen",
+      "name": "结账界面",
+      "summary": "包含按钮实例的界面。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "set",
+      "type": "componentSet",
+      "name": "Button 组件集",
+      "summary": "管理按钮的多个变体。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "component",
+      "type": "component",
+      "name": "Primary 按钮",
+      "summary": "主要操作按钮变体。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "instance",
+      "type": "instance",
+      "name": "提交订单按钮",
+      "summary": "界面中引用的按钮实例。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "token",
+      "type": "token",
+      "name": "品牌主色",
+      "summary": "示例颜色变量。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple",
+      "figmaMeta": {
+        "fileKey": "research-fixture",
+        "nodeId": "1:6",
+        "tokenKind": "color",
+        "tokenValue": "#567553"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "page",
+      "target": "screen",
+      "type": "contains",
+      "description": "包含界面",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "screen",
+      "target": "instance",
+      "type": "contains",
+      "description": "包含实例",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "component",
+      "target": "set",
+      "type": "variant_of",
+      "description": "组件变体",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "instance",
+      "target": "component",
+      "type": "instance_of",
+      "description": "引用组件",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "component",
+      "target": "token",
+      "type": "uses_token",
+      "description": "使用颜色变量",
+      "weight": 0.8,
+      "direction": "forward"
+    }
+  ],
+  "layers": [
+    {
+      "id": "design",
+      "name": "设计系统",
+      "description": "页面、组件与变量的人工样本",
+      "nodeIds": [
+        "page",
+        "screen",
+        "set",
+        "component",
+        "instance",
+        "token"
+      ]
+    }
+  ],
+  "tour": []
+}

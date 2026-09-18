@@ -1,0 +1,178 @@
+{
+  "version": "1.0.0",
+  "kind": "codebase",
+  "project": {
+    "name": "领域与流程 · 人工样本",
+    "languages": [],
+    "frameworks": [],
+    "description": "研究者编写的渲染样本；未执行自动提取或 LLM 分析。",
+    "analyzedAt": "2026-09-18T03:03:42.765Z",
+    "gitCommitHash": ""
+  },
+  "nodes": [
+    {
+      "id": "orders",
+      "type": "domain",
+      "name": "订单领域",
+      "summary": "接收订单并协调库存与支付。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple",
+      "domainMeta": {
+        "entities": [
+          "订单",
+          "购物车"
+        ],
+        "businessRules": [
+          "演示规则：先校验，再收款"
+        ]
+      }
+    },
+    {
+      "id": "stock",
+      "type": "domain",
+      "name": "库存领域",
+      "summary": "查询可用库存，执行预留。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple",
+      "domainMeta": {
+        "entities": [
+          "商品",
+          "库存"
+        ]
+      }
+    },
+    {
+      "id": "payment",
+      "type": "domain",
+      "name": "支付领域",
+      "summary": "处理支付与退款。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple",
+      "domainMeta": {
+        "entities": [
+          "支付单"
+        ]
+      }
+    },
+    {
+      "id": "checkout",
+      "type": "flow",
+      "name": "提交订单",
+      "summary": "一次结账流程的步骤分解。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple",
+      "domainMeta": {
+        "entryPoint": "POST /orders",
+        "entryType": "http"
+      }
+    },
+    {
+      "id": "validate",
+      "type": "step",
+      "name": "校验商品",
+      "summary": "核对商品与购买数量。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "reserve",
+      "type": "step",
+      "name": "预留库存",
+      "summary": "为当前订单保留库存。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "charge",
+      "type": "step",
+      "name": "发起支付",
+      "summary": "请求支付服务收款。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "save",
+      "type": "step",
+      "name": "保存订单",
+      "summary": "记录订单状态。",
+      "tags": [
+        "研究者编写样本"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "orders",
+      "target": "stock",
+      "type": "cross_domain",
+      "description": "请求库存预留",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "orders",
+      "target": "payment",
+      "type": "cross_domain",
+      "description": "请求收款",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "orders",
+      "target": "checkout",
+      "type": "contains_flow",
+      "description": "包含流程",
+      "weight": 0.8,
+      "direction": "forward"
+    },
+    {
+      "source": "checkout",
+      "target": "validate",
+      "type": "flow_step",
+      "description": "流程步骤",
+      "weight": 0.1,
+      "direction": "forward"
+    },
+    {
+      "source": "checkout",
+      "target": "reserve",
+      "type": "flow_step",
+      "description": "流程步骤",
+      "weight": 0.2,
+      "direction": "forward"
+    },
+    {
+      "source": "checkout",
+      "target": "charge",
+      "type": "flow_step",
+      "description": "流程步骤",
+      "weight": 0.3,
+      "direction": "forward"
+    },
+    {
+      "source": "checkout",
+      "target": "save",
+      "type": "flow_step",
+      "description": "流程步骤",
+      "weight": 0.4,
+      "direction": "forward"
+    }
+  ],
+  "layers": [],
+  "tour": []
+}

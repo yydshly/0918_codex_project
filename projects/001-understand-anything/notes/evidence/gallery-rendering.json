@@ -1,0 +1,32 @@
+{
+  "capturedAt": "2026-09-18T03:12:13.140Z",
+  "upstreamCommit": "6df3065f1d8ddc2ce3615314d1d493f36d6b1c80",
+  "method": "Unmodified upstream dashboard with browser-local JSON response overrides",
+  "data": "Research-authored fixtures; not extracted from code, Wiki or Figma",
+  "scope": "Rendering only. No LLM, Figma API or automatic domain extraction executed.",
+  "checks": [
+    {
+      "kind": "domain",
+      "nodes": 3,
+      "fixtureNodes": 8,
+      "fixtureEdges": 7
+    },
+    {
+      "kind": "domain-detail",
+      "nodes": 5
+    },
+    {
+      "kind": "knowledge",
+      "nodes": 6,
+      "fixtureNodes": 6,
+      "fixtureEdges": 6
+    },
+    {
+      "kind": "design",
+      "nodes": 8,
+      "fixtureNodes": 6,
+      "fixtureEdges": 5
+    }
+  ],
+  "browserErrors": []
+}
