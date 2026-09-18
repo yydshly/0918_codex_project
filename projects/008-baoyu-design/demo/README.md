@@ -1,6 +1,6 @@
 # 008 演示运行与复现
 
-**状态：本地已验证，未部署。** 成品已经登记在根 `site-projects.json`，未推送或触发 Pages 发布。
+**状态：已上线并完成公网验证。** [在线研究首页](https://yydshly.github.io/0918_codex_project/008-baoyu-design/) · [完整引导图](https://yydshly.github.io/0918_codex_project/008-baoyu-design/#u-map)。沿用根 `site-projects.json` 和 GitHub Pages 工作流，保留原有六个展厅。首次发布版本 `19023eea28c7931453eb5878f2e7627b31e983a3`，见[部署记录](../notes/evidence/deployment.json)。
 
 ## 查看成品
 
@@ -86,3 +86,7 @@ python projects/008-baoyu-design/code/check_integration.py
 修改目录后，运行 `python projects/008-baoyu-design/code/build-understanding-map.py` 重建图，再运行前述网页编译与总站集成检查。图生成器需要 Pillow 与 Windows 微软雅黑字体，输出 SVG 和 2 倍 PNG。
 
 完整图与本轮网页检查记录：[understanding-map.json](../notes/evidence/understanding-map.json)。已检查图中文字、目录完整性、SVG 边界、手机和桌面布局、缩放上限与重置、章节刷新和构建后图片路径。
+
+## 公网复核
+
+使用实际发布版本运行 `python projects/008-baoyu-design/code/verify_deployment.py <commit>`，核对总站发布版本、七项目入口、本项目静态资源以及 PNG / SVG / PPTX 与源文件的一致性。HTTP 核验不替代浏览器交互检查；本轮交互证据见 `notes/evidence/deployment-browser.json`。

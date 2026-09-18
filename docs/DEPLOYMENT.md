@@ -1,6 +1,6 @@
 # Web 演示部署约定
 
-已启用 GitHub Pages 与 GitHub Actions 自动部署。001—006 的六个静态研究展厅已上线，2026-09-18 完成各项目的公网验证。运行方式见各项目的 `demo/README.md`。
+已启用 GitHub Pages 与 GitHub Actions 自动部署。001—006 与 008 的七个静态研究展厅已上线，2026-09-18 完成各项目的公网验证。运行方式见各项目的 `demo/README.md`。
 
 | 入口 | 已验证地址 |
 | --- | --- |
@@ -34,7 +34,8 @@ https://yydshly.github.io/0918_codex_project/
 ├── 003-frontend-design-toolkit/
 ├── 004-asu-skills/
 ├── 005-chat-on-steroids/
-└── 006-anbeime-skill/
+├── 006-anbeime-skill/
+└── 008-baoyu-design/
 ```
 
 站点首页作为演示导航，各子路径沿用研究项目编号。另有独立托管平台或自定义域名时，直接在索引填写实际地址。
@@ -84,10 +85,10 @@ https://yydshly.github.io/0918_codex_project/
 | 环境配置 | 变量名和用途，不写秘密值 |
 | 最近验证 | 日期、验证内容和已知限制 |
 
-## 008 本地演示状态
+## 008 发布状态
 
-008 · baoyu-design 已建立可交互阅读原型、设计系统预览与幻灯片，并登记到 `site-projects.json`。本地验证完成，**未部署，尚未创建线上演示链接**。运行方法见 [008 演示说明](../projects/008-baoyu-design/demo/README.md)。
+008 · baoyu-design 已上线：[研究概要](https://yydshly.github.io/0918_codex_project/008-baoyu-design/) · [完整引导图](https://yydshly.github.io/0918_codex_project/008-baoyu-design/#u-map) · [统一约束](https://yydshly.github.io/0918_codex_project/008-baoyu-design/#u-unified)。默认入口先介绍库的能力、可实现目标、实现原理和对我们的意义；引导图覆盖 13 类目标、53 份说明和五层统一约束，另保留原型、设计系统和 PPTX 实测。
 
-构建器新增可选 `demoAssetDirs` 字段，将清单声明的嵌套 demo 资源路径重写到编号入口下的 `demo/<目录>/`，保持原始 demo 入口和干净编号入口均可用；008 使用 `_ds`、`vendor`、`downloads`。001—006 不设置该字段，沿用原有行为。
+首次发布版本 `19023eea28c7931453eb5878f2e7627b31e983a3`，通过现有 Pages 工作流发布，保留 001—006。2026-09-18 已验证七项目公网入口、26 项 HTTP 资源、引导图与 PPTX 字节一致性，以及线上任务切换、目录展开、图片缩放、章节刷新与手机布局。[部署记录](../projects/008-baoyu-design/notes/evidence/deployment.json) · [运行说明](../projects/008-baoyu-design/demo/README.md)。
 
-本地集成使用临时 Git 索引，真实暂存区不变，保留原有六个展厅。正式发布仍需提交、推送并验证公网结果，再更新上线状态。
+构建器支持可选 `demoAssetDirs` 字段，将声明的嵌套 demo 资源路径重写到编号入口下的 `demo/<目录>/`。008 使用 `_ds`、`vendor`、`downloads`；原始 demo 和编号入口均保留。001—006 沿用原有行为。发布成功只证明研究站点可访问，不扩大上游能力的实测结论。

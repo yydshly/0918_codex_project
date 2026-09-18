@@ -10,7 +10,7 @@
 | 收录 / 最近验证 | 2026-09-18 |
 | 研究进度 | 已验证（本地交互原型、设计系统工具链、网页幻灯片与 PPTX 导出） |
 | 技术栈 | 静态 HTML/CSS、React 18.3.1；上游 Node 脚本、Playwright / PptxGenJS 导出器 |
-| 在线演示 | 未部署；已接入总站构建清单 |
+| 在线演示 | [已上线 · 能力与原理研究](https://yydshly.github.io/0918_codex_project/008-baoyu-design/) |
 
 ## 研究概要
 
@@ -22,15 +22,20 @@
 | 对我们的意义 | 借鉴分层 Skill、持久化项目规范和重复操作脚本化；复用真实组件与工具，用任务完成度、一致性和修改成本判断价值。 |
 | 能力边界 | 53 份文件含协议与兼容说明，不等于 53 个独立功能；没有完整独立工作台，未包含完整业务后端，覆盖广也不代表全路径已验证。 |
 
+首次发布版本：`19023eea28c7931453eb5878f2e7627b31e983a3`。2026-09-18 已核验公网七项目入口、本项目概要、引导图、资料与下载文件；见[部署记录](notes/evidence/deployment.json)。
+
 ## 先理解，再体验
 
 - [我们的理解](notes/understanding.md)：本质、与前端 Skill 的区别、13 类目标、53 份说明目录、内部原理与边界。
-- [交互理解指南](http://127.0.0.1:8878/projects/008-baoyu-design/demo/#principle)：查看可缩放完整引导图、五层统一约束，切换任务查看 Skill 组合，展开完整目录。该网页为研究导览，不运行 AI。
+- [交互理解指南](https://yydshly.github.io/0918_codex_project/008-baoyu-design/#principle)：查看可缩放完整引导图、五层统一约束，切换任务查看 Skill 组合，展开完整目录。该网页为研究导览，不运行 AI。
 - [实际工具与验证研究](notes/research.md)：真实执行链路、发现的问题、证据与限制。
 
 ## 直接体验
 
-在仓库根目录启动：
+- [在线研究首页](https://yydshly.github.io/0918_codex_project/008-baoyu-design/) · [完整引导图](https://yydshly.github.io/0918_codex_project/008-baoyu-design/#u-map) · [五层统一约束](https://yydshly.github.io/0918_codex_project/008-baoyu-design/#u-unified)
+- [在线原型](https://yydshly.github.io/0918_codex_project/008-baoyu-design/#prototype) · [设计系统](https://yydshly.github.io/0918_codex_project/008-baoyu-design/#system) · [幻灯片与 PPTX](https://yydshly.github.io/0918_codex_project/008-baoyu-design/#slides)
+
+本地查看时，在仓库根目录启动：
 
 ```powershell
 python -m http.server 8878 --bind 127.0.0.1
@@ -47,7 +52,7 @@ python -m http.server 8878 --bind 127.0.0.1
 
 [![baoyu-design 完整理解引导图](assets/understanding-map.png)](assets/understanding-map.png)
 
-原创研究总览，覆盖 13 类目标、五层统一约束、执行过程、53 份说明及对我们的意义。不是上游产品截图。[高清 PNG](assets/understanding-map.png) · [可缩放 SVG](assets/understanding-map.svg) · [网页缩放导览](http://127.0.0.1:8878/projects/008-baoyu-design/demo/#u-map)。
+原创研究总览，覆盖 13 类目标、五层统一约束、执行过程、53 份说明及对我们的意义。不是上游产品截图。[高清 PNG](assets/understanding-map.png) · [可缩放 SVG](assets/understanding-map.svg) · [网页缩放导览](https://yydshly.github.io/0918_codex_project/008-baoyu-design/#u-map)。
 
 ## 真实效果
 

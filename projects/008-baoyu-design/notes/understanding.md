@@ -267,5 +267,5 @@ _d_meta.json 保存项目绑定与资产信息。继续项目时，AI 读取这�
 
 [完整实测研究](research.md) · [上游工具记录](evidence/upstream-tools.json) · [原型浏览器记录](evidence/browser.json) · [运行说明](../demo/README.md)
 
-网页中的任务切换与技能目录是研究导览，不会真的启动 AI 生成。状态仍为本地已验证、未部署。
+网页中的任务切换与技能目录是研究导览，不会真的启动 AI 生成。研究展厅已上线并核验：[在线入口](https://yydshly.github.io/0918_codex_project/008-baoyu-design/)。发布状态和资源检查见[部署记录](evidence/deployment.json)；上线不等于对全部上游能力完成实测。
 

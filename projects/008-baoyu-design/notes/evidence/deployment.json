@@ -1,0 +1,153 @@
+{
+  "verifiedAt": "2026-09-18T13:13:18.592531+00:00",
+  "baseUrl": "https://yydshly.github.io/0918_codex_project/",
+  "projectUrl": "https://yydshly.github.io/0918_codex_project/008-baoyu-design/",
+  "publishedCommit": "19023eea28c7931453eb5878f2e7627b31e983a3",
+  "projects": [
+    "001-understand-anything",
+    "002-claude-code-best-practice",
+    "003-frontend-design-toolkit",
+    "004-asu-skills",
+    "005-chat-on-steroids",
+    "006-anbeime-skill",
+    "008-baoyu-design"
+  ],
+  "httpChecks": [
+    {
+      "path": "build.json?verify=19023eea28c7931453eb5878f2e7627b31e983a3",
+      "status": 200,
+      "bytes": 281
+    },
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 8184
+    },
+    {
+      "path": "001-understand-anything/",
+      "status": 200,
+      "bytes": 21317
+    },
+    {
+      "path": "002-claude-code-best-practice/",
+      "status": 200,
+      "bytes": 2600
+    },
+    {
+      "path": "003-frontend-design-toolkit/",
+      "status": 200,
+      "bytes": 2671
+    },
+    {
+      "path": "004-asu-skills/",
+      "status": 200,
+      "bytes": 44192
+    },
+    {
+      "path": "005-chat-on-steroids/",
+      "status": 200,
+      "bytes": 16414
+    },
+    {
+      "path": "006-anbeime-skill/",
+      "status": 200,
+      "bytes": 17650
+    },
+    {
+      "path": "008-baoyu-design/",
+      "status": 200,
+      "bytes": 1112
+    },
+    {
+      "path": "008-baoyu-design/app.js",
+      "status": 200,
+      "bytes": 73395
+    },
+    {
+      "path": "008-baoyu-design/styles.css",
+      "status": 200,
+      "bytes": 31336
+    },
+    {
+      "path": "008-baoyu-design/demo/vendor/react.min.js",
+      "status": 200,
+      "bytes": 10751
+    },
+    {
+      "path": "008-baoyu-design/demo/vendor/react-dom.min.js",
+      "status": 200,
+      "bytes": 131835
+    },
+    {
+      "path": "008-baoyu-design/demo/_ds/reader-kit/_ds_bundle.js",
+      "status": 200,
+      "bytes": 1379
+    },
+    {
+      "path": "008-baoyu-design/demo/_ds/reader-kit/styles.css",
+      "status": 200,
+      "bytes": 79
+    },
+    {
+      "path": "008-baoyu-design/deck.html",
+      "status": 200,
+      "bytes": 6656
+    },
+    {
+      "path": "008-baoyu-design/deck-stage.js",
+      "status": 200,
+      "bytes": 178469
+    },
+    {
+      "path": "008-baoyu-design/code/reader-kit/preview.html",
+      "status": 200,
+      "bytes": 176159
+    },
+    {
+      "path": "008-baoyu-design/notes/understanding.md",
+      "status": 200,
+      "bytes": 25374
+    },
+    {
+      "path": "008-baoyu-design/notes/research.md",
+      "status": 200,
+      "bytes": 6513
+    },
+    {
+      "path": "008-baoyu-design/README.md",
+      "status": 200,
+      "bytes": 6738
+    },
+    {
+      "path": "008-baoyu-design/THIRD_PARTY_NOTICES.md",
+      "status": 200,
+      "bytes": 1477
+    },
+    {
+      "path": "008-baoyu-design/assets/understanding-map.svg",
+      "status": 200,
+      "bytes": 26535
+    },
+    {
+      "path": "008-baoyu-design/assets/understanding-map.png",
+      "status": 200,
+      "bytes": 2109220
+    },
+    {
+      "path": "008-baoyu-design/demo/downloads/shiye-design.pptx",
+      "status": 200,
+      "bytes": 118781
+    },
+    {
+      "path": "008-baoyu-design/demo/",
+      "status": 200,
+      "bytes": 1093
+    }
+  ],
+  "matchingBinaryHashes": {
+    "assets/understanding-map.png": "9b5481d6fd4304a8942e60f4f17a818f3fb6946b717fdbdcd03f123bcc51dd57",
+    "demo/downloads/shiye-design.pptx": "81f327fc58b1b2e3e82f6dca839587910d1a21a68d9347f769a94f9dd4fcf60a"
+  },
+  "svgTextMatchesSource": true,
+  "limits": "HTTP/content verification only. Browser interaction evidence is recorded separately."
+}

@@ -1,0 +1,31 @@
+{
+  "verifiedAt": "2026-09-18T13:15:06.587Z",
+  "publishedCommit": "19023eea28c7931453eb5878f2e7627b31e983a3",
+  "url": "https://yydshly.github.io/0918_codex_project/008-baoyu-design/",
+  "tool": "Codex in-app browser",
+  "checks": {
+    "defaultView": "理解与原理",
+    "summaryCards": 4,
+    "taskSwitchesVerified": 13,
+    "catalogGroups": 8,
+    "catalogGuideLinks": 53,
+    "pngNaturalWidth": 3600,
+    "mapZoom": "100% -> 150% -> fit",
+    "unifiedLayers": 5,
+    "unifiedDeepLinkReload": true,
+    "mobile": {
+      "viewportWidth": 390,
+      "documentScrollWidth": 375
+    },
+    "prototype": {
+      "articles": 4,
+      "searchNoMatch": 0,
+      "clearButtonRestoresArticles": 4
+    },
+    "designSystemView": true,
+    "slideFrameAndPptxLink": true,
+    "consoleWarningsOrErrors": [],
+    "temporaryViewportReset": true
+  },
+  "limits": "No new upstream service, desktop PowerPoint or native app verification. Browser automation fill('') did not clear the controlled input; page clear button restored all 4 articles."
+}
