@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-18",
+  "scope": "来源、研究文档及本地展厅检查；上游未执行",
+  "source_blob_verified_files": 111,
+  "inventory_rows": 84,
+  "local_links_checked": 97,
+  "pinned_upstream_links_checked": 114,
+  "root_index_order": [
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006"
+  ],
+  "errors": [],
+  "upstream_runtime": "not_run",
+  "deployment": "not_deployed",
+  "visual_review": {
+    "status": "passed",
+    "images": [
+      "assets/cover.png",
+      "assets/websites.png",
+      "assets/mobile.png"
+    ],
+    "observations": "已查看截图，文字、布局和内容关系正常，无裁切或页面横向溢出；手机清单表格设计为独立横向滚动。"
+  }
+}

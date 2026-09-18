@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-18",
+  "method": "original SVG typesetting rendered to PNG by browser",
+  "imagegen_attempts": 2,
+  "imagegen_result": "network errors; no generated image used",
+  "api_cli_fallback_used": false,
+  "dimensions": [
+    2160,
+    3600
+  ],
+  "categories": 19,
+  "category_check": "exact ordered match against research data",
+  "visual_review": "passed: full poster inspected; Chinese text, structure, statistics, 19 directions and value conclusion checked",
+  "files": {
+    "understanding-map.svg": "1c599f0a9fa09ab674afb95d1f578b7b9219a5d2dca6790e064512d5991b768c",
+    "understanding-map.png": "d05476879b45baeff43bee36e21c64909e7f1d6f303e766da79327847e5b6df5"
+  },
+  "upstream_executed": false
+}

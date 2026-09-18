@@ -13,6 +13,10 @@
 
 根索引、子项目 README 和仓库 About 的 Website 均关联线上入口。
 
+## 006 本地集成状态
+
+006 · anbeime/skill 已完成本地研究导览，并加入 `site-projects.json`。内容包括关联网页、能力分类、技能文件清单、使用路径与证据边界；[运行说明](../projects/006-anbeime-skill/demo/README.md)。本地临时索引构建保留 001—005，共六个展厅，见[集成记录](../projects/006-anbeime-skill/notes/evidence/integration.json)。**006 公网未部署**，没有登记线上访问地址；现有公网状态仍为 001—005。
+
 ## 多个演示如何组织
 
 003 · Frontend Design Toolkit 已上线：[一图理解](https://yydshly.github.io/0918_codex_project/003-frontend-design-toolkit/)。沿用已生成的引导图，摘要说明其围绕前端需求，从设计、实现与验证等角度组织约束、方法和工具，指导 Agent 完成页面。页面区分模型基础能力、Agent 工作指导和实际工具支持；用同一个咖啡首页需求说明如何配合。运行与检查方法见 [003 演示说明](../projects/003-frontend-design-toolkit/demo/README.md)，[公网验证记录](../projects/003-frontend-design-toolkit/notes/evidence/deployment.json)记录首次发布版本。

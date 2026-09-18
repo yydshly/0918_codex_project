@@ -77,5 +77,19 @@
       {"label": "任务流程", "href": "#workflow"},
       {"label": "与 Codex 的关系", "href": "#value"}
     ]
+  },
+  {
+    "slug": "006-anbeime-skill",
+    "name": "anbeime/skill",
+    "upstream": "https://github.com/anbeime/skill",
+    "summary": "Skill 收集、分类与导航库，配套目录同步、数据导出和格式检查。收录内容创作与发布、图像音视频、电商营销、文档演示、知识管理、软件开发与分析等 19 类方向。对我们当前直接参考价值较低，作为资源目录备查；具体需求回原作者仓库评估，关联产品暂无明确复用价值。",
+    "cover": "assets/understanding-map.png",
+    "links": [
+      {"label": "一图理解", "href": "#map"},
+      {"label": "关联网页", "href": "#websites"},
+      {"label": "能力分类", "href": "#capabilities"},
+      {"label": "文件清单", "href": "#inventory"},
+      {"label": "使用价值", "href": "#workflow"}
+    ]
   }
 ]
