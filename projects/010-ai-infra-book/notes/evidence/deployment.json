@@ -1,0 +1,110 @@
+{
+  "verifiedAt": "2026-09-18T14:54:44.376Z",
+  "base": "https://yydshly.github.io/0918_codex_project/",
+  "commit": "1ddf3d259cda942ac6ef048f1c60d5c41b812203",
+  "projects": [
+    "001-understand-anything",
+    "002-claude-code-best-practice",
+    "003-frontend-design-toolkit",
+    "004-asu-skills",
+    "005-chat-on-steroids",
+    "006-anbeime-skill",
+    "008-baoyu-design",
+    "009-awesome-ceo",
+    "010-ai-infra-book"
+  ],
+  "summary": "开源 AI 基础设施技术书，配套资源计算工具与实验。覆盖模型与负载、加速器与算子、多卡互联与网络、推理与训练优化、资源调度及端边云协同。我们在本地运行模型遇到显存不足或速度慢、评估多人服务成本，以及微调训练受资源限制时按需参考，用于理解瓶颈和比较取舍；普通安装先看具体教程，不必从零设计模型。",
+  "checks": [
+    {
+      "path": "build.json?check=1789743237932",
+      "status": 200
+    },
+    {
+      "path": "",
+      "status": 200
+    },
+    {
+      "path": "001-understand-anything/",
+      "status": 200
+    },
+    {
+      "path": "002-claude-code-best-practice/",
+      "status": 200
+    },
+    {
+      "path": "003-frontend-design-toolkit/",
+      "status": 200
+    },
+    {
+      "path": "004-asu-skills/",
+      "status": 200
+    },
+    {
+      "path": "005-chat-on-steroids/",
+      "status": 200
+    },
+    {
+      "path": "006-anbeime-skill/",
+      "status": 200
+    },
+    {
+      "path": "008-baoyu-design/",
+      "status": 200
+    },
+    {
+      "path": "009-awesome-ceo/",
+      "status": 200
+    },
+    {
+      "path": "010-ai-infra-book/",
+      "status": 200
+    },
+    {
+      "path": "010-ai-infra-book/overview.html",
+      "status": 200
+    },
+    {
+      "path": "010-ai-infra-book/styles.css",
+      "status": 200
+    },
+    {
+      "path": "010-ai-infra-book/app.js",
+      "status": 200
+    },
+    {
+      "path": "010-ai-infra-book/overview.js",
+      "status": 200
+    },
+    {
+      "path": "010-ai-infra-book/README.md",
+      "status": 200
+    },
+    {
+      "path": "010-ai-infra-book/demo/README.md",
+      "status": 200
+    },
+    {
+      "path": "010-ai-infra-book/notes/understanding.md",
+      "status": 200
+    },
+    {
+      "path": "010-ai-infra-book/notes/research.md",
+      "status": 200
+    },
+    {
+      "path": "010-ai-infra-book/notes/evidence/upstream.json",
+      "status": 200
+    },
+    {
+      "path": "010-ai-infra-book/index.html",
+      "status": 200
+    },
+    {
+      "path": "010-ai-infra-book/assets/understanding-map.png",
+      "status": 200
+    }
+  ],
+  "imageSha256": "3d527e1bd89fbab5a2f11d48a8710c37ba0ca5f3dced38877a4996d7aa33865b",
+  "scope": "核验总站摘要、所有编号入口、010 文档与静态资源、完整理解图字节一致性；交互另见 remote-browser.json。未运行上游模型或 GPU 实验。",
+  "workflow": "https://github.com/yydshly/0918_codex_project/actions/runs/35359019969"
+}

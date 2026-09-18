@@ -1,6 +1,6 @@
 # Web 演示部署约定
 
-已启用 GitHub Pages 与 GitHub Actions 自动部署。001—006、008 与 009 的八个静态研究展厅已上线，2026-09-18 完成各项目的公网验证。运行方式见各项目的 `demo/README.md`。
+已启用 GitHub Pages 与 GitHub Actions 自动部署。001—006 与 008—010 的九个静态研究展厅已上线，2026-09-18 完成各项目的公网验证。运行方式见各项目的 `demo/README.md`。
 
 | 入口 | 已验证地址 |
 | --- | --- |
@@ -102,10 +102,12 @@ https://yydshly.github.io/0918_codex_project/
 
 首次发布版本 `f85fb9a6496c14ea034a4efa283df8cb6ee3c547`，沿用既有 Pages 工作流。2026-09-18 核验八个项目入口、22 项 HTTP 资源、总站与项目摘要、85 条资源与 86 个内容链接，以及总览图字节一致性。[公网记录](../projects/009-awesome-ceo/notes/evidence/deployment.json) · [线上交互记录](../projects/009-awesome-ceo/notes/evidence/remote-browser.json) · [运行说明](../projects/009-awesome-ceo/demo/README.md)。外部资料目标和服务未逐项验证。
 
-## 010 本地集成状态
+## 010 发布状态
 
-010 · AI Infra Book 已制作中文能力导览，包含三类能力、十二章知识地图、四条学习路线、原理分析、上手命令与验证边界。登记到 `site-projects.json`，沿用编号子路径 `010-ai-infra-book/` 和既有静态构建器，保留此前八个展厅清单条目。
+010 · AI Infra Book 已上线：[能力与使用导览](https://yydshly.github.io/0918_codex_project/010-ai-infra-book/) · [完整理解图](https://yydshly.github.io/0918_codex_project/010-ai-infra-book/overview.html) · [使用场景](https://yydshly.github.io/0918_codex_project/010-ai-infra-book/#use-summary)。沿用同一 Pages 工作流和编号子路径，保留此前八个展厅。
 
-状态：本地网页与编号入口验证完成，未部署公网。使用方法见 [010 演示说明](../projects/010-ai-infra-book/demo/README.md)，验证记录见 [browser.json](../projects/010-ai-infra-book/notes/evidence/browser.json) 和 [integration.json](../projects/010-ai-infra-book/notes/evidence/integration.json)。研究导览可用不代表上游计算器、GPU 实验或模型服务已运行。
+摘要说明其是开源 AI 基础设施技术书，配套计算工具和实验，覆盖模型与负载、加速器与算子、多卡互联与网络、推理与训练优化、资源调度及端边云协同。我们在本地模型显存不足或速度慢、评估多人服务成本、微调训练受资源限制时按需参考；普通安装先看具体教程，不必从零设计模型。
 
-010 新增原创完整理解图与 `overview.html` 缩放查看器，概括定位、使用场景、十二章模块、方法、实践建议和使用价值；继续使用同一编号子路径，状态为本地验证、未部署。
+首次发布版本 `1ddf3d259cda942ac6ef048f1c60d5c41b812203`。[发布流程](https://github.com/yydshly/0918_codex_project/actions/runs/35359019969)已成功完成。2026-09-18 核验九个项目入口、22 项 HTTP 资源、总站与项目摘要、完整图字节一致性，以及四条学习路线、刷新与历史、复制命令、图像缩放下载和手机布局。
+
+[公网记录](../projects/010-ai-infra-book/notes/evidence/deployment.json) · [线上交互](../projects/010-ai-infra-book/notes/evidence/remote-browser.json) · [运行说明](../projects/010-ai-infra-book/demo/README.md)。研究站点发布不代表上游模型、计算器或 GPU 实验已实测。

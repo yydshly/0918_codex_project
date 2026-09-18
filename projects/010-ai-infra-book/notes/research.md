@@ -53,4 +53,4 @@
 
 本地验证针对独立研究网页：内容结构、十二章来源、学习路线与高亮、刷新和浏览器历史、命令复制、本地资料链接、不同屏幕尺寸及禁用 JavaScript 阅读。证据见 [browser.json](evidence/browser.json) 和 [integration.json](evidence/integration.json)。
 
-未执行上游 Python 计算器、GPU 实验或 PDF 构建；未逐项测试外部资源链接；未发布公网。本页的资源估算示例是上手命令，没有编造输出数字。
+研究网页已发布公网，见 [部署验证](evidence/deployment.json) 和 [线上交互验证](evidence/remote-browser.json)。未执行上游 Python 计算器、GPU 实验或 PDF 构建；未逐项测试外部资源链接。本页的资源估算示例是上手命令，没有编造输出数字。

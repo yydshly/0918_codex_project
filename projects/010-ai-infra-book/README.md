@@ -9,10 +9,13 @@
 | 上游许可证 | Apache-2.0；第三方资料保留各自许可 |
 | 收录与验证日期 | 2026-09-18 |
 | 技术栈 | 原生 HTML / CSS / JavaScript；无前端依赖 |
-| 研究进度 | 静态研究与网页验证；上游工具和 GPU 实验未执行 |
-| 在线演示 | 未部署 |
+| 研究进度 | 已验证（静态研究、网页交互与公网访问）；上游工具和 GPU 实验未执行 |
+| 在线演示 | [能力与使用导览](https://yydshly.github.io/0918_codex_project/010-ai-infra-book/) · [完整理解图](https://yydshly.github.io/0918_codex_project/010-ai-infra-book/overview.html) |
 
 ## 网页内容
+
+[在线能力与使用导览](https://yydshly.github.io/0918_codex_project/010-ai-infra-book/) · [在线完整理解图](https://yydshly.github.io/0918_codex_project/010-ai-infra-book/overview.html)
+
 
 [一图读懂（支持缩放）](demo/overview.html) · [完整文字理解](notes/understanding.md) · [下载原图](assets/understanding-map.png)
 
@@ -47,8 +50,10 @@ python -m http.server 8770 --bind 127.0.0.1
 
 ## 资料与验证
 
-[研究分析](notes/research.md) · [演示与检查方法](demo/README.md) · [浏览器检查](notes/evidence/browser.json) · [编号入口集成检查](notes/evidence/integration.json) · [上游来源与校验](notes/evidence/upstream.json)。
+[研究分析](notes/research.md) · [演示与检查方法](demo/README.md) · [浏览器检查](notes/evidence/browser.json) · [编号入口集成检查](notes/evidence/integration.json) · [上游来源与校验](notes/evidence/upstream.json) · [公网验证](notes/evidence/deployment.json) · [线上交互](notes/evidence/remote-browser.json)。
 
 上游说明文件按固定提交保存于 `notes/evidence/`，保留 Apache-2.0 许可证与原始署名。网页是独立归纳，未复制全书、模型权重或上游程序。没有新增根应用或跨项目依赖。
 
 [返回根索引](../../README.md#项目索引)
+
+首次发布版本 `1ddf3d259cda942ac6ef048f1c60d5c41b812203`，沿用总仓库 Pages 工作流，保留此前八个展厅。摘要明确能力、覆盖方向与实际使用场景。线上展示成功不代表上游工具或训练已实测。

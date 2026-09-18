@@ -33,10 +33,23 @@ python scripts/build_site.py
 node projects/010-ai-infra-book/code/verify_guide.mjs http://127.0.0.1:8770/_site/010-ai-infra-book/ integration.json
 ```
 
-状态：本地验证，未部署。网页引导链接到原书的在线网站，该网站不属于本项目部署。
+状态：已上线。[能力与使用导览](https://yydshly.github.io/0918_codex_project/010-ai-infra-book/) · [完整理解图](https://yydshly.github.io/0918_codex_project/010-ai-infra-book/overview.html)。首次发布版本 `1ddf3d259cda942ac6ef048f1c60d5c41b812203`。原书在线网站是另一个上游阅读入口。
+
+[公网验证](../notes/evidence/deployment.json) · [线上交互](../notes/evidence/remote-browser.json)。九个编号入口、总站与项目摘要、文档资源、完整图字节一致性和交互已检查。
 
 [研究说明](../README.md) · [本地证据](../notes/evidence/browser.json) · [集成证据](../notes/evidence/integration.json)
 
 ## 一图理解
 
 首页的“一图理解”区展示完整中文概念图；`overview.html` 提供独立查看器，支持缩放、适应窗口、原始大小、图内滚动及原图下载。完整文字版位于 `notes/understanding.md`，图中区分书籍能力和待执行的实践建议。图像检查已加入现有验证脚本，覆盖桌面和手机的图像加载、缩放、适应与页面溢出。
+
+## 公网复核
+
+在已安装检查依赖并设置 `PLAYWRIGHT_MODULE` 的环境中运行：
+
+```powershell
+node projects/010-ai-infra-book/code/verify_deployment.mjs https://yydshly.github.io/0918_codex_project/
+node projects/010-ai-infra-book/code/verify_guide.mjs https://yydshly.github.io/0918_codex_project/010-ai-infra-book/ remote-browser.json
+```
+
+`verify_deployment.mjs` 可通过环境变量 `EXPECTED_COMMIT` 核验指定发布版本；可选第三参数为证据输出路径。不指定输出路径时只报告结果。
