@@ -12,6 +12,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 001 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | [完整研究](projects/001-understand-anything/) | 程序提取结构，模型补充含义，将代码、Wiki、Figma 组织为交互图谱；在 AI 工具中运行分析技能后浏览、查询与导览。适合陌生项目入门、依赖排查和知识交接，为个人研究保留关系与源码线索，并辅助后续图文表达。 | 已验证 | [在线展厅](https://yydshly.github.io/0918_codex_project/001-understand-anything/) |
 | 002 | [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) | [完整研究](projects/002-claude-code-best-practice/) | Claude Code 使用指南＋配置示例集。对我们当前的直接参考价值不大，核心是指导理解 AI 工作流程与动作，认识各组件分工，更好使用 AI；以引导图、配置示例和教学流程辅助理解。 | 已验证（Hooks 与本地展厅；模型流程未验证） | [在线展厅](https://yydshly.github.io/0918_codex_project/002-claude-code-best-practice/) |
+| 003 | [Frontend Design Toolkit](https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit) | [完整研究](projects/003-frontend-design-toolkit/) | 围绕前端需求，从视觉风格、主题一致性、动效交互、用户体验与可访问性、设计稿衔接、框架与文档、浏览器验证及预览交付等角度，组织约束、方法和工具，指导 Agent 设计、实现与检查页面，以获得更符合需求的效果。 主要指导 Agent 工作，通用能力已有时增益有限。 | 已验证（文档核查与本地展厅；第三方组合未实测） | 部署中 |
 
 ## 项目图览
 
@@ -29,6 +30,12 @@
 
 核心理解：这是“Claude Code 使用指南＋配置示例集”，主要供学习用法、参考写法和按需复用脚本。对我们当前的直接参考价值不大；核心是帮助理解 AI 工作流程与动作，更好使用 AI。我们已有项目规则与 AI 开发能力，将它作为学习参考库即可，无需整库集成。图为原创概念总览，非产品截图；天气流程为固定样本模拟，原版代理端到端运行未验证。[高清总览](projects/002-claude-code-best-practice/assets/understanding-map.png) · [在线引导展厅](https://yydshly.github.io/0918_codex_project/002-claude-code-best-practice/) · [实现分析](projects/002-claude-code-best-practice/notes/research.md) · [项目适配指南](projects/002-claude-code-best-practice/notes/adaptation.md)。
 
+### 003 · Frontend Design Toolkit
+
+[![指导 Claude Code 做好前端设计与实现：九个方面、原理与对我们的意义](projects/003-frontend-design-toolkit/assets/understanding-map.png)](projects/003-frontend-design-toolkit/demo/index.html#overview)
+
+核心理解：围绕前端需求，从视觉风格、主题一致性、动效交互、用户体验与可访问性、设计稿衔接、框架与文档、浏览器验证及预览交付等角度，组织约束、方法和工具，指导 Agent 设计、实现与检查页面，以获得更符合需求的效果。 对我们而言，通用提示在现有 Agent 已能稳定完成时，额外价值可能有限；更值得保留的是项目特有的品牌与组件规范、真实资料接入和运行结果检查。图为原创概念总览，非上游产品截图；第三方组合及模型质量提升未实测。[高清总览](projects/003-frontend-design-toolkit/assets/understanding-map.png) · [Web 查看与缩放](projects/003-frontend-design-toolkit/demo/index.html#overview) · [这个库的实际价值](projects/003-frontend-design-toolkit/demo/index.html#practice) · [完整分析](projects/003-frontend-design-toolkit/notes/research.md) · [选型指南](projects/003-frontend-design-toolkit/notes/usage.md)。
+
 ## 仓库导航
 
 | 入口 | 内容 |
@@ -40,12 +47,12 @@
 
 ## 新增研究项目
 
-1. 查看索引和 Git 历史，复制 `templates/project/` 到下一个未使用编号的子目录；当前下一编号为 `003`。
+1. 查看索引和 Git 历史，复制 `templates/project/` 到下一个未使用编号的子目录；当前下一编号为 `004`。
 2. 填写子项目 README，记录上游仓库、研究目标及版本信息。
 3. 添加实际截图和研究记录，再更新本页索引与图览。
 4. 有可运行的演示后，在子项目中记录启动方法和实际部署地址。
 
-详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 2 个研究项目，2 个 Web 演示均已上线；[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
+详细操作见[收录与编号约定](docs/CONVENTIONS.md)。当前已收录 3 个研究项目，2 个 Web 演示已上线，003 提供本地展厅并已接入发布清单；[打开演示总入口](https://yydshly.github.io/0918_codex_project/)。
 
 ## 来源与许可
 

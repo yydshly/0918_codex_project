@@ -7,6 +7,7 @@ projects/
 ├── README.md
 ├── 001-understand-anything/
 ├── 002-claude-code-best-practice/
+├── 003-frontend-design-toolkit/
 └── ...
 ```
 

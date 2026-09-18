@@ -13,8 +13,35 @@
     "summary": "Claude Code 使用指南＋配置示例集。对我们当前的直接参考价值不大；核心是帮助理解 AI 工作流程与动作，认识规则、技能、代理、命令与 Hooks 的分工，更好使用 AI。",
     "cover": "assets/understanding-map.png",
     "links": [
-      { "label": "流程演示", "href": "#workflow" },
-      { "label": "一图理解", "href": "#overview" }
+      {
+        "label": "流程演示",
+        "href": "#workflow"
+      },
+      {
+        "label": "一图理解",
+        "href": "#overview"
+      }
+    ]
+  },
+  {
+    "slug": "003-frontend-design-toolkit",
+    "name": "Frontend Design Toolkit",
+    "upstream": "https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit",
+    "summary": "围绕前端需求，从视觉风格、主题一致性、动效交互、用户体验与可访问性、设计稿衔接、框架与文档、浏览器验证及预览交付等角度，组织约束、方法和工具，指导 Agent 设计、实现与检查页面，以获得更符合需求的效果。 主要指导 Agent 的工作方式；现有通用能力充分时增益有限，按需补充规范、资料与检查。",
+    "cover": "assets/understanding-map.png",
+    "links": [
+      {
+        "label": "实际价值",
+        "href": "#practice"
+      },
+      {
+        "label": "能力地图",
+        "href": "#capabilities"
+      },
+      {
+        "label": "原理演示",
+        "href": "#mechanism"
+      }
     ]
   }
 ]

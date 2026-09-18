@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-09-18T05:33:47.461Z",
+  "type": "原创概念总览，非上游产品截图",
+  "upstreamCommit": "2a6d0958e6966e0003896f94ce5003466e89e91d",
+  "svgDimensions": [
+    1800,
+    2390
+  ],
+  "pngDimensions": [
+    3600,
+    4780
+  ],
+  "textElements": 93,
+  "textBoundsPassed": true,
+  "renderer": "Edge 153.0.4234.32",
+  "sections": [
+    "说明指南定位",
+    "九个方面与选型",
+    "执行原理",
+    "对我们的意义",
+    "能力与验证边界"
+  ]
+}

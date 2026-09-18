@@ -40,7 +40,8 @@ for project in sorted(MANIFEST, key=lambda p: int(p['slug'].split('-')[0])):
         text = src.read_text(encoding='utf-8')
         for folder in ('assets', 'notes', 'code', 'licenses'):
             text = text.replace(f'../{folder}/', f'./{folder}/')
-        text = text.replace('../README.md', './README.md')
+        for filename in ('README.md', 'THIRD_PARTY_NOTICES.md'):
+            text = text.replace(f'../{filename}', f'./{filename}')
         (target / src.name).write_text(text, encoding='utf-8')
     assert (target / project['cover']).is_file()
     e = html.escape

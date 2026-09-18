@@ -15,6 +15,8 @@
 
 ## 多个演示如何组织
 
+003 · Frontend Design Toolkit 已完成本地研究展厅，并登记到 `site-projects.json`，当前正在发布，公网验证后登记地址。运行与检查方法见 [003 演示说明](../projects/003-frontend-design-toolkit/demo/README.md)。发布目录规划为 `003-frontend-design-toolkit/`，使用“实际价值 / 能力地图 / 原理演示”导航；展厅包含六个章节，用同一个咖啡首页需求串联四种资源的目录选型、接入条件、任务中使用和结果检查。新增文件使用临时 Git 索引检查三项目共同构建，真实暂存区不变；该检查不代表已推送或发布。
+
 002 · Claude Code Best Practice 已登记到 `site-projects.json`，并完成线上部署。运行与验证方法见 [002 演示说明](../projects/002-claude-code-best-practice/demo/README.md)。
 
 GitHub Pages 每个仓库支持一个项目站点，可在这个站点下用不同子路径承载多个静态演示。它提供静态文件托管，不能直接运行常驻服务端程序。依据：[GitHub Pages 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)。

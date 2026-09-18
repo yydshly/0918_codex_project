@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-18",
+  "localLinksChecked": 94,
+  "projects": [
+    "001-understand-anything",
+    "002-claude-code-best-practice",
+    "003-frontend-design-toolkit"
+  ],
+  "realStagingAreaUnchanged": true,
+  "source": "working tree with temporary Git index",
+  "baseCommit": "a2a9ba3e9c39181f025794940789fc3943d41695",
+  "published": false,
+  "checks": [
+    "三个展厅共同构建",
+    "既有导航保留",
+    "003 编号路径资源改写",
+    "文档本地链接存在",
+    "真实暂存区未变"
+  ]
+}

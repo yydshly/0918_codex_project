@@ -79,6 +79,40 @@ try{
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
   checks.push('002 引导图与定位摘要、缩放、文档和高清资源、成功失败流程、刷新与手机布局');
  }
+ if(build.projects.includes('003-frontend-design-toolkit')){
+  await page.setViewportSize({width:1440,height:1000});
+  await page.goto(root+'003-frontend-design-toolkit/');
+  assert.match(await page.locator('h1').textContent(),/Claude Code 前端设计与实现指南/);
+  await page.locator('#map-image').evaluate(img=>img.decode());
+  const mapWidth=await page.locator('#map-image').evaluate(img=>img.clientWidth);
+  await page.locator('#map-plus').click();
+  assert.ok(await page.locator('#map-image').evaluate(img=>img.clientWidth)>mapWidth);
+  await page.locator('#map-fit').click();
+  await page.locator('[data-page=practice]').click();
+  assert.equal(await page.locator('[data-tool-case]').count(),4);
+  await page.locator('[data-tool-case=browser]').click();
+  assert.match(await page.locator('#tool-detail h2').textContent(),/Playwright MCP/);
+  assert.match(await page.locator('#connected-instruction').textContent(),/查看菜单/);
+  assert.match(await page.locator('#shared-task-text').textContent(),/三款咖啡/);
+  assert.equal(await page.locator('.tool-explanation section').count(),4);
+  await page.locator('[data-page=capabilities]').click();
+  assert.equal(await page.locator('[data-cap]').count(),8);
+  await page.locator('#search').fill('Context7');
+  assert.equal(await page.locator('[data-cap]').count(),1);
+  await page.locator('[data-page=mechanism]').click();
+  for(let i=0;i<5;i++)await page.locator('#next').click();
+  assert.equal(await page.locator('#next').isDisabled(),true);
+  await page.locator('#hue').fill('20');
+  assert.equal(await page.locator('#hue-value').textContent(),'20°');
+  await page.locator('[data-page=evidence]').click();await page.reload();
+  assert.equal(await page.locator('.source-row').count(),5);
+  for(const suffix of ['README.md','THIRD_PARTY_NOTICES.md','notes/research.md','notes/usage.md','notes/evidence/sources.json','assets/cover.png','assets/understanding-map.svg','assets/understanding-map.png']){
+   assert.equal((await page.request.get(root+'003-frontend-design-toolkit/'+suffix)).status(),200,suffix);
+  }
+  await page.setViewportSize({width:390,height:844});
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+  checks.push('003 总览图及缩放、同一需求与四种资源的使用关联、能力筛选、六步流程、主题变量、证据刷新、文档及手机布局');
+ }
  assert.deepEqual(errors,[]);
  const result={verifiedAt:new Date().toISOString(),site:root,projects:build.projects,sourceCommit:build.commit,checks,browserErrors:errors,scope:'静态网页部署与资源、交互验证；不包含模型分析或第三方 API'};
  if(record)await writeFile(record,JSON.stringify(result,null,2)+'\n');

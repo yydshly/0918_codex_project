@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-18",
+  "sources": [
+    {
+      "id": "toolkit",
+      "repo": "wilwaldon/Claude-Code-Frontend-Design-Toolkit",
+      "commit": "2a6d0958e6966e0003896f94ce5003466e89e91d",
+      "path": "README.md",
+      "url": "https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit/blob/2a6d0958e6966e0003896f94ce5003466e89e91d/README.md",
+      "retrievedAt": "2026-09-18T04:50:38.288891+00:00",
+      "sha256": "ae61d5ff69729d3587043eb538f3f87f1b82ce75e75c9871a9d84b25d9ba0e5a",
+      "bytes": 29393
+    },
+    {
+      "id": "skill",
+      "repo": "anthropics/claude-code",
+      "commit": "31a3b00bef145a0393d9dbf840a98674fec07712",
+      "path": "plugins/frontend-design/skills/frontend-design/SKILL.md",
+      "url": "https://github.com/anthropics/claude-code/blob/31a3b00bef145a0393d9dbf840a98674fec07712/plugins/frontend-design/skills/frontend-design/SKILL.md",
+      "retrievedAt": "2026-09-18T04:50:39.463988+00:00",
+      "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+      "bytes": 9390
+    },
+    {
+      "id": "docs",
+      "repo": "upstash/context7",
+      "commit": "dedb03d589e6e03e8fb5a2b858bd3c853ac6893e",
+      "path": "README.md",
+      "url": "https://github.com/upstash/context7/blob/dedb03d589e6e03e8fb5a2b858bd3c853ac6893e/README.md",
+      "retrievedAt": "2026-09-18T04:50:40.158092+00:00",
+      "sha256": "c513b9ec9c006a85c63d6ad0c9fe49af3eaa517f8e59b66de0af6029ccafda13",
+      "bytes": 9620
+    },
+    {
+      "id": "browser",
+      "repo": "microsoft/playwright-mcp",
+      "commit": "ea43eee0d95196ab31f7619b26f78d7b9c664286",
+      "path": "README.md",
+      "url": "https://github.com/microsoft/playwright-mcp/blob/ea43eee0d95196ab31f7619b26f78d7b9c664286/README.md",
+      "retrievedAt": "2026-09-18T04:50:43.244557+00:00",
+      "sha256": "2d5af3af933d328c4d9354dd334831f8e210aa633b7e7ae640f28486d07a133d",
+      "bytes": 65725
+    },
+    {
+      "id": "devtools",
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "commit": "23b9a480010d803fc8962bb5d11017b1e2ad76b2",
+      "path": "README.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/23b9a480010d803fc8962bb5d11017b1e2ad76b2/README.md",
+      "retrievedAt": "2026-09-18T04:50:45.226846+00:00",
+      "sha256": "059a0349daaef6bda98eae6d9384ed349ac94b8033b18be817c317a01b472024",
+      "bytes": 6445
+    }
+  ],
+  "treeURL": "https://api.github.com/repos/wilwaldon/Claude-Code-Frontend-Design-Toolkit/git/trees/2a6d0958e6966e0003896f94ce5003466e89e91d?recursive=1",
+  "upstreamFiles": [
+    "README.md"
+  ],
+  "checks": [
+    "固定版本仅 README.md",
+    "README 声明 MIT 但无 LICENSE 文件",
+    "Toolkit Chrome DevTools 包名与官方示例不一致",
+    "代表 Skill 为设计指令",
+    "Context7 文档查询接口存在",
+    "Playwright 结构化快照说明存在"
+  ],
+  "scope": "文件树与文档内容核查；未安装或执行第三方组合，未测量模型效果"
+}
